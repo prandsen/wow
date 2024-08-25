@@ -1,1 +1,5 @@
-!E1!lodJlK4co9uZl1IsmhqmZnXcCmNcYiXWZi188n)YYmV0JZnZm2atnWylnXClm2qlmZstJlnDn144kbimoRSk9CYpPeZbWd
+{
+    ["general"] = {
+        ["mapAlphaWhenMoving"] = 0.7,
+    },
+}::global
