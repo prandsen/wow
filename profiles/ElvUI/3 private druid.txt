@@ -11,6 +11,7 @@
         ["namefont"] = "ITCAvantGardeGothicDemi",
         ["nameplateFont"] = "ITCAvantGardeGothicDemi",
         ["nameplateLargeFont"] = "ITCAvantGardeGothicDemi",
+        ["nameplateLargeFontSize"] = 10,
         ["raidUtility"] = false,
     },
     ["install_complete"] = 13.45,
