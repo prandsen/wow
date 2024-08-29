@@ -27,7 +27,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "[petbattle] hide; [vehicleui][overridebar][possessbar] show; hide",
+            ["visibility"] = "show;[petbattle] hide; [vehicleui][overridebar][possessbar] show; hide",
         },
         ["bar10"] = {
             ["countFont"] = "ITCAvantGardeGothicDemi",
@@ -72,7 +72,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "hide",
+            ["visibility"] = "",
         },
         ["bar3"] = {
             ["buttons"] = 12,
@@ -88,7 +88,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "hide",
+            ["visibility"] = "",
         },
         ["bar4"] = {
             ["backdrop"] = false,
@@ -105,7 +105,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "hide",
+            ["visibility"] = "",
         },
         ["bar5"] = {
             ["buttons"] = 12,
@@ -121,7 +121,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "hide",
+            ["visibility"] = "",
         },
         ["bar6"] = {
             ["buttonSize"] = 34,
@@ -600,7 +600,7 @@
         ["TotemBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,204,4",
         ["TotemTrackerMover"] = "BOTTOM,ElvUIParent,BOTTOM,138,283",
         ["VOICECHAT"] = "TOPLEFT,UIParent,TOPLEFT,4,-183",
-        ["VehicleLeaveButton"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-146,-202",
+        ["VehicleLeaveButton"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-144,-202",
         ["VehicleSeatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,451,1",
         ["ZoneAbility"] = "BOTTOM,ElvUIParent,BOTTOM,-196,66",
     },
@@ -1523,19 +1523,17 @@
                     },
                 },
                 ["debuffs"] = {
-                    ["anchorPoint"] = "TOPRIGHT",
+                    ["anchorPoint"] = "BOTTOMRIGHT",
                     ["countFont"] = "ITCAvantGardeGothicDemi",
                     ["countFontSize"] = 14,
                     ["countXOffset"] = 1,
                     ["countYOffset"] = 0,
-                    ["growthY"] = "DOWN",
                     ["maxDuration"] = 600,
                     ["numrows"] = 2,
-                    ["perrow"] = 2,
+                    ["perrow"] = 3,
                     ["priority"] = "MyDebuffsWL,MyDebuffsBL,Blacklist,Boss,RaidDebuffs,CCDebuffs,Dispellable,Whitelist",
                     ["sizeOverride"] = 31,
                     ["spacing"] = 0,
-                    ["yOffset"] = 2,
                 },
                 ["groupBy"] = "ROLE",
                 ["growthDirection"] = "DOWN_LEFT",
