@@ -887,12 +887,22 @@
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
                     },
+                    [424893] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
                     [425417] = {
                         ["enable"] = true,
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
                     },
                     [426590] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [428161] = {
                         ["enable"] = true,
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
@@ -937,12 +947,13 @@
                         ["a"] = 1,
                     },
                     ["sizeOffset"] = 6,
-                    ["xOffset"] = -15,
+                    ["xOffset"] = -14,
                     ["yOffset"] = 1,
                 },
                 [8936] = {
                     ["point"] = "TOPRIGHT",
                     ["sizeOffset"] = 6,
+                    ["xOffset"] = -1,
                     ["yOffset"] = 1,
                 },
                 [33763] = {
@@ -954,6 +965,7 @@
                     },
                     ["point"] = "RIGHT",
                     ["sizeOffset"] = 6,
+                    ["xOffset"] = -1,
                     ["yOffset"] = 7,
                 },
                 [48438] = {
@@ -964,7 +976,7 @@
                     },
                     ["point"] = "TOPRIGHT",
                     ["sizeOffset"] = 6,
-                    ["xOffset"] = -30,
+                    ["xOffset"] = -29,
                     ["yOffset"] = 1,
                 },
                 [102351] = {
@@ -981,7 +993,7 @@
                 },
                 [155777] = {
                     ["sizeOffset"] = 6,
-                    ["xOffset"] = -15,
+                    ["xOffset"] = -14,
                     ["yOffset"] = 7,
                 },
                 [157982] = {
@@ -996,6 +1008,7 @@
                     },
                     ["point"] = "RIGHT",
                     ["sizeOffset"] = 6,
+                    ["xOffset"] = -1,
                     ["yOffset"] = 7,
                 },
                 [200389] = {

@@ -14,9 +14,32 @@ function (self, unitId, unitFrame, envTable, modTable)
         --["thunderlord crag-leaper"] = {1, 1, 0}, --using lower case and coloring it spitful
         --[75790] = "#00FF00", --using the ID of the unit and using green as color
         
-        --[199220] = neutral,
-        
         --======== The War Within =========
+
+        -- The Dawnbreaker
+        
+        -- Ara-Kara, City of Echoes
+
+        -- City of Threads
+
+        -- The Stonevault
+        [210109] = priorityTarget,
+        [212389] = casters,
+        [212403] = casters,
+        [212453] = important,
+        [212765] = important,
+        [213217] = casters,
+        [213338] = casters,
+        [213343] = priorityTarget,
+        [213954] = priorityTarget,
+        [214066] = casters,
+        [214287] = important,
+        [214350] = casters,
+        [214443] = neutral,
+        [221979] = priorityTarget,
+        [222815] = casters,
+        [224516] = neutral,
+        [224962] = casters,
 
         -- Necrotic Wake
         [163121] = casters,
@@ -38,12 +61,24 @@ function (self, unitId, unitFrame, envTable, modTable)
         [173044] = casters,
         
         -- Mists of Tirna Scithe
+        [164567] = casters,
         [164921] = casters,
+        [164926] = priorityTarget,
         [164929] = priorityTarget,
+        [165251] = important,
         [166275] = casters,
         [166299] = casters,
         [166301] = priorityTarget,
-        [167111] = casters
+        [167111] = casters,
+        [167116] = important,
+        [173720] = priorityTarget,
+
+        -- Siege of Boralus
+
+
+        -- Grim Batol
+
+
 
         --======== Dragonflight =========
         

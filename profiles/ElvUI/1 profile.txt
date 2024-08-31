@@ -1186,9 +1186,9 @@
     ["tooltip"] = {
         ["alwaysShowRealm"] = true,
         ["font"] = "ITCAvantGardeGothicDemi",
-        ["fontOutline"] = "SHADOWOUTLINE",
+        ["fontOutline"] = "OUTLINE",
         ["headerFont"] = "ITCAvantGardeGothicDemi",
-        ["headerFontOutline"] = "SHADOWOUTLINE",
+        ["headerFontOutline"] = "OUTLINE",
         ["headerFontSize"] = 11,
         ["healthBar"] = {
             ["font"] = "ITCAvantGardeGothicDemi",
@@ -1523,6 +1523,7 @@
                     },
                 },
                 ["debuffs"] = {
+                    ["anchorPoint"] = "TOPRIGHT",
                     ["countFont"] = "ITCAvantGardeGothicDemi",
                     ["countFontSize"] = 14,
                     ["countXOffset"] = 1,
@@ -1534,7 +1535,7 @@
                     ["priority"] = "MyDebuffsWL,MyDebuffsBL,Blacklist,Boss,RaidDebuffs,CCDebuffs,Dispellable,Whitelist",
                     ["sizeOverride"] = 31,
                     ["spacing"] = 0,
-                    ["yOffset"] = 1,
+                    ["yOffset"] = 2,
                 },
                 ["groupBy"] = "ROLE",
                 ["growthDirection"] = "DOWN_LEFT",
