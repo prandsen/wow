@@ -936,13 +936,14 @@
                     ["color"] = {
                         ["a"] = 1,
                     },
-                    ["point"] = "BOTTOMRIGHT",
-                    ["sizeOffset"] = 4,
-                    ["xOffset"] = -13,
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = -15,
+                    ["yOffset"] = 1,
                 },
                 [8936] = {
-                    ["point"] = "BOTTOMRIGHT",
-                    ["sizeOffset"] = 4,
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 6,
+                    ["yOffset"] = 1,
                 },
                 [33763] = {
                     ["color"] = {
@@ -952,8 +953,8 @@
                         ["r"] = 0.78431379795074,
                     },
                     ["point"] = "RIGHT",
-                    ["sizeOffset"] = 4,
-                    ["yOffset"] = -8,
+                    ["sizeOffset"] = 6,
+                    ["yOffset"] = 7,
                 },
                 [48438] = {
                     ["color"] = {
@@ -961,8 +962,10 @@
                         ["g"] = 0.40000003576279,
                         ["r"] = 0.80000007152557,
                     },
-                    ["sizeOffset"] = 4,
-                    ["xOffset"] = -26,
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = -30,
+                    ["yOffset"] = 1,
                 },
                 [102351] = {
                     ["enabled"] = false,
@@ -977,9 +980,9 @@
                     ["xOffset"] = 1,
                 },
                 [155777] = {
-                    ["sizeOffset"] = 4,
-                    ["xOffset"] = -13,
-                    ["yOffset"] = -8,
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = -15,
+                    ["yOffset"] = 7,
                 },
                 [157982] = {
                     ["enabled"] = false,
@@ -992,8 +995,8 @@
                         ["r"] = 0.78431379795074,
                     },
                     ["point"] = "RIGHT",
-                    ["sizeOffset"] = 4,
-                    ["yOffset"] = -8,
+                    ["sizeOffset"] = 6,
+                    ["yOffset"] = 7,
                 },
                 [200389] = {
                     ["enabled"] = false,
@@ -1205,15 +1208,16 @@
             },
             ["SHAMAN"] = {
                 [974] = {
-                    ["point"] = "RIGHT",
+                    ["point"] = "TOPRIGHT",
                     ["sizeOffset"] = 3,
                     ["style"] = "timerOnly",
                     ["textThreshold"] = 60,
-                    ["yOffset"] = -10,
+                    ["xOffset"] = -16,
+                    ["yOffset"] = 1,
                 },
                 [61295] = {
-                    ["point"] = "BOTTOMRIGHT",
-                    ["sizeOffset"] = 3,
+                    ["sizeOffset"] = 6,
+                    ["yOffset"] = 1,
                 },
                 [383648] = {
                     ["color"] = {
@@ -1222,12 +1226,12 @@
                         ["g"] = 0.80000007152557,
                         ["r"] = 0.90980398654938,
                     },
-                    ["point"] = "RIGHT",
-                    ["sizeOffset"] = 3,
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 6,
                     ["style"] = "timerOnly",
                     ["textThreshold"] = 60,
-                    ["xOffset"] = -12,
-                    ["yOffset"] = -10,
+                    ["xOffset"] = -16,
+                    ["yOffset"] = 1,
                 },
             },
         },
