@@ -1398,8 +1398,8 @@ ElvDB = {
 },
 },
 ["datatexts"] = {
-["noCombatHover"] = true,
 ["font"] = "ITCAvantGardeGothicDemi",
+["fontSize"] = 11,
 ["panels"] = {
 ["LeftMiniPanel"] = "Time",
 ["MinimapPanel"] = {
@@ -1434,7 +1434,7 @@ ElvDB = {
 ["4"] = "",
 },
 },
-["fontSize"] = 11,
+["noCombatHover"] = true,
 },
 ["actionbar"] = {
 ["bar3"] = {
@@ -2027,8 +2027,11 @@ ElvDB = {
 ["pvpindicator"] = {
 ["showBadge"] = false,
 },
-["title"] = {
-["format"] = "[npctitle]",
+["name"] = {
+["parent"] = "Health",
+["yOffset"] = -5,
+["font"] = "ITCAvantGardeGothicDemi",
+["format"] = "[name:short]",
 },
 ["castbar"] = {
 ["fontSize"] = 12,
@@ -2049,12 +2052,6 @@ ElvDB = {
 ["maxDuration"] = 0,
 ["numAuras"] = 1,
 },
-["name"] = {
-["parent"] = "Health",
-["yOffset"] = -5,
-["font"] = "ITCAvantGardeGothicDemi",
-["format"] = "[name:short]",
-},
 ["health"] = {
 ["height"] = 16,
 ["text"] = {
@@ -2064,6 +2061,9 @@ ElvDB = {
 ["font"] = "ITCAvantGardeGothicDemi",
 ["format"] = "[perhp]%",
 },
+},
+["title"] = {
+["format"] = "[npctitle]",
 },
 },
 ["FRIENDLY_PLAYER"] = {
@@ -2336,19 +2336,59 @@ ElvDB = {
 },
 ["type"] = "Blacklist",
 },
+["MyBuffsWL"] = {
+["spells"] = {
+[328737] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[429271] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[291937] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[391171] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[586] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[335161] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[193065] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+},
+["type"] = "Whitelist",
+},
 ["MyBuffsBL"] = {
 ["spells"] = {
+[355794] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
 [225788] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
 [206150] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[355794] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3184,46 +3224,6 @@ ElvDB = {
 ["stackThreshold"] = 0,
 },
 [27638] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-},
-["type"] = "Whitelist",
-},
-["MyBuffsWL"] = {
-["spells"] = {
-[328737] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[429271] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[291937] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[391171] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[586] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[335161] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[193065] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
