@@ -19,6 +19,17 @@ function (self, unitId, unitFrame, envTable, modTable)
         -- The Dawnbreaker
         
         -- Ara-Kara, City of Echoes
+        [214840] = priorityTarget,
+        [215407] = priorityTarget,
+        [216293] = casters,
+        [216333] = priorityTarget,
+        [216338] = priorityTarget,
+        [216364] = casters,
+        [217039] = priorityTarget,
+        [217531] = important,
+        [217533] = important,
+        [218324] = important,
+        [223253] = casters,
 
         -- City of Threads
         [210196] = casters,
