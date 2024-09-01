@@ -1,9 +1,9 @@
 
 ElvDB = {
 ["profileKeys"] = {
-["Топмэн - Свежеватель Душ"] = "Default",
-["Мальдика - Свежеватель Душ"] = "Default",
 ["Вантачмэн - Ревущий фьорд"] = "Default",
+["Мальдика - Свежеватель Душ"] = "Default",
+["Топмэн - Свежеватель Душ"] = "Default",
 ["Дракобес - Свежеватель Душ"] = "Default",
 ["Бимладен - Ревущий фьорд"] = "All classes",
 ["Вольтчара - Свежеватель Душ"] = "All classes",
@@ -34,6 +34,9 @@ ElvDB = {
 ["Default"] = {
 ["convertPages"] = true,
 ["dbConverted"] = 13.75,
+["chat"] = {
+["panelSnapLeftID"] = 1,
+},
 ["actionbar"] = {
 ["bar6"] = {
 ["enabled"] = true,
@@ -48,9 +51,6 @@ ElvDB = {
 ["buttonsPerRow"] = 12,
 ["buttons"] = 12,
 },
-},
-["chat"] = {
-["panelSnapLeftID"] = 1,
 },
 },
 ["All classes"] = {
@@ -68,27 +68,27 @@ ElvDB = {
 },
 ["statusbar"] = "Melli Dark",
 ["experience"] = {
-["orientation"] = "HORIZONTAL",
+["height"] = 18,
 ["textFormat"] = "CURPERCREM",
 ["width"] = 760,
 ["font"] = "ITCAvantGardeGothicDemi",
-["height"] = 18,
+["orientation"] = "HORIZONTAL",
 ["showLevel"] = true,
 },
 ["azerite"] = {
 ["enable"] = false,
 ["width"] = 8,
 ["font"] = "ITCAvantGardeGothicDemi",
-["height"] = 203,
 ["orientation"] = "VERTICAL",
+["height"] = 203,
 },
 },
 ["general"] = {
 ["gameMenuScale"] = 0.8,
 ["valuecolor"] = {
-["r"] = 1,
-["g"] = 0.49,
 ["b"] = 0.04,
+["g"] = 0.49,
+["r"] = 1,
 },
 ["talkingHeadFrameScale"] = 0.75,
 ["guildBank"] = {
@@ -151,14 +151,14 @@ ElvDB = {
 ["nameFontOutline"] = "SHADOWOUTLINE",
 },
 ["debuffColors"] = {
+["BadDispel"] = {
+["r"] = 0.05098039656877518,
+["g"] = 0.8509804606437683,
+["b"] = 0.9411765336990356,
+},
 ["Magic"] = {
 ["g"] = 0.6000000238418579,
 ["r"] = 0.2000000178813934,
-},
-["BadDispel"] = {
-["b"] = 0.9411765336990356,
-["g"] = 0.8509804606437683,
-["r"] = 0.05098039656877518,
 },
 },
 ["addonCompartment"] = {
@@ -251,8 +251,8 @@ ElvDB = {
 ["countFont"] = "ITCAvantGardeGothicDemi",
 ["bagSize"] = 35,
 ["vendorGrays"] = {
-["interval"] = 0.1,
 ["enable"] = true,
+["interval"] = 0.1,
 },
 ["cooldown"] = {
 ["override"] = true,
@@ -340,12 +340,12 @@ ElvDB = {
 ["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,34",
 ["BelowMinimapContainerMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-15,-274",
 ["ElvUIBankMover"] = "TOP,ElvUIParent,TOP,-243,-200",
-["ElvAB_13"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,1,205",
-["ElvUF_PetMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,556,188",
-["VehicleLeaveButton"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-144,-202",
+["ElvAB_4"] = "BOTTOM,ElvUIParent,BOTTOM,0,99",
+["TotemBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,204,4",
+["ArtifactBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,412,1",
 ["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,0,67",
 ["ElvAB_5"] = "BOTTOM,ElvUIParent,BOTTOM,0,132",
-["ArtifactBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,412,1",
+["VehicleLeaveButton"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-144,-202",
 ["PrivateAurasMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-113,-202",
 ["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,2,277",
 ["ElvUF_Raid3Mover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,1,208",
@@ -357,8 +357,8 @@ ElvDB = {
 ["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,338",
 ["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,1,621",
 ["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-178,-202",
-["TotemBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,204,4",
-["ElvAB_4"] = "BOTTOM,ElvUIParent,BOTTOM,0,99",
+["ElvUF_PetMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,556,188",
+["ElvAB_13"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,1,205",
 ["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,555,335",
 ["AlertFrameMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-555,279",
 ["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-178,-151",
@@ -387,7 +387,7 @@ ElvDB = {
 },
 ["unitframe"] = {
 ["fontSize"] = 12,
-["smoothbars"] = true,
+["statusbar"] = "Melli Dark",
 ["units"] = {
 ["tank"] = {
 ["enable"] = false,
@@ -400,79 +400,116 @@ ElvDB = {
 ["countFont"] = "ITCAvantGardeGothicDemi",
 },
 },
-["boss"] = {
-["debuffs"] = {
-["sizeOverride"] = 30,
-["yOffset"] = -2,
-["anchorPoint"] = "RIGHT",
-["priority"] = "MyDebuffsWL,MyDebuffsBL,Blacklist,Blacklist All Classes,Boss,Personal,RaidDebuffs,CastByUnit,Whitelist",
-["countFont"] = "ITCAvantGardeGothicDemi",
-["perrow"] = 5,
-},
-["growthDirection"] = "UP",
-["spacing"] = 37,
-["buffIndicator"] = {
+["raid3"] = {
+["pvpclassificationindicator"] = {
 ["enable"] = false,
 },
-["threatStyle"] = "GLOW",
-["power"] = {
-["xOffset"] = 0,
-["yOffset"] = -14,
-["attachTextTo"] = "Frame",
-["position"] = "BOTTOMRIGHT",
-["height"] = 6,
+["growthDirection"] = "RIGHT_UP",
+["readycheckIcon"] = {
+["position"] = "CENTER",
+["size"] = 18,
+},
+["groupSpacing"] = 3,
+["classbar"] = {
+["altPowerTextFormat"] = " ",
+["height"] = 5,
 },
 ["customTexts"] = {
-["BossName"] = {
+["RaidNameStatus"] = {
 ["attachTextTo"] = "Health",
-["xOffset"] = -5,
-["text_format"] = "[name:short]",
-["yOffset"] = 12,
-["font"] = "ITCAvantGardeGothicDemi",
-["justifyH"] = "RIGHT",
-["fontOutline"] = "NONE",
 ["enable"] = true,
-["size"] = 13,
-},
-["HP"] = {
-["attachTextTo"] = "Frame",
+["text_format"] = "[status]",
+["yOffset"] = 0,
+["font"] = "ITCAvantGardeGothicDemi",
+["justifyH"] = "CENTER",
+["fontOutline"] = "NONE",
 ["xOffset"] = 0,
-["text_format"] = "[health:current:shortvalue] || [health:percent] ",
-["yOffset"] = -22,
+["size"] = 12,
+},
+["RaidName"] = {
+["attachTextTo"] = "Health",
+["xOffset"] = 13,
+["text_format"] = "[name:veryshort]",
+["yOffset"] = 20,
 ["font"] = "ITCAvantGardeGothicDemi",
 ["justifyH"] = "LEFT",
 ["fontOutline"] = "NONE",
 ["enable"] = true,
-["size"] = 12,
+["size"] = 11,
 },
 },
-["width"] = 150,
-["health"] = {
-["xOffset"] = 0,
-["text_format"] = "",
-},
-["castbar"] = {
-["enable"] = false,
-["width"] = 150,
-["height"] = 14,
-},
-["height"] = 30,
-["buffs"] = {
-["countFontSize"] = 11,
-["sizeOverride"] = 20,
-["yOffset"] = 0,
-["anchorPoint"] = "TOPLEFT",
-["priority"] = "MyBuffsWL,MyBuffsBL,Blacklist,CastByUnit,Dispellable,Whitelist,RaidBuffsElvUI",
-["countFont"] = "ITCAvantGardeGothicDemi",
+["healPrediction"] = {
+["enable"] = true,
+["absorbStyle"] = "WRAPPED",
 },
 ["name"] = {
+["position"] = "LEFT",
+["xOffset"] = 9,
 ["text_format"] = "",
+["yOffset"] = 20,
+},
+["height"] = 45,
+["buffs"] = {
+["countFontSize"] = 11,
+["sizeOverride"] = 23,
+["xOffset"] = -36,
+["anchorPoint"] = "RIGHT",
+["clickThrough"] = true,
+["priority"] = "MyBuffsWL,MyBuffsBL,Blacklist,TurtleBuffs",
+["countFont"] = "ITCAvantGardeGothicDemi",
+["perrow"] = 1,
+["enable"] = true,
 },
 ["raidicon"] = {
-["attachTo"] = "LEFT",
-["enable"] = false,
-["xOffset"] = 5,
-["yOffset"] = 3,
+["attachTo"] = "TOPLEFT",
+["yOffset"] = 6,
+["xOffset"] = 60,
+["size"] = 15,
+},
+["rdebuffs"] = {
+["fontSize"] = 12,
+["xOffset"] = -12,
+["duration"] = {
+["color"] = {
+["g"] = 1,
+["b"] = 1,
+},
+},
+["yOffset"] = 12,
+["font"] = "ITCAvantGardeGothicDemi",
+["enable"] = true,
+["stack"] = {
+["color"] = {
+["g"] = 1,
+["b"] = 1,
+},
+["yOffset"] = 1,
+},
+},
+["resurrectIcon"] = {
+["attachTo"] = "RIGHT",
+["xOffset"] = -5,
+},
+["debuffs"] = {
+["countFontSize"] = 17,
+["sizeOverride"] = 45,
+["priority"] = "MyDebuffsWL,MyDebuffsBL,Blacklist,Boss,RaidDebuffs,CCDebuffs,Dispellable,Whitelist",
+["countFont"] = "ITCAvantGardeGothicDemi",
+["perrow"] = 4,
+},
+["roleIcon"] = {
+["enable"] = true,
+["yOffset"] = 0,
+["position"] = "TOPLEFT",
+["xOffset"] = 0,
+},
+["power"] = {
+["enable"] = true,
+},
+["width"] = 82,
+["health"] = {
+["position"] = "BOTTOMLEFT",
+["text_format"] = "",
 },
 },
 ["focus"] = {
@@ -494,9 +531,18 @@ ElvDB = {
 ["attachTo"] = "FRAME",
 },
 ["threatStyle"] = "NONE",
-["power"] = {
+["castbar"] = {
 ["enable"] = false,
-["height"] = 5,
+["overlayOnFrame"] = "Health",
+["icon"] = false,
+["customTimeFont"] = {
+["font"] = "ITCAvantGardeGothicDemi",
+},
+["customTextFont"] = {
+["font"] = "ITCAvantGardeGothicDemi",
+},
+["width"] = 400,
+["height"] = 8,
 },
 ["customTexts"] = {
 ["TargetName"] = {
@@ -521,24 +567,15 @@ ElvDB = {
 ["priority"] = "Blacklist,Personal,PlayerBuffs,Dispellable",
 ["countFont"] = "ITCAvantGardeGothicDemi",
 },
-["castbar"] = {
+["power"] = {
 ["enable"] = false,
-["overlayOnFrame"] = "Health",
-["icon"] = false,
-["customTimeFont"] = {
-["font"] = "ITCAvantGardeGothicDemi",
-},
-["customTextFont"] = {
-["font"] = "ITCAvantGardeGothicDemi",
-},
-["width"] = 400,
-["height"] = 8,
+["height"] = 5,
 },
 ["raidicon"] = {
 ["attachTo"] = "LEFT",
-["yOffset"] = 1,
-["xOffset"] = -15,
 ["size"] = 15,
+["xOffset"] = -15,
+["yOffset"] = 1,
 },
 },
 ["assist"] = {
@@ -607,9 +644,9 @@ ElvDB = {
 },
 ["raidicon"] = {
 ["attachTo"] = "TOPLEFT",
-["yOffset"] = 6,
-["xOffset"] = 60,
 ["size"] = 15,
+["xOffset"] = 60,
+["yOffset"] = 6,
 },
 ["rdebuffs"] = {
 ["fontSize"] = 12,
@@ -665,501 +702,6 @@ ElvDB = {
 ["countFont"] = "ITCAvantGardeGothicDemi",
 },
 },
-["targettarget"] = {
-["debuffs"] = {
-["countFontSize"] = 11,
-["sizeOverride"] = 20,
-["enable"] = false,
-["anchorPoint"] = "TOPRIGHT",
-["countFont"] = "ITCAvantGardeGothicDemi",
-["perrow"] = 4,
-},
-["power"] = {
-["enable"] = false,
-["height"] = 5,
-},
-["customTexts"] = {
-["TargetName"] = {
-["attachTextTo"] = "Health",
-["xOffset"] = 0,
-["text_format"] = "[name:short]",
-["yOffset"] = 15,
-["font"] = "ITCAvantGardeGothicDemi",
-["justifyH"] = "CENTER",
-["fontOutline"] = "NONE",
-["enable"] = true,
-["size"] = 13,
-},
-},
-["width"] = 100,
-["height"] = 17,
-["buffs"] = {
-["countFont"] = "ITCAvantGardeGothicDemi",
-},
-["name"] = {
-["position"] = "TOPRIGHT",
-["text_format"] = "",
-},
-["raidicon"] = {
-["enable"] = false,
-},
-},
-["raid3"] = {
-["pvpclassificationindicator"] = {
-["enable"] = false,
-},
-["growthDirection"] = "RIGHT_UP",
-["readycheckIcon"] = {
-["position"] = "CENTER",
-["size"] = 18,
-},
-["groupSpacing"] = 3,
-["classbar"] = {
-["altPowerTextFormat"] = " ",
-["height"] = 5,
-},
-["customTexts"] = {
-["RaidNameStatus"] = {
-["attachTextTo"] = "Health",
-["enable"] = true,
-["text_format"] = "[status]",
-["yOffset"] = 0,
-["font"] = "ITCAvantGardeGothicDemi",
-["justifyH"] = "CENTER",
-["fontOutline"] = "NONE",
-["xOffset"] = 0,
-["size"] = 12,
-},
-["RaidName"] = {
-["attachTextTo"] = "Health",
-["xOffset"] = 13,
-["text_format"] = "[name:veryshort]",
-["yOffset"] = 20,
-["font"] = "ITCAvantGardeGothicDemi",
-["justifyH"] = "LEFT",
-["fontOutline"] = "NONE",
-["enable"] = true,
-["size"] = 11,
-},
-},
-["healPrediction"] = {
-["enable"] = true,
-["absorbStyle"] = "WRAPPED",
-},
-["name"] = {
-["position"] = "LEFT",
-["xOffset"] = 9,
-["text_format"] = "",
-["yOffset"] = 20,
-},
-["height"] = 45,
-["buffs"] = {
-["countFontSize"] = 11,
-["sizeOverride"] = 23,
-["xOffset"] = -36,
-["anchorPoint"] = "RIGHT",
-["clickThrough"] = true,
-["priority"] = "MyBuffsWL,MyBuffsBL,Blacklist,TurtleBuffs",
-["countFont"] = "ITCAvantGardeGothicDemi",
-["perrow"] = 1,
-["enable"] = true,
-},
-["raidicon"] = {
-["attachTo"] = "TOPLEFT",
-["size"] = 15,
-["xOffset"] = 60,
-["yOffset"] = 6,
-},
-["rdebuffs"] = {
-["fontSize"] = 12,
-["xOffset"] = -12,
-["duration"] = {
-["color"] = {
-["g"] = 1,
-["b"] = 1,
-},
-},
-["yOffset"] = 12,
-["font"] = "ITCAvantGardeGothicDemi",
-["enable"] = true,
-["stack"] = {
-["color"] = {
-["g"] = 1,
-["b"] = 1,
-},
-["yOffset"] = 1,
-},
-},
-["resurrectIcon"] = {
-["attachTo"] = "RIGHT",
-["xOffset"] = -5,
-},
-["debuffs"] = {
-["countFontSize"] = 17,
-["sizeOverride"] = 45,
-["priority"] = "MyDebuffsWL,MyDebuffsBL,Blacklist,Boss,RaidDebuffs,CCDebuffs,Dispellable,Whitelist",
-["countFont"] = "ITCAvantGardeGothicDemi",
-["perrow"] = 4,
-},
-["roleIcon"] = {
-["enable"] = true,
-["yOffset"] = 0,
-["position"] = "TOPLEFT",
-["xOffset"] = 0,
-},
-["power"] = {
-["enable"] = true,
-},
-["width"] = 82,
-["health"] = {
-["position"] = "BOTTOMLEFT",
-["text_format"] = "",
-},
-},
-["player"] = {
-["debuffs"] = {
-["sizeOverride"] = 30,
-["enable"] = false,
-["anchorPoint"] = "TOPRIGHT",
-["priority"] = "Blacklist,Personal,nonPersonal,MyDebuffsBL,MyDebuffsWL",
-["countFont"] = "ITCAvantGardeGothicDemi",
-["perrow"] = 5,
-},
-["classbar"] = {
-["enable"] = false,
-},
-["customTexts"] = {
-["HP"] = {
-["attachTextTo"] = "Health",
-["xOffset"] = -3,
-["text_format"] = "[health:percent] I [health:current:shortvalue]",
-["yOffset"] = -25,
-["font"] = "ITCAvantGardeGothicDemi",
-["justifyH"] = "RIGHT",
-["fontOutline"] = "NONE",
-["enable"] = true,
-["size"] = 14,
-},
-["Absorb"] = {
-["attachTextTo"] = "Health",
-["xOffset"] = -3,
-["text_format"] = "[absorbs]",
-["yOffset"] = 0,
-["font"] = "ITCAvantGardeGothicDemi",
-["justifyH"] = "RIGHT",
-["fontOutline"] = "NONE",
-["enable"] = true,
-["size"] = 14,
-},
-},
-["healPrediction"] = {
-["absorbStyle"] = "WRAPPED",
-},
-["height"] = 30,
-["buffs"] = {
-["sizeOverride"] = 34,
-["priority"] = "Blacklist,Personal,PlayerBuffs,Whitelist,blockNoDuration,nonPersonal,MyBuffsWL,MyBuffsBL",
-["countFont"] = "ITCAvantGardeGothicDemi",
-},
-["raidicon"] = {
-["enable"] = false,
-},
-["pvp"] = {
-["text_format"] = " ||cFFB04F4F[pvptimer][mouseover]||r",
-},
-["aurabar"] = {
-["enable"] = false,
-["attachTo"] = "FRAME",
-},
-["power"] = {
-["enable"] = false,
-["yOffset"] = -8,
-["strataAndLevel"] = {
-["frameLevel"] = 2,
-},
-},
-["width"] = 250,
-["CombatIcon"] = {
-["enable"] = false,
-},
-["health"] = {
-["text_format"] = "",
-["yOffset"] = -10,
-},
-["raidRoleIcons"] = {
-["enable"] = false,
-},
-["castbar"] = {
-["hidetext"] = true,
-["icon"] = false,
-["insideInfoPanel"] = false,
-["width"] = 312,
-["height"] = 8,
-},
-},
-["raid1"] = {
-["pvpclassificationindicator"] = {
-["enable"] = false,
-},
-["numGroups"] = 4,
-["growthDirection"] = "RIGHT_UP",
-["readycheckIcon"] = {
-["position"] = "CENTER",
-["size"] = 18,
-},
-["groupSpacing"] = 3,
-["classbar"] = {
-["height"] = 5,
-["altPowerTextFormat"] = " ",
-},
-["customTexts"] = {
-["RaidNameStatus"] = {
-["attachTextTo"] = "Health",
-["enable"] = true,
-["text_format"] = "[status]",
-["yOffset"] = 0,
-["font"] = "ITCAvantGardeGothicDemi",
-["justifyH"] = "CENTER",
-["fontOutline"] = "NONE",
-["xOffset"] = 0,
-["size"] = 12,
-},
-["RaidName"] = {
-["attachTextTo"] = "Health",
-["enable"] = true,
-["text_format"] = "[name:veryshort]",
-["yOffset"] = 20,
-["font"] = "ITCAvantGardeGothicDemi",
-["justifyH"] = "LEFT",
-["fontOutline"] = "NONE",
-["xOffset"] = 13,
-["size"] = 11,
-},
-},
-["healPrediction"] = {
-["enable"] = true,
-["absorbStyle"] = "WRAPPED",
-},
-["name"] = {
-["position"] = "LEFT",
-["xOffset"] = 9,
-["text_format"] = "",
-["yOffset"] = 20,
-},
-["height"] = 45,
-["buffs"] = {
-["countFontSize"] = 11,
-["sizeOverride"] = 23,
-["xOffset"] = -36,
-["anchorPoint"] = "RIGHT",
-["clickThrough"] = true,
-["priority"] = "MyBuffsWL,MyBuffsBL,Blacklist,TurtleBuffs",
-["countFont"] = "ITCAvantGardeGothicDemi",
-["perrow"] = 1,
-["enable"] = true,
-},
-["raidicon"] = {
-["attachTo"] = "TOPLEFT",
-["size"] = 15,
-["xOffset"] = 60,
-["yOffset"] = 6,
-},
-["rdebuffs"] = {
-["fontSize"] = 12,
-["xOffset"] = -12,
-["duration"] = {
-["color"] = {
-["g"] = 1,
-["b"] = 1,
-},
-},
-["yOffset"] = 12,
-["font"] = "ITCAvantGardeGothicDemi",
-["stack"] = {
-["color"] = {
-["g"] = 1,
-["b"] = 1,
-},
-["yOffset"] = 1,
-},
-},
-["resurrectIcon"] = {
-["attachTo"] = "RIGHT",
-["xOffset"] = -5,
-},
-["debuffs"] = {
-["countFontSize"] = 17,
-["sizeOverride"] = 45,
-["priority"] = "MyDebuffsWL,MyDebuffsBL,Blacklist,Boss,RaidDebuffs,CCDebuffs,Dispellable,Whitelist",
-["countFont"] = "ITCAvantGardeGothicDemi",
-["perrow"] = 4,
-},
-["roleIcon"] = {
-["yOffset"] = 0,
-["position"] = "TOPLEFT",
-["xOffset"] = 0,
-},
-["width"] = 82,
-["health"] = {
-["position"] = "BOTTOMLEFT",
-["text_format"] = "",
-},
-},
-["party"] = {
-["pvpclassificationindicator"] = {
-["enable"] = false,
-},
-["verticalSpacing"] = 7,
-["growthDirection"] = "DOWN_LEFT",
-["groupBy"] = "ROLE",
-["readycheckIcon"] = {
-["position"] = "CENTER",
-["size"] = 30,
-},
-["petsGroup"] = {
-["yOffset"] = -1,
-["disableTargetGlow"] = false,
-["xOffset"] = 0,
-["width"] = 60,
-["anchorPoint"] = "BOTTOMRIGHT",
-["name"] = {
-["text_format"] = "",
-},
-["height"] = 12,
-["disableFocusGlow"] = false,
-},
-["debuffs"] = {
-["countFontSize"] = 14,
-["sizeOverride"] = 31,
-["countYOffset"] = 0,
-["yOffset"] = 2,
-["anchorPoint"] = "TOPRIGHT",
-["countXOffset"] = 1,
-["spacing"] = 0,
-["priority"] = "MyDebuffsWL,MyDebuffsBL,Blacklist,Boss,RaidDebuffs,CCDebuffs,Dispellable,Whitelist",
-["growthY"] = "DOWN",
-["numrows"] = 2,
-["countFont"] = "ITCAvantGardeGothicDemi",
-["perrow"] = 3,
-["maxDuration"] = 600,
-},
-["classbar"] = {
-["height"] = 5,
-["altPowerTextFormat"] = " ",
-},
-["targetsGroup"] = {
-["disableTargetGlow"] = false,
-["disableFocusGlow"] = false,
-},
-["customTexts"] = {
-["GroupName"] = {
-["attachTextTo"] = "Frame",
-["xOffset"] = 12,
-["text_format"] = "[name:short]",
-["yOffset"] = 26,
-["font"] = "ITCAvantGardeGothicDemi",
-["justifyH"] = "LEFT",
-["fontOutline"] = "SHADOW",
-["enable"] = false,
-["size"] = 12,
-},
-["GroupNameStatus"] = {
-["attachTextTo"] = "Health",
-["xOffset"] = 0,
-["text_format"] = "[dead][offline]",
-["yOffset"] = 0,
-["font"] = "ITCAvantGardeGothicDemi",
-["justifyH"] = "CENTER",
-["fontOutline"] = "OUTLINE",
-["enable"] = true,
-["size"] = 14,
-},
-},
-["healPrediction"] = {
-["enable"] = true,
-["absorbStyle"] = "WRAPPED",
-},
-["infoPanel"] = {
-["height"] = 12,
-},
-["name"] = {
-["position"] = "TOPLEFT",
-["xOffset"] = 12,
-["text_format"] = "[name:short]",
-["yOffset"] = 6,
-},
-["height"] = 63,
-["buffs"] = {
-["countFontSize"] = 14,
-["sizeOverride"] = 26,
-["growthX"] = "LEFT",
-["enable"] = true,
-["countYOffset"] = 0,
-["yOffset"] = 5,
-["anchorPoint"] = "BOTTOMRIGHT",
-["countXOffset"] = 1,
-["spacing"] = 0,
-["priority"] = "MyBuffsWL,MyBuffsBL,Blacklist,TurtleBuffs,Personals",
-["countFont"] = "ITCAvantGardeGothicDemi",
-["perrow"] = 2,
-["clickThrough"] = true,
-},
-["raidicon"] = {
-["attachTo"] = "BOTTOMLEFT",
-["xOffset"] = 2,
-["yOffset"] = 10,
-},
-["horizontalSpacing"] = 1,
-["rdebuffs"] = {
-["xOffset"] = -52,
-["duration"] = {
-["color"] = {
-["g"] = 1,
-["b"] = 1,
-},
-},
-["font"] = "ITCAvantGardeGothicDemi",
-["stack"] = {
-["color"] = {
-["g"] = 1,
-["b"] = 1,
-},
-},
-["enable"] = false,
-["size"] = 28,
-},
-["resurrectIcon"] = {
-["attachTo"] = "RIGHT",
-["xOffset"] = -5,
-},
-["roleIcon"] = {
-["yOffset"] = -5,
-["position"] = "TOPLEFT",
-["xOffset"] = 2,
-},
-["power"] = {
-["text_format"] = "",
-["yOffset"] = 2,
-["position"] = "BOTTOMRIGHT",
-["height"] = 6,
-},
-["summonIcon"] = {
-["attachTo"] = "RIGHT",
-["xOffset"] = -5,
-["yOffset"] = 3,
-},
-["width"] = 130,
-["buffIndicator"] = {
-["countFont"] = "ITCAvantGardeGothicDemi",
-},
-["health"] = {
-["position"] = "BOTTOMLEFT",
-["xOffset"] = 0,
-["text_format"] = "",
-["yOffset"] = 2,
-},
-["orientation"] = "MIDDLE",
-},
 ["pet"] = {
 ["debuffs"] = {
 ["countFont"] = "ITCAvantGardeGothicDemi",
@@ -1183,30 +725,6 @@ ElvDB = {
 },
 ["raidicon"] = {
 ["enable"] = false,
-},
-},
-["arena"] = {
-["enable"] = false,
-["customTexts"] = {
-["ArenaNameStatus"] = {
-["attachTextTo"] = "Health",
-["xOffset"] = 0,
-["text_format"] = "[status]",
-["yOffset"] = 0,
-["font"] = "ITCAvantGardeGothicDemi",
-["justifyH"] = "CENTER",
-["fontOutline"] = "NONE",
-["enable"] = true,
-["size"] = 12,
-},
-},
-},
-["pettarget"] = {
-["debuffs"] = {
-["countFont"] = "ITCAvantGardeGothicDemi",
-},
-["buffs"] = {
-["countFont"] = "ITCAvantGardeGothicDemi",
 },
 },
 ["target"] = {
@@ -1295,6 +813,488 @@ ElvDB = {
 ["height"] = 5,
 },
 },
+["player"] = {
+["debuffs"] = {
+["sizeOverride"] = 30,
+["enable"] = false,
+["anchorPoint"] = "TOPRIGHT",
+["priority"] = "Blacklist,Personal,nonPersonal,MyDebuffsBL,MyDebuffsWL",
+["countFont"] = "ITCAvantGardeGothicDemi",
+["perrow"] = 5,
+},
+["CombatIcon"] = {
+["enable"] = false,
+},
+["customTexts"] = {
+["HP"] = {
+["attachTextTo"] = "Health",
+["xOffset"] = -3,
+["text_format"] = "[health:percent] I [health:current:shortvalue]",
+["yOffset"] = -25,
+["font"] = "ITCAvantGardeGothicDemi",
+["justifyH"] = "RIGHT",
+["fontOutline"] = "NONE",
+["enable"] = true,
+["size"] = 14,
+},
+["Absorb"] = {
+["attachTextTo"] = "Health",
+["xOffset"] = -3,
+["text_format"] = "[absorbs]",
+["yOffset"] = 0,
+["font"] = "ITCAvantGardeGothicDemi",
+["justifyH"] = "RIGHT",
+["fontOutline"] = "NONE",
+["enable"] = true,
+["size"] = 14,
+},
+},
+["healPrediction"] = {
+["absorbStyle"] = "WRAPPED",
+},
+["height"] = 30,
+["buffs"] = {
+["sizeOverride"] = 34,
+["priority"] = "Blacklist,Personal,PlayerBuffs,Whitelist,blockNoDuration,nonPersonal,MyBuffsWL,MyBuffsBL",
+["countFont"] = "ITCAvantGardeGothicDemi",
+},
+["raidicon"] = {
+["enable"] = false,
+},
+["pvp"] = {
+["text_format"] = " ||cFFB04F4F[pvptimer][mouseover]||r",
+},
+["aurabar"] = {
+["enable"] = false,
+["attachTo"] = "FRAME",
+},
+["power"] = {
+["enable"] = false,
+["yOffset"] = -8,
+["strataAndLevel"] = {
+["frameLevel"] = 2,
+},
+},
+["width"] = 250,
+["castbar"] = {
+["hidetext"] = true,
+["icon"] = false,
+["insideInfoPanel"] = false,
+["width"] = 312,
+["height"] = 8,
+},
+["health"] = {
+["text_format"] = "",
+["yOffset"] = -10,
+},
+["raidRoleIcons"] = {
+["enable"] = false,
+},
+["classbar"] = {
+["enable"] = false,
+},
+},
+["raid1"] = {
+["pvpclassificationindicator"] = {
+["enable"] = false,
+},
+["numGroups"] = 4,
+["growthDirection"] = "RIGHT_UP",
+["readycheckIcon"] = {
+["position"] = "CENTER",
+["size"] = 18,
+},
+["groupSpacing"] = 3,
+["classbar"] = {
+["height"] = 5,
+["altPowerTextFormat"] = " ",
+},
+["customTexts"] = {
+["RaidNameStatus"] = {
+["attachTextTo"] = "Health",
+["enable"] = true,
+["text_format"] = "[status]",
+["yOffset"] = 0,
+["font"] = "ITCAvantGardeGothicDemi",
+["justifyH"] = "CENTER",
+["fontOutline"] = "NONE",
+["xOffset"] = 0,
+["size"] = 12,
+},
+["RaidName"] = {
+["attachTextTo"] = "Health",
+["enable"] = true,
+["text_format"] = "[name:veryshort]",
+["yOffset"] = 20,
+["font"] = "ITCAvantGardeGothicDemi",
+["justifyH"] = "LEFT",
+["fontOutline"] = "NONE",
+["xOffset"] = 13,
+["size"] = 11,
+},
+},
+["healPrediction"] = {
+["enable"] = true,
+["absorbStyle"] = "WRAPPED",
+},
+["name"] = {
+["position"] = "LEFT",
+["xOffset"] = 9,
+["text_format"] = "",
+["yOffset"] = 20,
+},
+["height"] = 45,
+["buffs"] = {
+["countFontSize"] = 11,
+["sizeOverride"] = 23,
+["xOffset"] = -36,
+["anchorPoint"] = "RIGHT",
+["clickThrough"] = true,
+["priority"] = "MyBuffsWL,MyBuffsBL,Blacklist,TurtleBuffs",
+["countFont"] = "ITCAvantGardeGothicDemi",
+["perrow"] = 1,
+["enable"] = true,
+},
+["raidicon"] = {
+["attachTo"] = "TOPLEFT",
+["yOffset"] = 6,
+["xOffset"] = 60,
+["size"] = 15,
+},
+["rdebuffs"] = {
+["fontSize"] = 12,
+["xOffset"] = -12,
+["duration"] = {
+["color"] = {
+["g"] = 1,
+["b"] = 1,
+},
+},
+["yOffset"] = 12,
+["font"] = "ITCAvantGardeGothicDemi",
+["stack"] = {
+["color"] = {
+["g"] = 1,
+["b"] = 1,
+},
+["yOffset"] = 1,
+},
+},
+["resurrectIcon"] = {
+["attachTo"] = "RIGHT",
+["xOffset"] = -5,
+},
+["debuffs"] = {
+["countFontSize"] = 17,
+["sizeOverride"] = 45,
+["priority"] = "MyDebuffsWL,MyDebuffsBL,Blacklist,Boss,RaidDebuffs,CCDebuffs,Dispellable,Whitelist",
+["countFont"] = "ITCAvantGardeGothicDemi",
+["perrow"] = 4,
+},
+["roleIcon"] = {
+["yOffset"] = 0,
+["position"] = "TOPLEFT",
+["xOffset"] = 0,
+},
+["width"] = 82,
+["health"] = {
+["position"] = "BOTTOMLEFT",
+["text_format"] = "",
+},
+},
+["pettarget"] = {
+["debuffs"] = {
+["countFont"] = "ITCAvantGardeGothicDemi",
+},
+["buffs"] = {
+["countFont"] = "ITCAvantGardeGothicDemi",
+},
+},
+["targettarget"] = {
+["debuffs"] = {
+["countFontSize"] = 11,
+["sizeOverride"] = 20,
+["enable"] = false,
+["anchorPoint"] = "TOPRIGHT",
+["countFont"] = "ITCAvantGardeGothicDemi",
+["perrow"] = 4,
+},
+["power"] = {
+["enable"] = false,
+["height"] = 5,
+},
+["customTexts"] = {
+["TargetName"] = {
+["attachTextTo"] = "Health",
+["xOffset"] = 0,
+["text_format"] = "[name:short]",
+["yOffset"] = 15,
+["font"] = "ITCAvantGardeGothicDemi",
+["justifyH"] = "CENTER",
+["fontOutline"] = "NONE",
+["enable"] = true,
+["size"] = 13,
+},
+},
+["width"] = 100,
+["height"] = 17,
+["buffs"] = {
+["countFont"] = "ITCAvantGardeGothicDemi",
+},
+["name"] = {
+["position"] = "TOPRIGHT",
+["text_format"] = "",
+},
+["raidicon"] = {
+["enable"] = false,
+},
+},
+["arena"] = {
+["enable"] = false,
+["customTexts"] = {
+["ArenaNameStatus"] = {
+["attachTextTo"] = "Health",
+["xOffset"] = 0,
+["text_format"] = "[status]",
+["yOffset"] = 0,
+["font"] = "ITCAvantGardeGothicDemi",
+["justifyH"] = "CENTER",
+["fontOutline"] = "NONE",
+["enable"] = true,
+["size"] = 12,
+},
+},
+},
+["party"] = {
+["pvpclassificationindicator"] = {
+["enable"] = false,
+},
+["verticalSpacing"] = 7,
+["growthDirection"] = "DOWN_LEFT",
+["buffIndicator"] = {
+["countFont"] = "ITCAvantGardeGothicDemi",
+},
+["readycheckIcon"] = {
+["position"] = "CENTER",
+["size"] = 30,
+},
+["petsGroup"] = {
+["width"] = 60,
+["disableTargetGlow"] = false,
+["xOffset"] = 0,
+["yOffset"] = -1,
+["disableFocusGlow"] = false,
+["name"] = {
+["text_format"] = "",
+},
+["height"] = 12,
+["anchorPoint"] = "BOTTOMRIGHT",
+},
+["debuffs"] = {
+["countFontSize"] = 14,
+["sizeOverride"] = 31,
+["countYOffset"] = 0,
+["yOffset"] = 2,
+["anchorPoint"] = "TOPRIGHT",
+["countXOffset"] = 1,
+["spacing"] = 0,
+["priority"] = "MyDebuffsWL,MyDebuffsBL,Blacklist,Boss,RaidDebuffs,CCDebuffs,Dispellable,Whitelist",
+["growthY"] = "DOWN",
+["numrows"] = 2,
+["countFont"] = "ITCAvantGardeGothicDemi",
+["perrow"] = 3,
+["maxDuration"] = 600,
+},
+["classbar"] = {
+["height"] = 5,
+["altPowerTextFormat"] = " ",
+},
+["targetsGroup"] = {
+["disableTargetGlow"] = false,
+["disableFocusGlow"] = false,
+},
+["customTexts"] = {
+["GroupName"] = {
+["attachTextTo"] = "Frame",
+["xOffset"] = 12,
+["text_format"] = "[name:short]",
+["yOffset"] = 26,
+["font"] = "ITCAvantGardeGothicDemi",
+["justifyH"] = "LEFT",
+["fontOutline"] = "SHADOW",
+["enable"] = false,
+["size"] = 12,
+},
+["GroupNameStatus"] = {
+["attachTextTo"] = "Health",
+["xOffset"] = 0,
+["text_format"] = "[dead][offline]",
+["yOffset"] = 0,
+["font"] = "ITCAvantGardeGothicDemi",
+["justifyH"] = "CENTER",
+["fontOutline"] = "OUTLINE",
+["enable"] = true,
+["size"] = 14,
+},
+},
+["healPrediction"] = {
+["enable"] = true,
+["absorbStyle"] = "WRAPPED",
+},
+["infoPanel"] = {
+["height"] = 12,
+},
+["name"] = {
+["position"] = "TOPLEFT",
+["xOffset"] = 12,
+["text_format"] = "[name:short]",
+["yOffset"] = 6,
+},
+["height"] = 63,
+["buffs"] = {
+["countFontSize"] = 14,
+["sizeOverride"] = 26,
+["growthX"] = "LEFT",
+["enable"] = true,
+["countYOffset"] = 0,
+["yOffset"] = 5,
+["anchorPoint"] = "BOTTOMRIGHT",
+["countXOffset"] = 1,
+["spacing"] = 0,
+["priority"] = "MyBuffsWL,MyBuffsBL,Blacklist,TurtleBuffs,Personals",
+["countFont"] = "ITCAvantGardeGothicDemi",
+["perrow"] = 2,
+["clickThrough"] = true,
+},
+["raidicon"] = {
+["attachTo"] = "BOTTOMLEFT",
+["xOffset"] = 2,
+["yOffset"] = 10,
+},
+["horizontalSpacing"] = 1,
+["rdebuffs"] = {
+["enable"] = false,
+["duration"] = {
+["color"] = {
+["g"] = 1,
+["b"] = 1,
+},
+},
+["font"] = "ITCAvantGardeGothicDemi",
+["stack"] = {
+["color"] = {
+["g"] = 1,
+["b"] = 1,
+},
+},
+["xOffset"] = -52,
+["size"] = 28,
+},
+["resurrectIcon"] = {
+["attachTo"] = "RIGHT",
+["xOffset"] = -5,
+},
+["roleIcon"] = {
+["yOffset"] = -5,
+["position"] = "TOPLEFT",
+["xOffset"] = 2,
+},
+["power"] = {
+["text_format"] = "",
+["yOffset"] = 2,
+["position"] = "BOTTOMRIGHT",
+["height"] = 6,
+},
+["summonIcon"] = {
+["attachTo"] = "RIGHT",
+["xOffset"] = -5,
+["yOffset"] = 3,
+},
+["width"] = 130,
+["groupBy"] = "ROLE",
+["health"] = {
+["position"] = "BOTTOMLEFT",
+["xOffset"] = 0,
+["text_format"] = "",
+["yOffset"] = 2,
+},
+["orientation"] = "MIDDLE",
+},
+["boss"] = {
+["debuffs"] = {
+["sizeOverride"] = 30,
+["yOffset"] = -2,
+["anchorPoint"] = "RIGHT",
+["priority"] = "MyDebuffsWL,MyDebuffsBL,Blacklist,Blacklist All Classes,Boss,Personal,RaidDebuffs,CastByUnit,Whitelist",
+["countFont"] = "ITCAvantGardeGothicDemi",
+["perrow"] = 5,
+},
+["growthDirection"] = "UP",
+["spacing"] = 37,
+["buffIndicator"] = {
+["enable"] = false,
+},
+["threatStyle"] = "GLOW",
+["castbar"] = {
+["enable"] = false,
+["width"] = 150,
+["height"] = 14,
+},
+["customTexts"] = {
+["BossName"] = {
+["attachTextTo"] = "Health",
+["xOffset"] = -5,
+["text_format"] = "[name:short]",
+["yOffset"] = 12,
+["font"] = "ITCAvantGardeGothicDemi",
+["justifyH"] = "RIGHT",
+["fontOutline"] = "NONE",
+["enable"] = true,
+["size"] = 13,
+},
+["HP"] = {
+["attachTextTo"] = "Frame",
+["xOffset"] = 0,
+["text_format"] = "[health:current:shortvalue] || [health:percent] ",
+["yOffset"] = -22,
+["font"] = "ITCAvantGardeGothicDemi",
+["justifyH"] = "LEFT",
+["fontOutline"] = "NONE",
+["enable"] = true,
+["size"] = 12,
+},
+},
+["width"] = 150,
+["health"] = {
+["xOffset"] = 0,
+["text_format"] = "",
+},
+["power"] = {
+["xOffset"] = 0,
+["yOffset"] = -14,
+["attachTextTo"] = "Frame",
+["position"] = "BOTTOMRIGHT",
+["height"] = 6,
+},
+["height"] = 30,
+["buffs"] = {
+["countFontSize"] = 11,
+["sizeOverride"] = 20,
+["yOffset"] = 0,
+["anchorPoint"] = "TOPLEFT",
+["priority"] = "MyBuffsWL,MyBuffsBL,Blacklist,CastByUnit,Dispellable,Whitelist,RaidBuffsElvUI",
+["countFont"] = "ITCAvantGardeGothicDemi",
+},
+["name"] = {
+["text_format"] = "",
+},
+["raidicon"] = {
+["attachTo"] = "LEFT",
+["enable"] = false,
+["xOffset"] = 5,
+["yOffset"] = 3,
+},
+},
 },
 ["font"] = "ITCAvantGardeGothicDemi",
 ["colors"] = {
@@ -1309,31 +1309,29 @@ ElvDB = {
 },
 },
 ["auraBarBuff"] = {
-["r"] = 0.96,
-["g"] = 0.55,
 ["b"] = 0.73,
+["g"] = 0.55,
+["r"] = 0.96,
 },
 ["disconnected"] = {
-["r"] = 0.32941176470588,
-["g"] = 0.32941176470588,
 ["b"] = 0.32941176470588,
+["g"] = 0.32941176470588,
+["r"] = 0.32941176470588,
 },
-["health"] = {
-["r"] = 0.30980392156863,
-["g"] = 0.054901960784314,
-["b"] = 0.30196078431373,
+["selection"] = {
+[3] = {
+["b"] = 0.29411764705882,
+["g"] = 0.68627450980392,
+["r"] = 0.29411764705882,
+},
 },
 ["colorhealthbyvalue"] = false,
-["health_backdrop"] = {
-["r"] = 0,
-["g"] = 0,
-["b"] = 0,
-},
+["useDeadBackdrop"] = true,
 ["castClassColor"] = true,
 ["health_backdrop_dead"] = {
-["r"] = 0,
-["g"] = 0,
 ["b"] = 0,
+["g"] = 0,
+["r"] = 0,
 },
 ["debuffHighlight"] = {
 ["Disease"] = {
@@ -1354,13 +1352,13 @@ ElvDB = {
 ["class"] = true,
 },
 ["mouseoverGlow"] = {
-["enable"] = false,
 ["color"] = {
 ["a"] = 0.50671881437302,
-["r"] = 0,
-["g"] = 0,
 ["b"] = 0,
+["g"] = 0,
+["r"] = 0,
 },
+["enable"] = false,
 },
 },
 ["reaction"] = {
@@ -1368,38 +1366,40 @@ ElvDB = {
 ["r"] = 0.7843137254902,
 },
 ["NEUTRAL"] = {
-["r"] = 0.7843137254902,
-["g"] = 0.7843137254902,
 ["b"] = 0.25098039215686,
+["g"] = 0.7843137254902,
+["r"] = 0.7843137254902,
 },
 ["GOOD"] = {
-["r"] = 0.25098039215686,
-["g"] = 0.7843137254902,
 ["b"] = 0.25098039215686,
+["g"] = 0.7843137254902,
+["r"] = 0.25098039215686,
 },
 },
-["useDeadBackdrop"] = true,
-["selection"] = {
-[3] = {
-["r"] = 0.29411764705882,
-["g"] = 0.68627450980392,
-["b"] = 0.29411764705882,
+["health_backdrop"] = {
+["b"] = 0,
+["g"] = 0,
+["r"] = 0,
 },
+["health"] = {
+["b"] = 0.30196078431373,
+["g"] = 0.054901960784314,
+["r"] = 0.30980392156863,
 },
 },
 ["fontOutline"] = "NONE",
-["statusbar"] = "Melli Dark",
+["smoothbars"] = true,
 ["cooldown"] = {
-["threshold"] = 5,
 ["fonts"] = {
 ["enable"] = true,
 ["font"] = "ITCAvantGardeGothicDemi",
 },
+["threshold"] = 5,
 },
 },
 ["datatexts"] = {
-["font"] = "ITCAvantGardeGothicDemi",
 ["fontSize"] = 11,
+["noCombatHover"] = true,
 ["panels"] = {
 ["LeftMiniPanel"] = "Time",
 ["MinimapPanel"] = {
@@ -1423,18 +1423,18 @@ ElvDB = {
 [3] = "System",
 ["3"] = "System",
 ["2"] = "",
-["5"] = "System",
-["4"] = "",
-["border"] = false,
+["panelTransparency"] = true,
+["right"] = "System",
+["7"] = "System",
 ["6"] = "System",
 ["9"] = "System",
 ["8"] = "System",
-["7"] = "System",
-["panelTransparency"] = true,
-["right"] = "System",
+["border"] = false,
+["5"] = "System",
+["4"] = "",
 },
 },
-["noCombatHover"] = true,
+["font"] = "ITCAvantGardeGothicDemi",
 },
 ["actionbar"] = {
 ["bar3"] = {
@@ -1458,12 +1458,12 @@ ElvDB = {
 ["macroFont"] = "ITCAvantGardeGothicDemi",
 ["hotkeyFontSize"] = 11,
 ["countFontSize"] = 11,
+["macroFontSize"] = 11,
+["countFont"] = "ITCAvantGardeGothicDemi",
+["countFontOutline"] = "OUTLINE",
 ["professionQuality"] = {
 ["scale"] = 0.35,
 },
-["countFont"] = "ITCAvantGardeGothicDemi",
-["countFontOutline"] = "OUTLINE",
-["macroFontSize"] = 11,
 ["hotkeyFontOutline"] = "OUTLINE",
 },
 ["desaturateOnCooldown"] = true,
@@ -1473,16 +1473,16 @@ ElvDB = {
 ["macroFont"] = "ITCAvantGardeGothicDemi",
 ["hotkeyFontSize"] = 11,
 ["countFontSize"] = 11,
+["macroFontSize"] = 11,
+["countFont"] = "ITCAvantGardeGothicDemi",
+["countFontOutline"] = "OUTLINE",
 ["professionQuality"] = {
 ["scale"] = 0.35,
 },
-["countFont"] = "ITCAvantGardeGothicDemi",
-["countFontOutline"] = "OUTLINE",
-["macroFontSize"] = 11,
 ["hotkeyFontOutline"] = "OUTLINE",
 },
 ["bar1"] = {
-["hotkeyFont"] = "ITCAvantGardeGothicDemi",
+["hotkeyFontOutline"] = "SHADOWOUTLINE",
 ["macroFont"] = "ITCAvantGardeGothicDemi",
 ["macroTextPosition"] = "BOTTOM",
 ["hotkeyFontSize"] = 11,
@@ -1495,7 +1495,7 @@ ElvDB = {
 ["professionQuality"] = {
 ["scale"] = 0.35,
 },
-["hotkeyFontOutline"] = "SHADOWOUTLINE",
+["hotkeyFont"] = "ITCAvantGardeGothicDemi",
 ["paging"] = {
 ["DRUID"] = "",
 },
@@ -1539,22 +1539,46 @@ ElvDB = {
 ["hotkeyFont"] = "ITCAvantGardeGothicDemi",
 ["hotkeyFontSize"] = 11,
 },
-["fontSize"] = 11,
+["bar6"] = {
+["enabled"] = true,
+["macroFont"] = "ITCAvantGardeGothicDemi",
+["hotkeyFontSize"] = 11,
+["countFontSize"] = 11,
+["hotkeyFontOutline"] = "SHADOW",
+["macroFontSize"] = 11,
+["buttonSpacing"] = 1,
+["countFont"] = "ITCAvantGardeGothicDemi",
+["buttonSize"] = 34,
+["countFontOutline"] = "SHADOWOUTLINE",
+["professionQuality"] = {
+["scale"] = 0.35,
+},
+["hotkeyFont"] = "ITCAvantGardeGothicDemi",
+["buttonsPerRow"] = 1,
+["buttons"] = 6,
+},
 ["bar10"] = {
 ["hotkeyFont"] = "ITCAvantGardeGothicDemi",
 ["macroFont"] = "ITCAvantGardeGothicDemi",
 ["hotkeyFontSize"] = 11,
 ["countFontSize"] = 11,
+["macroFontSize"] = 11,
+["countFont"] = "ITCAvantGardeGothicDemi",
+["countFontOutline"] = "OUTLINE",
 ["professionQuality"] = {
 ["scale"] = 0.35,
 },
-["countFont"] = "ITCAvantGardeGothicDemi",
-["countFontOutline"] = "OUTLINE",
-["macroFontSize"] = 11,
 ["hotkeyFontOutline"] = "OUTLINE",
 },
-["bar2"] = {
+["vehicleExitButton"] = {
 ["hotkeyFont"] = "ITCAvantGardeGothicDemi",
+["hotkeyFontSize"] = 11,
+},
+["microbar"] = {
+["buttons"] = 11,
+},
+["bar2"] = {
+["hotkeyFontOutline"] = "OUTLINE",
 ["enabled"] = true,
 ["macroFont"] = "ITCAvantGardeGothicDemi",
 ["hotkeyFontSize"] = 11,
@@ -1566,14 +1590,7 @@ ElvDB = {
 ["countFont"] = "ITCAvantGardeGothicDemi",
 ["countFontOutline"] = "OUTLINE",
 ["macroFontSize"] = 11,
-["hotkeyFontOutline"] = "OUTLINE",
-},
-["microbar"] = {
-["buttons"] = 11,
-},
-["vehicleExitButton"] = {
 ["hotkeyFont"] = "ITCAvantGardeGothicDemi",
-["hotkeyFontSize"] = 11,
 },
 ["bar14"] = {
 ["professionQuality"] = {
@@ -1596,24 +1613,7 @@ ElvDB = {
 ["hotkeyFontOutline"] = "OUTLINE",
 ["buttonsPerRow"] = 12,
 },
-["bar6"] = {
-["enabled"] = true,
-["macroFont"] = "ITCAvantGardeGothicDemi",
-["hotkeyFontSize"] = 11,
-["countFontSize"] = 11,
-["hotkeyFont"] = "ITCAvantGardeGothicDemi",
-["professionQuality"] = {
-["scale"] = 0.35,
-},
-["buttonSpacing"] = 1,
-["countFont"] = "ITCAvantGardeGothicDemi",
-["buttonSize"] = 34,
-["countFontOutline"] = "SHADOWOUTLINE",
-["macroFontSize"] = 11,
-["hotkeyFontOutline"] = "SHADOW",
-["buttonsPerRow"] = 1,
-["buttons"] = 6,
-},
+["fontSize"] = 11,
 ["extraActionButton"] = {
 ["hotkeyFontOutline"] = "OUTLINE",
 ["hotkeyFont"] = "ITCAvantGardeGothicDemi",
@@ -1639,14 +1639,14 @@ ElvDB = {
 ["visibility"] = "",
 ["countFontSize"] = 11,
 ["point"] = "BOTTOMLEFT",
+["macroFontSize"] = 11,
+["countFont"] = "ITCAvantGardeGothicDemi",
+["countFontOutline"] = "OUTLINE",
 ["professionQuality"] = {
 ["scale"] = 0.35,
 },
-["countFont"] = "ITCAvantGardeGothicDemi",
-["countFontOutline"] = "OUTLINE",
-["macroFontSize"] = 11,
-["hotkeyFontOutline"] = "OUTLINE",
 ["hotkeyFont"] = "ITCAvantGardeGothicDemi",
+["hotkeyFontOutline"] = "OUTLINE",
 ["hotkeyFontSize"] = 11,
 },
 },
@@ -1655,9 +1655,9 @@ ElvDB = {
 ["personalWidth"] = 50,
 ["friendlyWidth"] = 50,
 ["enemyHeight"] = 10,
-["personalHeight"] = 10,
-["enemyWidth"] = 50,
 ["friendlyHeight"] = 10,
+["enemyWidth"] = 50,
+["personalHeight"] = 10,
 },
 ["statusbar"] = "Melli Dark",
 ["clickThrough"] = {
@@ -1766,7 +1766,7 @@ ElvDB = {
 ["enable"] = true,
 },
 },
-["Aggro Bad Transition"] = {
+["WW monk"] = {
 ["triggers"] = {
 ["enable"] = true,
 },
@@ -1776,7 +1776,7 @@ ElvDB = {
 ["enable"] = false,
 },
 },
-["M+ Halls of Atonement"] = {
+["M+ OM Upper Interrupts"] = {
 ["triggers"] = {
 ["enable"] = true,
 },
@@ -1796,7 +1796,7 @@ ElvDB = {
 ["enable"] = true,
 },
 },
-["AssasinRupture"] = {
+["M+ TD Interrupts"] = {
 ["triggers"] = {
 ["enable"] = true,
 },
@@ -1806,27 +1806,27 @@ ElvDB = {
 ["enable"] = true,
 },
 },
-["M+ Spires of Ascension"] = {
-["triggers"] = {
-["enable"] = true,
-},
-},
 ["M+ FH Interrupts"] = {
 ["triggers"] = {
 ["enable"] = true,
 },
 },
-["M+ TD Interrupts"] = {
+["M+ Spires of Ascension"] = {
 ["triggers"] = {
 ["enable"] = true,
 },
 },
-["M+ OM Upper Interrupts"] = {
+["AssasinRupture"] = {
 ["triggers"] = {
 ["enable"] = true,
 },
 },
-["WW monk"] = {
+["M+ Halls of Atonement"] = {
+["triggers"] = {
+["enable"] = true,
+},
+},
+["Aggro Bad Transition"] = {
 ["triggers"] = {
 ["enable"] = true,
 },
@@ -1835,11 +1835,19 @@ ElvDB = {
 ["threat"] = {
 ["enable"] = false,
 },
-["clampToScreen"] = true,
+["cooldown"] = {
+["fonts"] = {
+["enable"] = true,
+["font"] = "ITCAvantGardeGothicDemi",
+["fontSize"] = 20,
+["fontOutline"] = "SHADOWOUTLINE",
+},
+["threshold"] = 5,
+},
 ["units"] = {
-["FRIENDLY_PLAYER"] = {
+["ENEMY_NPC"] = {
 ["debuffs"] = {
-["enable"] = false,
+["countFontSize"] = 11,
 ["yOffset"] = -5,
 ["priority"] = "Blacklist,Blacklist All Classes,Personal,CCDebuffs",
 ["size"] = 25,
@@ -1847,39 +1855,32 @@ ElvDB = {
 ["numAuras"] = 6,
 },
 ["portrait"] = {
-["xOffset"] = 0,
 ["height"] = 16,
-["yOffset"] = 0,
+["xOffset"] = 0,
 ["width"] = 16,
+["yOffset"] = 0,
 },
-["raidTargetIndicator"] = {
 ["enable"] = false,
+["raidTargetIndicator"] = {
 ["xOffset"] = -2,
 ["size"] = 32,
 },
+["eliteIcon"] = {
+["position"] = "TOPLEFT",
+["xOffset"] = 0,
+["yOffset"] = -16,
+},
 ["level"] = {
 ["enable"] = false,
-["format"] = "[level][shortclassification]",
+["format"] = "[distance][level][shortclassification]",
 },
 ["power"] = {
 ["text"] = {
 ["font"] = "ITCAvantGardeGothicDemi",
 },
 },
-["nameOnly"] = true,
 ["pvpindicator"] = {
 ["showBadge"] = false,
-},
-["castbar"] = {
-["fontSize"] = 12,
-["enable"] = false,
-["sourceInterrupt"] = false,
-["yOffset"] = -14,
-["iconSize"] = 29,
-["castTimeFormat"] = "REMAINING",
-["iconOffsetY"] = -1,
-["font"] = "ITCAvantGardeGothicDemi",
-["height"] = 10,
 },
 ["health"] = {
 ["height"] = 16,
@@ -1891,25 +1892,32 @@ ElvDB = {
 ["format"] = "[perhp]%",
 },
 },
-["showTitle"] = false,
-["markHealers"] = false,
+["castbar"] = {
+["fontSize"] = 12,
+["sourceInterrupt"] = false,
+["yOffset"] = -14,
+["iconSize"] = 29,
+["iconOffsetY"] = -1,
+["font"] = "ITCAvantGardeGothicDemi",
+["height"] = 10,
+["castTimeFormat"] = "REMAINING",
+},
+["questIcon"] = {
+["fontSize"] = 10,
+["font"] = "ITCAvantGardeGothicDemi",
+},
 ["buffs"] = {
-["enable"] = false,
+["countFontSize"] = 11,
 ["yOffset"] = -5,
-["priority"] = "Blacklist,RaidBuffsElvUI,Dispellable,blockNoDuration,PlayerBuffs,TurtleBuffs,CastByUnit",
 ["size"] = 30,
 ["countFont"] = "ITCAvantGardeGothicDemi",
 ["numAuras"] = 1,
 },
-["title"] = {
-["format"] = "[npctitle]",
-},
 ["name"] = {
 ["parent"] = "Health",
-["yOffset"] = -4,
+["yOffset"] = -5,
 ["font"] = "ITCAvantGardeGothicDemi",
 ["format"] = "[name:short]",
-["enable"] = false,
 },
 },
 ["FRIENDLY_NPC"] = {
@@ -1921,10 +1929,10 @@ ElvDB = {
 ["numAuras"] = 6,
 },
 ["portrait"] = {
-["xOffset"] = 0,
 ["height"] = 16,
-["yOffset"] = 0,
+["xOffset"] = 0,
 ["width"] = 16,
+["yOffset"] = 0,
 },
 ["raidTargetIndicator"] = {
 ["xOffset"] = -2,
@@ -1939,12 +1947,20 @@ ElvDB = {
 ["enable"] = false,
 ["format"] = "[level][shortclassification]",
 },
-["power"] = {
-["text"] = {
+["castbar"] = {
+["fontSize"] = 12,
+["sourceInterrupt"] = false,
+["yOffset"] = -14,
+["iconSize"] = 29,
+["iconOffsetY"] = -1,
+["font"] = "ITCAvantGardeGothicDemi",
+["height"] = 10,
+["castTimeFormat"] = "REMAINING",
+},
+["questIcon"] = {
+["fontSize"] = 10,
 ["font"] = "ITCAvantGardeGothicDemi",
 },
-},
-["nameOnly"] = false,
 ["pvpindicator"] = {
 ["showBadge"] = false,
 },
@@ -1954,20 +1970,12 @@ ElvDB = {
 ["font"] = "ITCAvantGardeGothicDemi",
 ["format"] = "[name:short]",
 },
-["castbar"] = {
-["fontSize"] = 12,
-["sourceInterrupt"] = false,
-["yOffset"] = -14,
-["iconSize"] = 29,
-["castTimeFormat"] = "REMAINING",
-["iconOffsetY"] = -1,
-["font"] = "ITCAvantGardeGothicDemi",
-["height"] = 10,
-},
-["questIcon"] = {
-["fontSize"] = 10,
+["power"] = {
+["text"] = {
 ["font"] = "ITCAvantGardeGothicDemi",
 },
+},
+["nameOnly"] = false,
 ["buffs"] = {
 ["yOffset"] = -5,
 ["priority"] = "Blacklist,RaidBuffsElvUI,Dispellable,blockNoDuration,PlayerBuffs,TurtleBuffs,CastByUnit",
@@ -1997,10 +2005,10 @@ ElvDB = {
 ["numAuras"] = 6,
 },
 ["portrait"] = {
-["xOffset"] = 0,
 ["height"] = 16,
-["yOffset"] = 0,
+["xOffset"] = 0,
 ["width"] = 16,
+["yOffset"] = 0,
 },
 ["enable"] = false,
 ["raidTargetIndicator"] = {
@@ -2011,29 +2019,33 @@ ElvDB = {
 ["enable"] = false,
 ["format"] = "[distance][level][shortclassification]",
 },
+["power"] = {
+["text"] = {
+["font"] = "ITCAvantGardeGothicDemi",
+},
+},
+["pvpindicator"] = {
+["showBadge"] = false,
+},
+["health"] = {
+["height"] = 16,
+["text"] = {
+["fontSize"] = 12,
+["xOffset"] = 60,
+["yOffset"] = -8,
+["font"] = "ITCAvantGardeGothicDemi",
+["format"] = "[perhp]%",
+},
+},
 ["castbar"] = {
 ["fontSize"] = 12,
 ["sourceInterrupt"] = false,
 ["yOffset"] = -14,
 ["iconSize"] = 29,
-["castTimeFormat"] = "REMAINING",
 ["iconOffsetY"] = -1,
 ["font"] = "ITCAvantGardeGothicDemi",
 ["height"] = 10,
-},
-["pvpindicator"] = {
-["showBadge"] = false,
-},
-["name"] = {
-["parent"] = "Health",
-["yOffset"] = -5,
-["font"] = "ITCAvantGardeGothicDemi",
-["format"] = "[name:short]",
-},
-["power"] = {
-["text"] = {
-["font"] = "ITCAvantGardeGothicDemi",
-},
+["castTimeFormat"] = "REMAINING",
 },
 ["buffs"] = {
 ["countFontSize"] = 11,
@@ -2044,23 +2056,19 @@ ElvDB = {
 ["maxDuration"] = 0,
 ["numAuras"] = 1,
 },
-["health"] = {
-["height"] = 16,
-["text"] = {
-["fontSize"] = 12,
-["xOffset"] = 60,
-["yOffset"] = -8,
-["font"] = "ITCAvantGardeGothicDemi",
-["format"] = "[perhp]%",
-},
-},
 ["title"] = {
 ["format"] = "[npctitle]",
 },
+["name"] = {
+["parent"] = "Health",
+["yOffset"] = -5,
+["font"] = "ITCAvantGardeGothicDemi",
+["format"] = "[name:short]",
 },
-["ENEMY_NPC"] = {
+},
+["FRIENDLY_PLAYER"] = {
 ["debuffs"] = {
-["countFontSize"] = 11,
+["enable"] = false,
 ["yOffset"] = -5,
 ["priority"] = "Blacklist,Blacklist All Classes,Personal,CCDebuffs",
 ["size"] = 25,
@@ -2068,27 +2076,23 @@ ElvDB = {
 ["numAuras"] = 6,
 },
 ["portrait"] = {
-["xOffset"] = 0,
 ["height"] = 16,
-["yOffset"] = 0,
+["xOffset"] = 0,
 ["width"] = 16,
+["yOffset"] = 0,
 },
-["enable"] = false,
 ["raidTargetIndicator"] = {
 ["xOffset"] = -2,
+["enable"] = false,
 ["size"] = 32,
-},
-["eliteIcon"] = {
-["position"] = "TOPLEFT",
-["xOffset"] = 0,
-["yOffset"] = -16,
 },
 ["level"] = {
 ["enable"] = false,
-["format"] = "[distance][level][shortclassification]",
+["format"] = "[level][shortclassification]",
 },
 ["castbar"] = {
 ["fontSize"] = 12,
+["enable"] = false,
 ["sourceInterrupt"] = false,
 ["yOffset"] = -14,
 ["iconSize"] = 29,
@@ -2097,30 +2101,14 @@ ElvDB = {
 ["font"] = "ITCAvantGardeGothicDemi",
 ["height"] = 10,
 },
+["showTitle"] = false,
 ["pvpindicator"] = {
 ["showBadge"] = false,
-},
-["name"] = {
-["parent"] = "Health",
-["yOffset"] = -5,
-["font"] = "ITCAvantGardeGothicDemi",
-["format"] = "[name:short]",
 },
 ["power"] = {
 ["text"] = {
 ["font"] = "ITCAvantGardeGothicDemi",
 },
-},
-["questIcon"] = {
-["fontSize"] = 10,
-["font"] = "ITCAvantGardeGothicDemi",
-},
-["buffs"] = {
-["countFontSize"] = 11,
-["yOffset"] = -5,
-["size"] = 30,
-["countFont"] = "ITCAvantGardeGothicDemi",
-["numAuras"] = 1,
 },
 ["health"] = {
 ["height"] = 16,
@@ -2132,102 +2120,114 @@ ElvDB = {
 ["format"] = "[perhp]%",
 },
 },
-},
-},
-["font"] = "ITCAvantGardeGothicDemi",
-["bossMods"] = {
+["nameOnly"] = true,
+["name"] = {
 ["enable"] = false,
+["yOffset"] = -4,
+["font"] = "ITCAvantGardeGothicDemi",
+["format"] = "[name:short]",
+["parent"] = "Health",
 },
+["markHealers"] = false,
+["title"] = {
+["format"] = "[npctitle]",
+},
+["buffs"] = {
+["enable"] = false,
+["yOffset"] = -5,
+["priority"] = "Blacklist,RaidBuffsElvUI,Dispellable,blockNoDuration,PlayerBuffs,TurtleBuffs,CastByUnit",
+["size"] = 30,
+["countFont"] = "ITCAvantGardeGothicDemi",
+["numAuras"] = 1,
+},
+},
+},
+["smoothbars"] = true,
+["font"] = "ITCAvantGardeGothicDemi",
 ["colors"] = {
 ["castNoInterruptColor"] = {
-["r"] = 0.7843137254902,
-["g"] = 0.25098039215686,
 ["b"] = 0.25098039215686,
+["g"] = 0.25098039215686,
+["r"] = 0.7843137254902,
 },
 ["threat"] = {
 ["goodTransition"] = {
-["r"] = 0.7843137254902,
-["g"] = 0.7843137254902,
 ["b"] = 0.25098039215686,
+["g"] = 0.7843137254902,
+["r"] = 0.7843137254902,
 },
 ["goodColor"] = {
-["r"] = 0.25098039215686,
-["g"] = 0.7843137254902,
 ["b"] = 0.25098039215686,
+["g"] = 0.7843137254902,
+["r"] = 0.25098039215686,
 },
 ["offTankColor"] = {
-["r"] = 0.7843137254902,
-["g"] = 0.25098039215686,
 ["b"] = 0.7843137254902,
-},
-["badColor"] = {
-["r"] = 0.7843137254902,
 ["g"] = 0.25098039215686,
-["b"] = 0.25098039215686,
+["r"] = 0.7843137254902,
 },
 ["badTransition"] = {
-["r"] = 0.7843137254902,
-["g"] = 0.3921568627451,
 ["b"] = 0,
+["g"] = 0.3921568627451,
+["r"] = 0.7843137254902,
+},
+["badColor"] = {
+["b"] = 0.25098039215686,
+["g"] = 0.25098039215686,
+["r"] = 0.7843137254902,
 },
 },
 ["castColor"] = {
-["r"] = 0.7843137254902,
-["g"] = 0.7843137254902,
 ["b"] = 0.25098039215686,
+["g"] = 0.7843137254902,
+["r"] = 0.7843137254902,
 },
 ["reactions"] = {
 ["good"] = {
-["r"] = 0.25098039215686,
-["g"] = 0.7843137254902,
 ["b"] = 0.25098039215686,
+["g"] = 0.7843137254902,
+["r"] = 0.25098039215686,
 },
 ["bad"] = {
-["r"] = 0.7843137254902,
-["g"] = 0.25098039215686,
 ["b"] = 0.25098039215686,
+["g"] = 0.25098039215686,
+["r"] = 0.7843137254902,
 },
 ["neutral"] = {
-["r"] = 0.7843137254902,
-["g"] = 0.7843137254902,
 ["b"] = 0.25098039215686,
+["g"] = 0.7843137254902,
+["r"] = 0.7843137254902,
 },
 },
 ["castbarDesaturate"] = false,
 ["selection"] = {
 {
-["r"] = 0.7843137254902,
-["g"] = 0.3921568627451,
 ["b"] = 0,
-},
-{
+["g"] = 0.3921568627451,
 ["r"] = 0.7843137254902,
-["g"] = 0.7843137254902,
-["b"] = 0.25098039215686,
 },
 {
-["r"] = 0.25098039215686,
-["g"] = 0.7843137254902,
 ["b"] = 0.25098039215686,
+["g"] = 0.7843137254902,
+["r"] = 0.7843137254902,
+},
+{
+["b"] = 0.25098039215686,
+["g"] = 0.7843137254902,
+["r"] = 0.25098039215686,
 },
 },
 },
+["fadeIn"] = false,
+["clampToScreen"] = true,
 ["visibility"] = {
 ["enemy"] = {
 ["guardians"] = true,
 },
 },
-["cooldown"] = {
-["threshold"] = 5,
-["fonts"] = {
-["enable"] = true,
-["font"] = "ITCAvantGardeGothicDemi",
-["fontSize"] = 20,
-["fontOutline"] = "SHADOWOUTLINE",
+["bossMods"] = {
+["enable"] = false,
 },
-},
-["fadeIn"] = false,
-["smoothbars"] = true,
 },
 ["cooldown"] = {
 ["secondsColor"] = {
@@ -2243,29 +2243,29 @@ ElvDB = {
 },
 ["auras"] = {
 ["debuffs"] = {
-["countFontSize"] = 11,
+["horizontalSpacing"] = 1,
 ["timeYOffset"] = -2,
 ["countFont"] = "ITCAvantGardeGothicDemi",
-["timeFont"] = "ITCAvantGardeGothicDemi",
-["countFontOutline"] = "OUTLINE",
-["timeFontSize"] = 11,
-["sortMethod"] = "NAME",
-["horizontalSpacing"] = 1,
-["verticalSpacing"] = 15,
 ["barTexture"] = "Melli Dark",
+["countFontOutline"] = "OUTLINE",
 ["timeFontOutline"] = "OUTLINE",
+["sortMethod"] = "NAME",
+["countFontSize"] = 11,
+["verticalSpacing"] = 15,
+["timeFont"] = "ITCAvantGardeGothicDemi",
+["timeFontSize"] = 11,
 },
 ["buffs"] = {
-["countFontSize"] = 11,
+["horizontalSpacing"] = 1,
 ["countYOffset"] = 2,
 ["timeYOffset"] = -2,
 ["countFont"] = "ITCAvantGardeGothicDemi",
 ["timeFont"] = "ITCAvantGardeGothicDemi",
 ["countFontOutline"] = "OUTLINE",
-["timeFontSize"] = 11,
-["horizontalSpacing"] = 1,
-["verticalSpacing"] = 15,
 ["timeFontOutline"] = "OUTLINE",
+["countFontSize"] = 11,
+["verticalSpacing"] = 15,
+["timeFontSize"] = 11,
 ["barTexture"] = "Melli Dark",
 },
 ["cooldown"] = {
@@ -2288,22 +2288,6 @@ ElvDB = {
 ["Дракобес"] = 65027,
 ["Топмэн"] = 61551664,
 ["Вольтчара"] = 63548,
-},
-},
-["namespaces"] = {
-["LibDualSpec-1.0"] = {
-},
-},
-["faction"] = {
-["Ревущий фьорд"] = {
-["Бимладен"] = "Alliance",
-["Вантачмэн"] = "Horde",
-},
-["Свежеватель Душ"] = {
-["Мальдика"] = "Horde",
-["Дракобес"] = "Horde",
-["Топмэн"] = "Horde",
-["Вольтчара"] = "Horde",
 },
 },
 ["global"] = {
@@ -2338,7 +2322,6 @@ ElvDB = {
 },
 },
 ["MyDebuffsBL"] = {
-["type"] = "Blacklist",
 ["spells"] = {
 [357610] = {
 ["enable"] = true,
@@ -2351,69 +2334,9 @@ ElvDB = {
 ["stackThreshold"] = 0,
 },
 },
-},
-["MyBuffsWL"] = {
-["type"] = "Whitelist",
-["spells"] = {
-[328737] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[291937] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[193065] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[391171] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[586] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[335161] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[429271] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-},
-},
-["MyBuffsBL"] = {
 ["type"] = "Blacklist",
-["spells"] = {
-[355794] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[225788] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[206150] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-},
 },
 ["MyDebuffsWL"] = {
-["type"] = "Whitelist",
 ["spells"] = {
 [397210] = {
 ["enable"] = true,
@@ -2531,6 +2454,11 @@ ElvDB = {
 ["stackThreshold"] = 0,
 },
 [332836] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[427378] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2775,6 +2703,16 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
+[434655] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[435793] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
 [164648] = {
 ["enable"] = true,
 ["priority"] = 0,
@@ -2785,12 +2723,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[433785] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[27638] = {
+[428161] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2800,27 +2733,12 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[328501] = {
+[227965] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[227473] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[385331] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[328593] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[409492] = {
+[274555] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2835,7 +2753,17 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[419629] = {
+[328593] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[409492] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[385331] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2845,7 +2773,17 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[409558] = {
+[419629] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[347807] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[354334] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2865,7 +2803,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[228241] = {
+[409558] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2885,12 +2823,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[297904] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[229250] = {
+[228013] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2910,12 +2843,17 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
+[433785] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
 [362194] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[413547] = {
+[342961] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2945,6 +2883,11 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
+[257478] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
 [372141] = {
 ["enable"] = true,
 ["priority"] = 0,
@@ -2955,22 +2898,17 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[355832] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
 [328664] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[326242] = {
+[327646] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[323437] = {
+[326242] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2985,7 +2923,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[327882] = {
+[331415] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3010,12 +2948,12 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[412505] = {
+[357281] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[164837] = {
+[395292] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3030,7 +2968,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[373872] = {
+[419351] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3085,7 +3023,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[324652] = {
+[167038] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3095,12 +3033,12 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[333708] = {
+[415436] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[324146] = {
+[324444] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3115,22 +3053,22 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
+[333708] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
 [256106] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[324444] = {
+[324146] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[415436] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[167038] = {
+[324652] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3140,27 +3078,27 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[419351] = {
+[164837] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[395292] = {
+[373872] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[357281] = {
+[327882] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[331415] = {
+[412505] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[327646] = {
+[323437] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3170,7 +3108,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[257478] = {
+[355832] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3190,7 +3128,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[342961] = {
+[413547] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3210,17 +3148,17 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[228013] = {
+[229250] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[354334] = {
+[297904] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[347807] = {
+[228241] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3240,12 +3178,12 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[274555] = {
+[227473] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[227965] = {
+[328501] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3255,41 +3193,147 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[428161] = {
+[27638] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
 },
+["type"] = "Whitelist",
+},
+["MyBuffsWL"] = {
+["spells"] = {
+[328737] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[429271] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[291937] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[391171] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[586] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[335161] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[193065] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+},
+["type"] = "Whitelist",
+},
+["MyBuffsBL"] = {
+["spells"] = {
+[206150] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[355794] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[225788] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+},
+["type"] = "Blacklist",
 },
 },
 ["aurawatch"] = {
-["SHAMAN"] = {
-[974] = {
-["point"] = "TOPRIGHT",
-["yOffset"] = 1,
-["textThreshold"] = 60,
-["sizeOffset"] = 3,
-["style"] = "timerOnly",
-["xOffset"] = -16,
+["PALADIN"] = {
+[1044] = {
+["point"] = "BOTTOM",
+["yOffset"] = -1,
 },
-[383648] = {
-["point"] = "TOPRIGHT",
+[200025] = {
+["xOffset"] = 1,
+["yOffset"] = 1,
+["sizeOffset"] = 4,
 ["color"] = {
-["a"] = 1,
-["b"] = 0.4392157196998596,
-["g"] = 0.8000000715255737,
-["r"] = 0.9098039865493774,
+["b"] = 0,
+["g"] = 0.4784313725490196,
+["r"] = 1,
+},
+},
+[287280] = {
+["sizeOffset"] = 4,
+["point"] = "TOPRIGHT",
+["xOffset"] = 1,
+["color"] = {
+["b"] = 0,
+["g"] = 0.4588235294117647,
+["r"] = 1,
 },
 ["yOffset"] = 1,
-["textThreshold"] = 60,
-["sizeOffset"] = 6,
-["style"] = "timerOnly",
-["xOffset"] = -16,
 },
-[61295] = {
+[6940] = {
+["xOffset"] = 1,
+["yOffset"] = -1,
+["sizeOffset"] = 4,
+},
+[1022] = {
+["point"] = "RIGHT",
+["xOffset"] = 1,
+["enabled"] = false,
+["sizeOffset"] = 4,
+},
+[223306] = {
+["xOffset"] = -1,
+["yOffset"] = -1,
+["sizeOffset"] = 4,
+["color"] = {
+["b"] = 0,
+["g"] = 1,
+["r"] = 1,
+},
+},
+[53563] = {
+["point"] = "TOPLEFT",
+["xOffset"] = -1,
 ["yOffset"] = 1,
-["sizeOffset"] = 6,
+["color"] = {
+["b"] = 0,
+["g"] = 1,
+["r"] = 0,
+},
+},
+[204018] = {
+["point"] = "RIGHT",
+["sizeOffset"] = 4,
+["xOffset"] = 1,
+},
+[156910] = {
+["point"] = "TOPLEFT",
+["xOffset"] = -1,
+["yOffset"] = 1,
+["color"] = {
+["b"] = 0,
+["g"] = 1,
+["r"] = 0,
+},
 },
 },
 ["PRIEST"] = {
@@ -3297,9 +3341,9 @@ ElvDB = {
 ["point"] = "TOPRIGHT",
 ["color"] = {
 ["a"] = 1,
-["r"] = 0,
-["g"] = 1,
 ["b"] = 0,
+["g"] = 1,
+["r"] = 0,
 },
 ["yOffset"] = 1,
 ["sizeOffset"] = 4,
@@ -3322,9 +3366,9 @@ ElvDB = {
 ["point"] = "TOPRIGHT",
 ["color"] = {
 ["a"] = 1,
-["r"] = 1,
-["g"] = 0,
 ["b"] = 1,
+["g"] = 0,
+["r"] = 1,
 },
 ["yOffset"] = 1,
 ["enabled"] = false,
@@ -3342,25 +3386,25 @@ ElvDB = {
 [47788] = {
 ["enabled"] = false,
 },
+[6788] = {
+["point"] = "RIGHT",
+["xOffset"] = 0,
+["sizeOffset"] = 4,
+["color"] = {
+["a"] = 1,
+},
+},
 [41635] = {
 ["point"] = "TOPRIGHT",
 ["color"] = {
 ["a"] = 1,
-["r"] = 1,
-["g"] = 1,
 ["b"] = 0,
+["g"] = 1,
+["r"] = 1,
 },
 ["yOffset"] = 1,
 ["sizeOffset"] = 4,
 ["xOffset"] = 1,
-},
-[6788] = {
-["point"] = "RIGHT",
-["color"] = {
-["a"] = 1,
-},
-["sizeOffset"] = 4,
-["xOffset"] = 0,
 },
 },
 ["DRUID"] = {
@@ -3374,9 +3418,9 @@ ElvDB = {
 ["sizeOffset"] = 6,
 ["color"] = {
 ["a"] = 1,
-["r"] = 0.7843137979507446,
-["g"] = 0.7843137979507446,
 ["b"] = 0.1960784494876862,
+["g"] = 0.7843137979507446,
+["r"] = 0.7843137979507446,
 },
 },
 [157982] = {
@@ -3392,6 +3436,11 @@ ElvDB = {
 ["sizeOffset"] = 4,
 ["xOffset"] = -12,
 },
+[155777] = {
+["xOffset"] = -14,
+["yOffset"] = 7,
+["sizeOffset"] = 6,
+},
 [48438] = {
 ["point"] = "TOPRIGHT",
 ["color"] = {
@@ -3402,14 +3451,6 @@ ElvDB = {
 ["yOffset"] = 1,
 ["sizeOffset"] = 6,
 ["xOffset"] = -29,
-},
-[774] = {
-["color"] = {
-["a"] = 1,
-},
-["yOffset"] = 1,
-["sizeOffset"] = 6,
-["xOffset"] = -14,
 },
 [102351] = {
 ["point"] = "RIGHT",
@@ -3423,30 +3464,6 @@ ElvDB = {
 ["enabled"] = false,
 ["sizeOffset"] = 4,
 },
-[200389] = {
-["xOffset"] = 0,
-["yOffset"] = -1,
-["enabled"] = false,
-["sizeOffset"] = 4,
-},
-[8936] = {
-["point"] = "TOPRIGHT",
-["xOffset"] = -1,
-["yOffset"] = 1,
-["sizeOffset"] = 6,
-},
-[33763] = {
-["point"] = "RIGHT",
-["xOffset"] = -1,
-["yOffset"] = 7,
-["sizeOffset"] = 6,
-["color"] = {
-["a"] = 1,
-["r"] = 0.7843137979507446,
-["g"] = 0.7843137979507446,
-["b"] = 0.1960784494876862,
-},
-},
 [391891] = {
 ["point"] = "BOTTOMLEFT",
 ["yOffset"] = -1,
@@ -3458,10 +3475,37 @@ ElvDB = {
 ["countX"] = 15,
 ["xOffset"] = -1,
 },
-[155777] = {
-["xOffset"] = -14,
+[33763] = {
+["point"] = "RIGHT",
+["xOffset"] = -1,
 ["yOffset"] = 7,
 ["sizeOffset"] = 6,
+["color"] = {
+["a"] = 1,
+["b"] = 0.1960784494876862,
+["g"] = 0.7843137979507446,
+["r"] = 0.7843137979507446,
+},
+},
+[8936] = {
+["point"] = "TOPRIGHT",
+["xOffset"] = -1,
+["yOffset"] = 1,
+["sizeOffset"] = 6,
+},
+[200389] = {
+["xOffset"] = 0,
+["yOffset"] = -1,
+["enabled"] = false,
+["sizeOffset"] = 4,
+},
+[774] = {
+["xOffset"] = -14,
+["yOffset"] = 1,
+["sizeOffset"] = 6,
+["color"] = {
+["a"] = 1,
+},
 },
 },
 ["MONK"] = {
@@ -3487,90 +3531,53 @@ ElvDB = {
 ["yOffset"] = 1,
 ["sizeOffset"] = 4,
 },
-[116841] = {
-["enabled"] = false,
-},
 [124682] = {
 ["point"] = "TOPRIGHT",
 ["xOffset"] = -12,
 ["yOffset"] = 1,
 ["sizeOffset"] = 4,
 },
-},
-["PALADIN"] = {
-[1044] = {
-["point"] = "BOTTOM",
-["yOffset"] = -1,
-},
-[200025] = {
-["color"] = {
-["r"] = 1,
-["g"] = 0.4784313725490196,
-["b"] = 0,
-},
-["yOffset"] = 1,
-["sizeOffset"] = 4,
-["xOffset"] = 1,
-},
-[287280] = {
-["sizeOffset"] = 4,
-["point"] = "TOPRIGHT",
-["xOffset"] = 1,
-["color"] = {
-["r"] = 1,
-["g"] = 0.4588235294117647,
-["b"] = 0,
-},
-["yOffset"] = 1,
-},
-[6940] = {
-["xOffset"] = 1,
-["yOffset"] = -1,
-["sizeOffset"] = 4,
-},
-[156910] = {
-["point"] = "TOPLEFT",
-["color"] = {
-["r"] = 0,
-["g"] = 1,
-["b"] = 0,
-},
-["yOffset"] = 1,
-["xOffset"] = -1,
-},
-[223306] = {
-["color"] = {
-["r"] = 1,
-["g"] = 1,
-["b"] = 0,
-},
-["yOffset"] = -1,
-["sizeOffset"] = 4,
-["xOffset"] = -1,
-},
-[53563] = {
-["point"] = "TOPLEFT",
-["color"] = {
-["r"] = 0,
-["g"] = 1,
-["b"] = 0,
-},
-["yOffset"] = 1,
-["xOffset"] = -1,
-},
-[204018] = {
-["point"] = "RIGHT",
-["sizeOffset"] = 4,
-["xOffset"] = 1,
-},
-[1022] = {
-["point"] = "RIGHT",
-["xOffset"] = 1,
+[116841] = {
 ["enabled"] = false,
-["sizeOffset"] = 4,
+},
+},
+["SHAMAN"] = {
+[974] = {
+["point"] = "TOPRIGHT",
+["yOffset"] = 1,
+["textThreshold"] = 60,
+["sizeOffset"] = 3,
+["style"] = "timerOnly",
+["xOffset"] = -16,
+},
+[383648] = {
+["point"] = "TOPRIGHT",
+["xOffset"] = -16,
+["yOffset"] = 1,
+["textThreshold"] = 60,
+["sizeOffset"] = 6,
+["style"] = "timerOnly",
+["color"] = {
+["a"] = 1,
+["r"] = 0.9098039865493774,
+["g"] = 0.8000000715255737,
+["b"] = 0.4392157196998596,
+},
+},
+[61295] = {
+["yOffset"] = 1,
+["sizeOffset"] = 6,
 },
 },
 },
+},
+["general"] = {
+["AceGUI"] = {
+["height"] = 900.57,
+["width"] = 1031.62,
+},
+["mapAlphaWhenMoving"] = 0.7000000000000001,
+["UIScale"] = 0.7000000000000001,
 },
 ["datatexts"] = {
 ["settings"] = {
@@ -3694,27 +3701,38 @@ true,
 },
 },
 },
-["general"] = {
-["AceGUI"] = {
-["height"] = 900.57,
-["width"] = 1031.62,
 },
-["mapAlphaWhenMoving"] = 0.7000000000000001,
-["UIScale"] = 0.7000000000000001,
+["faction"] = {
+["Ревущий фьорд"] = {
+["Бимладен"] = "Alliance",
+["Вантачмэн"] = "Horde",
+},
+["Свежеватель Душ"] = {
+["Мальдика"] = "Horde",
+["Дракобес"] = "Horde",
+["Топмэн"] = "Horde",
+["Вольтчара"] = "Horde",
+},
+},
+["namespaces"] = {
+["LibDualSpec-1.0"] = {
 },
 },
 }
 ElvPrivateDB = {
 ["profileKeys"] = {
-["Топмэн - Свежеватель Душ"] = "Топмэн - Свежеватель Душ",
-["Мальдика - Свежеватель Душ"] = "Мальдика - Свежеватель Душ",
 ["Вантачмэн - Ревущий фьорд"] = "Вантачмэн - Ревущий фьорд",
+["Мальдика - Свежеватель Душ"] = "Мальдика - Свежеватель Душ",
+["Топмэн - Свежеватель Душ"] = "Топмэн - Свежеватель Душ",
 ["Дракобес - Свежеватель Душ"] = "Дракобес - Свежеватель Душ",
 ["Бимладен - Ревущий фьорд"] = "Бимладен - Ревущий фьорд",
 ["Вольтчара - Свежеватель Душ"] = "Вольтчара - Свежеватель Душ",
 },
 ["profiles"] = {
-["Топмэн - Свежеватель Душ"] = {
+["Вантачмэн - Ревущий фьорд"] = {
+["nameplates"] = {
+["enable"] = false,
+},
 ["install_complete"] = 13.75,
 },
 ["Мальдика - Свежеватель Душ"] = {
@@ -3723,10 +3741,7 @@ ElvPrivateDB = {
 },
 ["install_complete"] = 13.75,
 },
-["Вантачмэн - Ревущий фьорд"] = {
-["nameplates"] = {
-["enable"] = false,
-},
+["Топмэн - Свежеватель Душ"] = {
 ["install_complete"] = 13.75,
 },
 ["Дракобес - Свежеватель Душ"] = {

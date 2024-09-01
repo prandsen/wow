@@ -17,7 +17,20 @@ function (self, unitId, unitFrame, envTable, modTable)
         --======== The War Within =========
 
         -- The Dawnbreaker
-        
+        [210966] = priorityTarget,
+        [211089] = important,
+        [211261] = important,
+        [211262] = important,
+        [211263] = important,
+        [211341] = priorityTarget,
+        [213892] = casters,
+        [213893] = casters,
+        [213934] = priorityTarget,
+        [214761] = priorityTarget,
+        [214762] = priorityTarget,
+        [223994] = casters,
+        [225605] = casters,
+
         -- Ara-Kara, City of Echoes
         [214840] = priorityTarget,
         [215407] = priorityTarget,

@@ -902,6 +902,11 @@
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
                     },
+                    [427378] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
                     [428161] = {
                         ["enable"] = true,
                         ["priority"] = 0,
@@ -912,12 +917,37 @@
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
                     },
+                    [433785] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [433841] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [434655] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [435793] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
                     [436652] = {
                         ["enable"] = true,
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
                     },
                     [436841] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [439832] = {
                         ["enable"] = true,
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
