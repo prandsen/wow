@@ -101,8 +101,19 @@ function (self, unitId, unitFrame, envTable, modTable)
         [138465] = priorityTarget,
 
         -- Grim Batol
-
-
+        [39388] = neutral,
+        [39450] = neutral,
+        [40166] = priorityTarget,
+        [40167] = casters,
+        [40177] = priorityTarget,
+        [40319] = priorityTarget,
+        [40320] = priorityTarget,
+        [224219] = casters,
+        [224221] = priorityTarget,
+        [224249] = priorityTarget,
+        [224271] = casters,
+        [224609] = priorityTarget,
+        [224853] = neutral,
 
         --======== Dragonflight =========
         
