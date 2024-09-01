@@ -21,6 +21,16 @@ function (self, unitId, unitFrame, envTable, modTable)
         -- Ara-Kara, City of Echoes
 
         -- City of Threads
+        [210196] = casters,
+        [210197] = priorityTarget,
+        [216326] = casters,
+        [216328] = priorityTarget,
+        [216339] = casters,
+        [216658] = priorityTarget,
+        [219198] = neutral,
+        [220195] = casters,
+        [223844] = casters,
+        [224732] = casters,
 
         -- The Stonevault
         [210109] = priorityTarget,
