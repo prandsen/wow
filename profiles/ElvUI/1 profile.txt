@@ -27,7 +27,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "show;[petbattle] hide; [vehicleui][overridebar][possessbar] show; hide",
+            ["visibility"] = "[petbattle] hide; [vehicleui][overridebar][possessbar] show; hide",
         },
         ["bar10"] = {
             ["countFont"] = "ITCAvantGardeGothicDemi",
@@ -72,7 +72,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "",
+            ["visibility"] = "hide",
         },
         ["bar3"] = {
             ["buttons"] = 12,
@@ -88,7 +88,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "",
+            ["visibility"] = "hide",
         },
         ["bar4"] = {
             ["backdrop"] = false,
@@ -105,7 +105,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "",
+            ["visibility"] = "hide",
         },
         ["bar5"] = {
             ["buttons"] = 12,
@@ -121,7 +121,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "",
+            ["visibility"] = "hide",
         },
         ["bar6"] = {
             ["buttonSize"] = 34,
@@ -347,6 +347,7 @@
     },
     ["datatexts"] = {
         ["font"] = "ITCAvantGardeGothicDemi",
+        ["fontOutline"] = "OUTLINE",
         ["fontSize"] = 11,
         ["noCombatHover"] = true,
         ["panels"] = {
@@ -454,7 +455,6 @@
             ["questtext"] = {
                 ["enable"] = true,
                 ["font"] = "ITCAvantGardeGothicDemi",
-                ["size"] = 12,
             },
             ["questtitle"] = {
                 ["enable"] = true,
@@ -1584,8 +1584,8 @@
                 },
                 ["raidicon"] = {
                     ["attachTo"] = "BOTTOMLEFT",
-                    ["xOffset"] = 2,
-                    ["yOffset"] = 10,
+                    ["size"] = 13,
+                    ["yOffset"] = 6,
                 },
                 ["rdebuffs"] = {
                     ["duration"] = {
@@ -1615,8 +1615,8 @@
                 },
                 ["roleIcon"] = {
                     ["position"] = "TOPLEFT",
-                    ["xOffset"] = 2,
-                    ["yOffset"] = -5,
+                    ["xOffset"] = 0,
+                    ["yOffset"] = -6,
                 },
                 ["summonIcon"] = {
                     ["attachTo"] = "RIGHT",

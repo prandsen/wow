@@ -1,0 +1,65 @@
+VER 3 010000000000002A "1" "523893"
+/cast [@focus,exists,harm,nodead][@target,exists,harm,nodead] Укор
+END
+VER 3 0100000000000038 "2" "134400"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,nodead] Божественная призма
+END
+VER 3 0100000000000012 "3" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,exists,help,nodead][@target,exists,help,nodead] Жертвенное благословение
+/stopmacro [@mouseover,exists,help,nodead]
+/cast [@target,exists,harm,nodead] Длань расплаты
+END
+VER 3 010000000000000A "4" "SPELL_HOLY_SEALOFPROTECTION"
+/stopcasting
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Благословение защиты
+END
+VER 3 0100000000000031 "C" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,help,nodead][@target,exists,help,nodead] Свет мученика
+/cast [@target,exists,harm,nodead] Молот гнева
+END
+VER 3 010000000000002C "E" "134400"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Торжество
+/stopmacro [@mouseover,exists,help,nodead]
+END
+VER 3 0100000000000039 "M4" "134400"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Благословение весны
+END
+VER 3 0100000000000036 "MwU" "134400"
+/stopcasting
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Заступничество
+END
+VER 3 0100000000000030 "Q" "135907"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Вспышка света
+/stopmacro [@mouseover,exists,help,nodead]
+/cast [@target,exists,harm,nodead] Удар воина света
+END
+VER 3 0100000000000006 "R" "SPELL_HOLY_SEARINGLIGHT"
+/cast [mod:alt,@player][@mouseover,exists,nodead][@target,exists,nodead] Шок небес
+END
+VER 3 0100000000000008 "ShE" "SPELL_HOLY_SURGEOFLIGHT"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Свет небес
+/stopmacro [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead]
+/cast [@target,exists,harm,nodead] Щит праведника
+END
+VER 3 010000000000001C "ShF" "SPELL_HOLY_DIVINESHIELD"
+/stopcasting
+/cast Божественный щит
+END
+VER 3 0100000000000002 "ShM5" "135928"
+/stopcasting
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Возложение рук
+END
+VER 3 010000000000000E "ShMwD" "135949"
+/stopcasting
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Очищение
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Очищение от токсинов
+END
+VER 3 010000000000000C "ShMwU" "135968"
+/stopcasting
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Благословенная свобода
+END
+VER 3 0100000000000037 "ShR" "134400"
+/cast [mod:alt,@player] Частица добродетели
+/cast Свет зари
+END

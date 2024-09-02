@@ -1,0 +1,47 @@
+VER 3 0100000000000001 "1" "136018"
+/stopcasting
+/cast [@focus,exists,harm,nodead][@target,exists,harm,nodead] Пронизывающий ветер
+END
+VER 3 0100000000000015 "3" "134400"
+/cast [@mouseover,exists,help,nodead][@target,exists,nodead][] Щит земли
+END
+VER 3 010000000000000A "CtrlZ" "132315"
+/castsequence reset=5 Водный щит, Щит молний, Небесная ярость
+END
+VER 3 0100000000000003 "E" "136015"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Волна исцеления
+/cast [@target,exists,harm,nodead] Цепная молния
+END
+VER 3 0100000000000002 "Q" "136048"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Исцеляющий всплеск
+/cast [@target,exists,harm,nodead] Молния
+END
+VER 3 0100000000000004 "R" "237582"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Быстрина
+/cast [@target,exists,harm,nodead] Выброс лавы
+END
+VER 3 0100000000000017 "Sh2" "134400"
+/cast Наставления предков
+/cast Тотем целительного прилива
+END
+VER 3 010000000000000C "ShC" "134400"
+/cast [@cursor] Целительный ливень
+/cast [@cursor] Землетрясение
+END
+VER 3 010000000000000B "ShG" "3578231"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Первозданная волна
+END
+VER 3 0100000000000005 "ShR" "135813"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Цепное исцеление
+/cast [@target,exists,harm,nodead] Огненный шок
+END
+VER 3 0100000000000007 "SMwD" "236288"
+/stopcasting
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Возрождение духа
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Очищение духа
+END
+VER 3 0100000000000008 "SMwU" "136075"
+/stopcasting
+/cast [@mouseover,exists,harm,nodead][@target,exists,harm,nodead] Развеивание магии
+/cast [@mouseover,exists,harm,nodead][@target,exists,harm,nodead] Великое очищение
+END

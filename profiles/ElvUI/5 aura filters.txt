@@ -917,6 +917,11 @@
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
                     },
+                    [433662] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
                     [433785] = {
                         ["enable"] = true,
                         ["priority"] = 0,
@@ -1109,14 +1114,16 @@
                 [1022] = {
                     ["enabled"] = false,
                     ["point"] = "RIGHT",
-                    ["sizeOffset"] = 4,
+                    ["sizeOffset"] = 6,
                     ["xOffset"] = 1,
                 },
                 [1044] = {
                     ["point"] = "BOTTOM",
+                    ["sizeOffset"] = 6,
                     ["yOffset"] = -1,
                 },
                 [6940] = {
+                    ["enabled"] = false,
                     ["sizeOffset"] = 4,
                     ["xOffset"] = 1,
                     ["yOffset"] = -1,
@@ -1128,7 +1135,17 @@
                         ["r"] = 0,
                     },
                     ["point"] = "TOPLEFT",
-                    ["xOffset"] = -1,
+                    ["sizeOffset"] = 6,
+                    ["yOffset"] = 1,
+                },
+                [148039] = {
+                    ["sizeOffset"] = 6,
+                },
+                [156322] = {
+                    ["enabled"] = false,
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = -15,
                     ["yOffset"] = 1,
                 },
                 [156910] = {
@@ -1138,8 +1155,12 @@
                         ["r"] = 0,
                     },
                     ["point"] = "TOPLEFT",
-                    ["xOffset"] = -1,
+                    ["sizeOffset"] = 6,
                     ["yOffset"] = 1,
+                },
+                [157047] = {
+                    ["enabled"] = false,
+                    ["sizeOffset"] = 6,
                 },
                 [200025] = {
                     ["color"] = {
@@ -1147,13 +1168,13 @@
                         ["g"] = 0.47843137254902,
                         ["r"] = 1,
                     },
-                    ["sizeOffset"] = 4,
-                    ["xOffset"] = 1,
+                    ["sizeOffset"] = 6,
                     ["yOffset"] = 1,
                 },
                 [204018] = {
+                    ["enabled"] = false,
                     ["point"] = "RIGHT",
-                    ["sizeOffset"] = 4,
+                    ["sizeOffset"] = 6,
                     ["xOffset"] = 1,
                 },
                 [223306] = {
@@ -1162,7 +1183,8 @@
                         ["g"] = 1,
                         ["r"] = 1,
                     },
-                    ["sizeOffset"] = 4,
+                    ["enabled"] = false,
+                    ["sizeOffset"] = 6,
                     ["xOffset"] = -1,
                     ["yOffset"] = -1,
                 },
@@ -1176,6 +1198,13 @@
                     ["sizeOffset"] = 4,
                     ["xOffset"] = 1,
                     ["yOffset"] = 1,
+                },
+                [395180] = {
+                    ["sizeOffset"] = 6,
+                },
+                [431381] = {
+                    ["enabled"] = false,
+                    ["sizeOffset"] = 6,
                 },
             },
             ["PRIEST"] = {

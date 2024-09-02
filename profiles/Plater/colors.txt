@@ -32,6 +32,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [225605] = casters,
 
         -- Ara-Kara, City of Echoes
+        [213179] = priorityTarget,
         [214840] = priorityTarget,
         [215407] = priorityTarget,
         [216293] = casters,
@@ -52,12 +53,19 @@ function (self, unitId, unitFrame, envTable, modTable)
         [216339] = casters,
         [216658] = priorityTarget,
         [219198] = neutral,
+        [219984] = casters,
         [220195] = casters,
+        [220196] = priorityTarget,
+        [220197] = priorityTarget,
+        [220423] = priorityTarget,
+        [220730] = priorityTarget,
+        [221102] = casters,
         [223844] = casters,
         [224732] = casters,
 
         -- The Stonevault
         [210109] = priorityTarget,
+        [210156] = priorityTarget,
         [212389] = casters,
         [212403] = casters,
         [212453] = important,
