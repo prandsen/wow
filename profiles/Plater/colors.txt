@@ -30,6 +30,8 @@ function (self, unitId, unitFrame, envTable, modTable)
         [214762] = priorityTarget,
         [223994] = casters,
         [225605] = casters,
+        [228539] = casters,
+        [228540] = casters,
 
         -- Ara-Kara, City of Echoes
         [213179] = priorityTarget,
