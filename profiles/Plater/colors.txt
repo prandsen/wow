@@ -44,6 +44,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [217533] = important,
         [218324] = important,
         [223253] = casters,
+        [228015] = priorityTarget,
 
         -- City of Threads
         [210196] = casters,

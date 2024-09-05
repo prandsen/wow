@@ -1,0 +1,41 @@
+VER 3 010000000000000A "1" "134400"
+/cast [@focus,exists,harm,nodead][@target,exists,harm,nodead] Подавление
+END
+VER 3 0100000000000008 "3" "4622478"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Растяжение времени
+END
+VER 3 010000000000000D "4" "4630447"
+/stopmacro [channeling]
+/cast Изумрудные грезы
+END
+VER 3 0100000000000007 "C" "133266"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead] Призрачный цветок
+/stopmacro [mod:alt,@player][@mouseover,exists,help,nodead]
+/cast Огненное дыхание
+END
+VER 3 0100000000000005 "E" "134400"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Инверсия
+/cast [@target,exists,harm,nodead] Лазурный удар
+END
+VER 3 010000000000000B "MwU" "4630446"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead][@player] Прижигающее пламя
+END
+VER 3 0100000000000003 "Q" "4622464"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,nodead] Живой жар
+END
+VER 3 0100000000000009 "R" "4622456"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Отголосок
+/cast [@target,exists,harm,nodead] Дезинтеграция
+END
+VER 3 0100000000000002 "ShE" "4622471"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Живительные объятия
+END
+VER 3 0100000000000004 "ShMwD" "4630445"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Натурализация
+END
+VER 3 0100000000000006 "ShV" "4622457"
+/cast [mod:alt,@player][@targettarget,exists,help,nodead][@player] Изумрудный цветок
+END
+VER 3 010000000000000C "Z" "4622446"
+/cast [@mouseover,exists,nodead][@target,exists,help,nodead] Спасение
+END
