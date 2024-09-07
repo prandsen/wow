@@ -27,7 +27,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "[petbattle] hide; [vehicleui][overridebar][possessbar] show; hide",
+            ["visibility"] = "show;[petbattle] hide; [vehicleui][overridebar][possessbar] show; hide",
         },
         ["bar10"] = {
             ["countFont"] = "ITCAvantGardeGothicDemi",
@@ -72,7 +72,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "hide",
+            ["visibility"] = "",
         },
         ["bar3"] = {
             ["buttons"] = 12,
@@ -88,7 +88,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "hide",
+            ["visibility"] = "",
         },
         ["bar4"] = {
             ["backdrop"] = false,
@@ -105,7 +105,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "hide",
+            ["visibility"] = "",
         },
         ["bar5"] = {
             ["buttons"] = 12,
@@ -259,7 +259,6 @@
             ["font"] = "ITCAvantGardeGothicDemi",
         },
         ["bagSize"] = 35,
-        ["bagWidth"] = 455,
         ["bankSize"] = 37,
         ["bankWidth"] = 700,
         ["clearSearchOnClose"] = true,
@@ -455,6 +454,7 @@
             ["questtext"] = {
                 ["enable"] = true,
                 ["font"] = "ITCAvantGardeGothicDemi",
+                ["size"] = 12,
             },
             ["questtitle"] = {
                 ["enable"] = true,
@@ -572,7 +572,7 @@
         ["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,295,213",
         ["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,295,248",
         ["ElvUF_TargetTargetMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-455,248",
-        ["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-1,263",
+        ["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,370",
         ["ElvUIBankMover"] = "TOP,ElvUIParent,TOP,-243,-200",
         ["ExperienceBarMover"] = "TOP,ElvUIParent,TOP,0,-1",
         ["GMMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-1,-239",
