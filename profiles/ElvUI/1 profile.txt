@@ -459,7 +459,7 @@
             ["questtitle"] = {
                 ["enable"] = true,
                 ["font"] = "ITCAvantGardeGothicDemi",
-                ["size"] = 14,
+                ["size"] = 12,
             },
             ["talkingtext"] = {
                 ["font"] = "ITCAvantGardeGothicDemi",
@@ -596,9 +596,9 @@
         ["TalkingHeadFrameMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-248,103",
         ["TargetPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,295,247",
         ["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,338",
-        ["TopCenterContainerMover"] = "BOTTOM,UIParent,BOTTOM,0,4",
+        ["TopCenterContainerMover"] = "TOP,ElvUIParent,TOP,0,-31",
         ["TotemBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,204,4",
-        ["TotemTrackerMover"] = "BOTTOM,ElvUIParent,BOTTOM,138,283",
+        ["TotemTrackerMover"] = "BOTTOM,ElvUIParent,BOTTOM,138,284",
         ["VOICECHAT"] = "TOPLEFT,UIParent,TOPLEFT,4,-183",
         ["VehicleLeaveButton"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-144,-202",
         ["VehicleSeatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,451,1",
@@ -1558,7 +1558,7 @@
                     ["position"] = "TOPLEFT",
                     ["text_format"] = "[name:short]",
                     ["xOffset"] = 12,
-                    ["yOffset"] = 6,
+                    ["yOffset"] = 8,
                 },
                 ["orientation"] = "MIDDLE",
                 ["petsGroup"] = {
