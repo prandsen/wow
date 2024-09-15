@@ -173,7 +173,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [217489] = priorityTarget,
         [217491] = casters,
         [218306] = priorityTarget,
-        [218320] = neutral,
+        [218320] = casters,
         [218370] = priorityTarget,
         [218447] = neutral,
         [218884] = neutral,
@@ -186,6 +186,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [221669] = neutral,
         [221945] = priorityTarget,
         [222038] = priorityTarget,
+        [222145] = priorityTarget,
         [222167] = casters,
         [222193] = casters,
         [222305] = priorityTarget,
@@ -195,6 +196,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [222368] = casters,
         [223150] = casters,
         [223372] = priorityTarget,
+        [229399] = priorityTarget,
         [229918] = priorityTarget,
 
         --======== Dragonflight =========
