@@ -141,6 +141,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [128969] = important,
         [129208] = priorityTarget,
         [129365] = casters,
+        [129367] = casters,
         [129369] = priorityTarget,
         [129370] = casters,
         [129374] = priorityTarget,
@@ -150,6 +151,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [137614] = priorityTarget,
         [138255] = important,
         [138465] = priorityTarget,
+        [144071] = casters,
 
         -- Grim Batol
         [39388] = neutral,

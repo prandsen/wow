@@ -1,44 +1,41 @@
 function (modTable)
     
     local customSpells = {
-        -- Brackenhide Hollow
-        [367500] = true,
-        --[367503] = true,
-        --[385029] = true,
+
+        --======== The War Within =========
+        -- Stonevault
+        [449455] = true,
+
+        --======== Dragonflight =========
+
+        ---- Brackenhide Hollow
+        --[367500] = true,
         
-        -- Halls of Infusion
-        [374045] = true,
-        [395694] = true,
+        ---- Halls of Infusion
+        --[374045] = true,
+        --[395694] = true,
         
-        -- Neltharus
-        [378282] = true,
-        --[378818] = true,
+        ---- Neltharus
+        --[378282] = true,
         
-        -- Uldaman: Legacy of Tyr
-        --[369365] = true,
-        --[369411] = true,
-        [369675] = true,
+        ---- Uldaman: Legacy of Tyr
+        --[369675] = true,
         
-        -- The Nokhud Offensive
-        [373395] = true,
-        --[383823] = true,
-        [384365] = true,
-        --[386024] = true,
-        [436841] = true,
+        ---- The Nokhud Offensive
+        --[373395] = true,
+        --[384365] = true,
+        --[436841] = true,
         
-        -- Algeth'ar Academy
-        --[388863] = true,
-        [396812] = true,
+        ---- Algeth'ar Academy
+        --[396812] = true,
         
-        -- The Azure Vaults
-        [377488] = true,
-        --[387564] = true,
+        ---- The Azure Vaults
+        --[377488] = true,
         
-        -- Ruby Life Pools
-        [372735] = true,
-        --[372743] = true,
-        [385536] = true,
-        [392451] = true,
+        ---- Ruby Life Pools
+        --[372735] = true,
+        --[385536] = true,
+        --[392451] = true,
     }
     
     local castingUnits = {}
