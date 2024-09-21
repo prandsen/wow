@@ -1,8 +1,266 @@
 
 WarpDepleteDB = {
+["char"] = {
+["Бимладен - Ревущий фьорд"] = {
+["timings"] = {
+[670] = {
+[5] = {
+[148] = {
+["best"] = {
+403.670999999973,
+629.7939999999944,
+1164.812999999966,
+1507.815000000061,
+},
+["last"] = {
+403.670999999973,
+629.7939999999944,
+1164.812999999966,
+1507.815000000061,
+},
+},
+},
+},
+[2652] = {
+[6] = {
+[148] = {
+["best"] = {
+326.1760000000941,
+698.5260000000708,
+1930.820999999996,
+2452.302000000025,
+},
+["last"] = {
+326.1760000000941,
+698.5260000000708,
+1930.820999999996,
+2452.302000000025,
+},
+},
+},
+},
+[1822] = {
+[7] = {
+[148] = {
+["best"] = {
+734.4889999999432,
+1371.446999999927,
+2422.076999999932,
+2746.598999999929,
+},
+["last"] = {
+734.4889999999432,
+1371.446999999927,
+2422.076999999932,
+2746.598999999929,
+},
+},
+},
+[5] = {
+[148] = {
+["best"] = {
+435.9270000000252,
+759.484000000055,
+1243.212999999989,
+1497.144000000088,
+},
+["last"] = {
+435.9270000000252,
+759.484000000055,
+1243.212999999989,
+1497.144000000088,
+},
+},
+},
+},
+[2290] = {
+[5] = {
+[148] = {
+["best"] = {
+318.2010000000009,
+834.6390000000829,
+1198.16100000008,
+},
+["last"] = {
+318.2010000000009,
+834.6390000000829,
+1198.16100000008,
+},
+},
+},
+[6] = {
+[148] = {
+["best"] = {
+291.0159999999451,
+1144.515000000014,
+1647.035999999964,
+},
+["last"] = {
+291.0159999999451,
+1144.515000000014,
+1647.035999999964,
+},
+},
+},
+[7] = {
+[148] = {
+["best"] = {
+821,
+},
+["last"] = {
+821,
+},
+},
+},
+[8] = {
+[148] = {
+["best"] = {
+364.6660000000848,
+1062.779000000097,
+1618.55700000003,
+},
+["last"] = {
+364.6660000000848,
+1062.779000000097,
+1618.55700000003,
+},
+},
+},
+},
+[2662] = {
+[6] = {
+[148] = {
+["best"] = {
+632.9399999999441,
+1286.177999999956,
+1726.228999999934,
+},
+["last"] = {
+632.9399999999441,
+1286.177999999956,
+1726.228999999934,
+},
+},
+},
+[7] = {
+[148] = {
+["best"] = {
+410.2560000000522,
+1105.704000000027,
+2104.967000000062,
+},
+["last"] = {
+410.2560000000522,
+1105.704000000027,
+2104.967000000062,
+},
+},
+},
+},
+[2669] = {
+[7] = {
+[148] = {
+["best"] = {
+},
+["last"] = {
+},
+},
+},
+[6] = {
+[148] = {
+["best"] = {
+289.6049999999814,
+830.689000000013,
+1475.236000000034,
+1756.187000000035,
+},
+["last"] = {
+289.6049999999814,
+830.689000000013,
+1475.236000000034,
+1756.187000000035,
+},
+},
+},
+},
+[2286] = {
+[7] = {
+[148] = {
+["best"] = {
+241.6110000000335,
+},
+["last"] = {
+241.6110000000335,
+},
+},
+},
+[6] = {
+[148] = {
+["best"] = {
+},
+["last"] = {
+},
+},
+},
+},
+[2660] = {
+[6] = {
+[148] = {
+["best"] = {
+645.3420000000624,
+1056.332000000053,
+1441.462999999989,
+},
+["last"] = {
+645.3420000000624,
+1056.332000000053,
+1441.462999999989,
+},
+},
+},
+[7] = {
+[148] = {
+["best"] = {
+373.4170000000158,
+797.9880000000121,
+1166.173000000068,
+},
+["last"] = {
+700.222000000067,
+1471.480000000098,
+1956.092999999994,
+},
+},
+},
+[9] = {
+[148] = {
+["best"] = {
+522.0590000000084,
+969.2389999999432,
+1900.844000000041,
+},
+["last"] = {
+522.0590000000084,
+969.2389999999432,
+1900.844000000041,
+},
+},
+},
+},
+},
+},
+},
 ["profileKeys"] = {
-["Бимладен - Ревущий фьорд"] = "All classes",
+["Мальдика - Свежеватель Душ"] = "Default",
 ["Вантачмэн - Ревущий фьорд"] = "Default",
+["Дракобес - Свежеватель Душ"] = "Default",
+["Сэйвмэн - Свежеватель Душ"] = "Default",
+["Вольтчара - Свежеватель Душ"] = "Default",
+["Алианкано - Свежеватель Душ"] = "Default",
+["Топмэн - Свежеватель Душ"] = "Default",
+["Сорчистино - Свежеватель Душ"] = "Default",
+["Бимладен - Ревущий фьорд"] = "All classes",
+["Прециза - Свежеватель Душ"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -11,50 +269,51 @@ WarpDepleteDB = {
 },
 ["All classes"] = {
 ["keyFontSize"] = 18,
-["bar2Font"] = "ITCAvantGardeGothicDemi",
+["barHeight"] = 8,
 ["timerSuccessColor"] = "ffde8000",
-["bar2FontSize"] = 14,
-["deathsFontSize"] = 14,
+["timerFontSize"] = 25,
 ["bar1TextureColor"] = "ffdd7f00",
 ["forcesTexture"] = "Melli",
 ["barPadding"] = 3,
 ["forcesFormat"] = ":custom:",
 ["showForcesGlow"] = false,
-["verticalOffset"] = 0,
-["frameX"] = 17.33346176147461,
-["completedObjectivesColor"] = "ffffffff",
+["verticalOffset"] = 3,
+["frameX"] = 18.09510612487793,
+["completedObjectivesColor"] = "ff00ff25",
 ["currentPullFormat"] = ":custom:",
 ["keyDetailsFontSize"] = 13,
 ["timerFont"] = "ITCAvantGardeGothicDemi",
-["bar3Font"] = "ITCAvantGardeGothicDemi",
-["bar1Texture"] = "Melli",
+["bar3FontSize"] = 14,
+["keyDetailsColor"] = "ff0070b2",
 ["bar3TextureColor"] = "ffdc7e00",
 ["objectivesFont"] = "ITCAvantGardeGothicDemi",
-["bar2TextureColor"] = "ffdd7f00",
+["bar1Texture"] = "Melli",
 ["bar2Texture"] = "Melli",
 ["keyDetailsFont"] = "ITCAvantGardeGothicDemi",
-["alignBossClear"] = "end",
+["keyFont"] = "ITCAvantGardeGothicDemi",
 ["deathsFont"] = "ITCAvantGardeGothicDemi",
-["forcesOverlayTexture"] = "Melli",
+["frameY"] = 193.5238342285156,
+["completedForcesColor"] = "ff00ff25",
+["alignBossClear"] = "end",
 ["bar1FontSize"] = 14,
 ["objectivesFontSize"] = 14,
-["barHeight"] = 8,
-["frameY"] = 208.7618255615234,
+["bar2Font"] = "ITCAvantGardeGothicDemi",
+["forcesOverlayTexture"] = "Melli",
 ["bar3Texture"] = "Melli",
-["timerFontSize"] = 28,
+["bar2FontSize"] = 14,
 ["bar1Font"] = "ITCAvantGardeGothicDemi",
-["forcesOverlayTextureColor"] = "ffffffff",
+["bar2TextureColor"] = "ffdd7f00",
+["deathsFontSize"] = 14,
 ["tooltipCountFormat"] = "+:percent:",
-["deathsColor"] = "ffffffff",
-["keyDetailsColor"] = "ff0070b2",
+["deathsColor"] = "ffc94141",
 ["forcesTextureColor"] = "ff0094eb",
+["bar3Font"] = "ITCAvantGardeGothicDemi",
 ["forcesFont"] = "ITCAvantGardeGothicDemi",
-["objectivesOffset"] = 0,
 ["forcesFontSize"] = 13,
 ["customCurrentPullFormat"] = "+:percent: || :percentafterpull: ||",
+["objectivesOffset"] = 3,
+["forcesOverlayTextureColor"] = "ffffffff",
 ["barWidth"] = 280,
-["bar3FontSize"] = 14,
-["keyFont"] = "ITCAvantGardeGothicDemi",
 },
 },
 }
