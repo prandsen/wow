@@ -282,7 +282,17 @@
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
                     },
+                    [256709] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
                     [257478] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [268230] = {
                         ["enable"] = true,
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
@@ -383,6 +393,11 @@
                         ["stackThreshold"] = 0,
                     },
                     [320200] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [320596] = {
                         ["enable"] = true,
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
@@ -967,6 +982,41 @@
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
                     },
+                    [450087] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [454439] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [454440] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [463182] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [463210] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [463217] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [463257] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
                 },
                 ["type"] = "Whitelist",
             },
@@ -1003,13 +1053,12 @@
                 [33763] = {
                     ["color"] = {
                         ["a"] = 1,
-                        ["b"] = 0.19607844948769,
-                        ["g"] = 0.78431379795074,
+                        ["b"] = 0.15686275064945,
+                        ["g"] = 0.15686275064945,
                         ["r"] = 0.78431379795074,
                     },
                     ["point"] = "RIGHT",
                     ["sizeOffset"] = 6,
-                    ["xOffset"] = -1,
                     ["yOffset"] = 7,
                 },
                 [48438] = {
@@ -1036,9 +1085,9 @@
                     ["xOffset"] = 1,
                 },
                 [155777] = {
+                    ["point"] = "TOPRIGHT",
                     ["sizeOffset"] = 6,
-                    ["xOffset"] = -14,
-                    ["yOffset"] = 7,
+                    ["yOffset"] = 1,
                 },
                 [157982] = {
                     ["enabled"] = false,
@@ -1046,13 +1095,12 @@
                 [188550] = {
                     ["color"] = {
                         ["a"] = 1,
-                        ["b"] = 0.19607844948769,
-                        ["g"] = 0.78431379795074,
+                        ["b"] = 0.2549019753933,
+                        ["g"] = 0,
                         ["r"] = 0.78431379795074,
                     },
                     ["point"] = "RIGHT",
                     ["sizeOffset"] = 6,
-                    ["xOffset"] = -1,
                     ["yOffset"] = 7,
                 },
                 [200389] = {
@@ -1356,7 +1404,7 @@
                     ["point"] = "TOPRIGHT",
                     ["sizeOffset"] = 3,
                     ["style"] = "timerOnly",
-                    ["textThreshold"] = 60,
+                    ["textThreshold"] = 0,
                     ["xOffset"] = -16,
                     ["yOffset"] = -1,
                 },
@@ -1374,7 +1422,7 @@
                     ["point"] = "TOPRIGHT",
                     ["sizeOffset"] = 6,
                     ["style"] = "timerOnly",
-                    ["textThreshold"] = 60,
+                    ["textThreshold"] = 0,
                     ["xOffset"] = -16,
                     ["yOffset"] = -1,
                 },

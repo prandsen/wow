@@ -27,7 +27,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "show;[petbattle] hide; [vehicleui][overridebar][possessbar] show; hide",
+            ["visibility"] = "[petbattle] hide; [vehicleui][overridebar][possessbar] show; hide",
         },
         ["bar10"] = {
             ["countFont"] = "ITCAvantGardeGothicDemi",
@@ -72,7 +72,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "",
+            ["visibility"] = "hide",
         },
         ["bar3"] = {
             ["buttons"] = 12,
@@ -88,7 +88,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "",
+            ["visibility"] = "hide",
         },
         ["bar4"] = {
             ["backdrop"] = false,
@@ -105,7 +105,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "",
+            ["visibility"] = "hide",
         },
         ["bar5"] = {
             ["buttons"] = 12,
@@ -536,7 +536,7 @@
     },
     ["movers"] = {
         ["AddonCompartmentMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-4,-156",
-        ["AlertFrameMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-555,279",
+        ["AlertFrameMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-555,313",
         ["AltPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,152",
         ["ArenaHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-477,-337",
         ["ArtifactBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,412,1",
@@ -573,7 +573,7 @@
         ["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,295,248",
         ["ElvUF_TargetTargetMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-455,248",
         ["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,370",
-        ["ElvUIBankMover"] = "TOP,ElvUIParent,TOP,-243,-200",
+        ["ElvUIBankMover"] = "TOPLEFT,UIParent,TOPLEFT,507,-180",
         ["ExperienceBarMover"] = "TOP,ElvUIParent,TOP,0,-1",
         ["GMMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-1,-239",
         ["HonorBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,421,1",
@@ -588,7 +588,7 @@
         ["MirrorTimer2Mover"] = "BOTTOM,UIParent,BOTTOM,0,394",
         ["MirrorTimer3Mover"] = "BOTTOM,UIParent,BOTTOM,0,415",
         ["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-53,-204",
-        ["PetAB"] = "BOTTOM,ElvUIParent,BOTTOM,-294,160",
+        ["PetAB"] = "BOTTOM,ElvUIParent,BOTTOM,-293,160",
         ["PrivateAurasMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-113,-202",
         ["QueueStatusMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-145",
         ["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-1,-96",
@@ -734,11 +734,6 @@
                 },
             },
             ["ElvUI_NonTarget"] = {
-                ["triggers"] = {
-                    ["enable"] = false,
-                },
-            },
-            ["ElvUI_Target"] = {
                 ["triggers"] = {
                     ["enable"] = false,
                 },
@@ -1483,7 +1478,7 @@
                     ["anchorPoint"] = "BOTTOMRIGHT",
                     ["clickThrough"] = true,
                     ["countFont"] = "ITCAvantGardeGothicDemi",
-                    ["countFontSize"] = 14,
+                    ["countFontSize"] = 11,
                     ["countXOffset"] = 1,
                     ["countYOffset"] = 0,
                     ["enable"] = true,
@@ -1607,7 +1602,7 @@
                 },
                 ["readycheckIcon"] = {
                     ["position"] = "CENTER",
-                    ["size"] = 30,
+                    ["size"] = 25,
                 },
                 ["resurrectIcon"] = {
                     ["attachTo"] = "RIGHT",

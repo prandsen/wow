@@ -26,6 +26,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [213885] = priorityTarget,
         [213892] = casters,
         [213893] = casters,
+        [213932] = casters,
         [213934] = priorityTarget,
         [214761] = priorityTarget,
         [214762] = priorityTarget,
@@ -121,7 +122,8 @@ function (self, unitId, unitFrame, envTable, modTable)
         [173044] = casters,
         
         -- Mists of Tirna Scithe
-        [164501] = priorityTarget,  
+        [164501] = priorityTarget,
+        [164517] = priorityTarget,
         [164567] = casters,
         [164921] = casters,
         [164926] = priorityTarget,
@@ -148,6 +150,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [129374] = priorityTarget,
         [135241] = casters,
         [135245] = priorityTarget,
+        [135263] = important,
         [136549] = priorityTarget,
         [137614] = priorityTarget,
         [138255] = important,
