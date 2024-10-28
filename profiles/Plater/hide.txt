@@ -6,6 +6,9 @@ function (modTable)
         -- Stonevault
         [449455] = true,
 
+        -- Grim batol
+        [451871] = true,
+
         --======== Dragonflight =========
 
         ---- Brackenhide Hollow
