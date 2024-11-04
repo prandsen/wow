@@ -8,10 +8,11 @@ ElvDB = {
 ["Сэйвмэн - Свежеватель Душ"] = "All classes",
 ["Вольтчара - Свежеватель Душ"] = "All classes",
 ["Алианкано - Свежеватель Душ"] = "Default",
-["Топмэн - Свежеватель Душ"] = "Default",
 ["Прециза - Свежеватель Душ"] = "Default",
-["Бимладен - Ревущий фьорд"] = "All classes",
+["Топмэн - Свежеватель Душ"] = "Default",
 ["Сорчистино - Свежеватель Душ"] = "Default",
+["Бимладен - Ревущий фьорд"] = "All classes",
+["Пва - Свежеватель Душ"] = "Default",
 },
 ["DisabledAddOns"] = {
 },
@@ -36,19 +37,20 @@ ElvDB = {
 },
 ["Свежеватель Душ"] = {
 ["Алианкано"] = "DEMONHUNTER",
-["Прециза"] = "HUNTER",
+["Мальдика"] = "PRIEST",
+["Вольтчара"] = "SHAMAN",
+["Пва"] = "MAGE",
 ["Сэйвмэн"] = "PALADIN",
 ["Сорчистино"] = "WARLOCK",
-["Топмэн"] = "MAGE",
-["Мальдика"] = "PRIEST",
 ["Дракобес"] = "EVOKER",
-["Вольтчара"] = "SHAMAN",
+["Топмэн"] = "MAGE",
+["Прециза"] = "HUNTER",
 },
 },
 ["profiles"] = {
 ["Default"] = {
 ["convertPages"] = true,
-["dbConverted"] = 13.78,
+["dbConverted"] = 13.79,
 ["chat"] = {
 ["panelSnapLeftID"] = 1,
 },
@@ -297,7 +299,7 @@ ElvDB = {
 ["historySize"] = 500,
 ["tabSelector"] = "NONE",
 },
-["dbConverted"] = 13.79,
+["dbConverted"] = 13.8,
 ["WeakAuras"] = {
 ["cooldown"] = {
 ["hideBlizzard"] = true,
@@ -401,7 +403,7 @@ ElvDB = {
 },
 ["unitframe"] = {
 ["fontSize"] = 12,
-["smoothbars"] = true,
+["statusbar"] = "Melli Dark",
 ["units"] = {
 ["tank"] = {
 ["enable"] = false,
@@ -1314,10 +1316,12 @@ ElvDB = {
 ["colors"] = {
 ["healthclass"] = true,
 ["customhealthbackdrop"] = true,
-["health_backdrop"] = {
-["b"] = 0,
-["g"] = 0,
-["r"] = 0,
+["selection"] = {
+[3] = {
+["b"] = 0.29411764705882,
+["g"] = 0.68627450980392,
+["r"] = 0.29411764705882,
+},
 },
 ["healPrediction"] = {
 ["absorbs"] = {
@@ -1338,13 +1342,7 @@ ElvDB = {
 ["r"] = 0.32941176470588,
 },
 ["colorhealthbyvalue"] = false,
-["selection"] = {
-[3] = {
-["b"] = 0.29411764705882,
-["g"] = 0.68627450980392,
-["r"] = 0.29411764705882,
-},
-},
+["useDeadBackdrop"] = true,
 ["castClassColor"] = true,
 ["health_backdrop_dead"] = {
 ["a"] = 1,
@@ -1380,6 +1378,11 @@ ElvDB = {
 ["enable"] = false,
 },
 },
+["health_backdrop"] = {
+["b"] = 0,
+["g"] = 0,
+["r"] = 0,
+},
 ["health"] = {
 ["b"] = 0.30196078431373,
 ["g"] = 0.054901960784314,
@@ -1400,10 +1403,9 @@ ElvDB = {
 ["r"] = 0.25098039215686,
 },
 },
-["useDeadBackdrop"] = true,
 },
 ["fontOutline"] = "NONE",
-["statusbar"] = "Melli Dark",
+["smoothbars"] = true,
 ["cooldown"] = {
 ["fonts"] = {
 ["enable"] = true,
@@ -1561,14 +1563,14 @@ ElvDB = {
 ["hotkeyFontSize"] = 11,
 ["countFontSize"] = 11,
 ["hotkeyFontOutline"] = "SHADOW",
-["macroFontSize"] = 11,
 ["buttonSpacing"] = 1,
-["countFont"] = "ITCAvantGardeGothicDemi",
-["buttonSize"] = 34,
-["countFontOutline"] = "SHADOWOUTLINE",
 ["professionQuality"] = {
 ["scale"] = 0.35,
 },
+["countFont"] = "ITCAvantGardeGothicDemi",
+["buttonSize"] = 34,
+["countFontOutline"] = "SHADOWOUTLINE",
+["macroFontSize"] = 11,
 ["hotkeyFont"] = "ITCAvantGardeGothicDemi",
 ["buttonsPerRow"] = 1,
 ["buttons"] = 6,
@@ -1846,7 +1848,7 @@ ElvDB = {
 ["threat"] = {
 ["enable"] = false,
 },
-["clampToScreen"] = true,
+["statusbar"] = "Melli Dark",
 ["units"] = {
 ["ENEMY_NPC"] = {
 ["debuffs"] = {
@@ -2145,10 +2147,8 @@ ElvDB = {
 },
 },
 },
-["bossMods"] = {
-["enable"] = false,
-},
 ["font"] = "ITCAvantGardeGothicDemi",
+["clampToScreen"] = true,
 ["colors"] = {
 ["castNoInterruptColor"] = {
 ["b"] = 0.25098039215686,
@@ -2223,6 +2223,7 @@ ElvDB = {
 },
 },
 },
+["fadeIn"] = false,
 ["cooldown"] = {
 ["fonts"] = {
 ["enable"] = true,
@@ -2237,8 +2238,9 @@ ElvDB = {
 ["guardians"] = true,
 },
 },
-["fadeIn"] = false,
-["statusbar"] = "Melli Dark",
+["bossMods"] = {
+["enable"] = false,
+},
 },
 ["cooldown"] = {
 ["secondsColor"] = {
@@ -2299,13 +2301,14 @@ ElvDB = {
 },
 ["Свежеватель Душ"] = {
 ["Алианкано"] = 21231,
-["Прециза"] = 19781,
+["Мальдика"] = 346986915,
+["Вольтчара"] = 63548,
+["Пва"] = 0,
 ["Сэйвмэн"] = 32188,
 ["Сорчистино"] = 178639,
-["Топмэн"] = 61551664,
-["Мальдика"] = 346986915,
 ["Дракобес"] = 65027,
-["Вольтчара"] = 63548,
+["Топмэн"] = 61551664,
+["Прециза"] = 19781,
 },
 },
 ["global"] = {
@@ -2347,26 +2350,6 @@ ElvDB = {
 ["stackThreshold"] = 0,
 },
 [199368] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-},
-["type"] = "Blacklist",
-},
-["MyBuffsBL"] = {
-["spells"] = {
-[225788] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[206150] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[355794] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2736,7 +2719,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[374295] = {
+[414585] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2756,7 +2739,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[414585] = {
+[374295] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2811,17 +2794,17 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
+[227473] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
 [27638] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
 [349627] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[227473] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2866,7 +2849,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[436841] = {
+[385331] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2876,12 +2859,12 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[357281] = {
+[227985] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[419629] = {
+[331399] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2901,17 +2884,17 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[385331] = {
+[357281] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[293724] = {
+[412044] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[331399] = {
+[419629] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2921,7 +2904,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[409558] = {
+[228241] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2936,17 +2919,17 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[412044] = {
+[293724] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[228241] = {
+[409558] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[318587] = {
+[436652] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2966,12 +2949,12 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[300675] = {
+[454440] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[362194] = {
+[349954] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2986,7 +2969,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[349954] = {
+[362194] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3031,7 +3014,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[407715] = {
+[268230] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3056,7 +3039,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[268230] = {
+[407715] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3071,7 +3054,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[433662] = {
+[176033] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3121,7 +3104,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[414922] = {
+[324652] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3161,7 +3144,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[324652] = {
+[414922] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3171,7 +3154,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[176033] = {
+[433662] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3206,7 +3189,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[454440] = {
+[300675] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3216,7 +3199,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[436652] = {
+[318587] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3236,7 +3219,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[227985] = {
+[436841] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3351,7 +3334,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[193065] = {
+[291937] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3371,13 +3354,33 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[291937] = {
+[193065] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
 },
 ["type"] = "Whitelist",
+},
+["MyBuffsBL"] = {
+["spells"] = {
+[206150] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[355794] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[225788] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+},
+["type"] = "Blacklist",
 },
 },
 ["aurawatch"] = {
@@ -3459,11 +3462,11 @@ ElvDB = {
 },
 [6788] = {
 ["point"] = "RIGHT",
+["xOffset"] = 0,
+["sizeOffset"] = 6,
 ["color"] = {
 ["a"] = 1,
 },
-["sizeOffset"] = 6,
-["xOffset"] = 0,
 },
 [47788] = {
 ["enabled"] = false,
@@ -3484,57 +3487,36 @@ ElvDB = {
 ["sizeOffset"] = 6,
 },
 },
-["EVOKER"] = {
-[367364] = {
-["point"] = "TOPRIGHT",
-["color"] = {
-["a"] = 1,
-["b"] = 0,
-["g"] = 1,
-["r"] = 1,
+["MONK"] = {
+[325209] = {
+["enabled"] = false,
 },
-["sizeOffset"] = 6,
-["xOffset"] = -45,
-},
-[376788] = {
-["sizeOffset"] = 6,
-["xOffset"] = -30,
-},
-[373267] = {
-["point"] = "BOTTOM",
-["sizeOffset"] = 6,
-},
-[364343] = {
+[115175] = {
 ["point"] = "RIGHT",
-["yOffset"] = 4,
-["textThreshold"] = 60,
-["sizeOffset"] = 16,
-["style"] = "timerOnly",
-["color"] = {
-["a"] = 1,
-["r"] = 1,
-["g"] = 1,
-["b"] = 1,
+["sizeOffset"] = 4,
+["xOffset"] = 1,
 },
+[191840] = {
+["xOffset"] = 1,
+["sizeOffset"] = 4,
+["yOffset"] = -1,
 },
-[366155] = {
+[116849] = {
+["enabled"] = false,
+},
+[119611] = {
 ["point"] = "TOPRIGHT",
-["xOffset"] = -15,
-["sizeOffset"] = 6,
-["color"] = {
-["a"] = 1,
-["r"] = 1,
-["b"] = 0,
+["xOffset"] = 1,
+["yOffset"] = 1,
+["sizeOffset"] = 4,
 },
+[124682] = {
+["point"] = "TOPRIGHT",
+["xOffset"] = -12,
+["yOffset"] = 1,
+["sizeOffset"] = 4,
 },
-[360827] = {
-["point"] = "BOTTOMLEFT",
-["sizeOffset"] = 6,
-},
-[355941] = {
-["sizeOffset"] = 6,
-},
-[357170] = {
+[116841] = {
 ["enabled"] = false,
 },
 },
@@ -3571,13 +3553,16 @@ ElvDB = {
 ["yOffset"] = 1,
 ["sizeOffset"] = 6,
 },
-[774] = {
+[48438] = {
+["point"] = "TOPRIGHT",
 ["color"] = {
 ["a"] = 1,
+["g"] = 0.4000000357627869,
+["r"] = 0.8000000715255737,
 },
 ["yOffset"] = 1,
 ["sizeOffset"] = 6,
-["xOffset"] = -14,
+["xOffset"] = -29,
 },
 [102351] = {
 ["point"] = "RIGHT",
@@ -3624,48 +3609,66 @@ ElvDB = {
 ["enabled"] = false,
 ["sizeOffset"] = 4,
 },
-[48438] = {
+[774] = {
+["xOffset"] = -14,
+["yOffset"] = 1,
+["sizeOffset"] = 6,
+["color"] = {
+["a"] = 1,
+},
+},
+},
+["EVOKER"] = {
+[367364] = {
+["point"] = "TOPRIGHT",
+["xOffset"] = -45,
+["sizeOffset"] = 6,
+["color"] = {
+["a"] = 1,
+["b"] = 0,
+["g"] = 1,
+["r"] = 1,
+},
+},
+[376788] = {
+["sizeOffset"] = 6,
+["xOffset"] = -30,
+},
+[373267] = {
+["point"] = "BOTTOM",
+["sizeOffset"] = 6,
+},
+[364343] = {
+["point"] = "RIGHT",
+["yOffset"] = 4,
+["textThreshold"] = 60,
+["sizeOffset"] = 16,
+["style"] = "timerOnly",
+["color"] = {
+["a"] = 1,
+["r"] = 1,
+["g"] = 1,
+["b"] = 1,
+},
+},
+[366155] = {
 ["point"] = "TOPRIGHT",
 ["color"] = {
 ["a"] = 1,
-["g"] = 0.4000000357627869,
-["r"] = 0.8000000715255737,
+["r"] = 1,
+["b"] = 0,
 },
-["yOffset"] = 1,
 ["sizeOffset"] = 6,
-["xOffset"] = -29,
+["xOffset"] = -15,
 },
+[360827] = {
+["point"] = "BOTTOMLEFT",
+["sizeOffset"] = 6,
 },
-["MONK"] = {
-[325209] = {
-["enabled"] = false,
+[355941] = {
+["sizeOffset"] = 6,
 },
-[115175] = {
-["point"] = "RIGHT",
-["sizeOffset"] = 4,
-["xOffset"] = 1,
-},
-[191840] = {
-["xOffset"] = 1,
-["sizeOffset"] = 4,
-["yOffset"] = -1,
-},
-[116849] = {
-["enabled"] = false,
-},
-[119611] = {
-["point"] = "TOPRIGHT",
-["xOffset"] = 1,
-["yOffset"] = 1,
-["sizeOffset"] = 4,
-},
-[124682] = {
-["point"] = "TOPRIGHT",
-["xOffset"] = -12,
-["yOffset"] = 1,
-["sizeOffset"] = 4,
-},
-[116841] = {
+[357170] = {
 ["enabled"] = false,
 },
 },
@@ -3718,29 +3721,45 @@ ElvDB = {
 ["enabled"] = false,
 ["sizeOffset"] = 6,
 },
-[157047] = {
-["enabled"] = false,
-["sizeOffset"] = 6,
-},
-[6940] = {
-["xOffset"] = 1,
-["yOffset"] = -1,
-["enabled"] = false,
-["sizeOffset"] = 4,
-},
 [395180] = {
 ["enabled"] = false,
 ["sizeOffset"] = 6,
 },
-[53563] = {
+[156910] = {
 ["point"] = "BOTTOMLEFT",
+["xOffset"] = -1,
+["sizeOffset"] = 6,
 ["color"] = {
 ["b"] = 0,
 ["g"] = 1,
 ["r"] = 0,
 },
+},
+[157047] = {
+["enabled"] = false,
 ["sizeOffset"] = 6,
+},
+[53563] = {
+["point"] = "BOTTOMLEFT",
 ["xOffset"] = -1,
+["sizeOffset"] = 6,
+["color"] = {
+["b"] = 0,
+["g"] = 1,
+["r"] = 0,
+},
+},
+[1022] = {
+["point"] = "RIGHT",
+["xOffset"] = 1,
+["enabled"] = false,
+["sizeOffset"] = 6,
+},
+[204018] = {
+["point"] = "RIGHT",
+["xOffset"] = 1,
+["enabled"] = false,
+["sizeOffset"] = 6,
 },
 [223306] = {
 ["sizeOffset"] = 6,
@@ -3753,134 +3772,11 @@ ElvDB = {
 },
 ["yOffset"] = -1,
 },
-[204018] = {
-["point"] = "RIGHT",
+[6940] = {
 ["xOffset"] = 1,
+["yOffset"] = -1,
 ["enabled"] = false,
-["sizeOffset"] = 6,
-},
-[1022] = {
-["point"] = "RIGHT",
-["xOffset"] = 1,
-["enabled"] = false,
-["sizeOffset"] = 6,
-},
-[156910] = {
-["point"] = "BOTTOMLEFT",
-["color"] = {
-["b"] = 0,
-["g"] = 1,
-["r"] = 0,
-},
-["sizeOffset"] = 6,
-["xOffset"] = -1,
-},
-},
-},
-},
-["datatexts"] = {
-["settings"] = {
-["Currencies"] = {
-["tooltipData"] = {
-{
-nil,
-nil,
-nil,
-true,
-},
-nil,
-nil,
-nil,
-nil,
-nil,
-nil,
-nil,
-nil,
-nil,
-nil,
-{
-nil,
-nil,
-nil,
-true,
-},
-nil,
-nil,
-{
-nil,
-nil,
-nil,
-true,
-},
-nil,
-nil,
-nil,
-{
-nil,
-nil,
-nil,
-true,
-},
-{
-nil,
-nil,
-nil,
-true,
-},
-nil,
-nil,
-nil,
-nil,
-nil,
-nil,
-nil,
-nil,
-nil,
-nil,
-nil,
-{
-nil,
-nil,
-nil,
-true,
-},
-nil,
-{
-nil,
-nil,
-nil,
-true,
-},
-[41] = {
-nil,
-nil,
-nil,
-true,
-},
-[46] = {
-nil,
-nil,
-nil,
-true,
-},
-[56] = {
-nil,
-nil,
-nil,
-true,
-},
-[65] = {
-nil,
-nil,
-nil,
-true,
-},
-[68] = {
-nil,
-nil,
-nil,
-true,
-},
+["sizeOffset"] = 4,
 },
 },
 },
@@ -3893,6 +3789,86 @@ true,
 ["mapAlphaWhenMoving"] = 0.7000000000000001,
 ["UIScale"] = 0.7000000000000001,
 },
+["datatexts"] = {
+["settings"] = {
+["Currencies"] = {
+["tooltipData"] = {
+{
+nil,
+nil,
+nil,
+true,
+},
+[12] = {
+nil,
+nil,
+nil,
+true,
+},
+[15] = {
+nil,
+nil,
+nil,
+true,
+},
+[19] = {
+nil,
+nil,
+nil,
+true,
+},
+[20] = {
+nil,
+nil,
+nil,
+true,
+},
+[32] = {
+nil,
+nil,
+nil,
+true,
+},
+[34] = {
+nil,
+nil,
+nil,
+true,
+},
+[68] = {
+nil,
+nil,
+nil,
+true,
+},
+[46] = {
+nil,
+nil,
+nil,
+true,
+},
+[65] = {
+nil,
+nil,
+nil,
+true,
+},
+[41] = {
+nil,
+nil,
+nil,
+true,
+},
+[56] = {
+nil,
+nil,
+nil,
+true,
+},
+},
+},
+},
+},
 },
 ["faction"] = {
 ["Twisting Nether"] = {
@@ -3904,13 +3880,14 @@ true,
 },
 ["Свежеватель Душ"] = {
 ["Алианкано"] = "Horde",
-["Прециза"] = "Horde",
+["Мальдика"] = "Horde",
+["Вольтчара"] = "Horde",
+["Пва"] = "Alliance",
 ["Сэйвмэн"] = "Horde",
 ["Сорчистино"] = "Horde",
-["Топмэн"] = "Horde",
-["Мальдика"] = "Horde",
 ["Дракобес"] = "Horde",
-["Вольтчара"] = "Horde",
+["Топмэн"] = "Horde",
+["Прециза"] = "Horde",
 },
 },
 ["namespaces"] = {
@@ -3927,10 +3904,11 @@ ElvPrivateDB = {
 ["Сэйвмэн - Свежеватель Душ"] = "Сэйвмэн - Свежеватель Душ",
 ["Вольтчара - Свежеватель Душ"] = "Вольтчара - Свежеватель Душ",
 ["Алианкано - Свежеватель Душ"] = "Алианкано - Свежеватель Душ",
-["Топмэн - Свежеватель Душ"] = "Топмэн - Свежеватель Душ",
 ["Прециза - Свежеватель Душ"] = "Прециза - Свежеватель Душ",
-["Бимладен - Ревущий фьорд"] = "Бимладен - Ревущий фьорд",
+["Топмэн - Свежеватель Душ"] = "Топмэн - Свежеватель Душ",
 ["Сорчистино - Свежеватель Душ"] = "Сорчистино - Свежеватель Душ",
+["Бимладен - Ревущий фьорд"] = "Бимладен - Ревущий фьорд",
+["Пва - Свежеватель Душ"] = "Пва - Свежеватель Душ",
 },
 ["profiles"] = {
 ["Beamladen - Twisting Nether"] = {
@@ -3981,13 +3959,16 @@ ElvPrivateDB = {
 ["Алианкано - Свежеватель Душ"] = {
 ["install_complete"] = 13.76,
 },
+["Прециза - Свежеватель Душ"] = {
+["install_complete"] = 13.76,
+},
 ["Топмэн - Свежеватель Душ"] = {
 ["nameplates"] = {
 ["enable"] = false,
 },
 ["install_complete"] = 13.75,
 },
-["Прециза - Свежеватель Душ"] = {
+["Сорчистино - Свежеватель Душ"] = {
 ["install_complete"] = 13.76,
 },
 ["Бимладен - Ревущий фьорд"] = {
@@ -4010,8 +3991,8 @@ ElvPrivateDB = {
 },
 ["install_complete"] = 13.45,
 },
-["Сорчистино - Свежеватель Душ"] = {
-["install_complete"] = 13.76,
+["Пва - Свежеватель Душ"] = {
+["install_complete"] = 13.79,
 },
 },
 }
