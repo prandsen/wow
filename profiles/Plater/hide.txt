@@ -1,0 +1,115 @@
+function (modTable)
+    
+    local customSpells = {
+
+        --======== The War Within =========
+        -- Stonevault
+        [449455] = true,
+
+        -- Grim batol
+        [451871] = true,
+
+        --======== Dragonflight =========
+
+        ---- Brackenhide Hollow
+        --[367500] = true,
+        
+        ---- Halls of Infusion
+        --[374045] = true,
+        --[395694] = true,
+        
+        ---- Neltharus
+        --[378282] = true,
+        
+        ---- Uldaman: Legacy of Tyr
+        --[369675] = true,
+        
+        ---- The Nokhud Offensive
+        --[373395] = true,
+        --[384365] = true,
+        --[436841] = true,
+        
+        ---- Algeth'ar Academy
+        --[396812] = true,
+        
+        ---- The Azure Vaults
+        --[377488] = true,
+        
+        ---- Ruby Life Pools
+        --[372735] = true,
+        --[385536] = true,
+        --[392451] = true,
+    }
+    
+    local castingUnits = {}
+    
+    local hideUnit = function(unitFrame, needsHide)
+        if modTable.config.useOpacityAlpha then
+            if needsHide then
+                unitFrame:SetAlpha(modTable.config.opacityAlpha)
+            else
+                unitFrame:SetAlpha(1)
+            end
+        else
+            if needsHide then
+                unitFrame:Hide()
+            elseif not unitFrame:IsShown() then
+                unitFrame:Show()
+            end
+        end
+    end
+    
+    local setCastingUnit = function(nameplateToken, isCasting)
+        if castingUnits ~= nil then
+            if nameplateToken ~= nil then
+                castingUnits[nameplateToken] = isCasting
+            end
+            return
+        end
+        castingUnits = {}
+    end
+    
+    modTable.checkToHide = function(unitFrame)
+        local needsHide = false
+        for t, _ in pairs(castingUnits or {}) do
+            if UnitExists(t) then
+                if unitFrame.namePlateUnitToken ~= t then
+                    if not modTable.updateCastState(unitFrame) then
+                        if not modTable.config.hideInCombatOnly then
+                            needsHide = true
+                        else
+                            local unitInCombat = UnitThreatSituation("player", unitFrame.unit) ~= nil or false
+                            needsHide = unitInCombat
+                        end
+                        break
+                    end
+                end
+            else
+                setCastingUnit(t, nil)
+            end
+        end
+        hideUnit(unitFrame, needsHide)
+    end
+    
+    modTable.updateCastState = function(unitFrame)
+        local castBar = unitFrame.castBar
+        if castBar.casting or castBar.channeling then
+            if modTable.config.useCustomSpells then
+                local findCustomSpell = customSpells[castBar.spellID or -1]
+                if findCustomSpell then
+                    setCastingUnit(unitFrame.namePlateUnitToken, findCustomSpell)
+                    return true
+                end
+            else
+                setCastingUnit(unitFrame.namePlateUnitToken, true)
+                return true
+            end
+        end
+        setCastingUnit(unitFrame.namePlateUnitToken, nil)
+        return false
+    end
+    
+end
+
+
+

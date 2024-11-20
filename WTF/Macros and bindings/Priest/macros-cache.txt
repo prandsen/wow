@@ -1,0 +1,52 @@
+VER 3 0100000000000011 "1" "458230"
+#showtooltip Безмолвие
+/stopcasting
+/cast [@focus,exists,harm,nodead][@target,exists,nodead] Безмолвие
+END
+VER 3 0100000000000023 "2" "134400"
+/cast Слово Тьмы: Смерть
+/cast Иридал Владыка Земли
+END
+VER 3 0100000000000006 "3" "135936"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Оберегающий дух
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Подавление боли
+END
+VER 3 010000000000001F "4" "134400"
+/cast [mod:alt,@player][target=Зулир,exists,nodead][@mouseover,help,exists,nodead][] Придание сил
+END
+VER 3 010000000000001D "C" "135937"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Слово Света: Безмятежность
+END
+VER 3 0100000000000022 "E" "237545"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,nodead] Исповедь
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Исцеление
+/cast [@target,exists,harm,nodead] Священный огонь
+END
+VER 3 0100000000000001 "F" "135940"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Слово силы: Щит
+END
+VER 3 0100000000000020 "Q" "135907"
+/cast Взрыв перерождения
+/cast Пытка разума
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Быстрое исцеление
+/cast [@target,exists,harm,nodead] Кара
+END
+VER 3 0100000000000014 "R" "135953"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Обновление
+/cast [@target,exists,harm,nodead] Слово Тьмы: Боль
+/cast [@target,exists,harm,nodead] Очищение зла
+END
+VER 3 010000000000001E "ShC" "135922"
+/cast Кольцо Перерождения
+/cast Кольцо Света
+END
+VER 3 0100000000000019 "ShE" "135944"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Молитва восстановления
+END
+VER 3 0100000000000015 "ShMwD" "135894"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Очищение
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Очищение от болезни
+END
+VER 3 0100000000000007 "Z" "463835"
+/cast [@mouseover,exists,help,nodead][@target,exists,help,nodead] Духовное рвение
+END
