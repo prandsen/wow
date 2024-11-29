@@ -22,7 +22,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [211261] = important,
         [211262] = important,
         [211263] = important,
-        [211341] = priorityTarget,
+        [211341] = important,
         [213885] = priorityTarget,
         [213892] = casters,
         [213893] = casters,
