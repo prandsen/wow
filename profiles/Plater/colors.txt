@@ -22,7 +22,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [211261] = important,
         [211262] = important,
         [211263] = important,
-        [211341] = priorityTarget,
+        [211341] = important,
         [213885] = priorityTarget,
         [213892] = casters,
         [213893] = casters,
@@ -120,7 +120,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [166302] = casters,
         [171500] = neutral,
         [172981] = priorityTarget,
-        [173016] = casters,
+        [173016] = important,
         [173044] = casters,
         
         -- Mists of Tirna Scithe

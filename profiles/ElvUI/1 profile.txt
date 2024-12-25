@@ -522,7 +522,7 @@
             ["font"] = "ITCAvantGardeGothicDemi",
         },
         ["resurrectSound"] = true,
-        ["talkingHeadFrameScale"] = 0.75,
+        ["talkingHeadFrameScale"] = 0.7,
         ["totems"] = {
             ["size"] = 37,
             ["sortDirection"] = "DESCENDING",
