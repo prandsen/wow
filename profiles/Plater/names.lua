@@ -1,0 +1,100 @@
+    function (self, unitId, unitFrame, envTable, modTable)
+
+        local markerToHex = {
+            [1] = "FFEAEA0D", -- Yellow 5 Point Star
+            [2] = "FFEAB10D", -- Orange Circle
+            [3] = "FFCD00FF", -- Purple Diamond
+            [4] = "FF06D425", -- Green Triangle
+            [5] = "FFB3E3D8", -- Light Blue Moon
+            [6] = "FF0CD2EA", -- Blue Square
+            [7] = "FFD6210B", -- Red Cross
+            [8] = "FFFFFFFF", -- White Skull
+        }
+
+        local dungeonMobNames = {
+
+            -- Cinderbrew Meadery
+            [210966] = "Паук",
+
+            -- Darkflame Cleft
+            [210966] = "Паук",
+
+            -- Operation: Floodgate
+            [210966] = "Паук",
+
+            -- The Motherlode
+            [210966] = "Паук",
+
+            -- Priory of the Sacred Flame
+            [210966] = "Паук",
+
+            -- The Rookery
+            [210966] = "Паук",
+
+            -- Theater of Pain
+            [160495] = "Стражник",
+            [162329] = "Ксав",
+            [162763] = "Похититель",
+            [164461] = "Сатель",
+            [164463] = "Пакиран",
+            [164464] = "Зира",
+            [165946] = "Мордрета",
+            [167998] = "Страж",
+            [174210] = "Изрыгатель",
+
+            -- Mechagon: Workshop
+            [144244] = "Лупцеватор",
+            [144248] = "Искродрочец",
+            [144249] = "Трансформер",
+            [144293] = "Переработчик",
+            [144294] = "Белкострел",
+            [144296] = "Паук",
+            [144298] = "Робот",
+            [144299] = "Защитник",
+            [144300] = "Житель",
+            [145185] = "Гномогеддон",
+            [150396] = "НЛО",
+            [150397] = "Король Мехагон",
+            [151476] = "Взрывотрон",
+            [151579] = "Генератор",
+            [151649] = "Робот",
+            [151658] = "Долгоног",
+            [151773] = "Пес"
+
+            -- Raid: Undermine(d)
+        }
+
+        function envTable.rename(npcId, unitId)
+            if unitId then
+                local name = UnitName(unitId)
+                local a, b, c, d, e, f = strsplit(' ', name, 5)
+
+                local unitName
+
+                if dungeonMobNames[npcId] then
+                    unitName = dungeonMobNames[npcId]
+                else
+                    unitName = name ~=nil and (f or e or d or c or b or a) or nil
+                end
+
+                if unitName == nil then
+                    unitName = name
+                end
+
+                -- Capitalize first word
+                unitName = unitName:utf8sub(1,1):upper()..unitName:utf8sub(2)
+
+                local marker = GetRaidTargetIndex(unitId)
+                if unitId and marker == nil then
+                    marker = 8
+                end
+
+                if unitId and marker then
+                    unitFrame.healthBar.unitName:SetText(WrapTextInColorCode(unitName, markerToHex[marker]))
+                elseif unitId then
+                    unitFrame.healthBar.unitName:SetText(unitName)
+                end
+            end
+        end
+    end
+

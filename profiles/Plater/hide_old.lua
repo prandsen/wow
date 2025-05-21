@@ -3,11 +3,9 @@ function (modTable)
     local customSpells = {
 
         --======== The War Within =========
-        -- Stonevault
-        [449455] = true,
 
-        -- Grim batol
-        [451871] = true,
+        -- Stonevault
+        -- [449455] = true,
 
         --======== Dragonflight =========
 
@@ -39,6 +37,25 @@ function (modTable)
         --[372735] = true,
         --[385536] = true,
         --[392451] = true,
+
+        --======== Shadowlands ==========
+
+        --============ BFA ==============
+
+        --=========== Legion ============
+
+        --===== Warlords of Draenor =====
+
+        --========== Pandaria ===========
+
+        --========= Cataclysm ===========
+    
+        -- -- Grim batol
+        -- [451871] = true,
+
+        --=========== WotLK =============
+
+        --====== Burning Crusade ========
     }
     
     local castingUnits = {}
