@@ -30,7 +30,8 @@ function (self, unitId, unitFrame, envTable, modTable)
         [210966] = priorityTarget,
 
         -- The Rookery
-        [210966] = priorityTarget,
+        [207198] = caster,
+        [209801] = priorityTarget,
 
         -- Theater of Pain
         [160495] = casters,
