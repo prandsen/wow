@@ -4,6 +4,7 @@ function (self, unitId, unitFrame, envTable, modTable)
     local priorityTarget = modTable.config.priorityTarget
     local neutral = modTable.config.neutral
     local important = modTable.config.important
+    local boss = modTable.config.boss
     
     envTable.BuffDebuffColors = {
         --[373011] = shrouded,
@@ -15,23 +16,31 @@ function (self, unitId, unitFrame, envTable, modTable)
         --[75790] = "#00FF00", --using the ID of the unit and using green as color
         
         -- Cinderbrew Meadery
-        [210966] = priorityTarget,
+        [1] = priorityTarget,
 
         -- Darkflame Cleft
-        [210966] = priorityTarget,
+        [2] = priorityTarget,
 
         -- Operation: Floodgate
-        [210966] = priorityTarget,
+        [3] = priorityTarget,
 
         -- The Motherlode
-        [210966] = priorityTarget,
+        [4] = priorityTarget,
 
         -- Priory of the Sacred Flame
-        [210966] = priorityTarget,
+        [5] = priorityTarget,
 
         -- The Rookery
-        [207198] = caster,
+        [207205] = boss,
+        [207207] = boss,
+        [207198] = casters,
+        [209230] = boss,
         [209801] = priorityTarget,
+        [212739] = priorityTarget,
+        [212786] = priorityTarget,
+        [212793] = casters,
+        [214421] = priorityTarget,
+        [214439] = casters,
 
         -- Theater of Pain
         [160495] = casters,

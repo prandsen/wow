@@ -4,6 +4,7 @@ function (self, unitId, unitFrame, envTable, modTable)
     local priorityTarget = modTable.config.priorityTarget
     local neutral = modTable.config.neutral
     local important = modTable.config.important
+    local boss = modTable.config.boss
     
     envTable.BuffDebuffColors = {
         --[373011] = shrouded,
