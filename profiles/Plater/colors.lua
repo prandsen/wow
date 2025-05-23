@@ -28,7 +28,20 @@ function (self, unitId, unitFrame, envTable, modTable)
         [4] = priorityTarget,
 
         -- Priory of the Sacred Flame
-        [5] = priorityTarget,
+        [206696] = priorityTarget,
+        [206697] = casters,
+        [206698] = casters,
+        [207939] = boss,
+        [207940] = boss,
+        [207946] = boss,
+        [211289] = casters,
+        [212826] = important,
+        [212827] = important,
+        [212831] = important,
+        [217658] = priorityTarget,
+        [221760] = casters,
+        [239836] = important,
+        [239833] = important,
 
         -- The Rookery
         [207205] = boss,
