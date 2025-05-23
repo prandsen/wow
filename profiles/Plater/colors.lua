@@ -16,7 +16,18 @@ function (self, unitId, unitFrame, envTable, modTable)
         --[75790] = "#00FF00", --using the ID of the unit and using green as color
         
         -- Cinderbrew Meadery
-        [1] = priorityTarget,
+        [210264] = casters,
+        [210265] = casters,
+        [210267] = boss,
+        [210269] = priorityTarget,
+        [210271] = boss,
+        [214661] = boss,
+        [214673] = casters,
+        [214697] = important,
+        [218002] = boss,
+        [218671] = casters,
+        [220946] = priorityTarget,
+        [223423] = priorityTarget,
 
         -- Darkflame Cleft
         [2] = priorityTarget,
