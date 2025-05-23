@@ -33,7 +33,21 @@ function (self, unitId, unitFrame, envTable, modTable)
         [2] = priorityTarget,
 
         -- Operation: Floodgate
-        [3] = priorityTarget,
+        [226396] = boss,
+        [226398] = boss,
+        [226402] = boss,
+        [226403] = priorityTarget,
+        [226404] = boss,
+        [229069] = casters,
+        [229251] = priorityTarget,
+        [229686] = casters,
+        [230740] = priorityTarget,
+        [230748] = important,
+        [231223] = priorityTarget,
+        [231312] = casters,
+        [231325] = priorityTarget,
+        [231380] = casters,
+        [231496] = casters,
 
         -- The Motherlode
         [4] = priorityTarget,
