@@ -64,7 +64,22 @@ function (self, unitId, unitFrame, envTable, modTable)
         [231496] = casters,
 
         -- The Motherlode
-        [4] = priorityTarget,
+        [129214] = boss,
+        [129227] = boss,
+        [129231] = boss,
+        [129232] = boss,
+        [130635] = casters,
+        [130661] = casters,
+        [132713] = boss,
+        [133430] = important,
+        [133463] = priorityTarget,
+        [133482] = neutral,
+        [133963] = neutral,
+        [134012] = priorityTarget,
+        [134232] = important,
+        [136139] = priorityTarget,
+        [136470] = casters,
+        [136643] = priorityTarget,
 
         -- Priory of the Sacred Flame
         [206696] = priorityTarget,
