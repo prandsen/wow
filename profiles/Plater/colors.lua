@@ -133,9 +133,23 @@ function (self, unitId, unitFrame, envTable, modTable)
         [144298] = priorityTarget,
         [151579] = neutral,
         [151613] = important,
-        [151657] = casters
+        [151657] = casters,
 
         -- Raid: Undermine(d)
+        [225821] = boss,
+        [225822] = boss,
+        [227961] = priorityTarget,
+        [229177] = priorityTarget,
+        [229180] = casters,
+        [229181] = boss,
+        [229219] = priorityTarget,
+        [229286] = casters,
+        [229287] = important,
+        [229356] = casters,
+        [230332] = boss,
+        [231839] = casters,
+        [231935] = important,
+        [233247] = priorityTarget,
     }
 end
 
