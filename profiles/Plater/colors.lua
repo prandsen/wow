@@ -30,7 +30,20 @@ function (self, unitId, unitFrame, envTable, modTable)
         [223423] = priorityTarget,
 
         -- Darkflame Cleft
-        [2] = priorityTarget,
+        [208450] = priorityTarget,
+        [208456] = casters,
+        [208743] = boss,
+        [208745] = boss,
+        [208747] = boss,
+        [210153] = boss,
+        [210539] = priorityTarget,
+        [210812] = casters,
+        [210818] = casters,
+        [211121] = priorityTarget,
+        [212411] = priorityTarget,
+        [212412] = important,
+        [213913] = casters,
+        [220815] = important,
 
         -- Operation: Floodgate
         [226396] = boss,
@@ -43,6 +56,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [229686] = casters,
         [230740] = priorityTarget,
         [230748] = important,
+        [231176] = important,
         [231223] = priorityTarget,
         [231312] = casters,
         [231325] = priorityTarget,
