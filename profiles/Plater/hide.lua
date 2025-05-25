@@ -3,28 +3,22 @@ function (modTable)
     local customSpells = {
 
         -- Cinderbrew Meadery
-        --[210966] = true,
 
         -- Darkflame Cleft
-        --[210966] = true,
 
         -- Operation: Floodgate
-        --[210966] = true,
+        [1214780] = true,
 
         -- The Motherlode
-        --[210966] = true,
 
         -- Priory of the Sacred Flame
-        --[210966] = true,
+        [427356] = true,
 
         -- The Rookery
-        --[210966] = true,
 
         -- Theater of Pain
-        --[160495] = true,
 
         -- Mechagon: Workshop
-        --[144294] = true,
 
         -- Raid: Undermine(d)
     }
