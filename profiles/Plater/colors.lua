@@ -44,6 +44,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [211121] = priorityTarget,
         [212411] = priorityTarget,
         [212412] = important,
+        [213751] = important,
         [213913] = casters,
         [220815] = important,
         [223775] = casters,
@@ -164,13 +165,18 @@ function (self, unitId, unitFrame, envTable, modTable)
         [229180] = casters,
         [229181] = boss,
         [229219] = priorityTarget,
+        [229220] = important,
+        [229272] = casters  ,
         [229286] = casters,
         [229287] = important,
         [229356] = casters,
-        [230332] = boss,
+        [230322] = boss,
+        [230583] = boss,
+        [231531] = priorityTarget,
         [231839] = casters,
         [231935] = important,
         [233247] = priorityTarget,
+        [234640] = priorityTarget,
     }
 end
 
