@@ -928,7 +928,7 @@ ElvDB = {
 ["countFont"] = "ITCAvantGardeGothicDemi",
 ["perrow"] = 5,
 },
-["CombatIcon"] = {
+["classbar"] = {
 ["enable"] = false,
 },
 ["customTexts"] = {
@@ -996,7 +996,7 @@ ElvDB = {
 ["raidRoleIcons"] = {
 ["enable"] = false,
 },
-["classbar"] = {
+["CombatIcon"] = {
 ["enable"] = false,
 },
 },
@@ -1109,14 +1109,6 @@ ElvDB = {
 ["text_format"] = "",
 },
 },
-["pettarget"] = {
-["debuffs"] = {
-["countFont"] = "ITCAvantGardeGothicDemi",
-},
-["buffs"] = {
-["countFont"] = "ITCAvantGardeGothicDemi",
-},
-},
 ["pet"] = {
 ["debuffs"] = {
 ["countFont"] = "ITCAvantGardeGothicDemi",
@@ -1140,6 +1132,14 @@ ElvDB = {
 },
 ["raidicon"] = {
 ["enable"] = false,
+},
+},
+["pettarget"] = {
+["debuffs"] = {
+["countFont"] = "ITCAvantGardeGothicDemi",
+},
+["buffs"] = {
+["countFont"] = "ITCAvantGardeGothicDemi",
 },
 },
 ["arena"] = {
@@ -1689,7 +1689,7 @@ ElvDB = {
 ["enemyWidth"] = 50,
 ["friendlyHeight"] = 10,
 },
-["smoothbars"] = true,
+["statusbar"] = "Melli Dark",
 ["clickThrough"] = {
 ["personal"] = true,
 ["friendly"] = true,
@@ -1711,7 +1711,7 @@ ElvDB = {
 ["enable"] = true,
 },
 },
-["M+ AD Interrupts"] = {
+["M+ FH Interrupts"] = {
 ["triggers"] = {
 ["enable"] = true,
 },
@@ -1836,7 +1836,7 @@ ElvDB = {
 ["enable"] = true,
 },
 },
-["M+ FH Interrupts"] = {
+["M+ AD Interrupts"] = {
 ["triggers"] = {
 ["enable"] = true,
 },
@@ -1860,10 +1860,14 @@ ElvDB = {
 ["threat"] = {
 ["enable"] = false,
 },
-["visibility"] = {
-["enemy"] = {
-["guardians"] = true,
+["cooldown"] = {
+["fonts"] = {
+["enable"] = true,
+["font"] = "ITCAvantGardeGothicDemi",
+["fontSize"] = 20,
+["fontOutline"] = "SHADOWOUTLINE",
 },
+["threshold"] = 5,
 },
 ["units"] = {
 ["ENEMY_NPC"] = {
@@ -2131,6 +2135,14 @@ ElvDB = {
 ["font"] = "ITCAvantGardeGothicDemi",
 },
 },
+["name"] = {
+["enable"] = false,
+["yOffset"] = -4,
+["font"] = "ITCAvantGardeGothicDemi",
+["format"] = "[name:short]",
+["parent"] = "Health",
+},
+["nameOnly"] = true,
 ["health"] = {
 ["text"] = {
 ["fontSize"] = 12,
@@ -2141,18 +2153,6 @@ ElvDB = {
 },
 ["height"] = 16,
 },
-["nameOnly"] = true,
-["name"] = {
-["enable"] = false,
-["yOffset"] = -4,
-["font"] = "ITCAvantGardeGothicDemi",
-["format"] = "[name:short]",
-["parent"] = "Health",
-},
-["markHealers"] = false,
-["title"] = {
-["format"] = "[npctitle]",
-},
 ["buffs"] = {
 ["enable"] = false,
 ["yOffset"] = -5,
@@ -2161,10 +2161,14 @@ ElvDB = {
 ["countFont"] = "ITCAvantGardeGothicDemi",
 ["numAuras"] = 1,
 },
+["title"] = {
+["format"] = "[npctitle]",
+},
+["markHealers"] = false,
 },
 },
-["statusbar"] = "Melli Dark",
-["font"] = "ITCAvantGardeGothicDemi",
+["smoothbars"] = true,
+["clampToScreen"] = true,
 ["colors"] = {
 ["castNoInterruptColor"] = {
 ["r"] = 0.7843137254902,
@@ -2239,20 +2243,16 @@ ElvDB = {
 },
 },
 },
-["cooldown"] = {
-["fonts"] = {
-["enable"] = true,
-["font"] = "ITCAvantGardeGothicDemi",
-["fontSize"] = 20,
-["fontOutline"] = "SHADOWOUTLINE",
+["visibility"] = {
+["enemy"] = {
+["guardians"] = true,
 },
-["threshold"] = 5,
 },
 ["bossMods"] = {
 ["enable"] = false,
 },
 ["fadeIn"] = false,
-["clampToScreen"] = true,
+["font"] = "ITCAvantGardeGothicDemi",
 },
 ["cooldown"] = {
 ["secondsColor"] = {
@@ -2324,8 +2324,6 @@ ElvDB = {
 },
 },
 ["namespaces"] = {
-["LibDualSpec-1.0"] = {
-},
 },
 ["faction"] = {
 ["Twisting Nether"] = {
@@ -2741,6 +2739,11 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
+[468631] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
 [374037] = {
 ["enable"] = true,
 ["priority"] = 0,
@@ -2801,7 +2804,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[374295] = {
+[414585] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2911,7 +2914,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[357281] = {
+[385331] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2921,12 +2924,12 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[385331] = {
+[436841] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[227985] = {
+[357281] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2946,7 +2949,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[436841] = {
+[227985] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2956,7 +2959,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[419629] = {
+[331399] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2966,7 +2969,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[436652] = {
+[318587] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2981,17 +2984,17 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[293724] = {
+[412044] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[409558] = {
+[228241] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[318587] = {
+[436652] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3016,7 +3019,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[454440] = {
+[300675] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3026,12 +3029,12 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[300675] = {
+[454440] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[362194] = {
+[349954] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3076,7 +3079,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[176033] = {
+[433662] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3101,7 +3104,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[407715] = {
+[268230] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3116,7 +3119,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[433662] = {
+[176033] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3136,7 +3139,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[324652] = {
+[414922] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3166,7 +3169,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[414922] = {
+[324652] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3216,7 +3219,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[268230] = {
+[407715] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3251,7 +3254,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[349954] = {
+[362194] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3261,7 +3264,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[228241] = {
+[409558] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3271,7 +3274,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[412044] = {
+[293724] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3281,7 +3284,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[331399] = {
+[419629] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3366,7 +3369,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[414585] = {
+[374295] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3391,7 +3394,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[291937] = {
+[193065] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3401,7 +3404,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[193065] = {
+[291937] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3430,31 +3433,110 @@ ElvDB = {
 },
 },
 ["aurawatch"] = {
-["SHAMAN"] = {
-[974] = {
+["PALADIN"] = {
+[156322] = {
 ["point"] = "TOPRIGHT",
-["yOffset"] = -1,
-["textThreshold"] = 0,
-["sizeOffset"] = 3,
-["style"] = "timerOnly",
-["xOffset"] = -16,
+["xOffset"] = -15,
+["yOffset"] = 1,
+["enabled"] = false,
+["sizeOffset"] = 6,
 },
-[383648] = {
+[1044] = {
+["point"] = "BOTTOM",
+["yOffset"] = -1,
+["sizeOffset"] = 6,
+},
+[200025] = {
+["yOffset"] = 1,
+["sizeOffset"] = 6,
+["color"] = {
+["r"] = 1,
+["g"] = 0.4784313725490196,
+["b"] = 0,
+},
+},
+[287280] = {
+["sizeOffset"] = 4,
 ["point"] = "TOPRIGHT",
+["xOffset"] = 1,
+["color"] = {
+["r"] = 1,
+["g"] = 0.4588235294117647,
+["b"] = 0,
+},
+["yOffset"] = 1,
+},
+[148039] = {
+["point"] = "TOPRIGHT",
+["xOffset"] = -15,
+["yOffset"] = 1,
+["sizeOffset"] = 6,
 ["color"] = {
 ["a"] = 1,
-["b"] = 0.4392157196998596,
+["b"] = 0.3607843220233917,
 ["g"] = 0.8000000715255737,
-["r"] = 0.9098039865493774,
+["r"] = 0.9294118285179138,
+},
+},
+[6940] = {
+["xOffset"] = 1,
+["yOffset"] = -1,
+["enabled"] = false,
+["sizeOffset"] = 4,
+},
+[223306] = {
+["sizeOffset"] = 6,
+["point"] = "RIGHT",
+["xOffset"] = -1,
+["color"] = {
+["r"] = 1,
+["g"] = 1,
+["b"] = 0,
 },
 ["yOffset"] = -1,
-["textThreshold"] = 0,
-["sizeOffset"] = 6,
-["style"] = "timerOnly",
-["xOffset"] = -16,
 },
-[61295] = {
-["yOffset"] = 1,
+[156910] = {
+["point"] = "BOTTOMLEFT",
+["xOffset"] = -1,
+["sizeOffset"] = 6,
+["color"] = {
+["r"] = 0,
+["g"] = 1,
+["b"] = 0,
+},
+},
+[395180] = {
+["enabled"] = false,
+["sizeOffset"] = 6,
+},
+[204018] = {
+["point"] = "RIGHT",
+["xOffset"] = 1,
+["enabled"] = false,
+["sizeOffset"] = 6,
+},
+[1022] = {
+["point"] = "RIGHT",
+["xOffset"] = 1,
+["enabled"] = false,
+["sizeOffset"] = 6,
+},
+[53563] = {
+["point"] = "BOTTOMLEFT",
+["xOffset"] = -1,
+["sizeOffset"] = 6,
+["color"] = {
+["r"] = 0,
+["g"] = 1,
+["b"] = 0,
+},
+},
+[157047] = {
+["enabled"] = false,
+["sizeOffset"] = 6,
+},
+[431381] = {
+["enabled"] = false,
 ["sizeOffset"] = 6,
 },
 },
@@ -3537,110 +3619,31 @@ ElvDB = {
 },
 },
 },
-["PALADIN"] = {
-[156322] = {
+["SHAMAN"] = {
+[974] = {
 ["point"] = "TOPRIGHT",
-["xOffset"] = -15,
-["yOffset"] = 1,
-["enabled"] = false,
-["sizeOffset"] = 6,
-},
-[1044] = {
-["point"] = "BOTTOM",
 ["yOffset"] = -1,
-["sizeOffset"] = 6,
+["textThreshold"] = 0,
+["sizeOffset"] = 3,
+["style"] = "timerOnly",
+["xOffset"] = -16,
 },
-[200025] = {
-["yOffset"] = 1,
-["sizeOffset"] = 6,
-["color"] = {
-["r"] = 1,
-["g"] = 0.4784313725490196,
-["b"] = 0,
-},
-},
-[287280] = {
-["sizeOffset"] = 4,
+[383648] = {
 ["point"] = "TOPRIGHT",
-["xOffset"] = 1,
-["color"] = {
-["r"] = 1,
-["g"] = 0.4588235294117647,
-["b"] = 0,
-},
-["yOffset"] = 1,
-},
-[148039] = {
-["point"] = "TOPRIGHT",
-["xOffset"] = -15,
-["yOffset"] = 1,
-["sizeOffset"] = 6,
 ["color"] = {
 ["a"] = 1,
-["b"] = 0.3607843220233917,
+["b"] = 0.4392157196998596,
 ["g"] = 0.8000000715255737,
-["r"] = 0.9294118285179138,
-},
-},
-[156910] = {
-["point"] = "BOTTOMLEFT",
-["xOffset"] = -1,
-["sizeOffset"] = 6,
-["color"] = {
-["r"] = 0,
-["g"] = 1,
-["b"] = 0,
-},
-},
-[1022] = {
-["point"] = "RIGHT",
-["xOffset"] = 1,
-["enabled"] = false,
-["sizeOffset"] = 6,
-},
-[6940] = {
-["xOffset"] = 1,
-["yOffset"] = -1,
-["enabled"] = false,
-["sizeOffset"] = 4,
-},
-[157047] = {
-["enabled"] = false,
-["sizeOffset"] = 6,
-},
-[204018] = {
-["point"] = "RIGHT",
-["xOffset"] = 1,
-["enabled"] = false,
-["sizeOffset"] = 6,
-},
-[223306] = {
-["sizeOffset"] = 6,
-["point"] = "RIGHT",
-["xOffset"] = -1,
-["color"] = {
-["r"] = 1,
-["g"] = 1,
-["b"] = 0,
+["r"] = 0.9098039865493774,
 },
 ["yOffset"] = -1,
-},
-[53563] = {
-["point"] = "BOTTOMLEFT",
-["xOffset"] = -1,
+["textThreshold"] = 0,
 ["sizeOffset"] = 6,
-["color"] = {
-["r"] = 0,
-["g"] = 1,
-["b"] = 0,
+["style"] = "timerOnly",
+["xOffset"] = -16,
 },
-},
-[395180] = {
-["enabled"] = false,
-["sizeOffset"] = 6,
-},
-[431381] = {
-["enabled"] = false,
+[61295] = {
+["yOffset"] = 1,
 ["sizeOffset"] = 6,
 },
 },
@@ -3672,6 +3675,14 @@ ElvDB = {
 ["sizeOffset"] = 4,
 ["xOffset"] = -12,
 },
+[774] = {
+["xOffset"] = -14,
+["yOffset"] = 1,
+["sizeOffset"] = 6,
+["color"] = {
+["a"] = 1,
+},
+},
 [48438] = {
 ["point"] = "TOPRIGHT",
 ["color"] = {
@@ -3682,14 +3693,6 @@ ElvDB = {
 ["yOffset"] = 1,
 ["sizeOffset"] = 6,
 ["xOffset"] = -29,
-},
-[774] = {
-["xOffset"] = -14,
-["yOffset"] = 1,
-["sizeOffset"] = 6,
-["color"] = {
-["a"] = 1,
-},
 },
 [102351] = {
 ["point"] = "RIGHT",
@@ -3740,6 +3743,39 @@ ElvDB = {
 ["point"] = "TOPRIGHT",
 ["yOffset"] = 1,
 ["sizeOffset"] = 6,
+},
+},
+["MONK"] = {
+[325209] = {
+["enabled"] = false,
+},
+[115175] = {
+["point"] = "RIGHT",
+["sizeOffset"] = 4,
+["xOffset"] = 1,
+},
+[191840] = {
+["xOffset"] = 1,
+["sizeOffset"] = 4,
+["yOffset"] = -1,
+},
+[116849] = {
+["enabled"] = false,
+},
+[119611] = {
+["point"] = "TOPRIGHT",
+["xOffset"] = 1,
+["yOffset"] = 1,
+["sizeOffset"] = 4,
+},
+[116841] = {
+["enabled"] = false,
+},
+[124682] = {
+["point"] = "TOPRIGHT",
+["xOffset"] = -12,
+["yOffset"] = 1,
+["sizeOffset"] = 4,
 },
 },
 ["EVOKER"] = {
@@ -3794,39 +3830,6 @@ ElvDB = {
 },
 [357170] = {
 ["enabled"] = false,
-},
-},
-["MONK"] = {
-[325209] = {
-["enabled"] = false,
-},
-[115175] = {
-["point"] = "RIGHT",
-["sizeOffset"] = 4,
-["xOffset"] = 1,
-},
-[191840] = {
-["xOffset"] = 1,
-["sizeOffset"] = 4,
-["yOffset"] = -1,
-},
-[116849] = {
-["enabled"] = false,
-},
-[119611] = {
-["point"] = "TOPRIGHT",
-["xOffset"] = 1,
-["yOffset"] = 1,
-["sizeOffset"] = 4,
-},
-[116841] = {
-["enabled"] = false,
-},
-[124682] = {
-["point"] = "TOPRIGHT",
-["xOffset"] = -12,
-["yOffset"] = 1,
-["sizeOffset"] = 4,
 },
 },
 },
