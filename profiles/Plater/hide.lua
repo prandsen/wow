@@ -17,6 +17,7 @@ function (modTable)
         -- The Rookery
 
         -- Theater of Pain
+        [341969] = true,
 
         -- Mechagon: Workshop
 

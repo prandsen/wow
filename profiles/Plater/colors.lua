@@ -156,6 +156,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         -- Mechagon: Workshop
         [144244] = boss,
         [144246] = boss,
+        [144248] = boss,
         [144249] = boss,
         [144293] = priorityTarget,
         [144294] = casters,
@@ -167,6 +168,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [151579] = neutral,
         [151613] = important,
         [151657] = casters,
+        [152033] = important,
 
         -- Raid: Undermine(d)
         [225821] = boss,
@@ -189,6 +191,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [229356] = casters,
         [229364] = casters,
         [229366] = priorityTarget,
+        [229440] = priorityTarget,
         [229953] = boss,
         [230316] = casters,
         [230322] = boss,
