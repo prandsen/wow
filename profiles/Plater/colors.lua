@@ -46,6 +46,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [212412] = important,
         [213751] = important,
         [213913] = casters,
+        [220616] = priorityTarget,
         [220815] = important,
         [223775] = casters,
 
@@ -141,6 +142,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [167532] = priorityTarget,
         [167533] = priorityTarget,
         [167534] = priorityTarget,
+        [167536] = priorityTarget,
         [167538] = priorityTarget,
         [167998] = priorityTarget,
         [169893] = important,
