@@ -50,6 +50,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [220815] = important,
         [223773] = casters,
         [223775] = casters,
+        [233152] = priorityTarget,
 
         -- Operation: Floodgate
         [226396] = boss,
@@ -171,6 +172,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [151613] = important,
         [151657] = casters,
         [152033] = important,
+        [236033] = important,
 
         -- Raid: Undermine(d)
         [225821] = boss,
