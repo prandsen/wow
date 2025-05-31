@@ -10,6 +10,7 @@ function (modTable)
         [1214780] = true,
 
         -- The Motherlode
+        [268702] = true,
 
         -- Priory of the Sacred Flame
         [427356] = true,

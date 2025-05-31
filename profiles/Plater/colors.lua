@@ -48,6 +48,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [213913] = casters,
         [220616] = priorityTarget,
         [220815] = important,
+        [223773] = casters,
         [223775] = casters,
 
         -- Operation: Floodgate
@@ -75,7 +76,6 @@ function (self, unitId, unitFrame, envTable, modTable)
         [129227] = boss,
         [129231] = boss,
         [129232] = boss,
-        [129802] = important,
         [130435] = priorityTarget,
         [130488] = important,
         [130635] = casters,
