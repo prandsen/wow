@@ -3,6 +3,7 @@ function (modTable)
     local customSpells = {
 
         -- Cinderbrew Meadery
+        [440687] = true,
 
         -- Darkflame Cleft
 
