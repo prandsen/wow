@@ -14,7 +14,6 @@ function (modTable)
         [268702] = true,
 
         -- Priory of the Sacred Flame
-        [424420] = true,
         [427356] = true,
         [444743] = true,
 
