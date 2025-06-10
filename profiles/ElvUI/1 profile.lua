@@ -557,7 +557,7 @@
         ["ElvAB_6"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,419,1",
         ["ElvAB_7"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-4,369",
         ["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,1,685",
-        ["ElvUF_FocusCastbarMover"] = "TOP,ElvUIParent,TOP,0,-245",
+        ["ElvUF_FocusCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,353",
         ["ElvUF_FocusMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,455,248",
         ["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,555,335",
         ["ElvUF_PetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-221,252",
@@ -597,6 +597,7 @@
         ["TargetPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,295,247",
         ["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,338",
         ["TopCenterContainerMover"] = "TOP,ElvUIParent,TOP,0,-31",
+        ["TorghastChoiceToggle"] = "TOP,UIParent,TOP,0,-177",
         ["TotemBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,204,4",
         ["TotemTrackerMover"] = "BOTTOM,ElvUIParent,BOTTOM,138,284",
         ["VOICECHAT"] = "TOPLEFT,UIParent,TOPLEFT,4,-183",
@@ -869,7 +870,6 @@
             ["personalHeight"] = 10,
             ["personalWidth"] = 50,
         },
-        ["smoothbars"] = true,
         ["statusbar"] = "Melli Dark",
         ["threat"] = {
             ["enable"] = false,
@@ -1299,7 +1299,6 @@
         ["font"] = "ITCAvantGardeGothicDemi",
         ["fontOutline"] = "NONE",
         ["fontSize"] = 12,
-        ["smoothbars"] = true,
         ["statusbar"] = "Melli Dark",
         ["units"] = {
             ["arena"] = {
@@ -1410,16 +1409,17 @@
                 },
                 ["castbar"] = {
                     ["customTextFont"] = {
+                        ["enable"] = true,
                         ["font"] = "ITCAvantGardeGothicDemi",
+                        ["fontSize"] = 11,
                     },
                     ["customTimeFont"] = {
+                        ["enable"] = true,
                         ["font"] = "ITCAvantGardeGothicDemi",
+                        ["fontSize"] = 11,
                     },
-                    ["enable"] = false,
-                    ["height"] = 8,
-                    ["icon"] = false,
-                    ["overlayOnFrame"] = "Health",
-                    ["width"] = 400,
+                    ["iconSize"] = 40,
+                    ["width"] = 202,
                 },
                 ["customTexts"] = {
                     ["TargetName"] = {
@@ -1471,6 +1471,12 @@
                 },
             },
             ["party"] = {
+                ["CombatIcon"] = {
+                    ["anchorPoint"] = "BOTTOMLEFT",
+                    ["enable"] = true,
+                    ["xOffset"] = 10,
+                    ["yOffset"] = 10,
+                },
                 ["buffIndicator"] = {
                     ["countFont"] = "ITCAvantGardeGothicDemi",
                 },
@@ -1610,8 +1616,9 @@
                 },
                 ["roleIcon"] = {
                     ["position"] = "TOPLEFT",
-                    ["xOffset"] = 0,
-                    ["yOffset"] = -6,
+                    ["size"] = 12,
+                    ["xOffset"] = 2,
+                    ["yOffset"] = -4,
                 },
                 ["summonIcon"] = {
                     ["attachTo"] = "RIGHT",
@@ -1842,6 +1849,7 @@
                 },
                 ["roleIcon"] = {
                     ["position"] = "TOPLEFT",
+                    ["size"] = 12,
                     ["xOffset"] = 0,
                     ["yOffset"] = 0,
                 },
@@ -1955,6 +1963,7 @@
                 ["roleIcon"] = {
                     ["enable"] = true,
                     ["position"] = "TOPLEFT",
+                    ["size"] = 12,
                     ["xOffset"] = 0,
                     ["yOffset"] = 0,
                 },
@@ -2067,6 +2076,7 @@
                 ["roleIcon"] = {
                     ["enable"] = true,
                     ["position"] = "TOPLEFT",
+                    ["size"] = 12,
                     ["xOffset"] = 0,
                     ["yOffset"] = 0,
                 },
