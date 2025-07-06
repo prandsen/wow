@@ -1,11 +1,11 @@
 VER 3 010000000000002A "1" "252188"
 /stopcasting
-/cast [form:1/2, @focus, exists, harm, nodead][form:1/2, @target, exists, harm, nodead] Лобовая атака
 /cast [form:0/4/5/6/7, @focus, exists, harm, nodead][form:0/4/5/6/7,@target, exists, harm, nodead] Столп солнечного света
+/cast [form:1/2, @focus, exists, harm, nodead][form:1/2,@target, exists, harm, nodead] Лобовая атака
 END
 VER 3 0100000000000031 "1 DruRes" "132137"
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Щит Кенария
-/cast [form:1/2, @focus, exists, harm, nodead][form:1/2, @target, exists, harm, nodead] Лобовая атака
+/cast [form:0/1/2/4, @focus, exists, harm, nodead][form:0/1/2/4, @target, exists, harm, nodead] Лобовая атака
 END
 VER 3 0100000000000041 "2" "134400"
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,help,nodead] Стражи рощи
@@ -47,7 +47,7 @@ VER 3 0100000000000028 "E DruRes" "135753"
 /cast [form:0/4/6/7,harm] Звездный огонь
 END
 VER 3 010000000000002B "M4" "135730"
-/cast [form:0/4] Звездный поток
+/cast [form:0/4/5/6/7] Звездный поток
 /cast [form:1] Железный мех
 /cast [form:2] Свирепый укус
 END
@@ -72,8 +72,10 @@ VER 3 010000000000002F "R" "136096"
 /cast [form:2,harm] Глубокая рана
 END
 VER 3 0100000000000032 "S1 Bal" "571586"
-/use 13
-/cast Парад планет
+/use Перстень приората
+/use Карточный домик
+/cast Природная чуткость
+/cast [@cursor] Парад планет
 /cast Берсерк
 /cast Воплощение: избранный Элуны
 /cast Воплощение: аватара Пеплошкурой
@@ -83,22 +85,24 @@ VER 3 010000000000003D "Sh5" "134400"
 /cancelaura Крадущийся зверь
 /cast Слиться с тенью
 END
-VER 3 0100000000000030 "Shc DruRes" "134222"
+VER 3 0100000000000030 "ShC DruRes" "134222"
 /cast [mod:alt,@player][@cursor] Период цветения
 END
 VER 3 0100000000000033 "ShE" "136085"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead] Цветочный взрыв
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead][@player,known:16974][@player,known:372119] Восстановление
-/cast [form:2,known:441689] Неистовое восстановление
 END
 VER 3 010000000000003E "ShF" "134400"
 /stopcasting
 /cast Облик медведя
 END
 VER 3 0100000000000038 "ShG" "134400"
-/cast [known:Воплощение: древо жизни]Воплощение: древо жизни
-/cast [known:Созыв духов] Созыв духов
+/cast [known:Древо мудрости] Древо мудрости
+/cast Воплощение: древо жизни
+/cast Созыв духов
 END
 VER 3 0100000000000034 "ShR" "236216"
+/cast [mod:alt,@player] Массовое оплетение
 /cast [mod:alt,@player] Буйный рост
 /cast [@target,form:0/3/4/5/6/7,exists,harm,nodead] Солнечный огонь
 /cast [@target,form:2,exists,harm,nodead] Разорвать

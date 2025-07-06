@@ -22,6 +22,7 @@ function (modTable)
         -- Theater of Pain
         [330868] = true,
         [341969] = true,
+        [342675] = true,
 
         -- Mechagon: Workshop
 

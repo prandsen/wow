@@ -124,21 +124,21 @@ ElvDB = {
 ["b"] = 0.04,
 },
 ["gameMenuScale"] = 0.8,
+["customGlow"] = {
+["lines"] = 4,
+["style"] = "Autocast Shine",
+},
 ["itemLevel"] = {
 ["totalLevelFont"] = "ITCAvantGardeGothicDemi",
 ["itemLevelFontSize"] = 11,
 ["itemLevelFont"] = "ITCAvantGardeGothicDemi",
 },
-["customGlow"] = {
-["lines"] = 4,
-["style"] = "Autocast Shine",
-},
-["objectiveFrameAutoHideInKeystone"] = true,
 ["totems"] = {
 ["spacing"] = 2,
 ["sortDirection"] = "DESCENDING",
 ["size"] = 37,
 },
+["objectiveFrameAutoHideInKeystone"] = true,
 ["font"] = "ITCAvantGardeGothicDemi",
 ["altPowerBar"] = {
 ["font"] = "ITCAvantGardeGothicDemi",
@@ -299,7 +299,7 @@ ElvDB = {
 ["historySize"] = 500,
 ["tabSelector"] = "NONE",
 },
-["dbConverted"] = 13.92,
+["dbConverted"] = 13.93,
 ["WeakAuras"] = {
 ["cooldown"] = {
 ["hideBlizzard"] = true,
@@ -404,7 +404,7 @@ ElvDB = {
 },
 ["unitframe"] = {
 ["fontSize"] = 12,
-["statusbar"] = "Melli Dark",
+["smoothbars"] = true,
 ["units"] = {
 ["tank"] = {
 ["enable"] = false,
@@ -1417,7 +1417,7 @@ ElvDB = {
 },
 },
 ["fontOutline"] = "NONE",
-["smoothbars"] = true,
+["statusbar"] = "Melli Dark",
 ["cooldown"] = {
 ["threshold"] = 5,
 ["fonts"] = {
@@ -1583,6 +1583,9 @@ ElvDB = {
 ["macroFontSize"] = 11,
 ["hotkeyFontOutline"] = "OUTLINE",
 },
+["microbar"] = {
+["buttons"] = 11,
+},
 ["bar2"] = {
 ["hotkeyFont"] = "ITCAvantGardeGothicDemi",
 ["enabled"] = true,
@@ -1597,9 +1600,6 @@ ElvDB = {
 ["countFontOutline"] = "OUTLINE",
 ["macroFontSize"] = 11,
 ["hotkeyFontOutline"] = "OUTLINE",
-},
-["microbar"] = {
-["buttons"] = 11,
 },
 ["vehicleExitButton"] = {
 ["hotkeyFont"] = "ITCAvantGardeGothicDemi",
@@ -2934,7 +2934,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[357281] = {
+[385331] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2944,7 +2944,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[227985] = {
+[436841] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2964,7 +2964,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[385331] = {
+[357281] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3289,7 +3289,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[436841] = {
+[227985] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3918,49 +3918,49 @@ nil,
 nil,
 true,
 },
-[26] = {
-nil,
-nil,
-nil,
-true,
-},
 [27] = {
 nil,
 nil,
 nil,
 true,
 },
-[39] = {
+[28] = {
 nil,
 nil,
 nil,
 true,
 },
-[51] = {
+[40] = {
 nil,
 nil,
 nil,
 true,
 },
-[61] = {
+[52] = {
 nil,
 nil,
 nil,
 true,
 },
-[70] = {
+[62] = {
 nil,
 nil,
 nil,
 true,
 },
-[73] = {
+[71] = {
 nil,
 nil,
 nil,
 true,
 },
-[75] = {
+[74] = {
+nil,
+nil,
+nil,
+true,
+},
+[76] = {
 nil,
 nil,
 nil,
