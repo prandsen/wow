@@ -1,0 +1,1520 @@
+{
+    ["unitframe"] = {
+        ["aurafilters"] = {
+            ["Blacklist"] = {
+                ["spells"] = {
+                    [186401] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [355462] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                },
+            },
+            ["MyBuffsBL"] = {
+                ["spells"] = {
+                    [206150] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [225788] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [355794] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                },
+                ["type"] = "Blacklist",
+            },
+            ["MyBuffsWL"] = {
+                ["spells"] = {
+                    [586] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [193065] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [291937] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [328737] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [334321] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [335161] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [391171] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [429271] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [1214752] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                },
+                ["type"] = "Whitelist",
+            },
+            ["MyDebuffsBL"] = {
+                ["spells"] = {
+                    [199368] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [357610] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                },
+                ["type"] = "Blacklist",
+            },
+            ["MyDebuffsWL"] = {
+                ["spells"] = {
+                    [16856] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [27638] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [29667] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [75238] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [88194] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [99692] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [99693] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [160703] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [163447] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [163740] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [164632] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [164648] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [164837] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [166340] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [167038] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [173113] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [173149] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [173489] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [176025] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [176033] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [176147] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [178156] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [227325] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [227473] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [227480] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [227524] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [227777] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [227965] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [227977] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [227985] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [228013] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [228241] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [228524] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [228993] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [229250] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [232135] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [233620] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [250096] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [256106] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [256709] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [257478] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [268230] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [274555] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [278456] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [285153] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [293724] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [293986] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [297904] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [298259] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [299438] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [299474] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [299502] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [300436] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [300675] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [301299] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [318587] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [319070] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [319521] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [319531] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [319898] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [320147] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [320180] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [320200] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [320596] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [320631] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [321755] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [321807] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [322968] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [323195] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [323437] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [324146] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [324148] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [324154] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [324444] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [324652] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [326242] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [326826] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [327393] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [327396] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [327397] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [327646] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [327649] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [327814] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [327882] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [328453] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [328494] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [328501] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [328593] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [328664] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [330135] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [330532] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [331399] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [331415] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [331997] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [332836] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [333231] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [333477] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [333708] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [333861] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [334053] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [334926] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [336277] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [338357] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [338731] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [340208] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [340556] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [342961] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [344874] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [346844] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [347807] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [347949] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [349627] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [349954] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [350010] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [350101] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [351119] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [352345] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [354334] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [355487] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [355832] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [356407] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [356548] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [356923] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [357281] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [357827] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [362194] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [366849] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [371070] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [371966] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [372141] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [373744] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [373872] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [374037] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [374295] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [374300] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [375416] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [384575] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [385331] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [391762] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [392641] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [395292] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [397210] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [403724] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [404650] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [407120] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [407313] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [407715] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [407906] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [408805] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [409492] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [409558] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [410953] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [412044] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [412285] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [412505] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [413131] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [413547] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [414300] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [414552] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [414585] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [414922] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [415436] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [416258] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [418009] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [418200] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [419351] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [419629] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [423416] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [424893] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [425417] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [426590] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [427378] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [428161] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [429363] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [433662] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [433785] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [433841] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [434090] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [434406] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [434655] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [435793] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [436652] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [436841] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [438618] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [439832] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [445518] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [450087] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [453810] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [454439] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [454440] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [460092] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [461994] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [463182] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [463210] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [463217] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [463257] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [468631] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [1215934] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [1217821] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                },
+                ["type"] = "Whitelist",
+            },
+            ["RaidDebuffs"] = {
+                ["spells"] = {
+                    [334909] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [347807] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                },
+            },
+        },
+        ["aurawatch"] = {
+            ["DRUID"] = {
+                [774] = {
+                    ["color"] = {
+                        ["a"] = 1,
+                    },
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = -14,
+                    ["yOffset"] = 1,
+                },
+                [8936] = {
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 6,
+                    ["yOffset"] = 1,
+                },
+                [33763] = {
+                    ["color"] = {
+                        ["a"] = 1,
+                        ["b"] = 0.15686275064945,
+                        ["g"] = 0.15686275064945,
+                        ["r"] = 0.78431379795074,
+                    },
+                    ["point"] = "RIGHT",
+                    ["sizeOffset"] = 6,
+                    ["yOffset"] = 7,
+                },
+                [48438] = {
+                    ["color"] = {
+                        ["a"] = 1,
+                        ["g"] = 0.40000003576279,
+                        ["r"] = 0.80000007152557,
+                    },
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = -29,
+                    ["yOffset"] = 1,
+                },
+                [102351] = {
+                    ["enabled"] = false,
+                    ["point"] = "RIGHT",
+                    ["sizeOffset"] = 4,
+                    ["xOffset"] = 1,
+                },
+                [102352] = {
+                    ["enabled"] = false,
+                    ["point"] = "RIGHT",
+                    ["sizeOffset"] = 4,
+                    ["xOffset"] = 1,
+                },
+                [155777] = {
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 6,
+                    ["yOffset"] = 1,
+                },
+                [157982] = {
+                    ["enabled"] = false,
+                },
+                [188550] = {
+                    ["color"] = {
+                        ["a"] = 1,
+                        ["b"] = 0.2549019753933,
+                        ["g"] = 0,
+                        ["r"] = 0.78431379795074,
+                    },
+                    ["point"] = "RIGHT",
+                    ["sizeOffset"] = 6,
+                    ["yOffset"] = 7,
+                },
+                [200389] = {
+                    ["enabled"] = false,
+                    ["sizeOffset"] = 4,
+                    ["xOffset"] = 0,
+                    ["yOffset"] = -1,
+                },
+                [203554] = {
+                    ["color"] = {
+                        ["a"] = 1,
+                    },
+                    ["enabled"] = false,
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 4,
+                    ["xOffset"] = -12,
+                    ["yOffset"] = 14,
+                },
+                [207386] = {
+                    ["enabled"] = false,
+                },
+                [391891] = {
+                    ["countAnchor"] = "RIGHT",
+                    ["countX"] = 15,
+                    ["countY"] = 0,
+                    ["enabled"] = false,
+                    ["point"] = "BOTTOMLEFT",
+                    ["sizeOffset"] = 3,
+                    ["textThreshold"] = 60,
+                    ["xOffset"] = -1,
+                    ["yOffset"] = -1,
+                },
+            },
+            ["EVOKER"] = {
+                [355941] = {
+                    ["sizeOffset"] = 6,
+                },
+                [357170] = {
+                    ["enabled"] = false,
+                },
+                [360827] = {
+                    ["point"] = "BOTTOMLEFT",
+                    ["sizeOffset"] = 6,
+                },
+                [364343] = {
+                    ["color"] = {
+                        ["a"] = 1,
+                        ["b"] = 1,
+                        ["g"] = 1,
+                        ["r"] = 1,
+                    },
+                    ["point"] = "RIGHT",
+                    ["sizeOffset"] = 16,
+                    ["style"] = "timerOnly",
+                    ["textThreshold"] = 60,
+                    ["yOffset"] = 4,
+                },
+                [366155] = {
+                    ["color"] = {
+                        ["a"] = 1,
+                        ["b"] = 0,
+                        ["r"] = 1,
+                    },
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = -15,
+                },
+                [367364] = {
+                    ["color"] = {
+                        ["a"] = 1,
+                        ["b"] = 0,
+                        ["g"] = 1,
+                        ["r"] = 1,
+                    },
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = -45,
+                },
+                [373267] = {
+                    ["point"] = "BOTTOM",
+                    ["sizeOffset"] = 6,
+                },
+                [376788] = {
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = -30,
+                },
+            },
+            ["MONK"] = {
+                [115175] = {
+                    ["point"] = "RIGHT",
+                    ["sizeOffset"] = 4,
+                    ["xOffset"] = 1,
+                },
+                [116841] = {
+                    ["enabled"] = false,
+                },
+                [116849] = {
+                    ["enabled"] = false,
+                },
+                [119611] = {
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 4,
+                    ["xOffset"] = 1,
+                    ["yOffset"] = 1,
+                },
+                [124682] = {
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 4,
+                    ["xOffset"] = -12,
+                    ["yOffset"] = 1,
+                },
+                [191840] = {
+                    ["sizeOffset"] = 4,
+                    ["xOffset"] = 1,
+                    ["yOffset"] = -1,
+                },
+                [325209] = {
+                    ["enabled"] = false,
+                },
+            },
+            ["PALADIN"] = {
+                [1022] = {
+                    ["enabled"] = false,
+                    ["point"] = "RIGHT",
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = 1,
+                },
+                [1044] = {
+                    ["point"] = "BOTTOM",
+                    ["sizeOffset"] = 6,
+                    ["yOffset"] = -1,
+                },
+                [6940] = {
+                    ["enabled"] = false,
+                    ["sizeOffset"] = 4,
+                    ["xOffset"] = 1,
+                    ["yOffset"] = -1,
+                },
+                [53563] = {
+                    ["color"] = {
+                        ["b"] = 0,
+                        ["g"] = 1,
+                        ["r"] = 0,
+                    },
+                    ["point"] = "BOTTOMLEFT",
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = -1,
+                },
+                [148039] = {
+                    ["color"] = {
+                        ["a"] = 1,
+                        ["b"] = 0.36078432202339,
+                        ["g"] = 0.80000007152557,
+                        ["r"] = 0.92941182851791,
+                    },
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = -15,
+                    ["yOffset"] = 1,
+                },
+                [156322] = {
+                    ["enabled"] = false,
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = -15,
+                    ["yOffset"] = 1,
+                },
+                [156910] = {
+                    ["color"] = {
+                        ["b"] = 0,
+                        ["g"] = 1,
+                        ["r"] = 0,
+                    },
+                    ["point"] = "BOTTOMLEFT",
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = -1,
+                },
+                [157047] = {
+                    ["enabled"] = false,
+                    ["sizeOffset"] = 6,
+                },
+                [200025] = {
+                    ["color"] = {
+                        ["b"] = 0,
+                        ["g"] = 0.47843137254902,
+                        ["r"] = 1,
+                    },
+                    ["sizeOffset"] = 6,
+                    ["yOffset"] = 1,
+                },
+                [204018] = {
+                    ["enabled"] = false,
+                    ["point"] = "RIGHT",
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = 1,
+                },
+                [223306] = {
+                    ["color"] = {
+                        ["b"] = 0,
+                        ["g"] = 1,
+                        ["r"] = 1,
+                    },
+                    ["point"] = "RIGHT",
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = -1,
+                    ["yOffset"] = -1,
+                },
+                [287280] = {
+                    ["color"] = {
+                        ["b"] = 0,
+                        ["g"] = 0.45882352941176,
+                        ["r"] = 1,
+                    },
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 4,
+                    ["xOffset"] = 1,
+                    ["yOffset"] = 1,
+                },
+                [395180] = {
+                    ["enabled"] = false,
+                    ["sizeOffset"] = 6,
+                },
+                [431381] = {
+                    ["enabled"] = false,
+                    ["sizeOffset"] = 6,
+                },
+            },
+            ["PRIEST"] = {
+                [17] = {
+                    ["color"] = {
+                        ["a"] = 1,
+                        ["b"] = 1,
+                        ["g"] = 1,
+                        ["r"] = 1,
+                    },
+                    ["cooldownAnchor"] = "TOP",
+                    ["cooldownX"] = -1,
+                    ["cooldownY"] = -1,
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 17,
+                    ["style"] = "timerOnly",
+                    ["textThreshold"] = 7,
+                    ["xOffset"] = -12,
+                    ["yOffset"] = 1,
+                },
+                [139] = {
+                    ["color"] = {
+                        ["a"] = 1,
+                        ["b"] = 0,
+                        ["g"] = 1,
+                        ["r"] = 0,
+                    },
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = -15,
+                    ["yOffset"] = 1,
+                },
+                [6788] = {
+                    ["color"] = {
+                        ["a"] = 1,
+                    },
+                    ["point"] = "RIGHT",
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = 0,
+                },
+                [10060] = {
+                    ["enabled"] = false,
+                    ["sizeOffset"] = 6,
+                },
+                [33206] = {
+                    ["enabled"] = false,
+                    ["sizeOffset"] = 6,
+                },
+                [41635] = {
+                    ["color"] = {
+                        ["a"] = 1,
+                        ["b"] = 0,
+                        ["g"] = 1,
+                        ["r"] = 1,
+                    },
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 6,
+                    ["yOffset"] = 1,
+                },
+                [47788] = {
+                    ["enabled"] = false,
+                    ["sizeOffset"] = 6,
+                },
+                [77489] = {
+                    ["sizeOffset"] = 6,
+                },
+                [193065] = {
+                    ["enabled"] = false,
+                    ["sizeOffset"] = 6,
+                    ["xOffset"] = 1,
+                    ["yOffset"] = -1,
+                },
+                [194384] = {
+                    ["sizeOffset"] = 6,
+                    ["yOffset"] = 1,
+                },
+                [214206] = {
+                    ["sizeOffset"] = 6,
+                    ["yOffset"] = 1,
+                },
+            },
+            ["SHAMAN"] = {
+                [974] = {
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 3,
+                    ["style"] = "timerOnly",
+                    ["textThreshold"] = 0,
+                    ["xOffset"] = -16,
+                    ["yOffset"] = -1,
+                },
+                [61295] = {
+                    ["sizeOffset"] = 6,
+                    ["yOffset"] = 1,
+                },
+                [383648] = {
+                    ["color"] = {
+                        ["a"] = 1,
+                        ["b"] = 0.43921571969986,
+                        ["g"] = 0.80000007152557,
+                        ["r"] = 0.90980398654938,
+                    },
+                    ["point"] = "TOPRIGHT",
+                    ["sizeOffset"] = 6,
+                    ["style"] = "timerOnly",
+                    ["textThreshold"] = 0,
+                    ["xOffset"] = -16,
+                    ["yOffset"] = -1,
+                },
+            },
+        },
+    },
+}::filters

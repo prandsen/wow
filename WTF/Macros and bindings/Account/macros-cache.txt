@@ -1,19 +1,24 @@
+VER 3 0000000000000088 "CC Balance" "134400"
+/cast [@cursor] Сила природы
+/cast Воин Элуны
+END
 VER 3 000000000000005F "CM5" "133009"
 /cast Обновление
 /cast Камень здоровья
 /cast Освежающее лечебное зелье
 /cast Лечебное зелье сновидца
 /cast Зелье поблекших снов
+/cast Алгарийское лечебное зелье
 END
 VER 3 0000000000000086 "DruGuard V" "134400"
 /stopmacro [form:1,combat]
 /cast [outdoors] Походный облик
 /cast [indoors] Облик кошки
 END
-VER 3 000000000000007E "eda" "134400"
-#showtooltip Каменистая дорога
+VER 3 000000000000007E "eda" "132805"
+#showtooltip Эфирный коктейль
 /use Сотворенные булочки из маны
-/use Каменистая дорога
+/use Эфирный коктейль
 END
 VER 3 000000000000005D "extra" "133146"
 /click ExtraActionButton1
@@ -26,9 +31,8 @@ VER 3 000000000000006A "MwD DruGuard" "136100"
 /cast Гнев деревьев
 END
 VER 3 000000000000006F "pot" "967534"
-/use item:191914
-/use item:191383
-/use item:191382
+/use Зелье предельной концентрации
+/use Охлажденное зелье
 END
 VER 3 0000000000000069 "ShF Guard" "132276"
 /stopmacro [form:1,combat]
@@ -42,7 +46,13 @@ VER 3 0000000000000065 "ShM4 DruGuard" "132115"
 /stopmacro [form:1,combat]
 /cast Облик кошки
 END
+VER 3 000000000000008A "ShM5 Guard" "136036"
+/stopmacro [form:1,combat]
+/cast Облик лунного совуха
+END
 VER 3 0000000000000061 "trinket" "134400"
+/use [combat] item:232805
+/use [combat] item:232526
 /use [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,nodead][] 13
 END
 VER 3 000000000000007F "trinket 2" "134400"
