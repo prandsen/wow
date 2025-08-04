@@ -5,12 +5,17 @@ END
 VER 3 0100000000000015 "3" "134400"
 /cast [@mouseover,exists,help,nodead][@target,exists,nodead][] Щит земли
 END
-VER 3 010000000000000A "CtrlZ" "132315"
-/castsequence reset=5 Водный щит, Щит молний, Небесная ярость
+VER 3 010000000000000A "CZ" "132315"
+/castsequence [spec:1,@player] reset=5 Щит молний, Небесная ярость
+/castsequence [spec:3,@player] reset=5 Водный щит, Небесная ярость
 END
 VER 3 0100000000000003 "E" "136015"
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Волна исцеления
 /cast [@target,exists,harm,nodead] Цепная молния
+END
+VER 3 0100000000000018 "MwU" "134400"
+/use [@mouseover,exists,help,dead][@target.exists.help,dead] Сносно работающий кабельный дефибриллятор
+/cast Тотем защиты Предков
 END
 VER 3 0100000000000002 "Q" "136048"
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Исцеляющий всплеск
@@ -20,16 +25,15 @@ VER 3 0100000000000004 "R" "237582"
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Быстрина
 /cast [@target,exists,harm,nodead] Выброс лавы
 END
-VER 3 0100000000000017 "Sh2" "134400"
+VER 3 0100000000000019 "Sh1" "134400"
+/cast Перерождение
 /cast Наставления предков
-/cast Тотем целительного прилива
 END
-VER 3 010000000000000C "ShC" "134400"
+VER 3 010000000000000C "ShC" "136037"
 /cast [@cursor] Целительный ливень
-/cast [@cursor] Землетрясение
 END
 VER 3 010000000000000B "ShG" "3578231"
-/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Первозданная волна
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,nodead] Первозданная волна
 END
 VER 3 0100000000000005 "ShR" "135813"
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Цепное исцеление

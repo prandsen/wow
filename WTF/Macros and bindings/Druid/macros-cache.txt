@@ -59,6 +59,7 @@ VER 3 010000000000002C "M5" "134400"
 /cast [form:2] Взбучка
 END
 VER 3 010000000000002D "MwU" "136080"
+/cancelaura Облик кошки
 /cast [@mouseover,exists,help,dead][@target,exists,help,dead] Возрождение
 END
 VER 3 010000000000002E "Q" "535045"
@@ -71,7 +72,7 @@ VER 3 010000000000002F "R" "136096"
 /cast [form:0/1/3/4/6/7,harm] Лунный огонь
 /cast [form:2,harm] Глубокая рана
 END
-VER 3 0100000000000032 "S1 Bal" "571586"
+VER 3 0100000000000032 "Sh1 burst" "571586"
 /use Перстень приората
 /use Карточный домик
 /cast Природная чуткость
@@ -102,7 +103,7 @@ VER 3 0100000000000038 "ShG" "134400"
 /cast Созыв духов
 END
 VER 3 0100000000000034 "ShR" "236216"
-/cast [mod:alt,@player] Массовое оплетение
+/cast [mod:alt,@player] Массовое цветение
 /cast [mod:alt,@player] Буйный рост
 /cast [@target,form:0/3/4/5/6/7,exists,harm,nodead] Солнечный огонь
 /cast [@target,form:2,exists,harm,nodead] Разорвать
