@@ -14,7 +14,9 @@ function (self, unitId, unitFrame, envTable, modTable)
         --["Thunderlord Windreader"] = "red", --using regular mob name and color it as red
         --["thunderlord crag-leaper"] = {1, 1, 0}, --using lower case and coloring it spitful
         --[75790] = "#00FF00", --using the ID of the unit and using green as color
-        
+
+        [223724] = neutral, -- trinket
+
         -- Cinderbrew Meadery
         [210264] = casters,
         [210265] = neutral,
