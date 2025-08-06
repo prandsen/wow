@@ -16,6 +16,18 @@ function (self, unitId, unitFrame, envTable, modTable)
         --[75790] = "#00FF00", --using the ID of the unit and using green as color
 
         -- Eco-Dome Al'dani
+        [234883] = priorityTarget,
+        [234893] = boss,
+        [234933] = boss,
+        [234935] = boss,
+        [234955] = priorityTarget,
+        [234957] = casters,
+        [234962] = important,
+        [236995] = priorityTarget,
+        [237514] = boss,
+        [242631] = priorityTarget,
+        [244302] = important,
+        [324870] = neutral,
 
         -- Operation: Floodgate
         [226396] = boss,
@@ -92,20 +104,26 @@ function (self, unitId, unitFrame, envTable, modTable)
         [217531] = important,
         [217533] = important,
         [218324] = important,
+        [220599] = casters,
         [223253] = casters,
         [228015] = priorityTarget,
 
         -- Halls of Atonement
         [164185] = boss,
         [164218] = boss,
-        [164557] = priorityTarget,
+        [164557] = important,
         [164562] = priorityTarget,
+        [164563] = important,
         [165408] = boss,
         [165410] = boss,
         [165414] = casters,
+        [165415] = neutral,
         [165529] = casters,
-        [167612] = casters,
-        [167876] = casters,
+        [165913] = neutral,
+        [167607] = priorityTarget,
+        [167612] = priorityTarget,
+        [167876] = priorityTarget,
+        [167892] = neutral,
 
         -- Tazavesh: So'leah's Gambit
         [176551] = casters,

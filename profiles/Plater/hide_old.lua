@@ -4,7 +4,19 @@ function (modTable)
 
         --======== The War Within =========
 
-        -- Stonevault
+        -- -- Cinderbrew Meadery
+        -- [440687] = true,
+
+        -- -- Darkflame Cleft
+
+        -- -- Operation: Floodgate
+        -- [1214780] = true,
+
+        -- -- Priory of the Sacred Flame
+        -- [427356] = true,
+        -- [444743] = true,
+
+        -- -- Stonevault
         -- [449455] = true,
 
         --======== Dragonflight =========
@@ -41,6 +53,14 @@ function (modTable)
         --======== Shadowlands ==========
 
         --============ BFA ==============
+
+        -- -- The Motherlode
+        -- [268702] = true,
+
+        -- -- Theater of Pain
+        -- [330868] = true,
+        -- [341969] = true,
+        -- [342675] = true,
 
         --=========== Legion ============
 
