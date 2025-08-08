@@ -12,8 +12,13 @@ function (modTable)
         [427356] = true,
         [444743] = true,
 
+        -- The Dawnbreaker
+        [432520] = true,
+
         -- Ara-Kara, City of Echoes
+        [433841] = true,
         [434802] = true,
+        [448248] = true,
     }
     
     local castingUnits = {}

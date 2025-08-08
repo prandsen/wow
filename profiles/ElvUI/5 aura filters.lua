@@ -1147,6 +1147,11 @@
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
                     },
+                    [1242681] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
                 },
                 ["type"] = "Whitelist",
             },

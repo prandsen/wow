@@ -27,7 +27,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "show;[petbattle] hide; [vehicleui][overridebar][possessbar] show; hide",
+            ["visibility"] = "[petbattle] hide; [vehicleui][overridebar][possessbar] show; hide",
         },
         ["bar10"] = {
             ["countFont"] = "ITCAvantGardeGothicDemi",
@@ -72,7 +72,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "",
+            ["visibility"] = "hide",
         },
         ["bar3"] = {
             ["buttons"] = 12,
@@ -88,7 +88,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "",
+            ["visibility"] = "hide",
         },
         ["bar4"] = {
             ["backdrop"] = false,
@@ -105,7 +105,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "",
+            ["visibility"] = "hide",
         },
         ["bar5"] = {
             ["buttons"] = 12,
@@ -121,7 +121,7 @@
             ["professionQuality"] = {
                 ["scale"] = 0.35,
             },
-            ["visibility"] = "",
+            ["visibility"] = "hide",
         },
         ["bar6"] = {
             ["buttonSize"] = 34,
