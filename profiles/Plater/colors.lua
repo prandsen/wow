@@ -20,13 +20,15 @@ function (self, unitId, unitFrame, envTable, modTable)
         [234893] = boss,
         [234933] = boss,
         [234935] = boss,
-        [234955] = priorityTarget,
+        [234955] = important,
         [234957] = casters,
-        [234962] = important,
+        [234962] = casters,
         [236995] = priorityTarget,
         [237514] = boss,
-        [242631] = priorityTarget,
+        [242209] = casters,
+        [242631] = important,
         [244302] = important,
+        [245092] = important,
         [324870] = neutral,
 
         -- Operation: Floodgate

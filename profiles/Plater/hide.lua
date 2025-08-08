@@ -2,6 +2,9 @@ function (modTable)
     
     local customSpells = {
 
+        -- Eco-Dome Al'dani
+        [1229510] = true,
+
         -- Operation: Floodgate
         [1214780] = true,
 
@@ -11,9 +14,6 @@ function (modTable)
 
         -- Ara-Kara, City of Echoes
         [434802] = true,
-
-        -- Halls of Atonement
-        [325701] = true,
     }
     
     local castingUnits = {}
