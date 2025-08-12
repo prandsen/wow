@@ -1132,6 +1132,11 @@
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
                     },
+                    [1236614] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
                     [1236615] = {
                         ["enable"] = true,
                         ["priority"] = 0,

@@ -19,6 +19,10 @@ function (modTable)
         [433841] = true,
         [434802] = true,
         [448248] = true,
+
+        -- Tazavesh
+        [355057] = true,
+        [357260] = true,
     }
     
     local castingUnits = {}
