@@ -52,7 +52,8 @@ VER 3 0100000000000020 "Q" "135907"
 END
 VER 3 0100000000000026 "Q SP" "136208"
 /cast [mod:alt,@player][@target,exists,help,nodead] Быстрое исцеление
-/cast [@target,harm,exists,nodead] Пытка разума
+/cast Вспышка бездны
+/cast Пытка разума
 END
 VER 3 0100000000000014 "R" "135953"
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Обновление

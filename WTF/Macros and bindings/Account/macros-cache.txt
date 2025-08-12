@@ -5,10 +5,7 @@ END
 VER 3 000000000000005F "CM5" "133009"
 /cast Обновление
 /cast Камень здоровья
-/cast Освежающее лечебное зелье
-/cast Лечебное зелье сновидца
-/cast Зелье поблекших снов
-/cast Алгарийское лечебное зелье
+/cast Бодрящее лечебное зелье
 END
 VER 3 0000000000000086 "DruGuard V" "134400"
 /stopmacro [form:1,combat]
@@ -16,15 +13,18 @@ VER 3 0000000000000086 "DruGuard V" "134400"
 /cast [indoors] Облик кошки
 END
 VER 3 000000000000007E "eda" "132805"
-#showtooltip Эфирный коктейль
+#showtooltip Каменный суп
 /use Сотворенные булочки из маны
-/use Эфирный коктейль
+/use Каменный суп
 END
 VER 3 000000000000005D "extra" "133146"
 /click ExtraActionButton1
 END
 VER 3 000000000000005E "M3" "132212"
 /focus [@target,exists,harm]
+END
+VER 3 000000000000008B "monetki" "4572400"
+/run a=C_CurrencyInfo.GetCurrencyInfo(3278) print("You have earned " .. a.quantity .. " of " .. a.maxQuantity .. " possible Ethereal Strands")
 END
 VER 3 000000000000006A "MwD DruGuard" "136100"
 /stopmacro [form:1,combat]
