@@ -116,7 +116,6 @@ function (self, unitId, unitFrame, envTable, modTable)
         [164218] = boss,
         [164557] = important,
         [164562] = priorityTarget,
-        [164563] = important,
         [165408] = boss,
         [165410] = boss,
         [165414] = casters,
@@ -147,7 +146,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [177808] = priorityTarget,
         [177716] = casters,
         [177816] = casters,
-        [177817] = casters,
+        [177817] = important,
         [178139] = priorityTarget,
         [178141] = important,
         [178142] = casters,
@@ -173,6 +172,23 @@ function (self, unitId, unitFrame, envTable, modTable)
         [180433] = neutral,
         [184910] = priorityTarget,
         [246285] = important,
+
+        -- Raid: Manaforge Omega
+        [233814] = boss,
+        [233815] = boss,
+        [233816] = boss,
+        [234051] = priorityTarget,
+        [235805] = priorityTarget,
+        [235807] = casters,
+        [235853] = priorityTarget,
+        [236072] = casters,
+        [237871] = priorityTarget,
+        [237872] = casters,
+        [237897] = priorityTarget,
+        [237981] = casters,
+        [240974] = priorityTarget,
+        [241304] = casters,
+        [242649] = casters,
     }
 end
 
