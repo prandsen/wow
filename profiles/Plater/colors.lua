@@ -81,7 +81,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [211341] = priorityTarget,
         [213885] = priorityTarget,
         [213892] = casters,
-        [213893] = important,
+        [213893] = casters,
         [213932] = casters,
         [213934] = priorityTarget,
         [213937] = boss,

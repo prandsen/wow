@@ -13,7 +13,6 @@ function (modTable)
         [444743] = true,
 
         -- The Dawnbreaker
-        [432520] = true,
 
         -- Ara-Kara, City of Echoes
         [433841] = true,
