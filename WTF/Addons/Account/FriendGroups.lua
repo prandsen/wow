@@ -17,12 +17,12 @@ FriendGroups_SavedVars = {
 ["sort_by_status"] = false,
 ["collapsed"] = {
 ["Олды"] = false,
-["Кто вы такие блять?"] = true,
-["M+ middle"] = true,
-["churki"] = false,
-["Рейдеры"] = true,
-["M+ senior"] = true,
 ["Ускорители"] = true,
+["M+ middle"] = true,
+["M+ senior"] = true,
+["Рейдеры"] = true,
+["churki"] = false,
+["Кто вы такие блять?"] = true,
 },
 ["hide_afk"] = false,
 }

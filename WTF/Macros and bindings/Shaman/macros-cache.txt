@@ -3,7 +3,7 @@ VER 3 0100000000000001 "1" "136018"
 /cast [@focus,exists,harm,nodead][@target,exists,harm,nodead] Пронизывающий ветер
 END
 VER 3 0100000000000015 "3" "134400"
-/cast [@mouseover,exists,help,nodead][@target,exists,nodead][] Щит земли
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,node[] Щит земли
 END
 VER 3 010000000000000A "CZ" "132315"
 /castsequence [spec:1,@player] reset=5 Щит молний, Небесная ярость

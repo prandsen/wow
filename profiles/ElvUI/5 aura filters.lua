@@ -657,6 +657,11 @@
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
                     },
+                    [347716] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
                     [347807] = {
                         ["enable"] = true,
                         ["priority"] = 0,
@@ -1032,6 +1037,11 @@
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
                     },
+                    [438825] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
                     [439832] = {
                         ["enable"] = true,
                         ["priority"] = 0,
@@ -1127,6 +1137,11 @@
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
                     },
+                    [1227748] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
                     [1235245] = {
                         ["enable"] = true,
                         ["priority"] = 0,
@@ -1142,7 +1157,17 @@
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
                     },
+                    [1237224] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
                     [1239229] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [1240820] = {
                         ["enable"] = true,
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,
@@ -1153,6 +1178,11 @@
                         ["stackThreshold"] = 0,
                     },
                     [1242681] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                    [1248211] = {
                         ["enable"] = true,
                         ["priority"] = 0,
                         ["stackThreshold"] = 0,

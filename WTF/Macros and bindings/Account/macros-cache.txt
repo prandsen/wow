@@ -30,6 +30,15 @@ VER 3 000000000000006A "MwD DruGuard" "136100"
 /stopmacro [form:1,combat]
 /cast Гнев деревьев
 END
+VER 3 000000000000008D "NS Ext Macro" "135966"
+/run NSAPI:ExternalRequest();
+END
+VER 3 000000000000008E "NS Innervate" "136048"
+/run NSAPI:InnervateRequest();
+END
+VER 3 000000000000008C "NS PA Macro" "132288"
+/run NSAPI:PrivateAura();
+END
 VER 3 000000000000006F "pot" "967534"
 /use Зелье предельной концентрации
 /use Охлажденное зелье

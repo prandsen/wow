@@ -9,7 +9,7 @@ VER 3 0100000000000006 "3" "135936"
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Подавление боли
 END
 VER 3 010000000000001F "4" "134400"
-/cast [mod:alt,@player][target=Всемсаллам,exists,nodead][target=Hólykow,exists,nodead][@mouseover,help,exists,nodead][] Придание сил
+/cast [mod:alt,@player][target=Vadjik,exists,nodead][target=Lògan,exists,nodead][@mouseover,help,exists,nodead][] Придание сил
 END
 VER 3 0100000000000028 "C Disc" "134400"
 /cancelaura Энтропический разлом
@@ -20,6 +20,11 @@ VER 3 0100000000000028 "C Disc" "134400"
 END
 VER 3 010000000000001D "C Holy" "135937"
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Слово Света: Безмятежность
+END
+VER 3 0100000000000031 "C SP" "134400"
+/cast Поток Бездны
+/cast Залп Бездны
+/cast Вспышка бездны
 END
 VER 3 0100000000000025 "CF" "237563"
 /stopcasting
@@ -52,7 +57,6 @@ VER 3 0100000000000020 "Q" "135907"
 END
 VER 3 0100000000000026 "Q SP" "136208"
 /cast [mod:alt,@player][@target,exists,help,nodead] Быстрое исцеление
-/cast Вспышка бездны
 /cast Пытка разума
 END
 VER 3 0100000000000014 "R" "135953"

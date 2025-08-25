@@ -2703,17 +2703,22 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[429363] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
 [1227748] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
+[429363] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
 [1248211] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[1225179] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2728,7 +2733,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[1225179] = {
+[1239229] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2738,7 +2743,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[1239229] = {
+[468631] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2748,7 +2753,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[468631] = {
+[434655] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2773,17 +2778,12 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[434655] = {
+[320596] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
 [322968] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
-[320596] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2794,6 +2794,11 @@ ElvDB = {
 ["stackThreshold"] = 0,
 },
 [227965] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[274555] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2823,7 +2828,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[274555] = {
+[297904] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2858,11 +2863,6 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[297904] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
 [354334] = {
 ["enable"] = true,
 ["priority"] = 0,
@@ -2879,6 +2879,11 @@ ElvDB = {
 ["stackThreshold"] = 0,
 },
 [323001] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[355832] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2903,7 +2908,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[355832] = {
+[375416] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2913,7 +2918,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[375416] = {
+[228013] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2923,7 +2928,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[228013] = {
+[412505] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2948,11 +2953,6 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[412505] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
 [320200] = {
 ["enable"] = true,
 ["priority"] = 0,
@@ -2964,6 +2964,11 @@ ElvDB = {
 ["stackThreshold"] = 0,
 },
 [164837] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[419351] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -2988,17 +2993,17 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[419351] = {
-["enable"] = true,
-["priority"] = 0,
-["stackThreshold"] = 0,
-},
 [324146] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
 [349627] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[256106] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3023,12 +3028,12 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[256106] = {
+[227473] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[227473] = {
+[227985] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3038,7 +3043,7 @@ ElvDB = {
 ["priority"] = 0,
 ["stackThreshold"] = 0,
 },
-[227985] = {
+[347716] = {
 ["enable"] = true,
 ["priority"] = 0,
 ["stackThreshold"] = 0,
@@ -3998,17 +4003,6 @@ nil,
 nil,
 nil,
 nil,
-{
-nil,
-nil,
-nil,
-true,
-},
-nil,
-nil,
-nil,
-nil,
-nil,
 nil,
 nil,
 nil,
@@ -4018,32 +4012,6 @@ nil,
 nil,
 true,
 },
-nil,
-nil,
-{
-nil,
-nil,
-nil,
-true,
-},
-nil,
-nil,
-nil,
-{
-nil,
-nil,
-nil,
-true,
-},
-{
-nil,
-nil,
-nil,
-true,
-},
-nil,
-nil,
-nil,
 nil,
 nil,
 nil,
@@ -4059,6 +4027,26 @@ nil,
 true,
 },
 nil,
+nil,
+nil,
+{
+nil,
+nil,
+nil,
+true,
+},
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+{
+nil,
+nil,
+nil,
+true,
+},
 {
 nil,
 nil,
@@ -4074,12 +4062,19 @@ nil,
 nil,
 nil,
 nil,
+nil,
+nil,
 {
 nil,
 nil,
 nil,
 true,
 },
+nil,
+nil,
+nil,
+nil,
+nil,
 nil,
 nil,
 nil,
@@ -4113,13 +4108,13 @@ nil,
 nil,
 true,
 },
-[78] = {
+[76] = {
 nil,
 nil,
 nil,
 true,
 },
-[76] = {
+[78] = {
 nil,
 nil,
 nil,
@@ -4164,7 +4159,7 @@ ElvPrivateDB = {
 ["general"] = {
 ["chatBubbles"] = "nobackdrop",
 },
-["install_complete"] = 13.75,
+["install_complete"] = 13.97,
 },
 ["Спленда - Свежеватель Душ"] = {
 ["nameplates"] = {
@@ -4197,11 +4192,11 @@ ElvPrivateDB = {
 ["install_complete"] = 13.76,
 },
 ["Вольтчара - Свежеватель Душ"] = {
-["general"] = {
-["chatBubbles"] = "nobackdrop",
-},
 ["nameplates"] = {
 ["enable"] = false,
+},
+["general"] = {
+["chatBubbles"] = "nobackdrop",
 },
 ["install_complete"] = 13.75,
 },
@@ -4236,22 +4231,22 @@ ElvPrivateDB = {
 ["install_complete"] = 13.94,
 },
 ["Бимладен - Ревущий фьорд"] = {
-["nameplates"] = {
-["enable"] = false,
-},
 ["general"] = {
-["chatBubbleFontSize"] = 10,
 ["nameplateLargeFont"] = "ITCAvantGardeGothicDemi",
-["chatBubbles"] = "nobackdrop",
-["chatBubbleFontOutline"] = "SHADOWOUTLINE",
+["dmgfont"] = "ITCAvantGardeGothicDemi",
 ["namefont"] = "ITCAvantGardeGothicDemi",
 ["minimap"] = {
 ["hideTracking"] = true,
 },
-["nameplateLargeFontSize"] = 10,
 ["chatBubbleFont"] = "ITCAvantGardeGothicDemi",
+["chatBubbleFontSize"] = 10,
 ["nameplateFont"] = "ITCAvantGardeGothicDemi",
-["dmgfont"] = "ITCAvantGardeGothicDemi",
+["chatBubbles"] = "nobackdrop",
+["chatBubbleFontOutline"] = "SHADOWOUTLINE",
+["nameplateLargeFontSize"] = 10,
+},
+["nameplates"] = {
+["enable"] = false,
 },
 ["install_complete"] = 13.45,
 },

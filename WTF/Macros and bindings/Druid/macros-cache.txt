@@ -5,7 +5,8 @@ VER 3 010000000000002A "1" "252188"
 END
 VER 3 0100000000000031 "1 DruRes" "132137"
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Щит Кенария
-/cast [form:0/1/2/4, @focus, exists, harm, nodead][form:0/1/2/4, @target, exists, harm, nodead] Лобовая атака
+/stopmacro [mod:alt,@player][@mouseover,exists,help,nodead]
+/cast [@focus, exists, harm, nodead][@target, exists, harm, nodead] Лобовая атака
 END
 VER 3 0100000000000041 "2" "134400"
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,help,nodead] Стражи рощи
