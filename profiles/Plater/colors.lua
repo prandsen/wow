@@ -16,7 +16,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         --[75790] = "#00FF00", --using the ID of the unit and using green as color
 
         -- Eco-Dome Al'dani
-        [234883] = priorityTarget,
+        [234883] = important,
         [234893] = boss,
         [234933] = priorityTarget,
         [234935] = boss,
@@ -146,8 +146,7 @@ function (self, unitId, unitFrame, envTable, modTable)
         [177269] = boss,
         [177808] = priorityTarget,
         [177716] = casters,
-        [177816] = casters,
-        [177817] = important,
+        [177817] = casters,
         [178139] = priorityTarget,
         [178141] = important,
         [178142] = casters,
