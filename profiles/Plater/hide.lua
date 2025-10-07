@@ -2,31 +2,27 @@ function (modTable)
     
     local customSpells = {
 
-        -- Cinderbrew Meadery
-        [440687] = true,
-
-        -- Darkflame Cleft
+        -- Eco-Dome Al'dani
+        [1229510] = true,
 
         -- Operation: Floodgate
         [1214780] = true,
-
-        -- The Motherlode
-        [268702] = true,
 
         -- Priory of the Sacred Flame
         [427356] = true,
         [444743] = true,
 
-        -- The Rookery
+        -- The Dawnbreaker
 
-        -- Theater of Pain
-        [330868] = true,
-        [341969] = true,
-        [342675] = true,
+        -- Ara-Kara, City of Echoes
+        [433841] = true,
+        [434802] = true,
+        [448248] = true,
 
-        -- Mechagon: Workshop
-
-        -- Raid: Undermine(d)
+        -- Tazavesh
+        [355057] = true,
+        [355934] = true,
+        [357260] = true,
     }
     
     local castingUnits = {}
