@@ -166,7 +166,6 @@ function (self, unitId, unitFrame, envTable, modTable)
         [179841] = casters,
         [179842] = priorityTarget,
         [180091] = priorityTarget,
-        [180335] = casters,
         [180336] = casters,
         [180348] = priorityTarget,
         [180429] = priorityTarget,
