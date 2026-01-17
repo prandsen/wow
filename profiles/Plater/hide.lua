@@ -21,7 +21,7 @@ function (modTable)
 
         -- Tazavesh
         [355057] = true,
-        [355934] = true,
+        --[355934] = true,
         [357260] = true,
     }
     
