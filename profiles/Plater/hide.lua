@@ -2,27 +2,6 @@ function (modTable)
     
     local customSpells = {
 
-        -- Eco-Dome Al'dani
-        [1229510] = true,
-
-        -- Operation: Floodgate
-        [1214780] = true,
-
-        -- Priory of the Sacred Flame
-        [427356] = true,
-        [444743] = true,
-
-        -- The Dawnbreaker
-
-        -- Ara-Kara, City of Echoes
-        [433841] = true,
-        [434802] = true,
-        [448248] = true,
-
-        -- Tazavesh
-        [355057] = true,
-        --[355934] = true,
-        [357260] = true,
     }
     
     local castingUnits = {}

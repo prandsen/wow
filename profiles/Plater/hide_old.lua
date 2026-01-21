@@ -4,10 +4,11 @@ function (modTable)
 
         --======== The War Within =========
 
+        -- -- Eco-Dome Al'dani
+        -- [1229510] = true,
+
         -- -- Cinderbrew Meadery
         -- [440687] = true,
-
-        -- -- Darkflame Cleft
 
         -- -- Operation: Floodgate
         -- [1214780] = true,
@@ -18,6 +19,11 @@ function (modTable)
 
         -- -- Stonevault
         -- [449455] = true,
+
+        -- -- Ara-Kara, City of Echoes
+        -- [433841] = true,
+        -- [434802] = true,
+        -- [448248] = true,
 
         --======== Dragonflight =========
 
@@ -51,6 +57,10 @@ function (modTable)
         --[392451] = true,
 
         --======== Shadowlands ==========
+
+        -- -- Tazavesh
+        -- [355057] = true,
+        -- [357260] = true,
 
         --============ BFA ==============
 
