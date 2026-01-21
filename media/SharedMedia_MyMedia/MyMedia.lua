@@ -1,10 +1,5 @@
 local LSM = LibStub("LibSharedMedia-3.0")
-local koKR, ruRU, zhCN, zhTW, western = LSM.LOCALE_BIT_koKR, LSM.LOCALE_BIT_ruRU, LSM.LOCALE_BIT_zhCN, LSM.LOCALE_BIT_zhTW, LSM.LOCALE_BIT_western
-
-local MediaType_BACKGROUND = LSM.MediaType.BACKGROUND
-local MediaType_BORDER = LSM.MediaType.BORDER
-local MediaType_FONT = LSM.MediaType.FONT
-local MediaType_STATUSBAR = LSM.MediaType.STATUSBAR
+local ruRU, western = LSM.LOCALE_BIT_ruRU, LSM.LOCALE_BIT_western
 
 -- ----- 
 -- BACKGROUND 
@@ -17,7 +12,7 @@ local MediaType_STATUSBAR = LSM.MediaType.STATUSBAR
 -- -----
 --   FONT
 -- -----
-LSM:Register(MediaType_FONT, "ITCAvantGardeGothicDemi", [[Interface\Addons\SharedMedia_MyMedia\fonts\ITCAvantGardeGothicDemi.ttf]], ruRU + western)
+LSM:Register("font", "ITCAvantGardeGothicDemi", [[Interface\Addons\SharedMedia_MyMedia\fonts\ITCAvantGardeGothicDemi.ttf]], ruRU + western)
 
 -- -----
 --   SOUND
@@ -26,4 +21,5 @@ LSM:Register(MediaType_FONT, "ITCAvantGardeGothicDemi", [[Interface\Addons\Share
 -- -----
 --   STATUSBAR
 -- -----
-LSM:Register(MediaType_STATUSBAR, "Arrows Target", [[Interface\Addons\SharedMedia_MyMedia\textures\Arrows_Target.tga]])
+LSM:Register("statusbar", "Arrows Target", [[Interface\Addons\SharedMedia_MyMedia\textures\Arrows_Target.tga]])
+LSM:Register("statusbar", "Arrows Mouseover", [[Interface\Addons\SharedMedia_MyMedia\textures\Arrows_Mouseover.tga]])

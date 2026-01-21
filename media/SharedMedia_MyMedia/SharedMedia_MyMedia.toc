@@ -1,9 +1,8 @@
-## Interface: 100002 
+## Interface: 120000 
 ## Title: SharedMedia_MyMedia 
-## Dependencies: SharedMedia 
+## Category: MyMedia
 
-#@no-lib-strip@
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
 embeds.xml
-#@end-no-lib-strip@
-
 MyMedia.lua
