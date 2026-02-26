@@ -1,7 +1,7 @@
 {
     ["general"] = {
         ["chatBubbleFont"] = "ITCAvantGardeGothicDemi",
-        ["chatBubbleFontOutline"] = "SHADOW",
+        ["chatBubbleFontOutline"] = "OUTLINE",
         ["chatBubbles"] = "nobackdrop",
         ["dmgfont"] = "ITCAvantGardeGothicDemi",
         ["minimap"] = {
@@ -11,7 +11,6 @@
         ["nameplateFont"] = "ITCAvantGardeGothicDemi",
         ["nameplateFontOutline"] = "SHADOW",
         ["nameplateLargeFont"] = "ITCAvantGardeGothicDemi",
-        ["nameplateLargeFontOutline"] = "SHADOW",
     },
     ["install_complete"] = 15.05,
     ["nameplates"] = {

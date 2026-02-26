@@ -3,48 +3,31 @@ VER 3 010000000000002A "1" "252188"
 /cast [form:0/4/5/6/7, @focus, exists, harm, nodead][form:0/4/5/6/7,@target, exists, harm, nodead] Столп солнечного света
 /cast [form:1/2, @focus, exists, harm, nodead][form:1/2,@target, exists, harm, nodead] Лобовая атака
 END
-VER 3 0100000000000031 "1 DruRes" "132137"
-/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Щит Кенария
-/stopmacro [mod:alt,@player][@mouseover,exists,help,nodead]
-/cast [@focus, exists, harm, nodead][@target, exists, harm, nodead] Лобовая атака
-END
-VER 3 0100000000000041 "2" "134400"
-/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,help,nodead] Стражи рощи
+VER 3 0100000000000041 "2B" "134400"
 /cast [known:Ярость Элуны] Ярость Элуны
 /cast [known:Новолуние] Новолуние
 END
 VER 3 0100000000000026 "3" "572025"
 /stopcasting
 /cast [mod:alt,@player][@mouseover,exists,help,nodead] Железная кора
-/cast [mod:alt,@player][@mouseover] Буйство природы
-/stopmacro [mod:alt,@player][@mouseover,help,nodead]
-/cast [form:2,harm] Дикое бешенство
-/cast [form:1,harm] Рык
-END
-VER 3 0100000000000042 "3 Balance" "134400"
-/cast Звездная вспышка
-/cast Дикий гриб
-/cast [form:1,harm] Рык
 END
 VER 3 0100000000000029 "4" "136048"
-/cast [mod:alt,@player][target=Камняш,exists,nodead][target=Майнкам,exists,nodead][@mouseover,exists,help,nodead][@target,exists,help,nodead] Озарение
+/cast [mod:alt,@player][target=Камняш,exists,nodead][@mouseover,exists,help,nodead][@target,exists,help,nodead] Озарение
 END
-VER 3 0100000000000043 "C Balance" "134400"
-/cancelaura Звездный лорд
+VER 3 0100000000000042 "CCB" "134400"
+/cast [@cursor] Сила природы
+/cast Воин Элуны
 END
 VER 3 0100000000000040 "CM4" "134400"
 /cast [nostealth] Крадущийся зверь
 END
 VER 3 0100000000000027 "E dps" "135753"
 /cast [mod:alt,@player] Омоложение
-/cast [form:1] Взбучка
-/cast [form:2,harm] Полоснуть
 /cast [form:0/3/4/6/7,harm] Звездный огонь
 END
 VER 3 0100000000000028 "E DruRes" "135753"
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Омоложение
-/cast [form:1] Взбучка
-/cast [form:0/2,harm] Полоснуть
+/cast [form:0,harm] Глубокая рана
 /cast [form:0/4/6/7,harm] Звездный огонь
 END
 VER 3 010000000000002B "M4" "135730"
@@ -52,33 +35,20 @@ VER 3 010000000000002B "M4" "135730"
 /cast [form:1] Железный мех
 /cast [form:2] Свирепый укус
 END
-VER 3 010000000000002C "M5" "134400"
-/cast [form:0/3/4/5/6/7] Природная чуткость
-/cast [form:0/3/5/6/7] Берсерк(Расовая)
-/cast [form:0/3/5/6/7] Расцвет
-/cast [form:1] Неистовое восстановление
-/cast [form:2] Взбучка
-END
 VER 3 010000000000002D "MwU" "136080"
 /cancelaura Облик кошки
 /cast [@mouseover,exists,help,dead][@target,exists,help,dead] Возрождение
 END
 VER 3 010000000000002E "Q" "535045"
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,help,nodead] Быстрое восстановление
-/cast [form:1/2] Размах
 /cast [form:0/3/4/6/7,harm] Гнев
 END
 VER 3 010000000000002F "R" "136096"
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Жизнецвет
 /cast [form:0/1/3/4/6/7,harm] Лунный огонь
-/cast [form:2,harm] Глубокая рана
 END
-VER 3 0100000000000032 "Sh1 burst" "571586"
-/use Перстень приората
-/use Карточный домик
-/cast Природная чуткость
+VER 3 0100000000000032 "Sh1" "571586"
 /cast [@cursor] Парад планет
-/cast Берсерк
 /cast Воплощение: избранный Элуны
 /cast Воплощение: аватара Пеплошкурой
 /cast Воплощение: Страж Урсока
@@ -91,15 +61,13 @@ VER 3 0100000000000030 "ShC DruRes" "134222"
 /cast [mod:alt,@player][@cursor] Период цветения
 END
 VER 3 0100000000000033 "ShE" "136085"
-/cast [mod:alt,@player][@mouseover,exists,help,nodead] Цветочный взрыв
-/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead][@player,known:16974][@player,known:372119] Восстановление
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead][@player,known:372119] Восстановление
 END
 VER 3 010000000000003E "ShF" "134400"
 /stopcasting
 /cast Облик медведя
 END
 VER 3 0100000000000038 "ShG" "134400"
-/cast [known:Древо мудрости] Древо мудрости
 /cast Воплощение: древо жизни
 /cast Созыв духов
 END

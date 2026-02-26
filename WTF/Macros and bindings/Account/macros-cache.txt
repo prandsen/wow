@@ -1,16 +1,6 @@
-VER 3 0000000000000088 "CC Balance" "134400"
-/cast [@cursor] Сила природы
-/cast Воин Элуны
-END
 VER 3 000000000000005F "CM5" "133009"
-/cast Обновление
 /cast Камень здоровья
 /cast Бодрящее лечебное зелье
-END
-VER 3 0000000000000086 "DruGuard V" "134400"
-/stopmacro [form:1,combat]
-/cast [outdoors] Походный облик
-/cast [indoors] Облик кошки
 END
 VER 3 000000000000007E "eda" "132805"
 #showtooltip Каменный суп
@@ -23,21 +13,9 @@ END
 VER 3 000000000000005E "M3" "132212"
 /focus [@target,exists,harm]
 END
-VER 3 000000000000008B "monetki" "4572400"
-/run a=C_CurrencyInfo.GetCurrencyInfo(3278) print("You have earned " .. a.quantity .. " of " .. a.maxQuantity .. " possible Ethereal Strands")
-END
 VER 3 000000000000006A "MwD DruGuard" "136100"
 /stopmacro [form:1,combat]
 /cast Гнев деревьев
-END
-VER 3 000000000000008D "NS Ext Macro" "135966"
-/run NSAPI:ExternalRequest();
-END
-VER 3 000000000000008E "NS Innervate" "136048"
-/run NSAPI:InnervateRequest();
-END
-VER 3 000000000000008C "NS PA Macro" "132288"
-/run NSAPI:PrivateAura();
 END
 VER 3 000000000000006F "pot" "967534"
 /use Зелье предельной концентрации
@@ -60,6 +38,7 @@ VER 3 000000000000008A "ShM5 Guard" "136036"
 /cast Облик лунного совуха
 END
 VER 3 0000000000000061 "trinket" "134400"
+/stopcasting
 /use [combat] item:232805
 /use [combat] item:232526
 /use [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,nodead][] 13
