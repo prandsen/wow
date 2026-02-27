@@ -2,6 +2,7 @@
 Details_MythicPlusDB = {
 ["profile_ids"] = {
 ["Player-1615-0B536A51"] = "default",
+["Player-1604-0A5B10F4"] = "default",
 },
 ["profiles"] = {
 ["default"] = {
@@ -15,6 +16,28 @@ Details_MythicPlusDB = {
 1772200047,
 },
 ["logs"] = {
+"2026-02-28 03:52:06| addon loaded ",
+"2026-02-28 03:30:53| addon loaded ",
+"2026-02-28 03:12:30| addon loaded ",
+"2026-02-28 03:05:17| addon loaded ",
+"2026-02-28 03:02:54| addon loaded ",
+"2026-02-28 03:02:08| addon loaded ",
+"2026-02-28 03:00:52| addon loaded ",
+"2026-02-28 02:56:47| addon loaded ",
+"2026-02-28 02:46:08| addon loaded ",
+"2026-02-28 02:30:24| addon loaded ",
+"2026-02-28 01:52:11| addon loaded ",
+"2026-02-28 00:01:42| addon loaded ",
+"2026-02-27 23:57:51| addon loaded ",
+"2026-02-27 23:25:04| addon loaded ",
+"2026-02-27 23:19:11| addon loaded ",
+"2026-02-27 23:12:34| addon loaded ",
+"2026-02-27 22:58:34| addon loaded ",
+"2026-02-27 22:32:40| addon loaded ",
+"2026-02-27 22:01:09| addon loaded ",
+"2026-02-27 21:50:58| addon loaded ",
+"2026-02-27 21:47:51| addon loaded ",
+"2026-02-27 21:40:46| addon loaded ",
 "2026-02-27 21:38:42| Missing completionInfo.mapChallengeModeID, possibly due to and error or reload after the key completed ",
 "2026-02-27 21:38:42| COMBAT_MYTHICPLUS_OVERALL_READY ",
 "2026-02-27 21:38:42| Parser stopped ",
@@ -48,6 +71,7 @@ Details_MythicPlusDB = {
 ["migrations_data"] = {
 {
 ["Бимладен"] = 1,
+["Сорчистино"] = 1,
 },
 ["repeat_index_one"] = true,
 },

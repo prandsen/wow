@@ -1,30 +1,32 @@
 
 NaowhQOLDB = {
 ["char"] = {
-["Мальдика - Свежеватель Душ"] = {
-["migrationCompleted"] = true,
-},
-["Бимладен - Ревущий фьорд"] = {
+["Сорчистино - Свежеватель Душ"] = {
 ["migrationCompleted"] = true,
 },
 ["Вольтчара - Свежеватель Душ"] = {
 ["migrationCompleted"] = true,
 },
+["Бимладен - Ревущий фьорд"] = {
+["migrationCompleted"] = true,
 },
-["profileKeys"] = {
-["Мальдика - Свежеватель Душ"] = "Default",
-["Бимладен - Ревущий фьорд"] = "Default",
-["Вольтчара - Свежеватель Душ"] = "Default",
+["Мальдика - Свежеватель Душ"] = {
+["migrationCompleted"] = true,
+},
 },
 ["global"] = {
-["profileSnapshotMigrated"] = true,
 ["defaultsV2Migrated"] = true,
+["profileSnapshotMigrated"] = true,
 ["savedProfiles"] = {
-["Default"] = true,
+["All classes"] = true,
 },
+},
+["profileKeys"] = {
+["Бимладен - Ревущий фьорд"] = "All classes",
+["Сорчистино - Свежеватель Душ"] = "Default",
 },
 ["profiles"] = {
-["Default"] = {
+["All classes"] = {
 ["misc"] = {
 ["hideTalkingHead"] = true,
 ["durabilityWarning"] = true,
@@ -41,9 +43,6 @@ NaowhQOLDB = {
 ["rangeHeight"] = 60,
 ["rangeFont"] = "ITCAvantGardeGothicDemi",
 ["rangeUnlock"] = true,
-["rangeEnabled"] = false,
-["rangeY"] = -110,
-["rangeX"] = 287,
 ["rangeColors"] = {
 [0] = {
 ["b"] = 0.15,
@@ -91,6 +90,9 @@ NaowhQOLDB = {
 ["r"] = 0.91,
 },
 },
+["rangeEnabled"] = false,
+["rangeY"] = -110,
+["rangeX"] = 287,
 },
 ["spellQueueWindow"] = 200,
 ["movementAlert"] = {
@@ -173,11 +175,11 @@ NaowhQOLDB = {
 232698,
 194249,
 },
-["name"] = "Shadowform",
+["key"] = "shadowform",
 ["specFilter"] = {
 258,
 },
-["key"] = "shadowform",
+["name"] = "Shadowform",
 ["checkType"] = "self",
 },
 },
@@ -230,10 +232,10 @@ NaowhQOLDB = {
 ["spellIDs"] = {
 369459,
 },
-["name"] = "Source of Magic",
+["key"] = "sourceOfMagic",
 ["specFilter"] = {
 },
-["key"] = "sourceOfMagic",
+["name"] = "Source of Magic",
 ["checkType"] = "targeted",
 },
 {
@@ -259,10 +261,10 @@ NaowhQOLDB = {
 ["spellIDs"] = {
 465,
 },
-["name"] = "Devotion Aura",
+["key"] = "devotionAura",
 ["specFilter"] = {
 },
-["key"] = "devotionAura",
+["name"] = "Devotion Aura",
 ["checkType"] = "self",
 },
 {
@@ -297,11 +299,11 @@ NaowhQOLDB = {
 ["spellIDs"] = {
 53563,
 },
-["name"] = "Beacon of Light",
+["key"] = "beaconOfLight",
 ["specFilter"] = {
 65,
 },
-["key"] = "beaconOfLight",
+["name"] = "Beacon of Light",
 ["checkType"] = "targeted",
 },
 {
@@ -417,7 +419,7 @@ NaowhQOLDB = {
 ["unlock"] = true,
 },
 ["config"] = {
-["lastTab"] = "misc",
+["lastTab"] = "profiles",
 },
 ["slashCommands"] = {
 ["enabled"] = true,
@@ -443,6 +445,211 @@ nil,
 },
 ["petTracker"] = {
 ["font"] = "ITCAvantGardeGothicDemi",
+},
+},
+["Default"] = {
+["buffWatcherV2"] = {
+["buffDropReminder"] = true,
+["_classBuffDefaultsVersion"] = 1,
+["classBuffs"] = {
+["SHAMAN"] = {
+["groups"] = {
+{
+["key"] = "shamanImbue",
+["minRequired"] = 1,
+["enchantIDs"] = {
+5400,
+5401,
+6498,
+},
+["specFilter"] = {
+},
+["name"] = "Weapon Imbue",
+["checkType"] = "weaponEnchant",
+},
+{
+["spellIDs"] = {
+974,
+192106,
+52127,
+},
+["key"] = "shamanShield",
+["minRequired"] = 1,
+["specFilter"] = {
+},
+["name"] = "Shield",
+["checkType"] = "self",
+},
+},
+},
+["WARLOCK"] = {
+["groups"] = {
+{
+["spellIDs"] = {
+196099,
+},
+["key"] = "grimoireOfSacrifice",
+["talentCondition"] = {
+["talentID"] = 108503,
+["mode"] = "activate",
+},
+["specFilter"] = {
+},
+["name"] = "Grimoire of Sacrifice",
+["checkType"] = "self",
+},
+},
+},
+["PALADIN"] = {
+["groups"] = {
+{
+["spellIDs"] = {
+465,
+},
+["name"] = "Devotion Aura",
+["specFilter"] = {
+},
+["key"] = "devotionAura",
+["checkType"] = "self",
+},
+{
+["key"] = "riteOfAdjuration",
+["enchantIDs"] = {
+7144,
+},
+["talentCondition"] = {
+["talentID"] = 433583,
+["mode"] = "activate",
+},
+["specFilter"] = {
+},
+["name"] = "Rite of Adjuration",
+["checkType"] = "weaponEnchant",
+},
+{
+["key"] = "riteOfSanctification",
+["enchantIDs"] = {
+7143,
+},
+["talentCondition"] = {
+["talentID"] = 433568,
+["mode"] = "activate",
+},
+["specFilter"] = {
+},
+["name"] = "Rite of Sanctification",
+["checkType"] = "weaponEnchant",
+},
+{
+["spellIDs"] = {
+53563,
+},
+["name"] = "Beacon of Light",
+["specFilter"] = {
+65,
+},
+["key"] = "beaconOfLight",
+["checkType"] = "targeted",
+},
+{
+["spellIDs"] = {
+156910,
+},
+["key"] = "beaconOfFaith",
+["talentCondition"] = {
+["talentID"] = 156910,
+["mode"] = "activate",
+},
+["specFilter"] = {
+65,
+},
+["name"] = "Beacon of Faith",
+["checkType"] = "targeted",
+},
+},
+},
+["MAGE"] = {
+["groups"] = {
+{
+["spellIDs"] = {
+210126,
+},
+["key"] = "arcaneFamiliar",
+["talentCondition"] = {
+["talentID"] = 205022,
+["mode"] = "activate",
+},
+["specFilter"] = {
+},
+["name"] = "Arcane Familiar",
+["checkType"] = "self",
+},
+},
+},
+["DRUID"] = {
+["groups"] = {
+{
+["spellIDs"] = {
+474750,
+},
+["key"] = "symbioticRelationship",
+["talentCondition"] = {
+["talentID"] = 474750,
+["mode"] = "activate",
+},
+["specFilter"] = {
+},
+["name"] = "Symbiotic Relationship",
+["checkType"] = "targeted",
+},
+},
+},
+["EVOKER"] = {
+["groups"] = {
+{
+["spellIDs"] = {
+369459,
+},
+["name"] = "Source of Magic",
+["specFilter"] = {
+},
+["key"] = "sourceOfMagic",
+["checkType"] = "targeted",
+},
+{
+["spellIDs"] = {
+360827,
+},
+["key"] = "blisteringScales",
+["talentCondition"] = {
+["talentID"] = 360827,
+["mode"] = "activate",
+},
+["specFilter"] = {
+1473,
+},
+["name"] = "Blistering Scales",
+["checkType"] = "targeted",
+},
+},
+},
+["PRIEST"] = {
+["groups"] = {
+{
+["spellIDs"] = {
+232698,
+194249,
+},
+["name"] = "Shadowform",
+["specFilter"] = {
+258,
+},
+["key"] = "shadowform",
+["checkType"] = "self",
+},
+},
+},
+},
 },
 },
 },

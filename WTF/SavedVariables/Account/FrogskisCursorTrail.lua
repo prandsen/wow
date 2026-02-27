@@ -68,11 +68,7 @@ FrogskisCursorTrailAccountDB = {
 0,
 },
 ["shrinkWithDistance"] = true,
-["colour8"] = {
-0,
-0,
-0,
-},
+["enableIndicator"] = false,
 ["adaptiveTargetFPS"] = 90,
 ["colour5"] = {
 0,
@@ -80,7 +76,11 @@ FrogskisCursorTrailAccountDB = {
 1,
 },
 ["updateEveryOther"] = true,
-["enableIndicator"] = false,
+["colour8"] = {
+0,
+0,
+0,
+},
 ["useClassColor"] = false,
 ["phasecount"] = 6,
 },
