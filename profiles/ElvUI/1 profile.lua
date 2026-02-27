@@ -1,4 +1,137 @@
 {
+    ["WT"] = {
+        ["announcement"] = {
+            ["enable"] = false,
+            ["keystone"] = {
+                ["enable"] = false,
+            },
+            ["quest"] = {
+                ["channel"] = {
+                    ["raid"] = "NONE",
+                },
+            },
+            ["resetInstance"] = {
+                ["enable"] = false,
+            },
+            ["utility"] = {
+                ["enable"] = false,
+            },
+        },
+        ["combat"] = {
+            ["combatAlert"] = {
+                ["animation"] = false,
+                ["enable"] = false,
+                ["enterSound"] = {
+                    ["sound"] = "BBQ Ass",
+                },
+                ["text"] = false,
+            },
+            ["raidMarkers"] = {
+                ["enable"] = false,
+            },
+        },
+        ["item"] = {
+            ["extraItemsBar"] = {
+                ["enable"] = false,
+            },
+            ["inspect"] = {
+                ["enable"] = false,
+                ["levelText"] = {
+                    ["name"] = "ITCAvantGardeGothicDemi",
+                },
+            },
+            ["itemLevel"] = {
+                ["flyout"] = {
+                    ["font"] = {
+                        ["name"] = "ITCAvantGardeGothicDemi",
+                    },
+                },
+                ["scrappingMachine"] = {
+                    ["font"] = {
+                        ["name"] = "ITCAvantGardeGothicDemi",
+                    },
+                },
+            },
+            ["trade"] = {
+                ["thanksButton"] = false,
+            },
+        },
+        ["maps"] = {
+            ["eventTracker"] = {
+                ["ecologicalSuccession"] = {
+                    ["enable"] = false,
+                },
+                ["enable"] = false,
+                ["nightFall"] = {
+                    ["enable"] = false,
+                },
+                ["ringingDeeps"] = {
+                    ["enable"] = false,
+                },
+                ["spreadingTheLight"] = {
+                    ["enable"] = false,
+                },
+                ["style"] = {
+                    ["backdrop"] = false,
+                },
+                ["theaterTroupe"] = {
+                    ["enable"] = false,
+                },
+                ["underworldOperative"] = {
+                    ["enable"] = false,
+                },
+                ["weeklyTWW"] = {
+                    ["enable"] = false,
+                },
+            },
+        },
+        ["misc"] = {
+            ["disableTalkingHead"] = true,
+            ["gameBar"] = {
+                ["enable"] = false,
+            },
+        },
+        ["quest"] = {
+            ["switchButtons"] = {
+                ["announcement"] = false,
+            },
+            ["turnIn"] = {
+                ["getBestReward"] = true,
+            },
+        },
+        ["skins"] = {
+            ["vignetting"] = {
+                ["enable"] = false,
+            },
+        },
+        ["social"] = {
+            ["chatBar"] = {
+                ["buttonHeight"] = 10,
+                ["buttonWidth"] = 36,
+                ["enable"] = false,
+                ["spacing"] = 4,
+            },
+        },
+        ["tooltips"] = {
+            ["groupInfo"] = {
+                ["enable"] = false,
+            },
+            ["keystone"] = {
+                ["icon"] = {
+                    ["height"] = 16,
+                },
+            },
+        },
+        ["unitFrames"] = {
+            ["absorb"] = {
+                ["blizzardOverAbsorbGlow"] = false,
+                ["enable"] = true,
+                ["texture"] = {
+                    ["blizzardStyle"] = false,
+                },
+            },
+        },
+    },
     ["actionbar"] = {
         ["bar1"] = {
             ["buttonSize"] = 40,
@@ -229,7 +362,7 @@
         },
         ["auras"] = {
             ["font"] = "ITCAvantGardeGothicDemi",
-            ["fontSize"] = 13,
+            ["fontSize"] = 12,
             ["offsetY"] = 0,
             ["position"] = "CENTER",
             ["threshold"] = 3599,
@@ -255,6 +388,7 @@
         },
         ["zonebutton"] = {
             ["font"] = "ITCAvantGardeGothicDemi",
+            ["threshold"] = 3599,
         },
     },
     ["databars"] = {
@@ -332,10 +466,12 @@
             ["cooldown"] = {
                 ["font"] = "ITCAvantGardeGothicDemi",
                 ["outline"] = "OUTLINE",
+                ["size"] = 18,
             },
             ["errortext"] = {
                 ["font"] = "ITCAvantGardeGothicDemi",
                 ["outline"] = "OUTLINE",
+                ["size"] = 16,
             },
             ["mailbody"] = {
                 ["enable"] = true,
@@ -345,7 +481,7 @@
                 ["enable"] = true,
                 ["font"] = "ITCAvantGardeGothicDemi",
                 ["outline"] = "OUTLINE",
-                ["size"] = 13,
+                ["size"] = 12,
             },
             ["pvpsubzone"] = {
                 ["font"] = "ITCAvantGardeGothicDemi",
@@ -357,6 +493,7 @@
                 ["enable"] = true,
                 ["font"] = "ITCAvantGardeGothicDemi",
                 ["outline"] = "OUTLINE",
+                ["size"] = 12,
             },
             ["questtext"] = {
                 ["enable"] = true,
@@ -367,16 +504,19 @@
                 ["enable"] = true,
                 ["font"] = "ITCAvantGardeGothicDemi",
                 ["outline"] = "OUTLINE",
+                ["size"] = 16,
             },
             ["talkingtext"] = {
                 ["enable"] = true,
                 ["font"] = "ITCAvantGardeGothicDemi",
                 ["outline"] = "OUTLINE",
+                ["size"] = 14,
             },
             ["talkingtitle"] = {
                 ["enable"] = true,
                 ["font"] = "ITCAvantGardeGothicDemi",
                 ["outline"] = "OUTLINE",
+                ["size"] = 16,
             },
             ["worldsubzone"] = {
                 ["font"] = "ITCAvantGardeGothicDemi",
@@ -385,7 +525,7 @@
                 ["font"] = "ITCAvantGardeGothicDemi",
             },
         },
-        ["gameMenuScale"] = 0.8,
+        ["gameMenuScale"] = 0.9,
         ["guildBank"] = {
             ["countFont"] = "ITCAvantGardeGothicDemi",
             ["countFontOutline"] = "OUTLINE",
@@ -412,7 +552,7 @@
                 },
             },
             ["locationFont"] = "ITCAvantGardeGothicDemi",
-            ["size"] = 220,
+            ["size"] = 228,
         },
         ["objectiveFrameHeight"] = 400,
         ["privateAuras"] = {
@@ -439,13 +579,13 @@
         ["AltPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,201",
         ["ArenaHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-338,-205",
         ["AzeriteBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-246",
-        ["BNETMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-2,-247",
-        ["BelowMinimapContainerMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-274",
+        ["BNETMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-2,-322",
+        ["BelowMinimapContainerMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-388,477",
         ["BossBannerMover"] = "TOP,ElvUIParent,TOP,0,-126",
-        ["BossButton"] = "BOTTOM,ElvUIParent,BOTTOM,0,120",
+        ["BossButton"] = "BOTTOM,UIParent,BOTTOM,0,149",
         ["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-338,-353",
-        ["BuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-225,-2",
-        ["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-225,-188",
+        ["BuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-232,-2",
+        ["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-232,-208",
         ["DurabilityFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,141,-4",
         ["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,2",
         ["ElvAB_10"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-320,277",
@@ -458,7 +598,7 @@
         ["ElvAB_8"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-322,338",
         ["ElvAB_9"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-319,307",
         ["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,2,-388",
-        ["ElvUF_FocusCastbarMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,437,322",
+        ["ElvUF_FocusCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,393",
         ["ElvUF_FocusMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,503,292",
         ["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,600,400",
         ["ElvUF_PetCastbarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,587,246",
@@ -505,9 +645,9 @@
         ["VehicleSeatMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-4",
         ["WTChatBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,2,277",
         ["WTCustomEmoteFrameMover"] = "TOPLEFT,UIParent,TOPLEFT,4,-4",
-        ["WTMinimapButtonBarAnchor"] = "TOPRIGHT,UIParent,TOPRIGHT,-371,-368",
+        ["WTMinimapButtonBarAnchor"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-254",
         ["WTRaidMarkersBarAnchor"] = "BOTTOM,UIParent,BOTTOM,-125,414",
-        ["WTSwitchButtonBarMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-403,-281",
+        ["WTSwitchButtonBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-104,-299",
         ["ZoneAbility"] = "BOTTOM,UIParent,BOTTOM,0,95",
     },
     ["nameplates"] = {
@@ -628,9 +768,52 @@
             ["customclasspowerbackdrop"] = true,
             ["customhealthbackdrop"] = true,
             ["custompowerbackdrop"] = true,
+            ["disconnected"] = {
+                ["b"] = 0.31764706969261,
+                ["g"] = 0.31764706969261,
+                ["r"] = 0.31764706969261,
+            },
             ["frameGlow"] = {
                 ["mouseoverGlow"] = {
                     ["enable"] = false,
+                },
+            },
+            ["healPrediction"] = {
+                ["absorbs"] = {
+                    ["a"] = 1,
+                    ["b"] = 1,
+                    ["g"] = 0.83,
+                    ["r"] = 0.06,
+                },
+                ["healAbsorbs"] = {
+                    ["a"] = 0.69999998807907,
+                    ["b"] = 0.23529413342476,
+                    ["g"] = 0.23529413342476,
+                    ["r"] = 0.78431379795074,
+                },
+                ["maxOverflow"] = 0.01,
+                ["others"] = {
+                    ["a"] = 0.69999998807907,
+                    ["b"] = 0.23529413342476,
+                    ["g"] = 0.78431379795074,
+                    ["r"] = 0.23529413342476,
+                },
+                ["overabsorbs"] = {
+                    ["a"] = 1,
+                    ["b"] = 1,
+                    ["g"] = 0.83,
+                    ["r"] = 0.06,
+                },
+                ["overhealabsorbs"] = {
+                    ["a"] = 0.69999998807907,
+                    ["b"] = 0.23529413342476,
+                    ["g"] = 0.23529413342476,
+                    ["r"] = 0.78431379795074,
+                },
+                ["personal"] = {
+                    ["a"] = 0.69999998807907,
+                    ["b"] = 0.50980395078659,
+                    ["g"] = 0.78431379795074,
                 },
             },
             ["health"] = {
@@ -639,14 +822,14 @@
                 ["r"] = 0,
             },
             ["health_backdrop"] = {
-                ["b"] = 0.05882353335619,
-                ["g"] = 0.05882353335619,
-                ["r"] = 0.05882353335619,
+                ["b"] = 0.26666668057442,
+                ["g"] = 0.26666668057442,
+                ["r"] = 0.26666668057442,
             },
             ["health_backdrop_dead"] = {
-                ["b"] = 0.05882353335619,
-                ["g"] = 0.05882353335619,
-                ["r"] = 0.05882353335619,
+                ["b"] = 0.26666668057442,
+                ["g"] = 0.26666668057442,
+                ["r"] = 0.26666668057442,
             },
             ["healthclass"] = true,
             ["power_backdrop"] = {
@@ -694,12 +877,25 @@
         ["units"] = {
             ["arena"] = {
                 ["auras"] = {
+                    ["anchorPoint"] = "BOTTOMLEFT",
+                    ["enable"] = true,
+                    ["isAuraBigDefensive"] = true,
+                    ["isAuraBigDefensivePlayer"] = true,
+                    ["isAuraExternalDefensive"] = true,
+                    ["isAuraExternalDefensivePlayer"] = true,
+                    ["perrow"] = 4,
+                    ["sizeOverride"] = 30,
                     ["sourceText"] = {
                         ["font"] = "ITCAvantGardeGothicDemi",
                     },
+                    ["spacing"] = 0,
+                    ["yOffset"] = 5,
                 },
                 ["buffs"] = {
                     ["countFont"] = "ITCAvantGardeGothicDemi",
+                    ["isAuraBigDefensive"] = false,
+                    ["isAuraExternalDefensive"] = false,
+                    ["isAuraExternalDefensivePlayer"] = false,
                     ["sizeOverride"] = 29,
                     ["sourceText"] = {
                         ["font"] = "ITCAvantGardeGothicDemi",
@@ -922,19 +1118,34 @@
                     ["priority"] = "Blacklist,Whitelist,blockNoDuration,Personal,NonPersonal",
                 },
                 ["castbar"] = {
+                    ["customColor"] = {
+                        ["colorBackdrop"] = {
+                            ["b"] = 0.05882353335619,
+                            ["g"] = 0.05882353335619,
+                            ["r"] = 0.05882353335619,
+                        },
+                        ["enable"] = true,
+                        ["useCustomBackdrop"] = true,
+                    },
                     ["customTextFont"] = {
+                        ["enable"] = true,
                         ["font"] = "ITCAvantGardeGothicDemi",
+                        ["fontSize"] = 13,
                     },
                     ["customTimeFont"] = {
+                        ["enable"] = true,
                         ["font"] = "ITCAvantGardeGothicDemi",
+                        ["fontSize"] = 13,
                     },
-                    ["enable"] = false,
-                    ["height"] = 8,
-                    ["hideName"] = true,
-                    ["hideTime"] = true,
-                    ["icon"] = false,
+                    ["height"] = 25,
+                    ["iconSize"] = 50,
                     ["insideInfoPanel"] = false,
-                    ["width"] = 97,
+                    ["textColor"] = {
+                        ["b"] = 1,
+                        ["g"] = 1,
+                        ["r"] = 1,
+                    },
+                    ["width"] = 315,
                 },
                 ["customTexts"] = {
                     ["FocusName"] = {
@@ -965,7 +1176,6 @@
                 ["disableMouseoverGlow"] = true,
                 ["disableTargetGlow"] = true,
                 ["healPrediction"] = {
-                    ["absorbStyle"] = "NORMAL",
                     ["enable"] = false,
                 },
                 ["health"] = {
@@ -1011,6 +1221,7 @@
                     ["isAuraBigDefensivePlayer"] = true,
                     ["isAuraExternalDefensive"] = true,
                     ["isAuraExternalDefensivePlayer"] = true,
+                    ["isAuraImportant"] = true,
                     ["perrow"] = 2,
                     ["sizeOverride"] = 29,
                     ["spacing"] = 0,
@@ -1026,7 +1237,6 @@
                     ["isAuraBigDefensivePlayer"] = false,
                     ["isAuraExternalDefensive"] = false,
                     ["isAuraExternalDefensivePlayer"] = false,
-                    ["isAuraRaidPlayer"] = true,
                     ["numrows"] = 2,
                     ["perrow"] = 3,
                     ["sizeOverride"] = 18,
@@ -1059,11 +1269,26 @@
                         ["xOffset"] = 10,
                         ["yOffset"] = 36,
                     },
+                    ["Status"] = {
+                        ["attachTextTo"] = "Health",
+                        ["enable"] = true,
+                        ["font"] = "ITCAvantGardeGothicDemi",
+                        ["fontOutline"] = "OUTLINE",
+                        ["justifyH"] = "CENTER",
+                        ["size"] = 16,
+                        ["text_format"] = "[dead][offline]",
+                        ["xOffset"] = 0,
+                        ["yOffset"] = 0,
+                    },
                 },
                 ["debuffs"] = {
                     ["anchorPoint"] = "TOPRIGHT",
                     ["countFont"] = "ITCAvantGardeGothicDemi",
                     ["growthY"] = "DOWN",
+                    ["isAuraRaid"] = true,
+                    ["isAuraRaidInCombat"] = true,
+                    ["isAuraRaidInCombatPlayer"] = true,
+                    ["isAuraRaidPlayer"] = true,
                     ["numrows"] = 2,
                     ["perrow"] = 3,
                     ["sizeOverride"] = 35,
@@ -1071,6 +1296,12 @@
                     ["yOffset"] = 2,
                 },
                 ["groupBy"] = "ROLE",
+                ["growthDirection"] = "DOWN_LEFT",
+                ["healPrediction"] = {
+                    ["absorbStyle"] = "REVERSED",
+                    ["anchorPoint"] = "CENTER",
+                    ["enable"] = true,
+                },
                 ["health"] = {
                     ["text_format"] = "",
                     ["yOffset"] = -48,
@@ -1112,11 +1343,10 @@
                 },
                 ["roleIcon"] = {
                     ["position"] = "TOPLEFT",
-                    ["size"] = 14,
-                    ["xOffset"] = 2,
-                    ["yOffset"] = -6,
+                    ["size"] = 13,
+                    ["xOffset"] = 1,
+                    ["yOffset"] = -4,
                 },
-                ["sortDir"] = "DESC",
                 ["verticalSpacing"] = 7,
                 ["width"] = 135,
             },
@@ -1187,6 +1417,17 @@
                     ["height"] = 14,
                 },
                 ["customTexts"] = {
+                    ["Absorbs"] = {
+                        ["attachTextTo"] = "Health",
+                        ["enable"] = true,
+                        ["font"] = "ITCAvantGardeGothicDemi",
+                        ["fontOutline"] = "OUTLINE",
+                        ["justifyH"] = "RIGHT",
+                        ["size"] = 14,
+                        ["text_format"] = "[absorbs-autohide]",
+                        ["xOffset"] = -5,
+                        ["yOffset"] = 0,
+                    },
                     ["HP"] = {
                         ["attachTextTo"] = "Health",
                         ["enable"] = true,
@@ -1212,7 +1453,7 @@
                 },
                 ["disableMouseoverGlow"] = true,
                 ["healPrediction"] = {
-                    ["absorbStyle"] = "NORMAL",
+                    ["absorbStyle"] = "REVERSED",
                 },
                 ["health"] = {
                     ["attachTextTo"] = "InfoPanel",
@@ -1257,7 +1498,10 @@
                     ["enable"] = true,
                     ["growthX"] = "LEFT",
                     ["growthY"] = "DOWN",
-                    ["isAuraPlayer"] = true,
+                    ["isAuraBigDefensive"] = false,
+                    ["isAuraBigDefensivePlayer"] = false,
+                    ["isAuraExternalDefensive"] = false,
+                    ["isAuraExternalDefensivePlayer"] = false,
                     ["numrows"] = 3,
                     ["perrow"] = 2,
                     ["sizeOverride"] = 16,
@@ -1278,6 +1522,17 @@
                         ["xOffset"] = 10,
                         ["yOffset"] = 24,
                     },
+                    ["Status"] = {
+                        ["attachTextTo"] = "Health",
+                        ["enable"] = true,
+                        ["font"] = "ITCAvantGardeGothicDemi",
+                        ["fontOutline"] = "OUTLINE",
+                        ["justifyH"] = "CENTER",
+                        ["size"] = 16,
+                        ["text_format"] = "[dead][offline]",
+                        ["xOffset"] = 0,
+                        ["yOffset"] = 0,
+                    },
                 },
                 ["debuffs"] = {
                     ["anchorPoint"] = "BOTTOMLEFT",
@@ -1285,6 +1540,10 @@
                     ["countFont"] = "ITCAvantGardeGothicDemi",
                     ["countFontSize"] = 10,
                     ["enable"] = true,
+                    ["isAuraRaid"] = true,
+                    ["isAuraRaidInCombat"] = true,
+                    ["isAuraRaidInCombatPlayer"] = true,
+                    ["isAuraRaidPlayer"] = true,
                     ["perrow"] = 2,
                     ["priority"] = "Blacklist,Dispellable,RaidDebuffs,CCDebuffs",
                     ["sizeOverride"] = 32,
@@ -1294,6 +1553,10 @@
                 ["groupBy"] = "ROLE",
                 ["groupSpacing"] = 5,
                 ["growthDirection"] = "RIGHT_UP",
+                ["healPrediction"] = {
+                    ["absorbStyle"] = "REVERSED",
+                    ["enable"] = true,
+                },
                 ["health"] = {
                     ["position"] = "LEFT",
                     ["text_format"] = "",
@@ -1370,7 +1633,10 @@
                     ["enable"] = true,
                     ["growthX"] = "LEFT",
                     ["growthY"] = "DOWN",
-                    ["isAuraPlayer"] = true,
+                    ["isAuraBigDefensive"] = false,
+                    ["isAuraBigDefensivePlayer"] = false,
+                    ["isAuraExternalDefensive"] = false,
+                    ["isAuraExternalDefensivePlayer"] = false,
                     ["numrows"] = 3,
                     ["perrow"] = 2,
                     ["sizeOverride"] = 16,
@@ -1380,7 +1646,7 @@
                     ["height"] = 6,
                 },
                 ["customTexts"] = {
-                    ["HP"] = {
+                    ["RaidName"] = {
                         ["attachTextTo"] = "Frame",
                         ["enable"] = true,
                         ["font"] = "ITCAvantGardeGothicDemi",
@@ -1389,18 +1655,18 @@
                         ["size"] = 12,
                         ["text_format"] = "[name:abbrev:medium]",
                         ["xOffset"] = 10,
-                        ["yOffset"] = 26,
+                        ["yOffset"] = 24,
                     },
-                    ["RaidName"] = {
-                        ["attachTextTo"] = "Frame",
+                    ["Status"] = {
+                        ["attachTextTo"] = "Health",
                         ["enable"] = true,
                         ["font"] = "ITCAvantGardeGothicDemi",
-                        ["fontOutline"] = "SHADOW",
-                        ["justifyH"] = "LEFT",
-                        ["size"] = 12,
-                        ["text_format"] = "[name:abbrev:medium]",
-                        ["xOffset"] = 10,
-                        ["yOffset"] = 24,
+                        ["fontOutline"] = "OUTLINE",
+                        ["justifyH"] = "CENTER",
+                        ["size"] = 16,
+                        ["text_format"] = "[dead][offline]",
+                        ["xOffset"] = 0,
+                        ["yOffset"] = 0,
                     },
                 },
                 ["debuffs"] = {
@@ -1409,6 +1675,10 @@
                     ["countFont"] = "ITCAvantGardeGothicDemi",
                     ["countFontSize"] = 10,
                     ["enable"] = true,
+                    ["isAuraRaid"] = true,
+                    ["isAuraRaidInCombat"] = true,
+                    ["isAuraRaidInCombatPlayer"] = true,
+                    ["isAuraRaidPlayer"] = true,
                     ["perrow"] = 2,
                     ["priority"] = "Blacklist,Dispellable,RaidDebuffs,CCDebuffs",
                     ["sizeOverride"] = 32,
@@ -1418,6 +1688,10 @@
                 ["groupBy"] = "ROLE",
                 ["groupSpacing"] = 5,
                 ["growthDirection"] = "RIGHT_UP",
+                ["healPrediction"] = {
+                    ["absorbStyle"] = "REVERSED",
+                    ["enable"] = true,
+                },
                 ["health"] = {
                     ["position"] = "LEFT",
                     ["text_format"] = "",
@@ -1495,7 +1769,10 @@
                     ["enable"] = true,
                     ["growthX"] = "LEFT",
                     ["growthY"] = "DOWN",
-                    ["isAuraPlayer"] = true,
+                    ["isAuraBigDefensive"] = false,
+                    ["isAuraBigDefensivePlayer"] = false,
+                    ["isAuraExternalDefensive"] = false,
+                    ["isAuraExternalDefensivePlayer"] = false,
                     ["numrows"] = 3,
                     ["perrow"] = 2,
                     ["sizeOverride"] = 16,
@@ -1505,7 +1782,7 @@
                     ["height"] = 6,
                 },
                 ["customTexts"] = {
-                    ["HP"] = {
+                    ["RaidName"] = {
                         ["attachTextTo"] = "Frame",
                         ["enable"] = true,
                         ["font"] = "ITCAvantGardeGothicDemi",
@@ -1514,18 +1791,18 @@
                         ["size"] = 12,
                         ["text_format"] = "[name:abbrev:medium]",
                         ["xOffset"] = 10,
-                        ["yOffset"] = 26,
+                        ["yOffset"] = 24,
                     },
-                    ["RaidName"] = {
-                        ["attachTextTo"] = "Frame",
+                    ["Status"] = {
+                        ["attachTextTo"] = "Health",
                         ["enable"] = true,
                         ["font"] = "ITCAvantGardeGothicDemi",
-                        ["fontOutline"] = "SHADOW",
-                        ["justifyH"] = "LEFT",
-                        ["size"] = 12,
-                        ["text_format"] = "[name:abbrev:medium]",
-                        ["xOffset"] = 10,
-                        ["yOffset"] = 24,
+                        ["fontOutline"] = "OUTLINE",
+                        ["justifyH"] = "CENTER",
+                        ["size"] = 16,
+                        ["text_format"] = "[dead][offline]",
+                        ["xOffset"] = 0,
+                        ["yOffset"] = 0,
                     },
                 },
                 ["debuffs"] = {
@@ -1534,6 +1811,10 @@
                     ["countFont"] = "ITCAvantGardeGothicDemi",
                     ["countFontSize"] = 10,
                     ["enable"] = true,
+                    ["isAuraRaid"] = true,
+                    ["isAuraRaidInCombat"] = true,
+                    ["isAuraRaidInCombatPlayer"] = true,
+                    ["isAuraRaidPlayer"] = true,
                     ["perrow"] = 2,
                     ["priority"] = "Blacklist,Dispellable,RaidDebuffs,CCDebuffs",
                     ["sizeOverride"] = 32,
@@ -1543,6 +1824,10 @@
                 ["groupBy"] = "ROLE",
                 ["groupSpacing"] = 5,
                 ["growthDirection"] = "RIGHT_UP",
+                ["healPrediction"] = {
+                    ["absorbStyle"] = "REVERSED",
+                    ["enable"] = true,
+                },
                 ["health"] = {
                     ["position"] = "LEFT",
                     ["text_format"] = "",
@@ -1704,6 +1989,17 @@
                         ["xOffset"] = 5,
                         ["yOffset"] = -20,
                     },
+                    ["Range"] = {
+                        ["attachTextTo"] = "Health",
+                        ["enable"] = true,
+                        ["font"] = "ITCAvantGardeGothicDemi",
+                        ["fontOutline"] = "OUTLINE",
+                        ["justifyH"] = "LEFT",
+                        ["size"] = 16,
+                        ["text_format"] = "[range]",
+                        ["xOffset"] = 7,
+                        ["yOffset"] = 0,
+                    },
                     ["Resources"] = {
                         ["attachTextTo"] = "Power",
                         ["enable"] = true,
@@ -1745,7 +2041,7 @@
                 },
                 ["disableMouseoverGlow"] = true,
                 ["healPrediction"] = {
-                    ["absorbStyle"] = "NORMAL",
+                    ["enable"] = false,
                 },
                 ["health"] = {
                     ["attachTextTo"] = "InfoPanel",
@@ -1814,9 +2110,6 @@
                     ["priority"] = "Blacklist,Personal,NonPersonal",
                 },
                 ["disableMouseoverGlow"] = true,
-                ["healPrediction"] = {
-                    ["absorbStyle"] = "NORMAL",
-                },
                 ["health"] = {
                     ["attachTextTo"] = "InfoPanel",
                     ["xOffset"] = 2,
