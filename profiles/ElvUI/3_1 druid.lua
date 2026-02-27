@@ -6,7 +6,6 @@
                 ["backdropSpacing"] = 0,
                 ["buttonsPerRow"] = 7,
                 ["sortingPriority"] = "Saved, Arc, Method, BugSack, Naowh, Plater, Details, _Wind, ^Expansion",
-                ["spacing"] = 3,
             },
             ["worldMap"] = {
                 ["scale"] = {
@@ -105,7 +104,6 @@
     ["general"] = {
         ["chatBubbleFont"] = "ITCAvantGardeGothicDemi",
         ["chatBubbleFontOutline"] = "OUTLINE",
-        ["chatBubbles"] = "nobackdrop",
         ["dmgfont"] = "ITCAvantGardeGothicDemi",
         ["minimap"] = {
             ["hideTracking"] = true,

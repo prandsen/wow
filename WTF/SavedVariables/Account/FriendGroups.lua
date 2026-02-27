@@ -1,0 +1,28 @@
+
+FriendGroups_SavedVars = {
+["hide_high_level"] = true,
+["show_search"] = true,
+["extra_height"] = 190,
+["show_realm"] = true,
+["auto_accept_invite"] = false,
+["housing_mode_active"] = false,
+["auto_accept_sync"] = false,
+["show_faction_icons"] = true,
+["add_mobile_text"] = true,
+["show_flags"] = true,
+["colour_classes"] = true,
+["gray_faction"] = false,
+["add_favorite_group"] = true,
+["show_btag"] = false,
+["hide_empty_groups"] = false,
+["collapsed"] = {
+["Олды"] = false,
+["churki"] = false,
+["M+ middle"] = true,
+["Senior ускорители"] = true,
+["Кто вы такие блять?"] = true,
+["M+ senior"] = true,
+["[Нет группы]"] = false,
+},
+["hide_offline"] = true,
+}

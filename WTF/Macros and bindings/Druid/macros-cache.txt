@@ -3,7 +3,7 @@ VER 3 010000000000002A "1" "252188"
 /cast [form:0/4/5/6/7, @focus, exists, harm, nodead][form:0/4/5/6/7,@target, exists, harm, nodead] Столп солнечного света
 /cast [form:1/2, @focus, exists, harm, nodead][form:1/2,@target, exists, harm, nodead] Лобовая атака
 END
-VER 3 0100000000000041 "2B" "134400"
+VER 3 0100000000000041 "2_B" "134400"
 /cast [known:Ярость Элуны] Ярость Элуны
 /cast [known:Новолуние] Новолуние
 END
@@ -15,18 +15,18 @@ END
 VER 3 0100000000000029 "4" "136048"
 /cast [mod:alt,@player][target=Камняш,exists,nodead][@mouseover,exists,help,nodead][@target,exists,help,nodead] Озарение
 END
-VER 3 0100000000000042 "CCB" "134400"
+VER 3 0100000000000042 "CC_B" "134400"
 /cast [@cursor] Сила природы
 /cast Воин Элуны
 END
 VER 3 0100000000000040 "CM4" "134400"
 /cast [nostealth] Крадущийся зверь
 END
-VER 3 0100000000000027 "E dps" "135753"
+VER 3 0100000000000027 "E_B" "135753"
 /cast [mod:alt,@player] Омоложение
 /cast [form:0/3/4/6/7,harm] Звездный огонь
 END
-VER 3 0100000000000028 "E DruRes" "135753"
+VER 3 0100000000000028 "E_R" "135753"
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Омоложение
 /cast [form:1] Взбучка
 /cast [form:0/2,harm] Полоснуть

@@ -13,7 +13,7 @@ END
 VER 3 000000000000005E "M3" "132212"
 /focus [@target,exists,harm]
 END
-VER 3 000000000000006A "MwD DruGuard" "136100"
+VER 3 000000000000006A "MwD_G" "136100"
 /stopmacro [form:1,combat]
 /cast Гнев деревьев
 END
@@ -21,19 +21,19 @@ VER 3 000000000000006F "pot" "967534"
 /use Зелье предельной концентрации
 /use Охлажденное зелье
 END
-VER 3 0000000000000069 "ShF Guard" "132276"
+VER 3 0000000000000069 "ShF_G" "132276"
 /stopmacro [form:1,combat]
 /cast Облик медведя
 END
-VER 3 0000000000000087 "ShM4 DruFeral" "136116"
+VER 3 0000000000000087 "ShM4_F" "136116"
 /stopmacro [form:2,combat]
 /cast Облик кошки
 END
-VER 3 0000000000000065 "ShM4 DruGuard" "132115"
+VER 3 0000000000000065 "ShM4_G" "132115"
 /stopmacro [form:1,combat]
 /cast Облик кошки
 END
-VER 3 000000000000008A "ShM5 Guard" "136036"
+VER 3 000000000000008A "ShM5_G" "136036"
 /stopmacro [form:1,combat]
 /cast Облик лунного совуха
 END
@@ -46,13 +46,13 @@ END
 VER 3 000000000000007F "trinket 2" "134400"
 /use [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,nodead][] 14
 END
-VER 3 0000000000000068 "V DruGuard" "132144"
+VER 3 0000000000000068 "V_G" "132144"
 /cast [combat] Ану'релос Наставление Пламени
 /stopmacro [form:1,combat]
 /cast [outdoors] Походный облик
 /cast [indoors] Облик кошки
 END
-VER 3 0000000000000067 "Z DruGuard" "132120"
+VER 3 0000000000000067 "Z_G" "132120"
 /stopmacro [form:1,combat]
 /cast Порыв
 /cast Рывок тигра
