@@ -110,11 +110,11 @@ FalconAddOnDB = {
 ["FalconGlobalSettings"] = {
 ["Styles"] = {
 ["Clean"] = {
-["SpeedHeight"] = 14,
+["SpeedHeight"] = 8,
 ["SwapPositions"] = false,
 ["Padding"] = 0,
-["ChargeHeight"] = 14,
-["Width"] = 36,
+["ChargeHeight"] = 8,
+["Width"] = 46,
 },
 },
 ["General"] = {
@@ -124,7 +124,7 @@ FalconAddOnDB = {
 ["Flags"] = "OUTLINE",
 ["Name"] = "ITCAvantGardeGothicDemi",
 ["Position"] = {
-["Justify"] = "RIGHT",
+["Justify"] = "CENTER",
 },
 ["Hide"] = false,
 ["Size"] = 13,
@@ -145,9 +145,9 @@ FalconAddOnDB = {
 },
 ["BackgroundColor"] = {
 ["a"] = 1,
-["r"] = 0.1215686351060867,
-["g"] = 0.1215686351060867,
 ["b"] = 0.1215686351060867,
+["g"] = 0.1215686351060867,
+["r"] = 0.1215686351060867,
 },
 ["BorderColor"] = {
 ["a"] = 1,
@@ -157,13 +157,13 @@ FalconAddOnDB = {
 },
 },
 ["CurrentTexture"] = {
-["Name"] = "Falcon Smooth",
-["Texture"] = "Interface\\AddOns\\Falcon\\Media\\Statusbar\\FalconSmooth.tga",
+["Name"] = "Melli",
+["Texture"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Melli",
 },
 ["BuffSettings"] = {
-["Anchor"] = "Right",
+["Anchor"] = "Top Left",
 ["Visibility"] = 1,
-["Size"] = 28,
+["Size"] = 36,
 },
 ["DefaultTexture"] = {
 ["Name"] = "Falcon Smooth",
@@ -172,9 +172,9 @@ FalconAddOnDB = {
 ["CurrentStyle"] = "Clean",
 ["Version"] = 2,
 ["Position"] = {
-["y"] = 198.5639495849609,
-["x"] = -0.410247802734375,
-["point"] = "BOTTOM",
+["y"] = -244.1026000976563,
+["x"] = -18.46145629882813,
+["point"] = "CENTER",
 ["scale"] = 1,
 },
 ["mutedSoundsBitfield"] = 0,

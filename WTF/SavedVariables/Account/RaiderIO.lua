@@ -57,7 +57,10 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "eu-Бимладен-howling-fjord"
 RaiderIO_MissingCharacters = {
-["eu-Люмика-grom"] = true,
+["eu-Нестрелка-howling-fjord"] = true,
+["eu-Вукодраг-howling-fjord"] = true,
+["eu-Серегатаквот-howling-fjord"] = true,
+["eu-Мердос-howling-fjord"] = true,
 }
 RaiderIO_MissingServers = {
 }

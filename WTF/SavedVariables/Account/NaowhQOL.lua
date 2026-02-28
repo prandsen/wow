@@ -409,17 +409,51 @@ NaowhQOLDB = {
 ["ResampleSharpness"] = "0.2",
 ["TextureFilteringMode"] = "3",
 },
+["dragonriding"] = {
+["speedTextOffsetX"] = -143,
+["chargeHeight"] = 8,
+["enabled"] = true,
+["matchAnchorWidth"] = true,
+["surgeOffsetY"] = 3,
+["surgeIconSize"] = 34,
+["bgAlpha"] = 1,
+["speedFontSize"] = 15,
+["anchorTo"] = "TOP",
+["speedHeight"] = 8,
+["surgeAnchor"] = "TOP",
+["speedFont"] = "ITCAvantGardeGothicDemi",
+["surgeOffsetX"] = 0,
+["barStyle"] = "Melli",
+["posY"] = 0,
+["speedTextOffsetY"] = -5,
+["showThrillTick"] = false,
+["anchorFrame"] = "EssentialCooldownViewer",
+["barWidth"] = 53,
+},
+["stealthReminder"] = {
+["unlock"] = true,
+},
+["config"] = {
+["lastTab"] = "dragonriding",
+},
 ["equipmentReminder"] = {
 ["ecSpecRules"] = {
 [0] = {
 },
 },
 },
-["stealthReminder"] = {
-["unlock"] = true,
+["petTracker"] = {
+["font"] = "ITCAvantGardeGothicDemi",
 },
-["config"] = {
-["lastTab"] = "profiles",
+["combatTimer"] = {
+["hidePrefix"] = true,
+["stickyTimer"] = true,
+["width"] = 67,
+["y"] = -280,
+["font"] = "ITCAvantGardeGothicDemi",
+["chatReport"] = false,
+["height"] = 43,
+["x"] = -421,
 },
 ["slashCommands"] = {
 ["enabled"] = true,
@@ -432,19 +466,6 @@ nil,
 ["enabled"] = false,
 },
 },
-},
-["combatTimer"] = {
-["hidePrefix"] = true,
-["stickyTimer"] = true,
-["width"] = 67,
-["y"] = -280,
-["font"] = "ITCAvantGardeGothicDemi",
-["chatReport"] = false,
-["height"] = 43,
-["x"] = -421,
-},
-["petTracker"] = {
-["font"] = "ITCAvantGardeGothicDemi",
 },
 },
 ["Default"] = {

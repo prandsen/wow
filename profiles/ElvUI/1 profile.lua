@@ -40,6 +40,7 @@
                     ["countFont"] = {
                         ["name"] = "ITCAvantGardeGothicDemi",
                     },
+                    ["enable"] = false,
                 },
                 ["bar2"] = {
                     ["backdrop"] = false,
@@ -60,12 +61,25 @@
                     },
                 },
                 ["bar4"] = {
+                    ["backdrop"] = false,
+                    ["backdropSpacing"] = 1,
                     ["bindFont"] = {
                         ["name"] = "ITCAvantGardeGothicDemi",
                     },
+                    ["buttonHeight"] = 36,
+                    ["buttonWidth"] = 36,
                     ["countFont"] = {
                         ["name"] = "ITCAvantGardeGothicDemi",
+                        ["size"] = 14,
+                        ["xOffset"] = -7,
+                        ["yOffset"] = -5,
                     },
+                    ["enable"] = true,
+                    ["include"] = "POTIONTWW,POTIONMN,UTILITY,CUSTOM",
+                    ["qualityTier"] = {
+                        ["size"] = 20,
+                    },
+                    ["spacing"] = 1,
                 },
                 ["bar5"] = {
                     ["bindFont"] = {
@@ -137,6 +151,7 @@
         ["quest"] = {
             ["switchButtons"] = {
                 ["announcement"] = false,
+                ["turnIn"] = false,
             },
             ["turnIn"] = {
                 ["getBestReward"] = true,
@@ -188,7 +203,7 @@
             ["macroFont"] = "ITCAvantGardeGothicDemi",
             ["macroFontOutline"] = "OUTLINE",
             ["macroFontSize"] = 12,
-            ["visibility"] = "show;[petbattle] hide; [vehicleui][overridebar][possessbar] show; hide",
+            ["visibility"] = "[petbattle] hide; [vehicleui][overridebar][possessbar] show; hide",
         },
         ["bar10"] = {
             ["countFontOutline"] = "OUTLINE",
@@ -221,7 +236,7 @@
             ["hotkeyFontOutline"] = "OUTLINE",
             ["hotkeyFontSize"] = 12,
             ["macroFontOutline"] = "OUTLINE",
-            ["visibility"] = "",
+            ["visibility"] = "hide",
         },
         ["bar3"] = {
             ["buttonSize"] = 40,
@@ -235,7 +250,7 @@
             ["hotkeyFontOutline"] = "OUTLINE",
             ["hotkeyFontSize"] = 12,
             ["macroFontOutline"] = "OUTLINE",
-            ["visibility"] = "",
+            ["visibility"] = "hide",
         },
         ["bar4"] = {
             ["backdrop"] = false,
@@ -250,7 +265,7 @@
             ["hotkeyFontSize"] = 12,
             ["macroFontOutline"] = "OUTLINE",
             ["point"] = "BOTTOMLEFT",
-            ["visibility"] = "",
+            ["visibility"] = "hide",
         },
         ["bar5"] = {
             ["buttonSize"] = 40,
@@ -264,7 +279,7 @@
             ["hotkeyFontOutline"] = "OUTLINE",
             ["hotkeyFontSize"] = 12,
             ["macroFontOutline"] = "OUTLINE",
-            ["visibility"] = "",
+            ["visibility"] = "hide",
         },
         ["bar6"] = {
             ["buttonSize"] = 40,
@@ -334,8 +349,8 @@
             ["countFont"] = "ITCAvantGardeGothicDemi",
             ["countFontOutline"] = "OUTLINE",
             ["countFontSize"] = 14,
-            ["countXOffset"] = -13,
-            ["countYOffset"] = -7,
+            ["countXOffset"] = -12,
+            ["countYOffset"] = 28,
             ["horizontalSpacing"] = 1,
             ["size"] = 36,
             ["wrapAfter"] = 10,
@@ -405,9 +420,8 @@
         },
         ["auras"] = {
             ["font"] = "ITCAvantGardeGothicDemi",
-            ["fontSize"] = 12,
+            ["fontSize"] = 14,
             ["offsetY"] = 0,
-            ["position"] = "CENTER",
             ["threshold"] = 3599,
         },
         ["bags"] = {
@@ -629,8 +643,8 @@
         ["BossBannerMover"] = "TOP,ElvUIParent,TOP,0,-126",
         ["BossButton"] = "BOTTOM,UIParent,BOTTOM,0,149",
         ["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-338,-353",
-        ["BuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-232,-2",
-        ["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-232,-208",
+        ["BuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-231,-8",
+        ["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-231,-208",
         ["DurabilityFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,141,-4",
         ["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,2",
         ["ElvAB_10"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-320,277",
@@ -648,7 +662,7 @@
         ["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,600,400",
         ["ElvUF_PetCastbarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,587,246",
         ["ElvUF_PetMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,601,224",
-        ["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,338",
+        ["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,1,346",
         ["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-315,291",
         ["ElvUF_Raid1Mover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,2,244",
         ["ElvUF_Raid2Mover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,2,244",
@@ -667,7 +681,7 @@
         ["LootFrameMover"] = "TOP,UIParent,TOP,280,-460",
         ["LossControlMover"] = "BOTTOM,ElvUIParent,BOTTOM,-1,507",
         ["MicrobarMover"] = "TOPLEFT,UIParent,TOPLEFT,4,-4",
-        ["MinimapMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-2,-2",
+        ["MinimapMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-6,-8",
         ["MirrorTimer1Mover"] = "TOP,ElvUIParent,TOP,-1,-96",
         ["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-163,-325",
         ["PetAB"] = "BOTTOM,ElvUIParent,BOTTOM,-282,192",
@@ -684,15 +698,15 @@
         ["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-289,0",
         ["TopCenterContainerMover"] = "TOP,ElvUIParent,TOP,0,-30",
         ["TorghastChoiceToggle"] = "TOPLEFT,ElvUIParent,TOPLEFT,2,-2",
-        ["TotemTrackerMover"] = "BOTTOM,ElvUIParent,BOTTOM,141,350",
+        ["TotemTrackerMover"] = "BOTTOM,ElvUIParent,BOTTOM,142,357",
         ["VOICECHAT"] = "TOPLEFT,ElvUIParent,TOPLEFT,2,-166",
         ["VehicleLeaveButton"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,570,45",
         ["VehicleSeatMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-4",
         ["WTChatBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,2,277",
         ["WTCustomEmoteFrameMover"] = "TOPLEFT,UIParent,TOPLEFT,4,-4",
-        ["WTMinimapButtonBarAnchor"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-246",
+        ["WTMinimapButtonBarAnchor"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-7,-253",
         ["WTRaidMarkersBarAnchor"] = "BOTTOM,UIParent,BOTTOM,-125,414",
-        ["WTSwitchButtonBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-104,-285",
+        ["WTSwitchButtonBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-104,-305",
         ["ZoneAbility"] = "BOTTOM,UIParent,BOTTOM,0,95",
     },
     ["nameplates"] = {
@@ -800,9 +814,9 @@
                 ["r"] = 0.1,
             },
             ["castbar_backdrop"] = {
-                ["b"] = 0.05882353335619,
-                ["g"] = 0.05882353335619,
-                ["r"] = 0.05882353335619,
+                ["b"] = 0.11764706671238,
+                ["g"] = 0.11764706671238,
+                ["r"] = 0.11764706671238,
             },
             ["classpower_backdrop"] = {
                 ["b"] = 0.05882353335619,
@@ -1183,7 +1197,7 @@
                         ["font"] = "ITCAvantGardeGothicDemi",
                         ["fontSize"] = 13,
                     },
-                    ["height"] = 25,
+                    ["height"] = 20,
                     ["iconSize"] = 50,
                     ["insideInfoPanel"] = false,
                     ["textColor"] = {
@@ -1191,7 +1205,7 @@
                         ["g"] = 1,
                         ["r"] = 1,
                     },
-                    ["width"] = 315,
+                    ["width"] = 230,
                 },
                 ["customTexts"] = {
                     ["FocusName"] = {
@@ -1452,7 +1466,7 @@
                         ["useCustomLevel"] = true,
                         ["useCustomStrata"] = true,
                     },
-                    ["width"] = 317,
+                    ["width"] = 321,
                 },
                 ["classAdditional"] = {
                     ["width"] = 230,
@@ -2017,7 +2031,6 @@
                     ["isAuraRaidPlayerDispellable"] = true,
                     ["notAuraCancelable"] = true,
                     ["notAuraCancelablePlayer"] = true,
-                    ["numrows"] = 2,
                     ["perrow"] = 3,
                     ["priority"] = "Blacklist,Whitelist,blockNoDuration,Personal,NonPersonal",
                     ["sizeOverride"] = 32,
@@ -2122,7 +2135,6 @@
                     ["isAuraRaidInCombat"] = true,
                     ["maxDuration"] = 0,
                     ["notAuraCancelable"] = true,
-                    ["numrows"] = 2,
                     ["perrow"] = 5,
                     ["priority"] = "Blacklist,Personal,NonPersonal",
                     ["sizeOverride"] = 32,

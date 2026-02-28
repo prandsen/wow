@@ -1002,6 +1002,18 @@ BCDMDB = {
 },
 ["CooldownManager"] = {
 ["AdditionalCustom"] = {
+["Layout"] = {
+"BOTTOM",
+nil,
+"TOPRIGHT",
+-18,
+},
+["GrowthDirection"] = "LEFT",
+["Spacing"] = -0.5,
+["IconSize"] = 36,
+["Text"] = {
+["FontSize"] = 16,
+},
 ["Spells"] = {
 ["HUNTER"] = {
 ["SURVIVAL"] = {
@@ -4920,18 +4932,6 @@ BCDMDB = {
 },
 },
 },
-["GrowthDirection"] = "LEFT",
-["Spacing"] = -0.5,
-["IconSize"] = 36,
-["Layout"] = {
-"BOTTOM",
-nil,
-"TOPRIGHT",
--18,
-},
-["Text"] = {
-["FontSize"] = 16,
-},
 },
 ["General"] = {
 ["IconZoom"] = 0.15,
@@ -4954,6 +4954,7 @@ nil,
 ["IconSize"] = 36.5,
 },
 ["Item"] = {
+["HideZeroCharges"] = true,
 ["Text"] = {
 ["FontSize"] = 14,
 ["Layout"] = {
@@ -4984,7 +4985,6 @@ nil,
 },
 ["Spacing"] = 0,
 ["IconSize"] = 36,
-["HideZeroCharges"] = true,
 ["Layout"] = {
 "TOPLEFT",
 "ElvUF_Player",
@@ -5016,6 +5016,12 @@ nil,
 },
 },
 ["BALANCE"] = {
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+},
+["GUARDIAN"] = {
 [58984] = {
 ["isActive"] = true,
 ["layoutIndex"] = 1,
@@ -5055,20 +5061,20 @@ nil,
 ["profile"] = {
 ["SecondaryPowerBar"] = {
 ["Enabled"] = true,
-["MatchWidthOfAnchor"] = true,
 ["ForegroundColour"] = {
 0.1333333333333333,
 0.1333333333333333,
 0.1333333333333333,
 1,
 },
+["ColourByState"] = true,
 ["BackgroundColour"] = {
 0.1333333333333333,
 0.1333333333333333,
 0.1333333333333333,
 1,
 },
-["ColourByState"] = true,
+["ColourByClass"] = false,
 ["Text"] = {
 ["Enabled"] = false,
 ["FontSize"] = 12,
@@ -5087,9 +5093,9 @@ nil,
 },
 ["FrameStrata"] = "LOW",
 ["Width"] = 200,
-["ColourByClass"] = false,
-["SwapToPowerBarPosition"] = false,
 ["HideTicks"] = false,
+["SwapToPowerBarPosition"] = false,
+["MatchWidthOfAnchor"] = true,
 ["ColourBySpec"] = false,
 ["Height"] = 13,
 ["HeightWithoutPrimary"] = 13,
