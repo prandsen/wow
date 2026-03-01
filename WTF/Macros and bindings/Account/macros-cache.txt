@@ -25,17 +25,21 @@ VER 3 0000000000000069 "ShF_G" "132276"
 /stopmacro [form:1,combat]
 /cast Облик медведя
 END
-VER 3 0000000000000087 "ShM4_F" "136116"
-/stopmacro [form:2,combat]
-/cast Облик кошки
-END
-VER 3 0000000000000065 "ShM4_G" "132115"
-/stopmacro [form:1,combat]
-/cast Облик кошки
-END
 VER 3 000000000000008A "ShM5_G" "136036"
 /stopmacro [form:1,combat]
 /cast Облик лунного совуха
+END
+VER 3 000000000000008B "SM4_B" "132115"
+/stopmacro [form:4,combat]
+/cast Облик кошки
+END
+VER 3 0000000000000087 "SM4_F" "132115"
+/stopmacro [form:2,combat]
+/cast Облик кошки
+END
+VER 3 0000000000000065 "SM4_G" "132115"
+/stopmacro [form:1,combat]
+/cast Облик кошки
 END
 VER 3 0000000000000061 "trinket" "134400"
 /stopcasting
