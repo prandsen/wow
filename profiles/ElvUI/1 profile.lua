@@ -318,7 +318,10 @@
         },
         ["barPet"] = {
             ["backdrop"] = false,
-            ["buttonsPerRow"] = 10,
+            ["buttonSize"] = 33,
+            ["buttonSpacing"] = 0,
+            ["buttons"] = 8,
+            ["buttonsPerRow"] = 4,
             ["countFontOutline"] = "OUTLINE",
             ["hotkeyFont"] = "ITCAvantGardeGothicDemi",
             ["hotkeyFontOutline"] = "OUTLINE",
@@ -360,7 +363,7 @@
             ["countFontOutline"] = "OUTLINE",
             ["countFontSize"] = 12,
             ["horizontalSpacing"] = 1,
-            ["size"] = 36,
+            ["size"] = 40,
             ["wrapAfter"] = 10,
         },
     },
@@ -369,7 +372,7 @@
             ["trade"] = true,
         },
         ["bagSize"] = 40,
-        ["bagWidth"] = 780,
+        ["bagWidth"] = 735,
         ["bankSize"] = 40,
         ["bankWidth"] = 500,
         ["clearSearchOnClose"] = true,
@@ -616,6 +619,7 @@
         ["objectiveFrameHeight"] = 400,
         ["privateAuras"] = {
             ["countdownNumbers"] = true,
+            ["enable"] = false,
             ["icon"] = {
                 ["size"] = 50,
             },
@@ -634,17 +638,17 @@
     ["movers"] = {
         ["AdditionalPowerMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,211",
         ["AddonCompartmentMover"] = "RIGHT,ElvUI_MinimapHolder,RIGHT,-5,10",
-        ["AlertFrameMover"] = "TOP,ElvUIParent,TOP,0,-20",
+        ["AlertFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-580,-541",
         ["AltPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,225",
-        ["ArenaHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-338,-205",
+        ["ArenaHeaderMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-504,-305",
         ["AzeriteBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-246",
-        ["BNETMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-2,-322",
-        ["BelowMinimapContainerMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-388,477",
+        ["BNETMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-4,-328",
+        ["BelowMinimapContainerMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-502,210",
         ["BossBannerMover"] = "TOP,ElvUIParent,TOP,0,-126",
         ["BossButton"] = "BOTTOM,UIParent,BOTTOM,0,149",
-        ["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-338,-353",
-        ["BuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-231,-8",
-        ["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-231,-208",
+        ["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-402,-353",
+        ["BuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-235,-8",
+        ["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-235,-213",
         ["DurabilityFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,141,-4",
         ["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,2",
         ["ElvAB_10"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-320,277",
@@ -657,11 +661,11 @@
         ["ElvAB_8"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-322,338",
         ["ElvAB_9"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-319,307",
         ["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,2,-388",
-        ["ElvUF_FocusCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,393",
+        ["ElvUF_FocusCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,509",
         ["ElvUF_FocusMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,503,292",
         ["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,600,400",
         ["ElvUF_PetCastbarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,587,246",
-        ["ElvUF_PetMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,601,224",
+        ["ElvUF_PetMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,601,219",
         ["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,1,346",
         ["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-315,291",
         ["ElvUF_Raid1Mover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,2,244",
@@ -671,22 +675,22 @@
         ["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,315,277",
         ["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,315,291",
         ["ElvUF_TargetTargetMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-503,291",
-        ["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-2,346",
-        ["ElvUIBankMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,502,332",
+        ["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-2,347",
+        ["ElvUIBankMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,504,347",
         ["EventToastMover"] = "TOP,ElvUIParent,TOP,0,-150",
         ["ExperienceBarMover"] = "TOP,ElvUIParent,TOP,0,-2",
         ["GMMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,2,-2",
         ["HonorBarMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-4,-245",
         ["LeftChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,2,2",
         ["LootFrameMover"] = "TOP,UIParent,TOP,280,-460",
-        ["LossControlMover"] = "BOTTOM,ElvUIParent,BOTTOM,-1,507",
+        ["LossControlMover"] = "TOP,UIParent,TOP,0,-542",
         ["MicrobarMover"] = "TOPLEFT,UIParent,TOPLEFT,4,-4",
-        ["MinimapMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-6,-8",
+        ["MinimapMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-8,-8",
         ["MirrorTimer1Mover"] = "TOP,ElvUIParent,TOP,-1,-96",
         ["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-163,-325",
-        ["PetAB"] = "BOTTOM,ElvUIParent,BOTTOM,-282,192",
+        ["PetAB"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,601,155",
         ["PowerBarContainerMover"] = "TOP,ElvUIParent,TOP,0,-70",
-        ["PrivateAurasMover"] = "BOTTOM,UIParent,BOTTOM,-206,484",
+        ["PrivateAurasMover"] = "BOTTOM,ElvUIParent,BOTTOM,-207,484",
         ["PrivateRaidWarningMover"] = "TOP,RaidBossEmoteFrame,TOP,0,0",
         ["QueueStatusMover"] = "BOTTOMRIGHT,ElvUI_MinimapHolder,BOTTOMRIGHT,-5,25",
         ["ReputationBarMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-4,-244",
@@ -704,7 +708,7 @@
         ["VehicleSeatMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-4",
         ["WTChatBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,2,277",
         ["WTCustomEmoteFrameMover"] = "TOPLEFT,UIParent,TOPLEFT,4,-4",
-        ["WTMinimapButtonBarAnchor"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-7,-253",
+        ["WTMinimapButtonBarAnchor"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-10,-253",
         ["WTRaidMarkersBarAnchor"] = "BOTTOM,UIParent,BOTTOM,-125,414",
         ["WTSwitchButtonBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-104,-305",
         ["ZoneAbility"] = "BOTTOM,UIParent,BOTTOM,0,95",
@@ -938,18 +942,19 @@
             ["arena"] = {
                 ["auras"] = {
                     ["anchorPoint"] = "BOTTOMLEFT",
+                    ["attachTo"] = "HEALTH",
                     ["enable"] = true,
                     ["isAuraBigDefensive"] = true,
                     ["isAuraBigDefensivePlayer"] = true,
                     ["isAuraExternalDefensive"] = true,
                     ["isAuraExternalDefensivePlayer"] = true,
-                    ["perrow"] = 4,
-                    ["sizeOverride"] = 30,
+                    ["perrow"] = 3,
+                    ["sizeOverride"] = 36,
                     ["sourceText"] = {
                         ["font"] = "ITCAvantGardeGothicDemi",
                     },
                     ["spacing"] = 0,
-                    ["yOffset"] = 5,
+                    ["yOffset"] = -1,
                 },
                 ["buffs"] = {
                     ["countFont"] = "ITCAvantGardeGothicDemi",
@@ -982,6 +987,17 @@
                     ["width"] = 191,
                 },
                 ["customTexts"] = {
+                    ["ArenaName"] = {
+                        ["attachTextTo"] = "Frame",
+                        ["enable"] = true,
+                        ["font"] = "ITCAvantGardeGothicDemi",
+                        ["fontOutline"] = "OUTLINE",
+                        ["justifyH"] = "RIGHT",
+                        ["size"] = 14,
+                        ["text_format"] = "[name:abbrev:long]",
+                        ["xOffset"] = -5,
+                        ["yOffset"] = 29,
+                    },
                     ["HP"] = {
                         ["attachTextTo"] = "Power",
                         ["enable"] = true,
@@ -990,7 +1006,7 @@
                         ["justifyH"] = "LEFT",
                         ["size"] = 14,
                         ["text_format"] = "[health:current:shortvalue] I [perhp<%]",
-                        ["xOffset"] = 0,
+                        ["xOffset"] = 5,
                         ["yOffset"] = -12,
                     },
                     ["Resources"] = {
@@ -999,9 +1015,9 @@
                         ["font"] = "ITCAvantGardeGothicDemi",
                         ["fontOutline"] = "OUTLINE",
                         ["justifyH"] = "RIGHT",
-                        ["size"] = 12,
+                        ["size"] = 13,
                         ["text_format"] = "[powercolor][perpp]",
-                        ["xOffset"] = 0,
+                        ["xOffset"] = -5,
                         ["yOffset"] = -12,
                     },
                 },
@@ -1020,7 +1036,7 @@
                 ["height"] = 60,
                 ["name"] = {
                     ["position"] = "TOPRIGHT",
-                    ["text_format"] = "[name:abbrev:long]",
+                    ["text_format"] = "",
                     ["yOffset"] = 9,
                 },
                 ["power"] = {
@@ -1033,7 +1049,7 @@
                     ["size"] = 60,
                     ["xOffset"] = 0,
                 },
-                ["spacing"] = 42,
+                ["spacing"] = 30,
                 ["width"] = 250,
             },
             ["assist"] = {
@@ -1047,6 +1063,7 @@
                 },
                 ["buffs"] = {
                     ["countFont"] = "ITCAvantGardeGothicDemi",
+                    ["countFontSize"] = 14,
                     ["isAuraBigDefensive"] = true,
                     ["isAuraExternalDefensive"] = true,
                     ["isAuraExternalDefensivePlayer"] = true,
@@ -1081,16 +1098,27 @@
                     ["width"] = 191,
                 },
                 ["customTexts"] = {
+                    ["BossName"] = {
+                        ["attachTextTo"] = "Frame",
+                        ["enable"] = true,
+                        ["font"] = "ITCAvantGardeGothicDemi",
+                        ["fontOutline"] = "OUTLINE",
+                        ["justifyH"] = "RIGHT",
+                        ["size"] = 14,
+                        ["text_format"] = "[name:abbrev:long]",
+                        ["xOffset"] = -5,
+                        ["yOffset"] = 20,
+                    },
                     ["HP"] = {
-                        ["attachTextTo"] = "Power",
+                        ["attachTextTo"] = "Health",
                         ["enable"] = true,
                         ["font"] = "ITCAvantGardeGothicDemi",
                         ["fontOutline"] = "OUTLINE",
                         ["justifyH"] = "LEFT",
                         ["size"] = 14,
                         ["text_format"] = "[health:current:shortvalue] I [perhp<%]",
-                        ["xOffset"] = 0,
-                        ["yOffset"] = -13,
+                        ["xOffset"] = 5,
+                        ["yOffset"] = -31,
                     },
                     ["Resources"] = {
                         ["attachTextTo"] = "Power",
@@ -1098,15 +1126,16 @@
                         ["font"] = "ITCAvantGardeGothicDemi",
                         ["fontOutline"] = "OUTLINE",
                         ["justifyH"] = "RIGHT",
-                        ["size"] = 12,
+                        ["size"] = 13,
                         ["text_format"] = "[powercolor][perpp]",
-                        ["xOffset"] = 0,
+                        ["xOffset"] = -5,
                         ["yOffset"] = -11,
                     },
                 },
                 ["debuffs"] = {
                     ["anchorPoint"] = "RIGHT",
                     ["countFont"] = "ITCAvantGardeGothicDemi",
+                    ["countFontSize"] = 14,
                     ["desaturate"] = false,
                     ["isAuraCrowdControl"] = true,
                     ["maxDuration"] = 300,
@@ -1131,7 +1160,7 @@
                 },
                 ["name"] = {
                     ["position"] = "TOPRIGHT",
-                    ["text_format"] = "[name:abbrev:long]",
+                    ["text_format"] = "",
                     ["yOffset"] = 9,
                 },
                 ["power"] = {
@@ -1148,7 +1177,7 @@
                 ["raidicon"] = {
                     ["attachTo"] = "TOPLEFT",
                 },
-                ["spacing"] = 30,
+                ["spacing"] = 28,
                 ["width"] = 200,
             },
             ["focus"] = {
@@ -1179,10 +1208,15 @@
                 },
                 ["castbar"] = {
                     ["customColor"] = {
+                        ["color"] = {
+                            ["b"] = 1,
+                            ["g"] = 0.50980395078659,
+                            ["r"] = 0,
+                        },
                         ["colorBackdrop"] = {
-                            ["b"] = 0.05882353335619,
-                            ["g"] = 0.05882353335619,
-                            ["r"] = 0.05882353335619,
+                            ["b"] = 0.12156863510609,
+                            ["g"] = 0.12156863510609,
+                            ["r"] = 0.12156863510609,
                         },
                         ["enable"] = true,
                         ["useCustomBackdrop"] = true,
@@ -1197,7 +1231,7 @@
                         ["font"] = "ITCAvantGardeGothicDemi",
                         ["fontSize"] = 13,
                     },
-                    ["height"] = 20,
+                    ["height"] = 25,
                     ["iconSize"] = 50,
                     ["insideInfoPanel"] = false,
                     ["textColor"] = {
@@ -1205,7 +1239,7 @@
                         ["g"] = 1,
                         ["r"] = 1,
                     },
-                    ["width"] = 230,
+                    ["width"] = 320,
                 },
                 ["customTexts"] = {
                     ["FocusName"] = {
@@ -1377,6 +1411,11 @@
                     ["duration"] = {
                         ["enable"] = true,
                     },
+                    ["icon"] = {
+                        ["amount"] = 3,
+                        ["offset"] = 0,
+                        ["size"] = 24,
+                    },
                 },
                 ["raidicon"] = {
                     ["attachTo"] = "BOTTOMLEFT",
@@ -1407,7 +1446,7 @@
                 ["castbar"] = {
                     ["enable"] = false,
                     ["iconSize"] = 32,
-                    ["width"] = 130,
+                    ["width"] = 132,
                 },
                 ["debuffs"] = {
                     ["anchorPoint"] = "RIGHT",
@@ -1415,7 +1454,7 @@
                     ["enable"] = true,
                 },
                 ["disableTargetGlow"] = false,
-                ["height"] = 32,
+                ["height"] = 25,
                 ["infoPanel"] = {
                     ["height"] = 14,
                 },
@@ -1425,6 +1464,7 @@
                 ["power"] = {
                     ["enable"] = false,
                 },
+                ["width"] = 132,
             },
             ["player"] = {
                 ["CombatIcon"] = {
@@ -1517,6 +1557,7 @@
                     ["sourceText"] = {
                         ["font"] = "ITCAvantGardeGothicDemi",
                     },
+                    ["spacing"] = 2,
                     ["xOffset"] = -52,
                     ["yOffset"] = 100,
                 },
@@ -1540,7 +1581,9 @@
                     ["position"] = "LEFT",
                 },
                 ["privateAuras"] = {
-                    ["enable"] = true,
+                    ["icon"] = {
+                        ["offset"] = 0,
+                    },
                 },
                 ["raidRoleIcons"] = {
                     ["enable"] = false,
@@ -1593,7 +1636,7 @@
                         ["fontOutline"] = "OUTLINE",
                         ["justifyH"] = "LEFT",
                         ["size"] = 12,
-                        ["text_format"] = "[name:abbrev:medium]",
+                        ["text_format"] = "[name:abbrev:veryshort]",
                         ["xOffset"] = 12,
                         ["yOffset"] = 24,
                     },
@@ -1664,7 +1707,9 @@
                         ["enable"] = true,
                     },
                     ["icon"] = {
-                        ["size"] = 20,
+                        ["amount"] = 3,
+                        ["offset"] = 0,
+                        ["size"] = 24,
                     },
                 },
                 ["raidicon"] = {
@@ -1736,7 +1781,7 @@
                         ["fontOutline"] = "OUTLINE",
                         ["justifyH"] = "LEFT",
                         ["size"] = 12,
-                        ["text_format"] = "[name:abbrev:medium]",
+                        ["text_format"] = "[name:abbrev:veryshort]",
                         ["xOffset"] = 12,
                         ["yOffset"] = 24,
                     },
@@ -1808,7 +1853,9 @@
                         ["enable"] = true,
                     },
                     ["icon"] = {
-                        ["size"] = 20,
+                        ["amount"] = 3,
+                        ["offset"] = 0,
+                        ["size"] = 24,
                     },
                 },
                 ["raidicon"] = {
@@ -1882,7 +1929,7 @@
                         ["fontOutline"] = "OUTLINE",
                         ["justifyH"] = "LEFT",
                         ["size"] = 12,
-                        ["text_format"] = "[name:abbrev:medium]",
+                        ["text_format"] = "[name:abbrev:veryshort]",
                         ["xOffset"] = 12,
                         ["yOffset"] = 24,
                     },
@@ -1953,7 +2000,9 @@
                         ["enable"] = true,
                     },
                     ["icon"] = {
-                        ["size"] = 20,
+                        ["amount"] = 3,
+                        ["offset"] = 0,
+                        ["size"] = 24,
                     },
                 },
                 ["raidicon"] = {
@@ -2163,7 +2212,7 @@
                 ["power"] = {
                     ["attachTextTo"] = "Power",
                     ["detachFromFrame"] = true,
-                    ["detachedWidth"] = 135,
+                    ["detachedWidth"] = 120,
                     ["height"] = 6,
                     ["position"] = "RIGHT",
                     ["text_format"] = "",
