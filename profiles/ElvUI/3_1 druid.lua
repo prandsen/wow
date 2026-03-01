@@ -5,7 +5,8 @@
                 ["backdrop"] = false,
                 ["backdropSpacing"] = 0,
                 ["buttonsPerRow"] = 7,
-                ["sortingPriority"] = "Saved, Arc, Method, BugSack, Naowh, Plater, Details, _Wind, ^Expansion",
+                ["hiddenPatterns"] = "^PlumberLandingPage, Details",
+                ["sortingPriority"] = "Saved, Arc, Naowh, Larias, Method, BugSack, Plater, _Wind, ^Expansion",
             },
             ["worldMap"] = {
                 ["scale"] = {
@@ -14,11 +15,13 @@
             },
         },
         ["misc"] = {
-            ["autoToggleChatBubble"] = true,
             ["lfgList"] = {
                 ["line"] = {
                     ["tex"] = "Melli",
                 },
+            },
+            ["moveFrames"] = {
+                ["enable"] = false,
             },
             ["skipCutScene"] = true,
         },
@@ -104,6 +107,8 @@
     ["general"] = {
         ["chatBubbleFont"] = "ITCAvantGardeGothicDemi",
         ["chatBubbleFontOutline"] = "OUTLINE",
+        ["chatBubbleFontSize"] = 10,
+        ["chatBubbles"] = "nobackdrop",
         ["dmgfont"] = "ITCAvantGardeGothicDemi",
         ["minimap"] = {
             ["hideTracking"] = true,

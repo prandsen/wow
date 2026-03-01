@@ -34,9 +34,9 @@
                     ["countAnchor"] = "CENTER",
                     ["countX"] = 0,
                     ["countY"] = 0,
-                    ["point"] = "RIGHT",
+                    ["point"] = "TOPRIGHT",
                     ["xOffset"] = 1,
-                    ["yOffset"] = 7,
+                    ["yOffset"] = -16,
                 },
                 [48438] = {
                     ["countAnchor"] = "CENTER",

@@ -171,6 +171,16 @@
             },
         },
         ["tooltips"] = {
+            ["elvUITweaks"] = {
+                ["betterMythicPlusInfo"] = {
+                    ["icon"] = {
+                        ["enable"] = false,
+                    },
+                },
+                ["raceIcon"] = {
+                    ["enable"] = false,
+                },
+            },
             ["groupInfo"] = {
                 ["enable"] = false,
             },
@@ -618,9 +628,11 @@
         },
         ["objectiveFrameHeight"] = 400,
         ["privateAuras"] = {
+            ["borderScale"] = 1,
             ["countdownNumbers"] = true,
-            ["enable"] = false,
             ["icon"] = {
+                ["amount"] = 3,
+                ["offset"] = 0,
                 ["size"] = 50,
             },
         },
@@ -690,7 +702,7 @@
         ["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-163,-325",
         ["PetAB"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,601,155",
         ["PowerBarContainerMover"] = "TOP,ElvUIParent,TOP,0,-70",
-        ["PrivateAurasMover"] = "BOTTOM,ElvUIParent,BOTTOM,-207,484",
+        ["PrivateAurasMover"] = "BOTTOM,ElvUIParent,BOTTOM,-185,536",
         ["PrivateRaidWarningMover"] = "TOP,RaidBossEmoteFrame,TOP,0,0",
         ["QueueStatusMover"] = "BOTTOMRIGHT,ElvUI_MinimapHolder,BOTTOMRIGHT,-5,25",
         ["ReputationBarMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-4,-244",
@@ -707,7 +719,7 @@
         ["VehicleLeaveButton"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,570,45",
         ["VehicleSeatMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-4",
         ["WTChatBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,2,277",
-        ["WTCustomEmoteFrameMover"] = "TOPLEFT,UIParent,TOPLEFT,4,-4",
+        ["WTCustomEmoteFrameMover"] = "TOPLEFT,UIParent,TOPLEFT,4,-273",
         ["WTMinimapButtonBarAnchor"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-10,-253",
         ["WTRaidMarkersBarAnchor"] = "BOTTOM,UIParent,BOTTOM,-125,414",
         ["WTSwitchButtonBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-104,-305",
@@ -1080,22 +1092,52 @@
                     ["yOffset"] = -1,
                 },
                 ["castbar"] = {
+                    ["customColor"] = {
+                        ["color"] = {
+                            ["b"] = 1,
+                            ["g"] = 0.50980395078659,
+                            ["r"] = 0,
+                        },
+                        ["colorBackdrop"] = {
+                            ["b"] = 0.05882353335619,
+                            ["g"] = 0.05882353335619,
+                            ["r"] = 0.05882353335619,
+                        },
+                        ["colorInterrupted"] = {
+                            ["b"] = 0.23529413342476,
+                            ["g"] = 0.78431379795074,
+                            ["r"] = 1,
+                        },
+                        ["colorNoInterrupt"] = {
+                            ["b"] = 0.23529413342476,
+                            ["g"] = 0.23529413342476,
+                            ["r"] = 0.78431379795074,
+                        },
+                        ["enable"] = true,
+                        ["useCustomBackdrop"] = true,
+                    },
                     ["customTextFont"] = {
                         ["enable"] = true,
                         ["font"] = "ITCAvantGardeGothicDemi",
-                        ["fontSize"] = 11,
+                        ["fontSize"] = 10,
                     },
                     ["customTimeFont"] = {
                         ["enable"] = true,
                         ["font"] = "ITCAvantGardeGothicDemi",
-                        ["fontSize"] = 11,
+                        ["fontSize"] = 10,
                     },
-                    ["height"] = 16,
+                    ["displayTargetClass"] = false,
+                    ["height"] = 14,
                     ["positionsGroup"] = {
-                        ["xOffset"] = 30,
-                        ["yOffset"] = -17,
+                        ["yOffset"] = 2,
                     },
-                    ["width"] = 191,
+                    ["smoothbars"] = true,
+                    ["textColor"] = {
+                        ["b"] = 1,
+                        ["g"] = 1,
+                        ["r"] = 1,
+                    },
+                    ["width"] = 202,
                 },
                 ["customTexts"] = {
                     ["BossName"] = {
@@ -1104,7 +1146,7 @@
                         ["font"] = "ITCAvantGardeGothicDemi",
                         ["fontOutline"] = "OUTLINE",
                         ["justifyH"] = "RIGHT",
-                        ["size"] = 14,
+                        ["size"] = 13,
                         ["text_format"] = "[name:abbrev:long]",
                         ["xOffset"] = -5,
                         ["yOffset"] = 20,
@@ -1115,10 +1157,10 @@
                         ["font"] = "ITCAvantGardeGothicDemi",
                         ["fontOutline"] = "OUTLINE",
                         ["justifyH"] = "LEFT",
-                        ["size"] = 14,
+                        ["size"] = 13,
                         ["text_format"] = "[health:current:shortvalue] I [perhp<%]",
-                        ["xOffset"] = 5,
-                        ["yOffset"] = -31,
+                        ["xOffset"] = 3,
+                        ["yOffset"] = -9,
                     },
                     ["Resources"] = {
                         ["attachTextTo"] = "Power",
@@ -1128,8 +1170,8 @@
                         ["justifyH"] = "RIGHT",
                         ["size"] = 13,
                         ["text_format"] = "[powercolor][perpp]",
-                        ["xOffset"] = -5,
-                        ["yOffset"] = -11,
+                        ["xOffset"] = -3,
+                        ["yOffset"] = 11,
                     },
                 },
                 ["debuffs"] = {
@@ -1217,6 +1259,11 @@
                             ["b"] = 0.12156863510609,
                             ["g"] = 0.12156863510609,
                             ["r"] = 0.12156863510609,
+                        },
+                        ["colorInterrupted"] = {
+                            ["b"] = 0.23529413342476,
+                            ["g"] = 0.78431379795074,
+                            ["r"] = 1,
                         },
                         ["enable"] = true,
                         ["useCustomBackdrop"] = true,
@@ -1327,7 +1374,7 @@
                     ["growthX"] = "LEFT",
                     ["isAuraRaidInCombatPlayer"] = false,
                     ["perrow"] = 2,
-                    ["sizeOverride"] = 30,
+                    ["sizeOverride"] = 31,
                     ["sourceText"] = {
                         ["font"] = "ITCAvantGardeGothicDemi",
                     },
@@ -1410,11 +1457,12 @@
                 ["privateAuras"] = {
                     ["duration"] = {
                         ["enable"] = true,
+                        ["offsetY"] = 0,
+                        ["point"] = "CENTER",
                     },
                     ["icon"] = {
-                        ["amount"] = 3,
                         ["offset"] = 0,
-                        ["size"] = 24,
+                        ["size"] = 30,
                     },
                 },
                 ["raidicon"] = {
@@ -1524,7 +1572,7 @@
                         ["justifyH"] = "RIGHT",
                         ["size"] = 14,
                         ["text_format"] = "[absorbs-autohide]",
-                        ["xOffset"] = -5,
+                        ["xOffset"] = -2,
                         ["yOffset"] = 0,
                     },
                     ["HP"] = {
@@ -1535,7 +1583,7 @@
                         ["justifyH"] = "RIGHT",
                         ["size"] = 14,
                         ["text_format"] = "[perhp<%] I [health:current:shortvalue]",
-                        ["xOffset"] = -5,
+                        ["xOffset"] = -2,
                         ["yOffset"] = -20,
                     },
                 },
@@ -1558,8 +1606,8 @@
                         ["font"] = "ITCAvantGardeGothicDemi",
                     },
                     ["spacing"] = 2,
-                    ["xOffset"] = -52,
-                    ["yOffset"] = 100,
+                    ["xOffset"] = -30,
+                    ["yOffset"] = 110,
                 },
                 ["disableMouseoverGlow"] = true,
                 ["healPrediction"] = {
@@ -1581,8 +1629,16 @@
                     ["position"] = "LEFT",
                 },
                 ["privateAuras"] = {
+                    ["duration"] = {
+                        ["enable"] = true,
+                        ["offsetY"] = 0,
+                        ["point"] = "CENTER",
+                    },
+                    ["enable"] = true,
                     ["icon"] = {
-                        ["offset"] = 0,
+                        ["amount"] = 3,
+                        ["offset"] = -4,
+                        ["size"] = 50,
                     },
                 },
                 ["raidRoleIcons"] = {
@@ -1608,6 +1664,7 @@
                 },
                 ["buffIndicator"] = {
                     ["countFont"] = "ITCAvantGardeGothicDemi",
+                    ["profileSpecific"] = true,
                     ["size"] = 16,
                 },
                 ["buffs"] = {
@@ -1638,7 +1695,7 @@
                         ["size"] = 12,
                         ["text_format"] = "[name:abbrev:veryshort]",
                         ["xOffset"] = 12,
-                        ["yOffset"] = 24,
+                        ["yOffset"] = 23,
                     },
                     ["Status"] = {
                         ["attachTextTo"] = "Health",
@@ -1668,7 +1725,7 @@
                     ["yOffset"] = -1,
                 },
                 ["groupBy"] = "ROLE",
-                ["groupSpacing"] = 5,
+                ["groupSpacing"] = 8,
                 ["growthDirection"] = "RIGHT_UP",
                 ["healPrediction"] = {
                     ["absorbStyle"] = "REVERSED",
@@ -1680,7 +1737,7 @@
                     ["text_format"] = "",
                     ["yOffset"] = -48,
                 },
-                ["height"] = 50,
+                ["height"] = 46,
                 ["horizontalSpacing"] = 5,
                 ["infoPanel"] = {
                     ["height"] = 15,
@@ -1705,11 +1762,14 @@
                 ["privateAuras"] = {
                     ["duration"] = {
                         ["enable"] = true,
+                        ["offsetY"] = 0,
+                        ["point"] = "CENTER",
                     },
                     ["icon"] = {
                         ["amount"] = 3,
-                        ["offset"] = 0,
-                        ["size"] = 24,
+                        ["offset"] = -4,
+                        ["point"] = "RIGHT",
+                        ["size"] = 28,
                     },
                 },
                 ["raidicon"] = {
@@ -1753,6 +1813,7 @@
                 },
                 ["buffIndicator"] = {
                     ["countFont"] = "ITCAvantGardeGothicDemi",
+                    ["profileSpecific"] = true,
                     ["size"] = 16,
                 },
                 ["buffs"] = {
@@ -1783,7 +1844,7 @@
                         ["size"] = 12,
                         ["text_format"] = "[name:abbrev:veryshort]",
                         ["xOffset"] = 12,
-                        ["yOffset"] = 24,
+                        ["yOffset"] = 23,
                     },
                     ["Status"] = {
                         ["attachTextTo"] = "Health",
@@ -1813,7 +1874,7 @@
                     ["yOffset"] = -1,
                 },
                 ["groupBy"] = "ROLE",
-                ["groupSpacing"] = 5,
+                ["groupSpacing"] = 8,
                 ["growthDirection"] = "RIGHT_UP",
                 ["healPrediction"] = {
                     ["absorbStyle"] = "REVERSED",
@@ -1851,11 +1912,14 @@
                 ["privateAuras"] = {
                     ["duration"] = {
                         ["enable"] = true,
+                        ["offsetY"] = 0,
+                        ["point"] = "CENTER",
                     },
                     ["icon"] = {
                         ["amount"] = 3,
-                        ["offset"] = 0,
-                        ["size"] = 24,
+                        ["offset"] = -4,
+                        ["point"] = "RIGHT",
+                        ["size"] = 28,
                     },
                 },
                 ["raidicon"] = {
@@ -1901,6 +1965,7 @@
                 },
                 ["buffIndicator"] = {
                     ["countFont"] = "ITCAvantGardeGothicDemi",
+                    ["profileSpecific"] = true,
                     ["size"] = 16,
                 },
                 ["buffs"] = {
@@ -1931,7 +1996,7 @@
                         ["size"] = 12,
                         ["text_format"] = "[name:abbrev:veryshort]",
                         ["xOffset"] = 12,
-                        ["yOffset"] = 24,
+                        ["yOffset"] = 23,
                     },
                     ["Status"] = {
                         ["attachTextTo"] = "Health",
@@ -1961,7 +2026,7 @@
                     ["yOffset"] = -1,
                 },
                 ["groupBy"] = "ROLE",
-                ["groupSpacing"] = 5,
+                ["groupSpacing"] = 8,
                 ["growthDirection"] = "RIGHT_UP",
                 ["healPrediction"] = {
                     ["absorbStyle"] = "REVERSED",
@@ -1998,11 +2063,14 @@
                 ["privateAuras"] = {
                     ["duration"] = {
                         ["enable"] = true,
+                        ["offsetY"] = 0,
+                        ["point"] = "CENTER",
                     },
                     ["icon"] = {
                         ["amount"] = 3,
-                        ["offset"] = 0,
-                        ["size"] = 24,
+                        ["offset"] = -4,
+                        ["point"] = "RIGHT",
+                        ["size"] = 28,
                     },
                 },
                 ["raidicon"] = {
@@ -2099,9 +2167,9 @@
                             ["r"] = 0.05882353335619,
                         },
                         ["colorInterrupted"] = {
-                            ["b"] = 0.30196079611778,
-                            ["g"] = 0.30196079611778,
-                            ["r"] = 0.30196079611778,
+                            ["b"] = 0.23529413342476,
+                            ["g"] = 0.78431379795074,
+                            ["r"] = 1,
                         },
                         ["colorNoInterrupt"] = {
                             ["b"] = 0.23529413342476,
@@ -2144,7 +2212,7 @@
                         ["justifyH"] = "LEFT",
                         ["size"] = 14,
                         ["text_format"] = "[health:current:shortvalue] I [perhp<%]",
-                        ["xOffset"] = 5,
+                        ["xOffset"] = 2,
                         ["yOffset"] = -20,
                     },
                     ["Range"] = {
