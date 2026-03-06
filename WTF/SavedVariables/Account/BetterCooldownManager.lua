@@ -3,7 +3,19 @@ BCDMDB = {
 ["namespaces"] = {
 },
 ["profileKeys"] = {
+["Мальдика - Свежеватель Душ"] = "All classes",
+["Вантачмэн - Ревущий фьорд"] = "All classes",
+["Прециза - Свежеватель Душ"] = "All classes",
+["Сэйвмэн - Свежеватель Душ"] = "All classes",
+["Вольтчара - Свежеватель Душ"] = "All classes",
+["Дракобес - Свежеватель Душ"] = "All classes",
+["Топмэн - Свежеватель Душ"] = "All classes",
+["Алианкано - Свежеватель Душ"] = "All classes",
+["Джуставар - Свежеватель Душ"] = "All classes",
+["Сорчистино - Свежеватель Душ"] = "All classes",
+["Виандисто - Свежеватель Душ"] = "All classes",
 ["Бимладен - Ревущий фьорд"] = "All classes",
+["Спленда - Свежеватель Душ"] = "All classes",
 },
 ["global"] = {
 ["UseGlobalProfile"] = true,
@@ -1002,18 +1014,18 @@ BCDMDB = {
 },
 ["CooldownManager"] = {
 ["AdditionalCustom"] = {
+["Text"] = {
+["FontSize"] = 14,
 ["Layout"] = {
-"BOTTOM",
+"CENTER",
+"TOP",
 nil,
-"TOPRIGHT",
--18,
+0,
+},
 },
 ["GrowthDirection"] = "LEFT",
-["Spacing"] = -0.5,
+["Spacing"] = 0,
 ["IconSize"] = 36,
-["Text"] = {
-["FontSize"] = 16,
-},
 ["Spells"] = {
 ["HUNTER"] = {
 ["SURVIVAL"] = {
@@ -4096,123 +4108,13 @@ nil,
 },
 },
 ["DRUID"] = {
+["RESTORATION"] = {
+[20484] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+},
 ["FERAL"] = {
-[436344] = {
-["isActive"] = false,
-["layoutIndex"] = 5,
-},
-[20594] = {
-["isActive"] = true,
-["layoutIndex"] = 1,
-},
-[202719] = {
-["isActive"] = false,
-["layoutIndex"] = 1,
-},
-[58984] = {
-["isActive"] = true,
-["layoutIndex"] = 1,
-},
-[68992] = {
-["isActive"] = false,
-["layoutIndex"] = 1,
-},
-[1237885] = {
-["isActive"] = true,
-["layoutIndex"] = 6,
-},
-[20549] = {
-["isActive"] = false,
-["layoutIndex"] = 1,
-},
-[28880] = {
-["isActive"] = false,
-["layoutIndex"] = 1,
-},
-[59752] = {
-["isActive"] = true,
-["layoutIndex"] = 1,
-},
-[69070] = {
-["isActive"] = true,
-["layoutIndex"] = 1,
-},
-[69041] = {
-["isActive"] = true,
-["layoutIndex"] = 1,
-},
-[368970] = {
-["isActive"] = true,
-["layoutIndex"] = 3,
-},
-[265221] = {
-["isActive"] = true,
-["layoutIndex"] = 1,
-},
-[20572] = {
-["isActive"] = false,
-["layoutIndex"] = 1,
-},
-[357214] = {
-["isActive"] = true,
-["layoutIndex"] = 4,
-},
-[256948] = {
-["isActive"] = true,
-["layoutIndex"] = 1,
-},
-[20589] = {
-["isActive"] = true,
-["layoutIndex"] = 1,
-},
-[287712] = {
-["isActive"] = true,
-["layoutIndex"] = 1,
-},
-[7744] = {
-["isActive"] = false,
-["layoutIndex"] = 1,
-},
-[312924] = {
-["isActive"] = true,
-["layoutIndex"] = 1,
-},
-[312411] = {
-["isActive"] = true,
-["layoutIndex"] = 1,
-},
-[291944] = {
-["isActive"] = true,
-["layoutIndex"] = 1,
-},
-[255647] = {
-["isActive"] = true,
-["layoutIndex"] = 1,
-},
-[107079] = {
-["isActive"] = true,
-["layoutIndex"] = 2,
-},
-[26297] = {
-["isActive"] = false,
-["layoutIndex"] = 1,
-},
-},
-["BALANCE"] = {
-[20594] = {
-["isActive"] = true,
-["layoutIndex"] = 1,
-},
-[58984] = {
-["isActive"] = true,
-["layoutIndex"] = 2,
-},
-[265221] = {
-["isActive"] = true,
-["layoutIndex"] = 3,
-},
-},
-["GUARDIAN"] = {
 [436344] = {
 ["isActive"] = false,
 ["layoutIndex"] = 5,
@@ -4932,6 +4834,12 @@ nil,
 },
 },
 },
+["Layout"] = {
+"BOTTOM",
+"ElvUF_Player",
+"TOPLEFT",
+18,
+},
 },
 ["General"] = {
 ["IconZoom"] = 0.15,
@@ -4953,42 +4861,30 @@ nil,
 ["Spacing"] = 0,
 ["IconSize"] = 36.5,
 },
-["Item"] = {
-["HideZeroCharges"] = true,
+["ItemSpell"] = {
 ["Text"] = {
-["FontSize"] = 14,
+["FontSize"] = 16,
 ["Layout"] = {
 "CENTER",
-"BOTTOM",
+"TOP",
 nil,
 0,
 },
 },
-["GrowthDirection"] = "RIGHT",
-["Items"] = {
-[5512] = {
-["isActive"] = true,
+["ItemsSpells"] = {
+[20484] = {
+["entryType"] = "spell",
 ["layoutIndex"] = 1,
-},
-[6262] = {
 ["isActive"] = true,
-["layoutIndex"] = 4,
-},
-[244838] = {
-["isActive"] = true,
-["layoutIndex"] = 2,
-},
-[212264] = {
-["isActive"] = true,
-["layoutIndex"] = 3,
 },
 },
 ["Spacing"] = 0,
 ["IconSize"] = 36,
 ["Layout"] = {
-"TOPLEFT",
+"BOTTOM",
 "ElvUF_Player",
-"BOTTOMLEFT",
+"TOPLEFT",
+18,
 },
 },
 ["Custom"] = {
@@ -5028,6 +4924,40 @@ nil,
 },
 },
 },
+},
+},
+["Item"] = {
+["HideZeroCharges"] = true,
+["Text"] = {
+["FontSize"] = 14,
+["Layout"] = {
+"CENTER",
+"BOTTOM",
+nil,
+0,
+},
+},
+["GrowthDirection"] = "RIGHT",
+["Items"] = {
+[5512] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[244838] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[212264] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+},
+["Spacing"] = 0,
+["IconSize"] = 36,
+["Layout"] = {
+"TOPLEFT",
+"ElvUF_Player",
+"BOTTOMLEFT",
 },
 },
 },

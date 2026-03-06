@@ -4,9 +4,11 @@
             ["minimapButtons"] = {
                 ["backdrop"] = false,
                 ["backdropSpacing"] = 0,
+                ["buttonSize"] = 32,
                 ["buttonsPerRow"] = 7,
                 ["hiddenPatterns"] = "^PlumberLandingPage, Details",
                 ["sortingPriority"] = "Saved, Arc, Naowh, Larias, Method, BugSack, Plater, _Wind, ^Expansion",
+                ["spacing"] = 0,
             },
             ["worldMap"] = {
                 ["scale"] = {
