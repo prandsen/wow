@@ -67,6 +67,46 @@
                     ["onlyShowMissing"] = false,
                     ["sizeOffset"] = -3,
                     ["style"] = "texturedIcon",
+                    ["yOffset"] = -1,
+                },
+            },
+            ["PALADIN"] = {
+                [53563] = {
+                    ["color"] = {
+                        ["a"] = 1,
+                    },
+                    ["point"] = "BOTTOM",
+                    ["sizeOffset"] = -3,
+                    ["style"] = "texturedIcon",
+                    ["yOffset"] = -1,
+                },
+                [156322] = {
+                    ["enabled"] = false,
+                },
+                [156910] = {
+                    ["color"] = {
+                        ["a"] = 1,
+                        ["b"] = 0.78431379795074,
+                        ["g"] = 0.78431379795074,
+                        ["r"] = 0.23529413342476,
+                    },
+                    ["point"] = "BOTTOM",
+                    ["sizeOffset"] = -3,
+                    ["style"] = "texturedIcon",
+                    ["yOffset"] = -1,
+                },
+                [200025] = {
+                    ["color"] = {
+                        ["a"] = 1,
+                        ["b"] = 0.23529413342476,
+                        ["g"] = 1,
+                        ["r"] = 1,
+                    },
+                    ["xOffset"] = 1,
+                    ["yOffset"] = 1,
+                },
+                [1244893] = {
+                    ["enabled"] = false,
                 },
             },
         },
