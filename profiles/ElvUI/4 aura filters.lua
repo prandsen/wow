@@ -1,5 +1,16 @@
 {
     ["unitframe"] = {
+        ["aurafilters"] = {
+            ["Blocklist"] = {
+                ["spells"] = {
+                    [382912] = {
+                        ["enable"] = true,
+                        ["priority"] = 0,
+                        ["stackThreshold"] = 0,
+                    },
+                },
+            },
+        },
         ["aurawatch"] = {
             ["DRUID"] = {
                 [774] = {
@@ -106,6 +117,21 @@
                     ["yOffset"] = 1,
                 },
                 [1244893] = {
+                    ["enabled"] = false,
+                },
+            },
+            ["PRIEST"] = {
+                [17] = {
+                    ["enabled"] = false,
+                },
+                [41635] = {
+                    ["enabled"] = false,
+                },
+                [194384] = {
+                    ["xOffset"] = 1,
+                    ["yOffset"] = 1,
+                },
+                [1253593] = {
                     ["enabled"] = false,
                 },
             },

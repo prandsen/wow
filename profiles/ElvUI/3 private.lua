@@ -7,7 +7,7 @@
                 ["buttonSize"] = 32,
                 ["buttonsPerRow"] = 7,
                 ["hiddenPatterns"] = "^PlumberLandingPage, Details",
-                ["sortingPriority"] = "Saved, Arc, Naowh, Larias, Method, BugSack, Plater, _Wind, ^Expansion",
+                ["sortingPriority"] = "Saved, Arc, Naowh, Larias, Method, BugSack, Plater, Details, _Wind, ^Expansion",
                 ["spacing"] = 0,
             },
             ["worldMap"] = {

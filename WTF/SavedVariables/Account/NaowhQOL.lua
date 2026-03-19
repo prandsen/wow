@@ -16,10 +16,10 @@ NaowhQOLDB = {
 ["Вольтчара - Свежеватель Душ"] = {
 ["migrationCompleted"] = true,
 },
-["Прециза - Свежеватель Душ"] = {
+["Спленда - Свежеватель Душ"] = {
 ["migrationCompleted"] = true,
 },
-["Топмэн - Свежеватель Душ"] = {
+["Сорчистино - Свежеватель Душ"] = {
 ["migrationCompleted"] = true,
 },
 ["Алианкано - Свежеватель Душ"] = {
@@ -28,7 +28,7 @@ NaowhQOLDB = {
 ["Джуставар - Свежеватель Душ"] = {
 ["migrationCompleted"] = true,
 },
-["Сорчистино - Свежеватель Душ"] = {
+["Топмэн - Свежеватель Душ"] = {
 ["migrationCompleted"] = true,
 },
 ["Виандисто - Свежеватель Душ"] = {
@@ -37,38 +37,39 @@ NaowhQOLDB = {
 ["Бимладен - Ревущий фьорд"] = {
 ["migrationCompleted"] = true,
 },
-["Спленда - Свежеватель Душ"] = {
+["Прециза - Свежеватель Душ"] = {
 ["migrationCompleted"] = true,
 },
 },
+["profileKeys"] = {
+["Мальдика - Свежеватель Душ"] = "All classes",
+["Вантачмэн - Ревущий фьорд"] = "All classes",
+["Дракобес - Свежеватель Душ"] = "Default",
+["Сэйвмэн - Свежеватель Душ"] = "All classes",
+["Вольтчара - Свежеватель Душ"] = "Default",
+["Спленда - Свежеватель Душ"] = "Default",
+["Сорчистино - Свежеватель Душ"] = "Default",
+["Алианкано - Свежеватель Душ"] = "Default",
+["Джуставар - Свежеватель Душ"] = "Default",
+["Топмэн - Свежеватель Душ"] = "Default",
+["Виандисто - Свежеватель Душ"] = "Default",
+["Бимладен - Ревущий фьорд"] = "All classes",
+["Прециза - Свежеватель Душ"] = "Default",
+},
 ["global"] = {
 ["defaultsV2Migrated"] = true,
-["profileSnapshotMigrated"] = true,
 ["savedProfiles"] = {
 ["All classes"] = true,
 },
-},
-["profileKeys"] = {
-["Мальдика - Свежеватель Душ"] = "Default",
-["Вантачмэн - Ревущий фьорд"] = "Default",
-["Дракобес - Свежеватель Душ"] = "Default",
-["Сэйвмэн - Свежеватель Душ"] = "Default",
-["Вольтчара - Свежеватель Душ"] = "Default",
-["Прециза - Свежеватель Душ"] = "Default",
-["Топмэн - Свежеватель Душ"] = "Default",
-["Алианкано - Свежеватель Душ"] = "Default",
-["Джуставар - Свежеватель Душ"] = "Default",
-["Сорчистино - Свежеватель Душ"] = "Default",
-["Виандисто - Свежеватель Душ"] = "Default",
-["Бимладен - Ревущий фьорд"] = "All classes",
-["Спленда - Свежеватель Душ"] = "Default",
+["profileSnapshotMigrated"] = true,
+["autoShotBlocklistMigrated"] = true,
 },
 ["profiles"] = {
 ["All classes"] = {
 ["misc"] = {
-["autoSlotKeystone"] = true,
 ["hideTalkingHead"] = true,
 ["durabilityWarning"] = true,
+["autoSlotKeystone"] = true,
 ["ahCurrentExpansion"] = true,
 ["durabilityFont"] = "ITCAvantGardeGothicDemi",
 },
@@ -79,87 +80,368 @@ NaowhQOLDB = {
 ["hideSuffix"] = true,
 ["rangeWidth"] = 172,
 ["rangeY"] = -87,
-["rangeHeight"] = 60,
+["rangeX"] = 271,
+["rangeFont"] = "ITCAvantGardeGothicDemi",
+["rangeUnlock"] = true,
 ["rangeColors"] = {
 [0] = {
-["b"] = 0.15,
-["g"] = 0.91,
 ["r"] = 0.01,
+["g"] = 0.91,
+["b"] = 0.15,
 },
 [25] = {
-["b"] = 0.01,
-["g"] = 0.2,
 ["r"] = 0.91,
+["g"] = 0.2,
+["b"] = 0.01,
 },
 [35] = {
-["b"] = 0.01,
-["g"] = 0.01,
 ["r"] = 0.91,
+["g"] = 0.01,
+["b"] = 0.01,
 },
 [15] = {
-["b"] = 0.01,
-["g"] = 0.56,
 ["r"] = 0.91,
+["g"] = 0.56,
+["b"] = 0.01,
 },
 [30] = {
-["b"] = 0.01,
-["g"] = 0.01,
 ["r"] = 0.91,
+["g"] = 0.01,
+["b"] = 0.01,
 },
 [5] = {
-["b"] = 0.15,
-["g"] = 0.91,
 ["r"] = 0.01,
+["g"] = 0.91,
+["b"] = 0.15,
 },
 [10] = {
-["b"] = 0.01,
-["g"] = 0.91,
 ["r"] = 0.91,
+["g"] = 0.91,
+["b"] = 0.01,
 },
 [20] = {
-["b"] = 0.01,
-["g"] = 0.56,
 ["r"] = 0.91,
+["g"] = 0.56,
+["b"] = 0.01,
 },
 [40] = {
-["b"] = 0.01,
-["g"] = 0.01,
 ["r"] = 0.91,
+["g"] = 0.01,
+["b"] = 0.01,
 },
 },
-["rangeUnlock"] = true,
-["rangeFont"] = "ITCAvantGardeGothicDemi",
 ["rangeEnabled"] = false,
 ["includeFriendlies"] = true,
-["rangeX"] = 271,
+["rangeHeight"] = 60,
 },
 ["spellQueueWindow"] = 200,
 ["movementAlert"] = {
-["tsX"] = 4,
-["tsY"] = -63,
+["gwUnlock"] = true,
 ["tsSoundID"] = "|cFFFF0000Move|r",
 ["tsColorUseClassColor"] = true,
-["gwUnlock"] = true,
+["tsX"] = 4,
 ["tsTextFormat"] = "Time Spiral\\n%ts",
-["tsTtsMessage"] = "Time Spiral",
+["tsY"] = -63,
 ["tsEnabled"] = true,
+["tsTtsMessage"] = "Time Spiral",
 },
 ["combatAlert"] = {
 ["font"] = "ITCAvantGardeGothicDemi",
 },
 ["mouseRing"] = {
-["trailDuration"] = 0.48,
 ["size"] = 38,
+["trailDuration"] = 0.48,
 ["hideOnMouseClick"] = true,
 ["swipeDelay"] = 0.08,
 },
+["dragonriding"] = {
+["speedTextOffsetX"] = -143,
+["chargeHeight"] = 8,
+["borderAlpha"] = 0.96,
+["enabled"] = true,
+["surgeOffsetY"] = 9,
+["surgeIconSize"] = 36,
+["bgAlpha"] = 1,
+["speedFontSize"] = 15,
+["anchorTo"] = "TOP",
+["speedHeight"] = 9,
+["surgeAnchor"] = "TOP",
+["speedFont"] = "ITCAvantGardeGothicDemi",
+["surgeOffsetX"] = 0,
+["barStyle"] = "Melli",
+["posY"] = 0,
+["speedTextOffsetY"] = -5,
+["showThrillTick"] = false,
+["barWidth"] = 53,
+["anchorFrame"] = "EssentialCooldownViewer",
+},
+["slashCommands"] = {
+["enabled"] = true,
+["commands"] = {
+nil,
+{
+["enabled"] = false,
+},
+{
+["enabled"] = false,
+},
+},
+},
+["individualBackups"] = {
+["LowLatencyMode"] = "0",
+["physicsLevel"] = "0",
+["ffxAntiAliasingMode"] = "0",
+["useTargetFPS"] = "1",
+["ResampleSharpness"] = "0.2",
+["TextureFilteringMode"] = "3",
+},
+["petTracker"] = {
+["font"] = "ITCAvantGardeGothicDemi",
+},
+["stealthReminder"] = {
+["unlock"] = true,
+},
+["config"] = {
+["lastTab"] = "buff_watcher",
+},
+["equipmentReminder"] = {
+["ecSpecRules"] = {
+[0] = {
+},
+},
+},
 ["buffWatcherV2"] = {
 ["buffDropScale"] = 1,
-["buffDropReminder"] = true,
-["buffDropGlowB"] = 0.32,
+["buffDropGlowB"] = 1,
+["buffDropTextFont"] = "ITCAvantGardeGothicDemi",
 ["reportCardAutoCloseDelay"] = 10,
-["classBuffAlwaysCheck"] = false,
 ["classBuffs"] = {
+["SHAMAN"] = {
+["groups"] = {
+{
+["checkType"] = "weaponEnchant",
+["name"] = "Flametongue",
+["enchantIDs"] = {
+5400,
+},
+["thresholds"] = {
+["dungeon"] = 0,
+["raid"] = 0,
+["other"] = 0,
+},
+["talentCondition"] = {
+["talentID"] = 318038,
+["mode"] = "activate",
+},
+["specFilter"] = {
+262,
+263,
+},
+["key"] = "shamanImbue",
+["minRequired"] = 1,
+},
+{
+["checkType"] = "weaponEnchant",
+["name"] = "Windfury",
+["enchantIDs"] = {
+5401,
+},
+["thresholds"] = {
+["dungeon"] = 0,
+["raid"] = 0,
+["other"] = 0,
+},
+["talentCondition"] = {
+["talentID"] = 33757,
+["mode"] = "activate",
+},
+["specFilter"] = {
+263,
+},
+["key"] = "windfury",
+["minRequired"] = 1,
+},
+{
+["checkType"] = "weaponEnchant",
+["name"] = "Earthliving",
+["enchantIDs"] = {
+6498,
+},
+["thresholds"] = {
+["dungeon"] = 0,
+["raid"] = 0,
+["other"] = 0,
+},
+["talentCondition"] = {
+["talentID"] = 382021,
+["mode"] = "activate",
+},
+["specFilter"] = {
+264,
+},
+["key"] = "earthliving",
+["minRequired"] = 1,
+},
+{
+["spellIDs"] = {
+192106,
+},
+["key"] = "shamanShield",
+["checkType"] = "self",
+["thresholds"] = {
+["dungeon"] = 0,
+["raid"] = 0,
+["other"] = 0,
+},
+["specFilter"] = {
+},
+["name"] = "Lightning Shield",
+["minRequired"] = 1,
+},
+{
+["spellIDs"] = {
+383684,
+},
+["checkType"] = "self",
+["key"] = "earth_shield",
+["name"] = "Earth Shield",
+["thresholds"] = {
+["dungeon"] = 0,
+["raid"] = 0,
+["other"] = 0,
+},
+["specFilter"] = {
+},
+["talentCondition"] = {
+["talentID"] = 383684,
+["mode"] = "activate",
+},
+["minRequired"] = 1,
+},
+{
+["spellIDs"] = {
+52127,
+},
+["key"] = "water_shield",
+["checkType"] = "self",
+["thresholds"] = {
+["dungeon"] = 0,
+["raid"] = 0,
+["other"] = 0,
+},
+["specFilter"] = {
+264,
+},
+["name"] = "Water Shield",
+["minRequired"] = 1,
+},
+},
+},
+["MAGE"] = {
+["groups"] = {
+{
+["spellIDs"] = {
+210126,
+},
+["key"] = "arcaneFamiliar",
+["talentCondition"] = {
+["talentID"] = 205022,
+["mode"] = "activate",
+},
+["specFilter"] = {
+},
+["name"] = "Arcane Familiar",
+["checkType"] = "self",
+},
+},
+},
+["PRIEST"] = {
+["groups"] = {
+{
+["spellIDs"] = {
+232698,
+194249,
+},
+["key"] = "shadowform",
+["specFilter"] = {
+258,
+},
+["name"] = "Shadowform",
+["checkType"] = "self",
+},
+},
+},
+["WARLOCK"] = {
+["groups"] = {
+{
+["spellIDs"] = {
+196099,
+},
+["key"] = "grimoireOfSacrifice",
+["talentCondition"] = {
+["talentID"] = 108503,
+["mode"] = "activate",
+},
+["specFilter"] = {
+},
+["name"] = "Grimoire of Sacrifice",
+["checkType"] = "self",
+},
+},
+},
+["DRUID"] = {
+["groups"] = {
+{
+["spellIDs"] = {
+474750,
+},
+["checkType"] = "self",
+["key"] = "symbioticRelationship",
+["name"] = "Symbiotic Relationship",
+["talentCondition"] = {
+["talentID"] = 474750,
+["mode"] = "activate",
+},
+["specFilter"] = {
+},
+["thresholds"] = {
+["dungeon"] = 300,
+["raid"] = 300,
+["other"] = 300,
+},
+["minRequired"] = 1,
+},
+},
+},
+["EVOKER"] = {
+["groups"] = {
+{
+["spellIDs"] = {
+369459,
+},
+["key"] = "sourceOfMagic",
+["specFilter"] = {
+},
+["name"] = "Source of Magic",
+["checkType"] = "targeted",
+},
+{
+["spellIDs"] = {
+360827,
+},
+["key"] = "blisteringScales",
+["talentCondition"] = {
+["talentID"] = 360827,
+["mode"] = "activate",
+},
+["specFilter"] = {
+1473,
+},
+["name"] = "Blistering Scales",
+["checkType"] = "targeted",
+},
+},
+},
 ["PALADIN"] = {
 ["groups"] = {
 {
@@ -228,150 +510,17 @@ NaowhQOLDB = {
 },
 },
 },
-["WARLOCK"] = {
-["groups"] = {
-{
-["spellIDs"] = {
-196099,
 },
-["key"] = "grimoireOfSacrifice",
-["talentCondition"] = {
-["talentID"] = 108503,
-["mode"] = "activate",
-},
-["specFilter"] = {
-},
-["name"] = "Grimoire of Sacrifice",
-["checkType"] = "self",
-},
-},
-},
-["SHAMAN"] = {
-["groups"] = {
-{
-["key"] = "shamanImbue",
-["minRequired"] = 1,
-["enchantIDs"] = {
-5400,
-5401,
-6498,
-},
-["specFilter"] = {
-},
-["name"] = "Weapon Imbue",
-["checkType"] = "weaponEnchant",
-},
-{
-["spellIDs"] = {
-974,
-192106,
-52127,
-},
-["key"] = "shamanShield",
-["minRequired"] = 1,
-["specFilter"] = {
-},
-["name"] = "Shield",
-["checkType"] = "self",
-},
-},
-},
-["MAGE"] = {
-["groups"] = {
-{
-["spellIDs"] = {
-210126,
-},
-["key"] = "arcaneFamiliar",
-["talentCondition"] = {
-["talentID"] = 205022,
-["mode"] = "activate",
-},
-["specFilter"] = {
-},
-["name"] = "Arcane Familiar",
-["checkType"] = "self",
-},
-},
-},
-["DRUID"] = {
-["groups"] = {
-{
-["spellIDs"] = {
-474750,
-},
-["minRequired"] = 1,
-["key"] = "symbioticRelationship",
-["talentCondition"] = {
-["talentID"] = 474750,
-["mode"] = "activate",
-},
-["thresholds"] = {
-["dungeon"] = 0,
-["raid"] = 0,
-["other"] = 0,
-},
-["specFilter"] = {
-},
-["name"] = "Symbiotic Relationship",
-["checkType"] = "self",
-},
-},
-},
-["EVOKER"] = {
-["groups"] = {
-{
-["spellIDs"] = {
-369459,
-},
-["key"] = "sourceOfMagic",
-["specFilter"] = {
-},
-["name"] = "Source of Magic",
-["checkType"] = "targeted",
-},
-{
-["spellIDs"] = {
-360827,
-},
-["key"] = "blisteringScales",
-["talentCondition"] = {
-["talentID"] = 360827,
-["mode"] = "activate",
-},
-["specFilter"] = {
-1473,
-},
-["name"] = "Blistering Scales",
-["checkType"] = "targeted",
-},
-},
-},
-["PRIEST"] = {
-["groups"] = {
-{
-["spellIDs"] = {
-232698,
-194249,
-},
-["key"] = "shadowform",
-["specFilter"] = {
-258,
-},
-["name"] = "Shadowform",
-["checkType"] = "self",
-},
-},
-},
-},
-["buffDropGlowR"] = 0.95,
+["buffDropGlowR"] = 1,
 ["classicDisplay"] = false,
 ["enabled"] = true,
-["buffDropIconSize"] = 32,
+["buffDropAlertInstanceOnly"] = false,
+["buffDropIconSize"] = 50,
 ["reportCardIconSize"] = 40,
-["buffDropGlowG"] = 0.95,
-["raidBuffAlwaysCheck"] = false,
-["buffDropGlowUseClassColor"] = false,
+["buffDropTextFontSize"] = 14,
+["buffDropGlowG"] = 1,
+["raidBuffAlwaysCheck"] = true,
+["inventoryAlwaysCheck"] = false,
 ["userEntries"] = {
 ["consumable_weaponBuff"] = {
 ["spellIDs"] = {
@@ -440,81 +589,30 @@ NaowhQOLDB = {
 ["consumable_flask"] = {
 },
 },
-["buffDropUnlock"] = false,
-["_classBuffDefaultsVersion"] = 1,
+["_classBuffDefaultsVersion"] = 4,
+["buffDropReminder"] = true,
+["classBuffAlwaysCheck"] = true,
 ["reportCardPosition"] = {
 ["y"] = -2.461952209472656,
 ["x"] = 349.9735412597656,
 ["point"] = "CENTER",
 },
-},
-["individualBackups"] = {
-["LowLatencyMode"] = "0",
-["physicsLevel"] = "0",
-["ffxAntiAliasingMode"] = "0",
-["useTargetFPS"] = "1",
-["ResampleSharpness"] = "0.2",
-["TextureFilteringMode"] = "3",
-},
-["stealthReminder"] = {
-["unlock"] = true,
-},
-["config"] = {
-["lastTab"] = "dragonriding",
-},
-["equipmentReminder"] = {
-["ecSpecRules"] = {
-[0] = {
-},
-},
-},
-["petTracker"] = {
-["font"] = "ITCAvantGardeGothicDemi",
-},
-["dragonriding"] = {
-["speedFontSize"] = 15,
-["bgAlpha"] = 1,
-["speedHeight"] = 8,
-["speedTextOffsetX"] = -143,
-["surgeAnchor"] = "TOP",
-["chargeHeight"] = 8,
-["surgeOffsetX"] = 0,
-["enabled"] = true,
-["posY"] = 0,
-["anchorFrame"] = "EssentialCooldownViewer",
-["speedFont"] = "ITCAvantGardeGothicDemi",
-["barStyle"] = "Melli",
-["matchAnchorWidth"] = true,
-["speedTextOffsetY"] = -5,
-["surgeOffsetY"] = 9,
-["surgeIconSize"] = 34,
-["showThrillTick"] = false,
-["anchorTo"] = "TOP",
-["barWidth"] = 53,
+["buffDropUnlock"] = false,
+["buffDropAlertDisableRested"] = false,
+["consumableAlwaysCheck"] = false,
+["buffDropGlowUseClassColor"] = false,
 },
 ["combatTimer"] = {
-["enabled"] = true,
-["chatReport"] = false,
 ["point"] = "BOTTOM",
+["enabled"] = true,
 ["stickyTimer"] = true,
 ["width"] = 179,
 ["y"] = 280,
 ["x"] = -397,
-["height"] = 61,
 ["instanceOnly"] = true,
+["chatReport"] = false,
+["height"] = 61,
 ["font"] = "ITCAvantGardeGothicDemi",
-},
-["slashCommands"] = {
-["enabled"] = true,
-["commands"] = {
-nil,
-{
-["enabled"] = false,
-},
-{
-["enabled"] = false,
-},
-},
 },
 ["focusCastBar"] = {
 ["spellNameTruncate"] = 0,
@@ -524,8 +622,62 @@ nil,
 ["buffWatcherV2"] = {
 ["buffDropScale"] = 1,
 ["buffDropReminder"] = true,
+["buffDropGlowB"] = 0.32,
+["buffDropGlowG"] = 0.95,
+["raidBuffAlwaysCheck"] = false,
+["inventoryAlwaysCheck"] = false,
+["buffDropIconSize"] = 32,
 ["classBuffAlwaysCheck"] = false,
+["buffDropUnlock"] = false,
 ["classBuffs"] = {
+["SHAMAN"] = {
+["groups"] = {
+{
+["key"] = "shamanImbue",
+["checkType"] = "weaponEnchant",
+["name"] = "Weapon Imbue",
+["specFilter"] = {
+},
+["enchantIDs"] = {
+5400,
+5401,
+6498,
+},
+["minRequired"] = 1,
+},
+{
+["spellIDs"] = {
+974,
+192106,
+52127,
+},
+["key"] = "shamanShield",
+["checkType"] = "self",
+["specFilter"] = {
+},
+["name"] = "Shield",
+["minRequired"] = 1,
+},
+},
+},
+["WARLOCK"] = {
+["groups"] = {
+{
+["spellIDs"] = {
+196099,
+},
+["key"] = "grimoireOfSacrifice",
+["talentCondition"] = {
+["talentID"] = 108503,
+["mode"] = "activate",
+},
+["specFilter"] = {
+},
+["name"] = "Grimoire of Sacrifice",
+["checkType"] = "self",
+},
+},
+},
 ["PALADIN"] = {
 ["groups"] = {
 {
@@ -612,40 +764,6 @@ nil,
 },
 },
 },
-["PRIEST"] = {
-["groups"] = {
-{
-["spellIDs"] = {
-232698,
-194249,
-},
-["name"] = "Shadowform",
-["specFilter"] = {
-258,
-},
-["key"] = "shadowform",
-["checkType"] = "self",
-},
-},
-},
-["WARLOCK"] = {
-["groups"] = {
-{
-["spellIDs"] = {
-196099,
-},
-["key"] = "grimoireOfSacrifice",
-["talentCondition"] = {
-["talentID"] = 108503,
-["mode"] = "activate",
-},
-["specFilter"] = {
-},
-["name"] = "Grimoire of Sacrifice",
-["checkType"] = "self",
-},
-},
-},
 ["DRUID"] = {
 ["groups"] = {
 {
@@ -693,32 +811,18 @@ nil,
 },
 },
 },
-["SHAMAN"] = {
+["PRIEST"] = {
 ["groups"] = {
 {
-["key"] = "shamanImbue",
-["minRequired"] = 1,
-["enchantIDs"] = {
-5400,
-5401,
-6498,
-},
-["specFilter"] = {
-},
-["name"] = "Weapon Imbue",
-["checkType"] = "weaponEnchant",
-},
-{
 ["spellIDs"] = {
-974,
-192106,
-52127,
+232698,
+194249,
 },
-["key"] = "shamanShield",
-["minRequired"] = 1,
+["name"] = "Shadowform",
 ["specFilter"] = {
+258,
 },
-["name"] = "Shield",
+["key"] = "shadowform",
 ["checkType"] = "self",
 },
 },
@@ -726,12 +830,12 @@ nil,
 },
 ["buffDropGlowR"] = 0.95,
 ["buffDropGlowUseClassColor"] = false,
-["buffDropIconSize"] = 32,
-["buffDropGlowG"] = 0.95,
-["raidBuffAlwaysCheck"] = false,
-["buffDropGlowB"] = 0.32,
-["buffDropUnlock"] = false,
 ["_classBuffDefaultsVersion"] = 1,
+["consumableAlwaysCheck"] = false,
+},
+["spellQueueWindow"] = 200,
+["config"] = {
+["lastTab"] = "profiles",
 },
 },
 },

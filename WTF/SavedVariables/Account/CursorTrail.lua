@@ -1,19 +1,18 @@
 
 CursorTrail_Config = {
 ["ProfileOptions"] = {
-["bSaveOnOkay"] = false,
 ["bConfirmDelete"] = true,
+["bSaveOnOkay"] = false,
 ["bConfirmCopy"] = true,
 ["bUseAccountProfile"] = true,
 },
-["Profiles"] = {
+["ProfileBackups"] = {
+["@Login"] = {
 ["_SelectedName"] = {
 ["ALL_CHARACTERS"] = "All classes",
 ["Бимладен-Ревущийфьорд"] = "All classes",
 },
 ["All classes"] = {
-["MasterScale"] = 1,
-["ConfigVersion"] = 2,
 ["Layers"] = {
 {
 ["Strata"] = "HIGH",
@@ -85,17 +84,14 @@ CursorTrail_Config = {
 ["UserOfsX"] = 0,
 },
 },
+["ConfigVersion"] = 2,
+["MasterScale"] = 1,
 },
 },
-["Position_X"] = 582.7418792599201,
-["NewFeaturesSeen"] = {
-},
-["Position_Y"] = 598.9750573754282,
-["ChangelogVersionSeen"] = "12.0.1.1",
-["ProfileBackups"] = {
-["@Login"] = {
+["Backup_2026-03-06_13:52:24"] = {
 ["_SelectedName"] = {
-["Бимладен-Ревущийфьорд"] = "All classes *",
+["ALL_CHARACTERS"] = "All classes",
+["Бимладен-Ревущийфьорд"] = "All classes",
 },
 ["All classes"] = {
 ["Layers"] = {
@@ -103,7 +99,94 @@ CursorTrail_Config = {
 ["Strata"] = "HIGH",
 ["ShapeColorA"] = 1,
 ["IsLayerEnabled"] = true,
+["UserShowMouseLook"] = true,
+["ModelID"] = 0,
+["UserRotX"] = 0,
+["ShapeColorB"] = 1,
+["UserOfsX"] = 0,
+["UserScale"] = 0.8,
+["UserShadowAlpha"] = 0,
+["UserRotY"] = 0,
+["UserOfsY"] = 0,
+["ShapeSparkle"] = false,
+["ShapeColorG"] = 1,
+["UserRotZ"] = 0,
+["UserAlpha"] = 1,
+["UserOfsZ"] = 0,
+["UserShowOnlyInCombat"] = true,
+["FadeOut"] = false,
+["ShapeColorR"] = 1,
+["ShapeFileName"] = "Interface\\UnitPowerBarAlt\\Arcane_Circular_Frame",
+},
+{
+["Strata"] = "HIGH",
+["ShapeColorA"] = 1,
+["IsLayerEnabled"] = false,
 ["UserShowMouseLook"] = false,
+["ModelID"] = 0,
+["UserRotX"] = 0,
+["ShapeColorB"] = 1,
+["ShapeFileName"] = "Interface\\Addons\\CursorTrail\\Media\\Ring 1.tga",
+["UserScale"] = 1,
+["UserShadowAlpha"] = 0,
+["UserRotY"] = 0,
+["UserOfsY"] = 0,
+["ShapeSparkle"] = false,
+["ShapeColorG"] = 1,
+["UserRotZ"] = 0,
+["UserAlpha"] = 1,
+["UserOfsZ"] = 0,
+["UserShowOnlyInCombat"] = false,
+["FadeOut"] = false,
+["ShapeColorR"] = 1,
+["UserOfsX"] = 0,
+},
+{
+["Strata"] = "HIGH",
+["ShapeColorA"] = 1,
+["IsLayerEnabled"] = false,
+["UserShowMouseLook"] = false,
+["ModelID"] = 0,
+["UserRotX"] = 0,
+["ShapeColorB"] = 1,
+["ShapeFileName"] = "Interface\\Addons\\CursorTrail\\Media\\Ring 1.tga",
+["UserScale"] = 1,
+["UserShadowAlpha"] = 0,
+["UserRotY"] = 0,
+["UserOfsY"] = 0,
+["ShapeSparkle"] = false,
+["ShapeColorG"] = 1,
+["UserRotZ"] = 0,
+["UserAlpha"] = 1,
+["UserOfsZ"] = 0,
+["UserShowOnlyInCombat"] = false,
+["FadeOut"] = false,
+["ShapeColorR"] = 1,
+["UserOfsX"] = 0,
+},
+},
+["ConfigVersion"] = 2,
+["MasterScale"] = 1,
+},
+},
+},
+["Position_X"] = 582.7418792599201,
+["NewFeaturesSeen"] = {
+},
+["Position_Y"] = 598.9750573754282,
+["ChangelogVersionSeen"] = "12.0.1.2",
+["Profiles"] = {
+["_SelectedName"] = {
+["ALL_CHARACTERS"] = "All classes",
+["Бимладен-Ревущийфьорд"] = "All classes",
+},
+["All classes"] = {
+["Layers"] = {
+{
+["Strata"] = "HIGH",
+["ShapeColorA"] = 1,
+["IsLayerEnabled"] = true,
+["UserShowMouseLook"] = true,
 ["ModelID"] = 0,
 ["UserRotX"] = 0,
 ["ShapeColorB"] = 1,
@@ -171,7 +254,6 @@ CursorTrail_Config = {
 },
 ["ConfigVersion"] = 2,
 ["MasterScale"] = 1,
-},
 },
 },
 }
