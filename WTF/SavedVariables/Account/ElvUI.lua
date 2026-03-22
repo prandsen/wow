@@ -452,9 +452,10 @@ ElvDB = {
 },
 ["turnIn"] = {
 ["getBestReward"] = true,
+["enable"] = false,
 },
 },
-["version"] = "4.15",
+["version"] = "4.16",
 },
 ["layoutSet"] = "healer",
 ["movers"] = {
@@ -933,6 +934,7 @@ ElvDB = {
 ["frameStrata"] = "LOW",
 },
 ["autoHide"] = false,
+["sortDirection"] = "asc",
 ["orientation"] = "HORIZONTAL",
 ["altPowerColor"] = {
 ["a"] = 1,
@@ -940,7 +942,6 @@ ElvDB = {
 ["g"] = 0.4,
 ["r"] = 0.2,
 },
-["sortDirection"] = "asc",
 ["fill"] = "fill",
 },
 ["power"] = {
@@ -957,11 +958,11 @@ ElvDB = {
 ["debuffs"] = {
 ["growthX"] = "RIGHT",
 ["yOffset"] = -1,
-["isAuraBigDefensivePlayer"] = true,
+["maxDuration"] = 0,
 ["notAuraCancelablePlayer"] = true,
 ["perrow"] = 5,
-["maxDuration"] = 0,
-["isAuraRaidPlayerDispellable"] = true,
+["attachTo"] = "FRAME",
+["isAuraBigDefensivePlayer"] = true,
 ["isAuraRaidPlayer"] = true,
 ["isAuraRaidInCombatPlayer"] = true,
 ["isAuraExternalDefensivePlayer"] = true,
@@ -973,10 +974,9 @@ ElvDB = {
 ["sourceText"] = {
 ["font"] = "ITCAvantGardeGothicDemi",
 },
-["isAuraCancelablePlayer"] = true,
 ["anchorPoint"] = "TOPLEFT",
+["isAuraCancelablePlayer"] = true,
 ["isAuraImportantPlayer"] = true,
-["attachTo"] = "FRAME",
 },
 ["auras"] = {
 ["xOffset"] = 0,
@@ -994,15 +994,15 @@ ElvDB = {
 ["verticalOrientation"] = false,
 ["enable"] = false,
 ["parent"] = "FRAME",
-["detachedWidth"] = 250,
 ["sortDirection"] = "asc",
-["altPowerTextFormat"] = "[altpower:current]",
 ["altPowerColor"] = {
 ["a"] = 1,
 ["r"] = 0.2,
 ["g"] = 0.4,
 ["b"] = 0.8,
 },
+["altPowerTextFormat"] = "[altpower:current]",
+["detachedWidth"] = 250,
 ["smoothbars"] = false,
 ["strataAndLevel"] = {
 ["frameLevel"] = 1,
@@ -1416,7 +1416,7 @@ ElvDB = {
 ["xOffset"] = 30,
 },
 ["phaseIndicator"] = {
-["xOffset"] = -30,
+["xOffset"] = -20,
 },
 ["roleIcon"] = {
 ["xOffset"] = 0,
@@ -1665,11 +1665,8 @@ ElvDB = {
 ["buffIndicator"] = {
 ["countFont"] = "ITCAvantGardeGothicDemi",
 },
-["power"] = {
+["CombatIcon"] = {
 ["enable"] = false,
-["attachTextTo"] = "InfoPanel",
-["position"] = "LEFT",
-["height"] = 22,
 },
 ["aurabar"] = {
 ["enable"] = false,
@@ -1708,18 +1705,18 @@ ElvDB = {
 ["g"] = 0.1098039299249649,
 ["b"] = 0.1098039299249649,
 },
-["colorNoInterrupt"] = {
-["r"] = 0.7843137979507446,
-["g"] = 0.2352941334247589,
-["b"] = 0.2352941334247589,
-},
-["transparent"] = true,
-["useCustomBackdrop"] = true,
 ["color"] = {
 ["r"] = 0,
 ["g"] = 0.5098039507865906,
 ["b"] = 1,
 },
+["transparent"] = true,
+["colorNoInterrupt"] = {
+["r"] = 0.7843137979507446,
+["g"] = 0.2352941334247589,
+["b"] = 0.2352941334247589,
+},
+["useCustomBackdrop"] = true,
 },
 ["hideTime"] = true,
 },
@@ -1728,10 +1725,13 @@ ElvDB = {
 ["position"] = "RIGHT",
 ["text_format"] = "",
 },
-["RestIcon"] = {
+["power"] = {
 ["enable"] = false,
+["attachTextTo"] = "InfoPanel",
+["position"] = "LEFT",
+["height"] = 22,
 },
-["CombatIcon"] = {
+["RestIcon"] = {
 ["enable"] = false,
 },
 },
@@ -1935,7 +1935,7 @@ ElvDB = {
 ["xOffset"] = 30,
 },
 ["phaseIndicator"] = {
-["xOffset"] = -30,
+["xOffset"] = -20,
 },
 ["roleIcon"] = {
 ["yOffset"] = -4,
@@ -2259,7 +2259,7 @@ ElvDB = {
 ["xOffset"] = 30,
 },
 ["phaseIndicator"] = {
-["xOffset"] = -30,
+["xOffset"] = -20,
 },
 ["roleIcon"] = {
 ["xOffset"] = 0,
@@ -2521,15 +2521,15 @@ ElvDB = {
 ["verticalOrientation"] = false,
 ["enable"] = false,
 ["parent"] = "FRAME",
-["detachedWidth"] = 250,
 ["sortDirection"] = "asc",
-["altPowerTextFormat"] = "[altpower:current]",
 ["altPowerColor"] = {
 ["a"] = 1,
 ["r"] = 0.2,
 ["g"] = 0.4,
 ["b"] = 0.8,
 },
+["altPowerTextFormat"] = "[altpower:current]",
+["detachedWidth"] = 250,
 ["smoothbars"] = false,
 ["strataAndLevel"] = {
 ["frameLevel"] = 1,
@@ -2719,7 +2719,6 @@ ElvDB = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = 0,
 ["size"] = 20,
-["enable"] = false,
 ["xOffset"] = 0,
 ["color"] = {
 ["a"] = 1,
@@ -2727,6 +2726,7 @@ ElvDB = {
 ["g"] = 0.2,
 ["b"] = 0.2,
 },
+["enable"] = false,
 ["defaultColor"] = true,
 ["texture"] = "DEFAULT",
 },
@@ -2980,9 +2980,6 @@ ElvDB = {
 ["resurrectIcon"] = {
 ["xOffset"] = 10,
 },
-["phaseIndicator"] = {
-["xOffset"] = -30,
-},
 ["roleIcon"] = {
 ["yOffset"] = -4,
 ["position"] = "TOPLEFT",
@@ -3008,8 +3005,8 @@ ElvDB = {
 },
 },
 },
-["smoothbars"] = true,
 ["font"] = "ITCAvantGardeGothicDemi",
+["statusbar"] = "Melli",
 ["colors"] = {
 ["auraBarBuff"] = {
 ["b"] = 0.1,
@@ -3148,11 +3145,34 @@ nil,
 },
 },
 ["fontOutline"] = "OUTLINE",
-["statusbar"] = "Melli",
+["smoothbars"] = true,
 ["filters"] = {
 ["aurawatch"] = {
+[53563] = {
+["point"] = "BOTTOM",
+["color"] = {
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
+},
+["displayText"] = false,
+["yOffset"] = 0,
+["enabled"] = "TOPRIGHT",
+["anyUnit"] = false,
+["cooldownX"] = 1,
+["id"] = 53563,
+["countY"] = 1,
+["countAnchor"] = "BOTTOMRIGHT",
+["sizeOffset"] = -3,
+["style"] = "texturedIcon",
+["cooldownY"] = 1,
+["countX"] = 1,
+["cooldownAnchor"] = "CENTER",
+["xOffset"] = 0,
+["onlyShowMissing"] = false,
+},
 [474754] = {
-["point"] = "BOTTOMRIGHT",
+["point"] = "BOTTOM",
 ["color"] = {
 ["b"] = 1,
 ["g"] = 1,
@@ -3166,12 +3186,12 @@ nil,
 ["id"] = 474754,
 ["countY"] = 1,
 ["countAnchor"] = "CENTER",
-["sizeOffset"] = 0,
+["sizeOffset"] = -3,
 ["style"] = "texturedIcon",
 ["cooldownY"] = 1,
 ["countX"] = 1,
 ["cooldownAnchor"] = "CENTER",
-["xOffset"] = 1,
+["xOffset"] = 0,
 ["onlyShowMissing"] = false,
 },
 [774] = {
@@ -3242,6 +3262,29 @@ nil,
 ["style"] = "coloredIcon",
 ["cooldownY"] = 1,
 ["countX"] = -10,
+["cooldownAnchor"] = "CENTER",
+["xOffset"] = 0,
+["onlyShowMissing"] = false,
+},
+[156910] = {
+["point"] = "BOTTOM",
+["color"] = {
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
+},
+["displayText"] = false,
+["yOffset"] = 0,
+["enabled"] = "TOPRIGHT",
+["anyUnit"] = false,
+["cooldownX"] = 1,
+["id"] = 156910,
+["countY"] = 1,
+["countAnchor"] = "BOTTOMRIGHT",
+["sizeOffset"] = -3,
+["style"] = "texturedIcon",
+["cooldownY"] = 1,
+["countX"] = 1,
 ["cooldownAnchor"] = "CENTER",
 ["xOffset"] = 0,
 ["onlyShowMissing"] = false,
@@ -3370,9 +3413,9 @@ nil,
 ["visibility"] = "",
 ["countFontSize"] = 12,
 ["professionQuality"] = {
-["xOffset"] = 23,
-["scale"] = 0.4,
-["yOffset"] = -22,
+["xOffset"] = 17,
+["scale"] = 0.8,
+["yOffset"] = -16,
 },
 ["macroFontOutline"] = "OUTLINE",
 ["countFont"] = "ITCAvantGardeGothicDemi",
@@ -4274,8 +4317,8 @@ nil,
 ["global"] = {
 ["general"] = {
 ["AceGUI"] = {
-["height"] = 754.98,
-["width"] = 1251.18,
+["height"] = 607.38,
+["width"] = 839.38,
 },
 ["mapAlphaWhenMoving"] = 0.5,
 ["UIScale"] = 0.65,
@@ -4284,6 +4327,16 @@ nil,
 ["aurafilters"] = {
 ["Blocklist"] = {
 ["spells"] = {
+[1254550] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
+[448005] = {
+["enable"] = true,
+["priority"] = 0,
+["stackThreshold"] = 0,
+},
 [382912] = {
 ["enable"] = true,
 ["priority"] = 0,
@@ -4422,14 +4475,16 @@ nil,
 ["misc"] = {
 ["watched"] = {
 ["movies"] = {
-[1047] = true,
 [1048] = true,
-[1061] = true,
 [1066] = true,
+[1049] = true,
+[1061] = true,
+[1047] = true,
+[682] = true,
 },
 },
 },
-["version"] = "4.15",
+["version"] = "4.16",
 ["item"] = {
 ["contacts"] = {
 ["alts"] = {
@@ -4472,6 +4527,16 @@ nil,
 nil,
 nil,
 nil,
+{
+nil,
+nil,
+nil,
+true,
+},
+nil,
+nil,
+nil,
+nil,
 nil,
 nil,
 {
@@ -4480,73 +4545,102 @@ nil,
 nil,
 true,
 },
-[18] = {
+nil,
+nil,
+{
 nil,
 nil,
 nil,
 true,
 },
-[21] = {
+nil,
+nil,
+nil,
+nil,
+{
 nil,
 nil,
 nil,
 true,
 },
-[25] = {
+{
 nil,
 nil,
 nil,
 true,
 },
-[26] = {
+nil,
+nil,
+{
 nil,
 nil,
 nil,
 true,
 },
-[29] = {
+nil,
+nil,
+nil,
+nil,
+{
 nil,
 nil,
 nil,
 true,
 },
-[40] = {
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+{
 nil,
 nil,
 nil,
 true,
 },
-[47] = {
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+{
 nil,
 nil,
 nil,
 true,
 },
-[60] = {
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+{
 nil,
 nil,
 nil,
 true,
 },
-[65] = {
+nil,
+{
 nil,
 nil,
 nil,
 true,
 },
-[67] = {
 nil,
-nil,
-nil,
-true,
-},
-[73] = {
-nil,
-nil,
-nil,
-true,
-},
-[82] = {
+{
 nil,
 nil,
 nil,
@@ -4559,6 +4653,30 @@ nil,
 true,
 },
 [87] = {
+nil,
+nil,
+nil,
+true,
+},
+[82] = {
+nil,
+nil,
+nil,
+true,
+},
+[67] = {
+nil,
+nil,
+nil,
+true,
+},
+[69] = {
+nil,
+nil,
+nil,
+true,
+},
+[73] = {
 nil,
 nil,
 nil,
@@ -4754,7 +4872,7 @@ ElvPrivateDB = {
 ["button"] = "BUTTON3",
 },
 },
-["version"] = "4.15",
+["version"] = "4.16",
 ["skins"] = {
 ["bigWigsSkin"] = {
 ["queueTimer"] = {

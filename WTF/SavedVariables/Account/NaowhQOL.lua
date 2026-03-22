@@ -154,27 +154,6 @@ NaowhQOLDB = {
 ["hideOnMouseClick"] = true,
 ["swipeDelay"] = 0.08,
 },
-["dragonriding"] = {
-["speedTextOffsetX"] = -143,
-["chargeHeight"] = 8,
-["borderAlpha"] = 0.96,
-["enabled"] = true,
-["surgeOffsetY"] = 9,
-["surgeIconSize"] = 36,
-["bgAlpha"] = 1,
-["speedFontSize"] = 15,
-["anchorTo"] = "TOP",
-["speedHeight"] = 9,
-["surgeAnchor"] = "TOP",
-["speedFont"] = "ITCAvantGardeGothicDemi",
-["surgeOffsetX"] = 0,
-["barStyle"] = "Melli",
-["posY"] = 0,
-["speedTextOffsetY"] = -5,
-["showThrillTick"] = false,
-["barWidth"] = 53,
-["anchorFrame"] = "EssentialCooldownViewer",
-},
 ["slashCommands"] = {
 ["enabled"] = true,
 ["commands"] = {
@@ -187,6 +166,9 @@ nil,
 },
 },
 },
+["petTracker"] = {
+["font"] = "ITCAvantGardeGothicDemi",
+},
 ["individualBackups"] = {
 ["LowLatencyMode"] = "0",
 ["physicsLevel"] = "0",
@@ -195,20 +177,53 @@ nil,
 ["ResampleSharpness"] = "0.2",
 ["TextureFilteringMode"] = "3",
 },
-["petTracker"] = {
-["font"] = "ITCAvantGardeGothicDemi",
+["focusCastBar"] = {
+["spellNameTruncate"] = 0,
 },
 ["stealthReminder"] = {
 ["unlock"] = true,
 },
 ["config"] = {
-["lastTab"] = "buff_watcher",
+["lastTab"] = "optimizations",
+},
+["dragonriding"] = {
+["speedTextOffsetX"] = -143,
+["chargeHeight"] = 7,
+["borderAlpha"] = 0.96,
+["enabled"] = true,
+["surgeOffsetY"] = 9,
+["surgeIconSize"] = 36,
+["bgAlpha"] = 1,
+["speedFontSize"] = 15,
+["anchorTo"] = "TOP",
+["speedHeight"] = 8,
+["surgeAnchor"] = "TOP",
+["speedFont"] = "ITCAvantGardeGothicDemi",
+["surgeOffsetX"] = 0,
+["barStyle"] = "Melli",
+["posY"] = 0,
+["speedTextOffsetY"] = -5,
+["showThrillTick"] = false,
+["barWidth"] = 53,
+["anchorFrame"] = "EssentialCooldownViewer",
 },
 ["equipmentReminder"] = {
 ["ecSpecRules"] = {
 [0] = {
 },
 },
+},
+["combatTimer"] = {
+["point"] = "BOTTOM",
+["enabled"] = true,
+["stickyTimer"] = true,
+["width"] = 179,
+["y"] = 280,
+["x"] = -397,
+["instanceOnly"] = true,
+["chatReport"] = false,
+["height"] = 61,
+["font"] = "ITCAvantGardeGothicDemi",
 },
 ["buffWatcherV2"] = {
 ["buffDropScale"] = 1,
@@ -220,10 +235,10 @@ nil,
 ["groups"] = {
 {
 ["checkType"] = "weaponEnchant",
-["name"] = "Flametongue",
 ["enchantIDs"] = {
 5400,
 },
+["key"] = "shamanImbue",
 ["thresholds"] = {
 ["dungeon"] = 0,
 ["raid"] = 0,
@@ -237,15 +252,15 @@ nil,
 262,
 263,
 },
-["key"] = "shamanImbue",
+["name"] = "Flametongue",
 ["minRequired"] = 1,
 },
 {
 ["checkType"] = "weaponEnchant",
-["name"] = "Windfury",
 ["enchantIDs"] = {
 5401,
 },
+["key"] = "windfury",
 ["thresholds"] = {
 ["dungeon"] = 0,
 ["raid"] = 0,
@@ -258,15 +273,15 @@ nil,
 ["specFilter"] = {
 263,
 },
-["key"] = "windfury",
+["name"] = "Windfury",
 ["minRequired"] = 1,
 },
 {
 ["checkType"] = "weaponEnchant",
-["name"] = "Earthliving",
 ["enchantIDs"] = {
 6498,
 },
+["key"] = "earthliving",
 ["thresholds"] = {
 ["dungeon"] = 0,
 ["raid"] = 0,
@@ -279,7 +294,7 @@ nil,
 ["specFilter"] = {
 264,
 },
-["key"] = "earthliving",
+["name"] = "Earthliving",
 ["minRequired"] = 1,
 },
 {
@@ -389,11 +404,37 @@ nil,
 },
 },
 },
+["ROGUE"] = {
+["groups"] = {
+{
+["spellIDs"] = {
+2823,
+3408,
+5761,
+8679,
+381637,
+315584,
+381664,
+},
+["key"] = "roguePoisons",
+["checkType"] = "self",
+["thresholds"] = {
+["dungeon"] = 25,
+["raid"] = 25,
+["other"] = 5,
+},
+["specFilter"] = {
+},
+["name"] = "Poisons",
+["minRequired"] = 2,
+},
+},
+},
 ["DRUID"] = {
 ["groups"] = {
 {
 ["spellIDs"] = {
-474750,
+474754,
 },
 ["checkType"] = "self",
 ["key"] = "symbioticRelationship",
@@ -589,7 +630,7 @@ nil,
 ["consumable_flask"] = {
 },
 },
-["_classBuffDefaultsVersion"] = 4,
+["_classBuffDefaultsVersion"] = 5,
 ["buffDropReminder"] = true,
 ["classBuffAlwaysCheck"] = true,
 ["reportCardPosition"] = {
@@ -601,21 +642,6 @@ nil,
 ["buffDropAlertDisableRested"] = false,
 ["consumableAlwaysCheck"] = false,
 ["buffDropGlowUseClassColor"] = false,
-},
-["combatTimer"] = {
-["point"] = "BOTTOM",
-["enabled"] = true,
-["stickyTimer"] = true,
-["width"] = 179,
-["y"] = 280,
-["x"] = -397,
-["instanceOnly"] = true,
-["chatReport"] = false,
-["height"] = 61,
-["font"] = "ITCAvantGardeGothicDemi",
-},
-["focusCastBar"] = {
-["spellNameTruncate"] = 0,
 },
 },
 ["Default"] = {

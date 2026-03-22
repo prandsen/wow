@@ -1,7 +1,7 @@
 
 GlobalIgnoreDB = {
 ["filterCount"] = {
-0,
+1,
 0,
 0,
 0,
@@ -73,7 +73,7 @@ GlobalIgnoreDB = {
 },
 ["trackChanges"] = true,
 ["filterBlockedLast"] = {
-0,
+1,
 0,
 0,
 0,
@@ -88,6 +88,14 @@ GlobalIgnoreDB = {
 ["attachFriends"] = true,
 ["filterBlocked"] = {
 {
+{
+["i"] = 1,
+["c"] = 0,
+["m"] = "anal comp",
+["t"] = "2026.03.20 21:28:08",
+["s"] = "Rottenfel-Draenor",
+["n"] = "RAID",
+},
 },
 {
 },
@@ -323,7 +331,7 @@ false,
 },
 ["skipGuild"] = true,
 ["chatmsg"] = true,
-["filterTotal"] = 0,
+["filterTotal"] = 1,
 ["frameStrata"] = 3,
 ["ignoreResponse"] = true,
 ["useLFGHacks"] = true,

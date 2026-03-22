@@ -55,10 +55,12 @@ RaiderIO_Config = {
 ["mplusHeadlineMode"] = 0,
 ["showClientGuildBest"] = true,
 }
-RaiderIO_LastCharacter = "eu-Сэйвмэн-soulflayer"
+RaiderIO_LastCharacter = "eu-Вантачмэн-howling-fjord"
 RaiderIO_MissingCharacters = {
-["eu-Сония-soulflayer"] = true,
-["eu-Сэйвмэн-soulflayer"] = true,
+["eu-Вантачмэн-howling-fjord"] = true,
+["eu-Тордрио-howling-fjord"] = true,
+["eu-Сквернокит-howling-fjord"] = true,
+["eu-Ееке-howling-fjord"] = true,
 }
 RaiderIO_MissingServers = {
 }
