@@ -128,11 +128,15 @@
             },
         },
         ["quest"] = {
+            ["achievementTracker"] = {
+                ["threshold"] = 0,
+            },
             ["switchButtons"] = {
                 ["announcement"] = false,
                 ["turnIn"] = false,
             },
             ["turnIn"] = {
+                ["enable"] = false,
                 ["getBestReward"] = true,
             },
         },
@@ -284,9 +288,9 @@
             ["hotkeyFontSize"] = 12,
             ["macroFontOutline"] = "OUTLINE",
             ["professionQuality"] = {
-                ["scale"] = 0.4,
-                ["xOffset"] = 23,
-                ["yOffset"] = -22,
+                ["scale"] = 0.8,
+                ["xOffset"] = 17,
+                ["yOffset"] = -16,
             },
             ["visibility"] = "",
         },
@@ -678,7 +682,7 @@
         ["GMMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,2,-2",
         ["HonorBarMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-4,-245",
         ["LeftChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,2,2",
-        ["LootFrameMover"] = "TOP,UIParent,TOP,280,-460",
+        ["LootFrameMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-610,-346",
         ["LossControlMover"] = "TOP,ElvUIParent,TOP,0,-486",
         ["MicrobarMover"] = "TOPLEFT,UIParent,TOPLEFT,4,-4",
         ["MinimapMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-8,-8",
@@ -686,7 +690,7 @@
         ["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-163,-325",
         ["PetAB"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,601,155",
         ["PowerBarContainerMover"] = "TOP,ElvUIParent,TOP,0,-70",
-        ["PrivateAurasMover"] = "BOTTOM,UIParent,BOTTOM,-205,499",
+        ["PrivateAurasMover"] = "BOTTOM,ElvUIParent,BOTTOM,-205,508",
         ["PrivateRaidWarningMover"] = "TOP,RaidBossEmoteFrame,TOP,0,0",
         ["QueueStatusMover"] = "BOTTOMRIGHT,ElvUI_MinimapHolder,BOTTOMRIGHT,-5,25",
         ["ReputationBarMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-4,-244",
@@ -1441,9 +1445,6 @@
                     ["xOffset"] = 12,
                     ["yOffset"] = 9,
                 },
-                ["phaseIndicator"] = {
-                    ["xOffset"] = -30,
-                },
                 ["power"] = {
                     ["height"] = 6,
                     ["text_format"] = "",
@@ -1460,7 +1461,7 @@
                         ["size"] = 30,
                     },
                     ["parent"] = {
-                        ["offsetY"] = 37,
+                        ["offsetY"] = 34,
                         ["point"] = "BOTTOMLEFT",
                     },
                 },
@@ -1669,7 +1670,6 @@
                         ["offsetY"] = 0,
                         ["point"] = "CENTER",
                     },
-                    ["enable"] = true,
                     ["icon"] = {
                         ["amount"] = 3,
                         ["offset"] = 2,
@@ -1789,7 +1789,7 @@
                 ["numGroups"] = 4,
                 ["orientation"] = "LEFT",
                 ["phaseIndicator"] = {
-                    ["xOffset"] = -30,
+                    ["xOffset"] = -20,
                 },
                 ["power"] = {
                     ["enable"] = false,
@@ -1943,7 +1943,7 @@
                 ["numGroups"] = 6,
                 ["orientation"] = "LEFT",
                 ["phaseIndicator"] = {
-                    ["xOffset"] = -30,
+                    ["xOffset"] = -20,
                 },
                 ["power"] = {
                     ["height"] = 6,
@@ -2097,7 +2097,7 @@
                 },
                 ["orientation"] = "LEFT",
                 ["phaseIndicator"] = {
-                    ["xOffset"] = -30,
+                    ["xOffset"] = -20,
                 },
                 ["power"] = {
                     ["height"] = 6,
@@ -2297,7 +2297,6 @@
                     ["isAuraImportantPlayer"] = true,
                     ["isAuraRaidInCombatPlayer"] = true,
                     ["isAuraRaidPlayer"] = true,
-                    ["isAuraRaidPlayerDispellable"] = true,
                     ["maxDuration"] = 0,
                     ["notAuraCancelablePlayer"] = true,
                     ["perrow"] = 5,

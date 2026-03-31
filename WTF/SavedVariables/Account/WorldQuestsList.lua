@@ -1,85 +1,94 @@
 
 VWQL = {
 ["Бимладен-Ревущийфьорд"] = {
+["VERSION"] = 123,
+["Filter"] = 63,
+["Quests"] = {
+[91798] = true,
+[91799] = true,
+[64531] = true,
+[91802] = true,
+[92149] = true,
+[92105] = true,
+[92153] = true,
+[92123] = true,
+[66419] = true,
+[92140] = true,
+[76586] = true,
+[75257] = true,
+},
 ["FilterType"] = {
 ["pet"] = true,
 },
-["Filter"] = 63,
-["Quests"] = {
-[66419] = true,
-[64531] = true,
-[75257] = true,
-[92195] = true,
-[92152] = true,
-[91808] = true,
-[92364] = true,
-[76586] = true,
-[91801] = true,
-},
-["VERSION"] = 123,
 },
 ["Сорчистино-СвежевательДуш"] = {
-["VERSION"] = 120,
+["Filter"] = 63,
 ["FilterType"] = {
 },
 ["Quests"] = {
 },
-["Filter"] = 63,
+["VERSION"] = 120,
 },
 ["Прециза-СвежевательДуш"] = {
-["Filter"] = 63,
+["VERSION"] = 120,
 ["FilterType"] = {
 },
 ["Quests"] = {
 },
-["VERSION"] = 120,
+["Filter"] = 63,
 },
 ["SortPrio2"] = {
 },
 ["DisableIconsGeneralMap947"] = true,
 ["DisableLFG_Popup"] = true,
 ["Виандисто-СвежевательДуш"] = {
-["VERSION"] = 120,
+["Filter"] = 63,
 ["FilterType"] = {
 },
 ["Quests"] = {
 },
-["Filter"] = 63,
+["VERSION"] = 120,
 },
 ["Sort"] = 5,
 ["VERSION"] = 123,
 ["Алианкано-СвежевательДуш"] = {
-["Filter"] = 63,
+["VERSION"] = 120,
 ["FilterType"] = {
 },
 ["Quests"] = {
 },
-["VERSION"] = 120,
+["Filter"] = 63,
 },
 ["Сэйвмэн-СвежевательДуш"] = {
-["Filter"] = 63,
+["VERSION"] = 123,
 ["FilterType"] = {
 },
 ["Quests"] = {
-[91798] = true,
 [91801] = true,
-[91804] = true,
-[92152] = true,
+[91799] = true,
+[70636] = true,
+[69916] = true,
+[91802] = true,
+[64768] = true,
+[70012] = true,
+[74840] = true,
+[92123] = true,
+[92122] = true,
+[92153] = true,
 [91808] = true,
-[92364] = true,
-[92143] = true,
-[48951] = true,
-[48094] = true,
+[92140] = true,
+[92195] = true,
+[70415] = true,
 },
-["VERSION"] = 123,
+["Filter"] = 63,
 },
 ["Дракобес-СвежевательДуш"] = {
-["Filter"] = 63,
+["VERSION"] = 120,
 ["FilterType"] = {
 },
 ["Quests"] = {
 },
-["VERSION"] = 120,
+["Filter"] = 63,
 },
 ["AzeriteFormat"] = 20,
 ["SortPrio"] = {
@@ -87,39 +96,48 @@ VWQL = {
 ["Ignore"] = {
 },
 ["Спленда-СвежевательДуш"] = {
-["VERSION"] = 120,
+["Filter"] = 63,
 ["FilterType"] = {
 },
 ["Quests"] = {
 },
-["Filter"] = 63,
+["VERSION"] = 120,
 },
 ["Вантачмэн-Ревущийфьорд"] = {
-["VERSION"] = 123,
+["Filter"] = 63,
 ["FilterType"] = {
 },
 ["Quests"] = {
-[91798] = true,
-[91801] = true,
-[91804] = true,
 [92195] = true,
-[92152] = true,
+[82653] = true,
+[58705] = true,
 [91808] = true,
-[92364] = true,
-[92560] = true,
-[92143] = true,
+[92153] = true,
+[69928] = true,
+[92140] = true,
+[70659] = true,
+[72029] = true,
+[76586] = true,
+[92122] = true,
+[75257] = true,
+[70068] = true,
+[91799] = true,
+[74501] = true,
+[52157] = true,
+[91802] = true,
+[91801] = true,
 },
-["Filter"] = 63,
+["VERSION"] = 123,
 },
 ["Джуставар-СвежевательДуш"] = {
-["Filter"] = 63,
+["VERSION"] = 120,
 ["FilterType"] = {
 },
 ["Quests"] = {
 },
-["VERSION"] = 120,
+["Filter"] = 63,
 },
-["Вольтчара-СвежевательДуш"] = {
+["Топмэн-СвежевательДуш"] = {
 ["Filter"] = 63,
 ["FilterType"] = {
 },
@@ -128,14 +146,14 @@ VWQL = {
 ["VERSION"] = 120,
 },
 ["Мальдика-СвежевательДуш"] = {
-["VERSION"] = 123,
+["Filter"] = 63,
 ["FilterType"] = {
 },
 ["Quests"] = {
 },
-["Filter"] = 63,
+["VERSION"] = 123,
 },
-["Топмэн-СвежевательДуш"] = {
+["Вольтчара-СвежевательДуш"] = {
 ["VERSION"] = 120,
 ["FilterType"] = {
 },
