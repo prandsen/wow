@@ -1,0 +1,30 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+	<Script file="ManaforgeOmega/PlexusSentinel.lua"/>
+	<Script file="ManaforgeOmega/Loomithar.lua"/>
+	<Script file="ManaforgeOmega/ForgeweaverAraz.lua"/>
+	<Script file="ManaforgeOmega/Soulhunters.lua"/>
+	<Script file="ManaforgeOmega/Fractillus.lua"/>
+	<Script file="ManaforgeOmega/NexusKingSalhadaar.lua"/>
+	<Script file="ManaforgeOmega/Dimensius.lua"/>
+
+	<Script file="MidnightDungeons/WindrunnerSpires.lua"/>
+	<Script file="MidnightDungeons/MagistersTerrace.lua"/>
+	<Script file="MidnightDungeons/AlgetharAcademy.lua"/>
+	<Script file="MidnightDungeons/SeatOfTheTriumvirate.lua"/>
+	<Script file="MidnightDungeons/Skyreach.lua"/>
+	<Script file="MidnightDungeons/MaisaraCaverns.lua"/>
+	<Script file="MidnightDungeons/PitOfSaron.lua"/>
+	<Script file="MidnightDungeons/NexusPointXenas.lua"/>
+
+	<Script file="MidnightTier1Raids/Dreamrift.lua"/>
+
+	<Script file="MidnightTier1Raids/Averzian.lua"/>
+	<Script file="MidnightTier1Raids/Vorasius.lua"/>
+	<Script file="MidnightTier1Raids/FallenKingSalhadaar.lua"/>
+	<Script file="MidnightTier1Raids/VaelgorAndEzzorak.lua"/>
+	<Script file="MidnightTier1Raids/LightblindedVanguard.lua"/>
+	<Script file="MidnightTier1Raids/CrownOfTheCosmos.lua"/>
+
+	<Script file="MidnightTier1Raids/Beloren.lua"/>
+	<Script file="MidnightTier1Raids/MidnightFalls.lua"/>
+</Ui>

@@ -1,0 +1,11 @@
+## Interface: 120000
+## Title: |cFF44BB44Kiratank SharedMedia|r
+## Category: KiraUI
+## IconTexture: Interface\AddOns\Kiratank_SharedMedia\logo
+## X-Wago-ID: b6XeZPKp
+
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+libs\LibSharedMedia-3.0\lib.xml
+
+MyMedia.lua
