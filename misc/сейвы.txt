@@ -1,0 +1,19 @@
+DK
+    {spell:48707}AMS
+    {spell:48792}Fortitude
+    {spell:51052}AMZ
+
+Monk Heal
+    {spell:1258283}Trinket
+    {spell:443028}Conduit
+    {spell:325197}ChiJi
+    {spell:115310}Revival
+    {spell:115203}Brew
+
+Evoker
+    {spell:363916}Scales
+    {spell:374227}Zephyr
+
+WL
+    {spell:108416}Dark Pact
+    {spell:104773}Unending Resolve

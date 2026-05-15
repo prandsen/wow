@@ -13,11 +13,10 @@ VER 3 0100000000000026 "3" "572025"
 /cast [form:1,harm] Рык
 END
 VER 3 0100000000000029 "4" "136048"
-/cast [mod:alt,@player][target=Камняш,exists,nodead][@mouseover,exists,help,nodead][@target,exists,help,nodead] Озарение
+/cast [mod:alt,@player][target=Ombruss,exists,nodead][@mouseover,exists,help,nodead][@target,exists,help,nodead] Озарение
 END
-VER 3 0100000000000042 "CC_B" "134400"
+VER 3 0100000000000042 "C_B" "132129"
 /cast [@cursor] Сила природы
-/cast Воин Элуны
 END
 VER 3 0100000000000040 "CM4" "134400"
 /cast [nostealth] Крадущийся зверь
@@ -25,6 +24,8 @@ END
 VER 3 0100000000000027 "E_B" "135753"
 /cast [mod:alt,@player] Омоложение
 /cast [form:0/3/4/6/7,harm] Звездный огонь
+/cast [form:1] Взбучка
+/cast [form:2,harm] Полоснуть
 END
 VER 3 0100000000000028 "E_R" "135753"
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Омоложение
@@ -52,10 +53,12 @@ VER 3 010000000000002F "R" "136096"
 /cast [form:2,harm] Глубокая рана
 END
 VER 3 0100000000000032 "Sh1" "571586"
+/use 13
 /cast [@cursor] Парад планет
 /cast Воплощение: избранный Элуны
 /cast Воплощение: аватара Пеплошкурой
 /cast Воплощение: Страж Урсока
+/cast Ярость Элуны
 END
 VER 3 010000000000003D "Sh5" "134400"
 /cancelaura Крадущийся зверь

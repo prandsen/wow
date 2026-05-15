@@ -1,41 +1,63 @@
-VER 3 010000000000000A "1" "134400"
-/cast [@focus,exists,harm,nodead][@target,exists,harm,nodead] Подавление
+VER 3 0100000000000018 "1" "134400"
+/stopcasting
+/cast [@focus,exists,harm,nodead][@target,exists,harm,nodead] Рука-копье
 END
-VER 3 0100000000000008 "3" "4622478"
-/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Растяжение времени
+VER 3 010000000000001A "3_M" "134400"
+/stopcasting
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help] Исцеляющий кокон
+/stopmacro [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead]
+/cast Вызов-хуй
 END
-VER 3 010000000000000D "4" "4630447"
-/stopmacro [channeling]
-/cast Изумрудные грезы
+VER 3 0100000000000027 "E_M" "134400"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,help,nodead,exists] Окутывающий туман
+/cast [@target,harm,nodead,exists] Нокаутирующий удар
 END
-VER 3 0100000000000007 "C" "133266"
-/cast [mod:alt,@player][@mouseover,exists,help,nodead] Призрачный цветок
-/stopmacro [mod:alt,@player][@mouseover,exists,help,nodead]
-/cast Огненное дыхание
+VER 3 0100000000000024 "F_B" "1360979"
+/cast Небесное насыщение
+/cast Божественный отвар
 END
-VER 3 0100000000000005 "E" "134400"
-/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Инверсия
-/cast [@target,exists,harm,nodead] Лазурный удар
+VER 3 0100000000000029 "MwD" "642414"
+/stopcasting
+/cast Круговой удар ногой
 END
-VER 3 010000000000000B "MwU" "4630446"
-/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead][@player] Прижигающее пламя
+VER 3 010000000000001B "MwU" "134400"
+/cast Спасательный связыватель душ
 END
-VER 3 0100000000000003 "Q" "4622464"
-/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,nodead] Живой жар
+VER 3 0100000000000023 "Q_M" "134400"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,help,nodead] Успокаивающий туман
+/cast [@target,exists,harm,nodead] Лапа тигра
 END
-VER 3 0100000000000009 "R" "4622456"
-/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Отголосок
-/cast [@target,exists,harm,nodead] Дезинтеграция
+VER 3 0100000000000028 "R_M" "134400"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,help,nodead,exists] Заживляющий туман
+/cast [@target,harm,nodead,exists] Удар восходящего солнца
+/cast [@target,harm,nodead,exists] Удар порыва ветра
 END
-VER 3 0100000000000002 "ShE" "4622471"
-/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Живительные объятия
+VER 3 010000000000000A "SE" "1360980"
+/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead][@player] Оживить
 END
-VER 3 0100000000000004 "ShMwD" "4630445"
-/cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,help,nodead] Натурализация
+VER 3 0100000000000022 "Sh1" "134400"
+/cast Призыв Чи-Цзи, Красного Журавля
+/cast Призыв Юй-лун, Нефритовой Змеи
+/cast Зенит
 END
-VER 3 0100000000000006 "ShV" "4622457"
-/cast [mod:alt,@player][@targettarget,exists,help,nodead][@player] Изумрудный цветок
+VER 3 0100000000000026 "Sh2" "134400"
+/cast Буря, земля и огонь
+/cast Безмятежность
+/cast Призыв Сюэня, Белого Тигра
+/cast Призыв Нюцзао, Черного Быка
 END
-VER 3 010000000000000C "Z" "4622446"
-/cast [@mouseover,exists,nodead][@target,exists,help,nodead] Спасение
+VER 3 010000000000002A "ShC" "606543"
+/cast !Танцующий журавль
+END
+VER 3 010000000000000B "SMwD" "460692"
+/stopcasting
+/cast [mod:alt,@player][@mouseover,exists,help,nodead] Детоксикация
+END
+VER 3 0100000000000017 "SMwU" "651727"
+/stopcasting
+/cast [mod:alt,@player][@mouseover,exists,help,nodead] Тигриное рвение
+END
+VER 3 0100000000000020 "T" "629534"
+/stopcasting
+/cast Паралич
 END

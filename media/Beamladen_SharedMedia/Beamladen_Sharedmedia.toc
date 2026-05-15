@@ -1,0 +1,9 @@
+## Interface: 120000
+## Title: |cFFFF7C0BBeamladen SharedMedia|r
+## Category: BeamladenUI
+## IconTexture: Interface\AddOns\Beamladen_SharedMedia\logo
+
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+embeds.xml
+Media.lua

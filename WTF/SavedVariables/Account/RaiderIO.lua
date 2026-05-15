@@ -55,10 +55,9 @@ RaiderIO_Config = {
 ["enableCombatLogTracking"] = false,
 ["showClientGuildBest"] = true,
 }
-RaiderIO_LastCharacter = "eu-Бимладен-howling-fjord"
+RaiderIO_LastCharacter = "eu-Вантачмэн-howling-fjord"
 RaiderIO_MissingCharacters = {
-["eu-Розелина-howling-fjord"] = true,
-["eu-Хиткусака-howling-fjord"] = true,
+["eu-Парящийносок-howling-fjord"] = true,
 }
 RaiderIO_MissingServers = {
 }

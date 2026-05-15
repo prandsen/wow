@@ -26,11 +26,13 @@ VER 3 0100000000000004 "R" "237582"
 /cast [@target,exists,harm,nodead] Выброс лавы
 END
 VER 3 0100000000000019 "Sh1" "134400"
+/use Лилия вечного плетения
 /cast Перерождение
 /cast Наставления предков
 END
 VER 3 010000000000000C "ShC" "136037"
 /cast [@cursor] Целительный ливень
+/cast [@cursor] Землетрясение
 END
 VER 3 010000000000000B "ShG" "3578231"
 /cast [mod:alt,@player][@mouseover,exists,help,nodead][@target,exists,nodead] Первозданная волна

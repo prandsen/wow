@@ -1,0 +1,24 @@
+## Interface: 120000, 120001, 120005
+## Author: Rasl
+## Version: 5.1
+## Title: |cff9451eeRasl|r|cffffffffUI|r
+## SavedVariables: RaslUIDB
+## Category-enUS: User Interface
+## Category-deDE: Benutzerinterface
+## Category-esES: Interfaz de usuario
+## Category-esMX: Interfaz de usuario
+## Category-frFR: Interface utilisateur
+## Category-itIT: Interfaccia utente
+## Category-koKR: 사용자 인터페이스
+## Category-ptBR: Interface do usuário
+## Category-ruRU: Интерфейс пользователя
+## Category-zhCN: 用户界面
+## Category-zhTW: 使用者介面
+## IconTexture: Interface\AddOns\RaslUI\Media\rasl
+
+Sounds.lua
+Import.lua
+Locale.lua
+Altsloader.lua
+Functions.lua
+Core.lua

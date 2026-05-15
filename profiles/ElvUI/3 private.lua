@@ -6,8 +6,8 @@
                 ["backdropSpacing"] = 0,
                 ["buttonSize"] = 32,
                 ["buttonsPerRow"] = 7,
-                ["hiddenPatterns"] = "^PlumberLandingPage, Details",
-                ["sortingPriority"] = "Saved, Arc, Naowh, Larias, Method, BugSack, Plater, Details, _Wind, ^Expansion",
+                ["hiddenPatterns"] = "^PlumberLandingPage, Details, Exwind",
+                ["sortingPriority"] = "Saved, Arc, Method, Naowh, Larias, Plater, Petes, _Wind, BugSack, ^Expansion",
                 ["spacing"] = 0,
             },
             ["worldMap"] = {
@@ -120,6 +120,7 @@
         ["nameplateFontSize"] = 12,
         ["nameplateLargeFont"] = "ITCAvantGardeGothicDemi",
         ["nameplateLargeFontSize"] = 14,
+        ["totemTracker"] = false,
     },
     ["install_complete"] = 15.05,
     ["nameplates"] = {

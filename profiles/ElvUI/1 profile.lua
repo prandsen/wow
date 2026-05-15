@@ -129,10 +129,15 @@
         },
         ["quest"] = {
             ["achievementTracker"] = {
+                ["enable"] = false,
                 ["threshold"] = 0,
+            },
+            ["progress"] = {
+                ["enable"] = false,
             },
             ["switchButtons"] = {
                 ["announcement"] = false,
+                ["enable"] = false,
                 ["turnIn"] = false,
             },
             ["turnIn"] = {
@@ -177,9 +182,6 @@
             ["absorb"] = {
                 ["blizzardOverAbsorbGlow"] = false,
                 ["enable"] = true,
-                ["texture"] = {
-                    ["blizzardStyle"] = false,
-                },
             },
         },
     },
@@ -845,7 +847,6 @@
             },
             ["healPrediction"] = {
                 ["absorbs"] = {
-                    ["a"] = 0.5,
                     ["b"] = 1,
                     ["g"] = 0.83137261867523,
                     ["r"] = 0.05882353335619,
@@ -864,7 +865,6 @@
                     ["r"] = 0.23529413342476,
                 },
                 ["overabsorbs"] = {
-                    ["a"] = 0.5,
                     ["b"] = 1,
                     ["g"] = 0.83137261867523,
                     ["r"] = 0.05882353335619,
@@ -1292,16 +1292,18 @@
                 },
                 ["debuffs"] = {
                     ["anchorPoint"] = "TOPLEFT",
-                    ["attachTo"] = "BUFFS",
-                    ["enable"] = false,
-                    ["growthX"] = "RIGHT",
                     ["isAuraBigDefensive"] = false,
+                    ["isAuraCrowdControl"] = true,
+                    ["isAuraCrowdControlPlayer"] = true,
                     ["isAuraExternalDefensive"] = false,
                     ["isAuraPlayer"] = false,
                     ["isAuraRaid"] = false,
                     ["maxDuration"] = 0,
-                    ["perrow"] = 8,
+                    ["perrow"] = 3,
                     ["priority"] = "Blacklist,Personal,NonPersonal",
+                    ["sizeOverride"] = 35,
+                    ["xOffset"] = -2,
+                    ["yOffset"] = -21,
                 },
                 ["disableMouseoverGlow"] = true,
                 ["disableTargetGlow"] = true,
@@ -1461,6 +1463,7 @@
                         ["size"] = 30,
                     },
                     ["parent"] = {
+                        ["offsetX"] = 30,
                         ["offsetY"] = 34,
                         ["point"] = "BOTTOMLEFT",
                     },
@@ -1479,7 +1482,7 @@
                     ["size"] = 30,
                 },
                 ["resurrectIcon"] = {
-                    ["xOffset"] = 10,
+                    ["size"] = 40,
                 },
                 ["roleIcon"] = {
                     ["position"] = "TOPLEFT",
@@ -1700,7 +1703,6 @@
                 },
                 ["buffIndicator"] = {
                     ["countFont"] = "ITCAvantGardeGothicDemi",
-                    ["profileSpecific"] = true,
                     ["size"] = 16,
                 },
                 ["buffs"] = {
@@ -1788,9 +1790,6 @@
                 },
                 ["numGroups"] = 4,
                 ["orientation"] = "LEFT",
-                ["phaseIndicator"] = {
-                    ["xOffset"] = -20,
-                },
                 ["power"] = {
                     ["enable"] = false,
                     ["height"] = 6,
@@ -1809,6 +1808,7 @@
                         ["size"] = 30,
                     },
                     ["parent"] = {
+                        ["offsetX"] = 30,
                         ["offsetY"] = 30,
                         ["point"] = "BOTTOMLEFT",
                     },
@@ -1827,7 +1827,7 @@
                     ["size"] = 30,
                 },
                 ["resurrectIcon"] = {
-                    ["xOffset"] = 30,
+                    ["size"] = 40,
                 },
                 ["roleIcon"] = {
                     ["position"] = "TOPLEFT",
@@ -1854,7 +1854,6 @@
                 },
                 ["buffIndicator"] = {
                     ["countFont"] = "ITCAvantGardeGothicDemi",
-                    ["profileSpecific"] = true,
                     ["size"] = 16,
                 },
                 ["buffs"] = {
@@ -1942,9 +1941,6 @@
                 },
                 ["numGroups"] = 6,
                 ["orientation"] = "LEFT",
-                ["phaseIndicator"] = {
-                    ["xOffset"] = -20,
-                },
                 ["power"] = {
                     ["height"] = 6,
                     ["position"] = "RIGHT",
@@ -1962,6 +1958,7 @@
                         ["size"] = 30,
                     },
                     ["parent"] = {
+                        ["offsetX"] = 30,
                         ["offsetY"] = 30,
                         ["point"] = "BOTTOMLEFT",
                     },
@@ -1981,7 +1978,7 @@
                     ["size"] = 30,
                 },
                 ["resurrectIcon"] = {
-                    ["xOffset"] = 30,
+                    ["size"] = 40,
                 },
                 ["roleIcon"] = {
                     ["enable"] = true,
@@ -2009,7 +2006,6 @@
                 },
                 ["buffIndicator"] = {
                     ["countFont"] = "ITCAvantGardeGothicDemi",
-                    ["profileSpecific"] = true,
                     ["size"] = 16,
                 },
                 ["buffs"] = {
@@ -2096,9 +2092,6 @@
                     ["yOffset"] = 9,
                 },
                 ["orientation"] = "LEFT",
-                ["phaseIndicator"] = {
-                    ["xOffset"] = -20,
-                },
                 ["power"] = {
                     ["height"] = 6,
                     ["position"] = "RIGHT",
@@ -2116,6 +2109,7 @@
                         ["size"] = 30,
                     },
                     ["parent"] = {
+                        ["offsetX"] = 30,
                         ["offsetY"] = 30,
                         ["point"] = "BOTTOMLEFT",
                     },
@@ -2135,7 +2129,7 @@
                     ["size"] = 30,
                 },
                 ["resurrectIcon"] = {
-                    ["xOffset"] = 30,
+                    ["size"] = 40,
                 },
                 ["roleIcon"] = {
                     ["enable"] = true,

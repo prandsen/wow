@@ -71,6 +71,7 @@ NaowhQOLDB = {
 ["durabilityWarning"] = true,
 ["autoSlotKeystone"] = true,
 ["ahCurrentExpansion"] = true,
+["skipQueueConfirm"] = true,
 ["durabilityFont"] = "ITCAvantGardeGothicDemi",
 },
 ["general"] = {
@@ -180,142 +181,197 @@ nil,
 ["ResampleSharpness"] = "0.2",
 ["TextureFilteringMode"] = "3",
 },
-["focusCastBar"] = {
-["spellNameTruncate"] = 0,
-},
-["stealthReminder"] = {
-["unlock"] = true,
-},
-["config"] = {
-["lastTab"] = "optimizations",
-},
-["petTracker"] = {
-["font"] = "ITCAvantGardeGothicDemi",
-},
 ["buffWatcherV2"] = {
 ["buffDropScale"] = 1,
 ["buffDropGlowB"] = 1,
+["buffDropRaidTextB"] = 0.35,
 ["buffDropTextFont"] = "ITCAvantGardeGothicDemi",
 ["reportCardAutoCloseDelay"] = 10,
+["buffDropRaidTextR"] = 1,
 ["classBuffs"] = {
 ["SHAMAN"] = {
 ["groups"] = {
 {
-["minRequired"] = 1,
+["checkType"] = "weaponEnchant",
 ["enchantIDs"] = {
 5400,
 },
 ["key"] = "shamanImbue",
-["talentCondition"] = {
-["talentID"] = 318038,
-["mode"] = "activate",
-},
 ["thresholds"] = {
 ["dungeon"] = 0,
 ["raid"] = 0,
 ["other"] = 0,
+},
+["talentCondition"] = {
+["talentID"] = 318038,
+["mode"] = "activate",
 },
 ["specFilter"] = {
 262,
 263,
 },
 ["name"] = "Flametongue",
-["checkType"] = "weaponEnchant",
+["minRequired"] = 1,
 },
 {
-["minRequired"] = 1,
+["checkType"] = "weaponEnchant",
 ["enchantIDs"] = {
 5401,
 },
 ["key"] = "windfury",
-["talentCondition"] = {
-["talentID"] = 33757,
-["mode"] = "activate",
-},
 ["thresholds"] = {
 ["dungeon"] = 0,
 ["raid"] = 0,
 ["other"] = 0,
+},
+["talentCondition"] = {
+["talentID"] = 33757,
+["mode"] = "activate",
 },
 ["specFilter"] = {
 263,
 },
 ["name"] = "Windfury",
-["checkType"] = "weaponEnchant",
+["minRequired"] = 1,
 },
 {
-["minRequired"] = 1,
+["checkType"] = "weaponEnchant",
 ["enchantIDs"] = {
 6498,
 },
 ["key"] = "earthliving",
-["talentCondition"] = {
-["talentID"] = 382021,
-["mode"] = "activate",
-},
 ["thresholds"] = {
 ["dungeon"] = 0,
 ["raid"] = 0,
 ["other"] = 0,
+},
+["talentCondition"] = {
+["talentID"] = 382021,
+["mode"] = "activate",
 },
 ["specFilter"] = {
 264,
 },
 ["name"] = "Earthliving",
+["minRequired"] = 1,
+},
+{
 ["checkType"] = "weaponEnchant",
+["enchantIDs"] = {
+7528,
 },
-{
-["spellIDs"] = {
-192106,
-},
-["key"] = "shamanShield",
-["minRequired"] = 1,
+["key"] = "tidecallersGuard",
 ["thresholds"] = {
 ["dungeon"] = 0,
 ["raid"] = 0,
 ["other"] = 0,
 },
-["specFilter"] = {
-},
-["name"] = "Lightning Shield",
-["checkType"] = "self",
-},
-{
-["spellIDs"] = {
-383684,
-},
-["minRequired"] = 1,
-["key"] = "earth_shield",
 ["talentCondition"] = {
-["talentID"] = 383684,
+["talentID"] = 457481,
 ["mode"] = "activate",
-},
-["thresholds"] = {
-["dungeon"] = 0,
-["raid"] = 0,
-["other"] = 0,
-},
-["specFilter"] = {
-},
-["name"] = "Earth Shield",
-["checkType"] = "self",
-},
-{
-["spellIDs"] = {
-52127,
-},
-["key"] = "water_shield",
-["minRequired"] = 1,
-["thresholds"] = {
-["dungeon"] = 0,
-["raid"] = 0,
-["other"] = 0,
 },
 ["specFilter"] = {
 264,
 },
-["name"] = "Water Shield",
+["name"] = "Tidecaller's Guard",
+["minRequired"] = 1,
+},
+{
+["spellIDs"] = {
+383648,
+},
+["thresholds"] = {
+["dungeon"] = 0,
+["raid"] = 0,
+["other"] = 0,
+},
 ["checkType"] = "self",
+["key"] = "earthShieldSelf",
+["overlayText"] = "NO\nSELF ES",
+["talentCondition"] = {
+["talentID"] = 383010,
+["mode"] = "activate",
+},
+["specFilter"] = {
+},
+["name"] = "Earth Shield (Self)",
+["minRequired"] = 1,
+},
+{
+["overlayText"] = "NO\nSHIELD",
+["iconByRole"] = {
+["DAMAGER"] = 192106,
+["TANK"] = 192106,
+["HEALER"] = 52127,
+},
+["thresholds"] = {
+["dungeon"] = 0,
+["raid"] = 0,
+["other"] = 0,
+},
+["checkType"] = "self",
+["key"] = "shamanShield",
+["name"] = "Water/Lightning Shield",
+["talentCondition"] = {
+["talentID"] = 383010,
+["mode"] = "activate",
+},
+["specFilter"] = {
+},
+["spellIDs"] = {
+192106,
+52127,
+},
+["minRequired"] = 1,
+},
+{
+["overlayText"] = "NO\nSHIELD",
+["iconByRole"] = {
+["DAMAGER"] = 192106,
+["TANK"] = 192106,
+["HEALER"] = 52127,
+},
+["thresholds"] = {
+["dungeon"] = 0,
+["raid"] = 0,
+["other"] = 0,
+},
+["checkType"] = "self",
+["key"] = "shamanShieldBasic",
+["name"] = "Shield",
+["talentCondition"] = {
+["talentID"] = 383010,
+["mode"] = "skip",
+},
+["specFilter"] = {
+},
+["spellIDs"] = {
+974,
+192106,
+52127,
+},
+["minRequired"] = 1,
+},
+{
+["spellIDs"] = {
+974,
+},
+["thresholds"] = {
+["dungeon"] = 0,
+["raid"] = 0,
+["other"] = 0,
+},
+["checkType"] = "targeted",
+["key"] = "earth_shield",
+["overlayText"] = "NO\nES",
+["talentCondition"] = {
+["talentID"] = 974,
+["mode"] = "activate",
+},
+["specFilter"] = {
+},
+["name"] = "Earth Shield",
+["minRequired"] = 1,
 },
 },
 },
@@ -470,6 +526,10 @@ nil,
 369459,
 },
 ["key"] = "sourceOfMagic",
+["talentCondition"] = {
+["talentID"] = 369459,
+["mode"] = "activate",
+},
 ["specFilter"] = {
 },
 ["name"] = "Source of Magic",
@@ -597,27 +657,60 @@ nil,
 ["consumable_flask"] = {
 },
 },
-["_classBuffDefaultsVersion"] = 5,
+["_classBuffDefaultsVersion"] = 12,
 ["buffDropReminder"] = true,
+["buffDropRaidTextFontSize"] = 14,
+["buffDropGlowProcStartAnim"] = false,
+["buffDropRaidTextOnly"] = false,
 ["classBuffAlwaysCheck"] = true,
+["buffDropGlowType"] = 4,
+["buffDropRaidTextG"] = 0.8,
+["buffDropGlowAutocastFrequency"] = 0.125,
+["buffDropNoTint"] = false,
+["classicDisplay"] = false,
+["buffDropGlowAutocastParticles"] = 4,
+["buffDropGlowAutocastScale"] = 1,
+["buffDropGlowPixelLength"] = 4,
 ["reportCardPosition"] = {
-["y"] = -2.461952447891235,
+["y"] = -2.461952686309815,
 ["x"] = 349.9735412597656,
 ["point"] = "CENTER",
 },
-["buffDropUnlock"] = false,
+["buffDropRaidTextUseClassColor"] = true,
+["buffDropGlowPixelLines"] = 8,
 ["buffDropAlertDisableRested"] = false,
+["buffDropGlowPixelFrequency"] = 0.25,
 ["consumableAlwaysCheck"] = false,
-["classicDisplay"] = false,
+["buffDropUnlock"] = false,
+["buffDropGlowBorderFrequency"] = 0.125,
+["buffDropGlowProcDuration"] = 1,
+},
+["stealthReminder"] = {
+["unlock"] = true,
+},
+["petTracker"] = {
+["font"] = "ITCAvantGardeGothicDemi",
+},
+["config"] = {
+["lastTab"] = "combat_timer",
+},
+["cRez"] = {
+["timerFontSize"] = 14,
+["y"] = -241,
+["font"] = "ITCAvantGardeGothicDemi",
+["countFontSize"] = 14,
+["x"] = -430,
+},
+["focusCastBar"] = {
+["spellNameTruncate"] = 0,
 },
 ["combatTimer"] = {
 ["point"] = "BOTTOM",
-["instanceOnly"] = true,
 ["stickyTimer"] = true,
 ["width"] = 179,
 ["y"] = 280,
 ["font"] = "ITCAvantGardeGothicDemi",
-["enabled"] = true,
+["instanceOnly"] = true,
 ["chatReport"] = false,
 ["height"] = 61,
 ["x"] = -397,
